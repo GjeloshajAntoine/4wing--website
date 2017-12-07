@@ -21,7 +21,12 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
+
   vertical-align: baseline;
+}
+html, body {
+  height: 100%;
+
 }
 
 /* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -94,6 +99,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 /* line 45, ../sass/screen.scss */
 body h1 img {
@@ -110,7 +118,7 @@ body h2 {
   text-align: center;
   margin-bottom: 20px;
   margin-top: -20px;
-  font-size: 1.8em;
+  font-size: 4em;
 }
 /* line 64, ../sass/screen.scss */
 body .buttons {
@@ -140,3 +148,8 @@ body .row .icon_soon {
 body .row p {
   padding: 20px;
 }
+p {
+
+  font-size: 1.2em;
+  text-align: justify;
+  }
