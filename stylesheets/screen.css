@@ -94,6 +94,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
   padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 /* line 45, ../sass/screen.scss */
 body h1 img {
