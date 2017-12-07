@@ -119,6 +119,7 @@ body h2 {
   margin-bottom: 20px;
   margin-top: -20px;
   font-size: 4em;
+
 }
 /* line 64, ../sass/screen.scss */
 body .buttons {
@@ -149,7 +150,35 @@ body .row p {
   padding: 20px;
 }
 p {
-
   font-size: 1.2em;
   text-align: justify;
   }
+  div p a {
+    /*background-color: pink;*/
+    /*font-family: 'montserraregular';*/
+    /*border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #DB4D69;*/
+    /*color: white;
+    font-size: 1.2em;*/
+  }
+
+  h4 {
+    margin-left: 20px;
+    text-align: center;
+
+  }
+  h4 a {
+    font-family: 'montserraregular';
+    color: white;
+    font-size: 1.4em;
+  }
+h2 .buttons{
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
