@@ -108,6 +108,8 @@ body {
   padding-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 /* line 45, ../sass/screen.scss */
