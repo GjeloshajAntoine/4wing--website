@@ -22,7 +22,15 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
+
   vertical-align: baseline;
+}
+html, body{
+
+
+}
+.container {
+
 }
 
 /* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -99,46 +107,10 @@ body {
   /* IE6-9 fallback on horizontal gradient */
   padding-bottom: 50px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  
+  background-size: cover;
+
 }
-/* line 46, ../sass/screen.scss */
-body .imageDeFond {
-  /* La position est fixée en haut à gauche, en arrière-plan de la page */
-  left: 0;
-  right: 0;
-  z-index: 1;
-  /* On indique l'image de fond et les dimensions qu'elle occupe */
-  display: block;
-  background: url("../img/libelulle.png") no-repeat;
-  background-size: 1200px;
-  opacity: 0.1;
-  width: 100%;
-  height: 100%;
-  /* On applique le filtre CSS3 pour flouter l'image (avec ici les variantes pour les différents moteurs de rendu) */
-  /* Safari */
-  -webkit-filter: blur(5px);
-  /* Firefox */
-  -moz-filter: blur(5px);
-  /* Opera */
-  -o-filter: blur(5px);
-  /* Internet Explorer */
-  -ms-filter: blur(5px);
-  /* Filtre de floutage CSS3 standard */
-  filter: blur(5px);
-  position: absolute;
-  z-index: -1000;
-  top: 0px;
-}
-/* line 74, ../sass/screen.scss */
-body .contenu {
-  /* Le contenu est fixé en haut de la page */
-  left: 0;
-  right: 0;
-  /* Il est mis au premier plan */
-  z-index: 2;
-}
-/* line 86, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 body h1 img {
   margin: auto;
   text-align: center;
@@ -153,7 +125,7 @@ body h2 {
   text-align: center;
   margin-bottom: 20px;
   margin-top: -20px;
-  font-size: 2.8em;
+  font-size: 4em;
 }
 /* line 105, ../sass/screen.scss */
 body .buttons {
@@ -173,9 +145,15 @@ body .row {
 }
 /* line 122, ../sass/screen.scss */
 body .row .download {
-  background-color: #DB4D69;
+  background-color: white;
+  color:#DB4D69;
 }
-/* line 127, ../sass/screen.scss */
+body .row .download:hover {
+  background-color: #DB4D69;
+  color: white;
+
+}
+
 body .row .icon_soon {
   text-align: center;
   width: 50px;
@@ -183,4 +161,37 @@ body .row .icon_soon {
 /* line 133, ../sass/screen.scss */
 body .row p {
   padding: 20px;
+}
+p {
+  font-size: 1.2em;
+  text-align: justify;
+  }
+  div p a {
+    /*background-color: pink;*/
+    /*font-family: 'montserraregular';*/
+    /*border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #DB4D69;*/
+    /*color: white;
+    font-size: 1.2em;*/
+  }
+
+  h4 {
+    margin-left: 20px;
+    text-align: center;
+
+  }
+  h4 a {
+    font-family: 'montserraregular';
+    color: white;
+    font-size: 1.4em;
+  }
+h2 .buttons{
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
