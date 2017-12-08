@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -90,14 +91,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 32, ../sass/screen.scss */
 body {
+  position: relative;
+  height: 100%;
+  width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
   background: #007c92;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #007c92 0%, #aadbdb 100%);
+  background: -moz-linear-gradient(-75deg, #007c92 0%, #aadbdb 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #007c92 0%, #aadbdb 100%);
+  background: -webkit-linear-gradient(75deg, #007c92 0%, #aadbdb 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #007c92 0%, #aadbdb 100%);
+  background: linear-gradient(-75deg, #007c92 0%, #aadbdb 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
@@ -114,7 +118,7 @@ body h1 img {
   width: 600px;
   opacity: 0.8;
 }
-/* line 54, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 body h2 {
   font-family: 'montserratregular';
   margin: auto;
@@ -122,14 +126,13 @@ body h2 {
   margin-bottom: 20px;
   margin-top: -20px;
   font-size: 4em;
-
 }
-/* line 64, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 body .buttons {
   margin: auto;
   text-align: center;
 }
-/* line 70, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 body .row {
   font-size: 1.3em;
   color: white;
@@ -138,8 +141,9 @@ body .row {
   margin: auto;
   line-height: 2em;
   font-family: 'montserratregular';
+  text-align: justify;
 }
-/* line 80, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 body .row .download {
   background-color: white;
   color:#DB4D69;
@@ -150,14 +154,11 @@ body .row .download:hover {
 
 }
 
-
-
-/* line 85, ../sass/screen.scss */
 body .row .icon_soon {
   text-align: center;
   width: 50px;
 }
-/* line 91, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 body .row p {
   padding: 20px;
 }
