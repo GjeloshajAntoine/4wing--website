@@ -24,8 +24,11 @@ time, mark, audio, video {
 
   vertical-align: baseline;
 }
-html, body {
-  height: 100%;
+html, body{
+
+
+}
+.container {
 
 }
 
@@ -138,8 +141,17 @@ body .row {
 }
 /* line 80, ../sass/screen.scss */
 body .row .download {
-  background-color: #DB4D69;
+  background-color: white;
+  color:#DB4D69;
 }
+body .row .download:hover {
+  background-color: #DB4D69;
+  color: white;
+
+}
+
+
+
 /* line 85, ../sass/screen.scss */
 body .row .icon_soon {
   text-align: center;
