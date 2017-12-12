@@ -36,6 +36,7 @@ html, body{
 /* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
+  height: 100%
 }
 
 /* line 24, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -215,7 +216,7 @@ p {
 
   }
   h4 a {
-    
+
     font-size: 1em;
     color: white;
     font-weight: bold;
