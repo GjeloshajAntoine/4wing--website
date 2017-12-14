@@ -43,6 +43,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	
 
+
 	.imageDeFond {
 		/* La position est fixée en haut à gauche, en arrière-plan de la page */
 		left: 0;
@@ -79,7 +80,10 @@ body {
 		z-index: 2;
 		}
 
-	padding-bottom : 50px;
+		.container {
+		    
+		    padding-bottom: 200px;
+		}
 
 
 

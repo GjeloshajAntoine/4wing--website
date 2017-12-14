@@ -22,15 +22,7 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
-
   vertical-align: baseline;
-}
-html, body{
-
-
-}
-.container {
-
 }
 
 /* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -105,46 +97,8 @@ body {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  padding-bottom: 50px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
 }
-/* line 45, ../sass/screen.scss */
-body h1 img {
-  margin: auto;
-  text-align: center;
-  margin-top: -30px;
-  width: 600px;
-  opacity: 0.8;
-}
-/* line 95, ../sass/screen.scss */
-body h2 {
-  font-family: 'montserratregular';
-  margin: auto;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: -20px;
-  font-size: 4em;
-}
-/* line 105, ../sass/screen.scss */
-body .buttons {
-  margin: auto;
-  text-align: center;
-}
-/* line 111, ../sass/screen.scss */
-body .row {
-  font-size: 1.3em;
-  color: white;
-  width: 85%;
-  padding: auto;
-  margin: auto;
-  line-height: 2em;
-  font-family: 'montserratregular';
-  text-align: justify;
-}
+/* line 47, ../sass/screen.scss */
 body .imageDeFond {
   /* La position est fixée en haut à gauche, en arrière-plan de la page */
   left: 0;
@@ -172,56 +126,61 @@ body .imageDeFond {
   z-index: -1000;
   top: 0px;
 }
-/* line 122, ../sass/screen.scss */
-body .row .download {
-  background-color: white;
-  color:#DB4D69;
+/* line 75, ../sass/screen.scss */
+body .contenu {
+  /* Le contenu est fixé en haut de la page */
+  left: 0;
+  right: 0;
+  /* Il est mis au premier plan */
+  z-index: 2;
 }
-body .row .download:hover {
-  background-color: #DB4D69;
+/* line 83, ../sass/screen.scss */
+body .container {
+  padding-bottom: 200px;
+}
+/* line 90, ../sass/screen.scss */
+body h1 img {
+  margin: auto;
+  text-align: center;
+  margin-top: -30px;
+  width: 600px;
+  opacity: 0.8;
+}
+/* line 99, ../sass/screen.scss */
+body h2 {
+  font-family: 'montserratregular';
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 2.8em;
+}
+/* line 109, ../sass/screen.scss */
+body .buttons {
+  margin: auto;
+  text-align: center;
+}
+/* line 115, ../sass/screen.scss */
+body .row {
+  font-size: 1.3em;
   color: white;
-
+  width: 85%;
+  padding: auto;
+  margin: auto;
+  line-height: 2em;
+  font-family: 'montserratregular';
+  text-align: justify;
 }
-
+/* line 126, ../sass/screen.scss */
+body .row .download {
+  background-color: #DB4D69;
+}
+/* line 131, ../sass/screen.scss */
 body .row .icon_soon {
   text-align: center;
   width: 50px;
 }
-/* line 133, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 body .row p {
   padding: 20px;
-}
-p {
-  font-size: 1.2em;
-  text-align: justify;
-  }
-  div p a {
-    /*background-color: pink;*/
-    /*font-family: 'montserraregular';*/
-    /*border: 1px solid black;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #DB4D69;*/
-    /*color: white;
-    font-size: 1.2em;*/
-  }
-
-  h4 {
-    margin-left: 20px;
-    text-align: center;
-
-  }
-  h4 a {
-    
-    font-size: 1em;
-    color: white;
-    font-weight: bold;
-  }
-h2 .buttons{
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
