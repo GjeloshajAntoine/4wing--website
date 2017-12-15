@@ -28,6 +28,7 @@ time, mark, audio, video {
 /* line 22, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
+  height: 100%
 }
 
 /* line 24, ../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
@@ -184,3 +185,40 @@ body .row .icon_soon {
 body .row p {
   padding: 20px;
 }
+<<<<<<< HEAD
+=======
+p {
+  font-size: 1.2em;
+  text-align: justify;
+  }
+  div p a {
+    /*background-color: pink;*/
+    /*font-family: 'montserraregular';*/
+    /*border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #DB4D69;*/
+    /*color: white;
+    font-size: 1.2em;*/
+  }
+
+  h4 {
+    margin-left: 20px;
+    text-align: center;
+
+  }
+  h4 a {
+
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+  }
+h2 .buttons{
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+>>>>>>> refs/remotes/origin/master
