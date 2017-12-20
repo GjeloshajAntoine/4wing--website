@@ -33,15 +33,24 @@ $blanc	: white;
   font-style: normal;
 }
 
+.carreBleu {
+	height: 115px;
+	width : 25%;
+	position: absolute;
+	background-color: $bleu3;
+	z-index: 0;
 
+}
 .container {
 
 	width: 1000px!important;
-	margin: 0px;
-	padding: 0px;
+			.row {
+					margin: 0px;
+				padding: 0px;
 
+				}
 
-	section {
+		section {
 		padding: 0px;
 
 			.intro {
@@ -51,6 +60,7 @@ $blanc	: white;
 				line-height: 2em;
 				width: 80%;
 				float: left;
+				margin-bottom: 40px;
 
 			}
 	}
@@ -68,24 +78,23 @@ $blanc	: white;
 
 .contenu {
 
-	.row{
-	margin: 0px;
-}
 	
 	margin : auto;
 
 	header {
-		
+
 
 		height: 120px;
 		width: 100%;
 	  	background-color: $bleu3;
 		border-bottom : 5px solid $gris1;
-
+		z-index: 100;
+		display: block;
 			.logo {
 				float: left;
 				//padding: 15px;
     			padding: 14px 0px 15px 35px;
+    			
 
 			}
 
@@ -154,6 +163,8 @@ $blanc	: white;
 	
 	border-bottom : 5px solid $gris1;
 
+	z-index: -1;
+
 }
 section {
 
@@ -161,12 +172,139 @@ section {
 	
 				background-color: $bleu1;
 				height:633px;
+				display: flex;
+  				flex-wrap: nowrap;
+  				text-shadow: 1px 1px 1px rgba(106, 106, 106, 1.0);
+
+					.axe {
+
+						width: 33.3333%;
+						height: 650px;
+						float: left;
+						color: $blanc;
+						text-align: center;
+						display: block;
+
+								img {
+									height: 480px;
+									width: 100%;
+									overflow: hidden;
+								}
+
+	
+					}
+
+					h2 {
+
+							font-family: 'misoregular';
+							text-transform: uppercase;
+							font-weight: bold;
+
+							}
+					h3 {
+
+							font-family: 'misoregular';
+							text-transform: uppercase;
+							font-weight: bold;
+
+							}
+
+					p {
+							font-family: 'montserratregular';
+							font-size: 1.2em;
+							margin-top: 0px;
+					}	
+
+
+					.logement{
+					    border-top : 5px solid $rose1;
+					    background-color: $rose1;
+
+
+								h2 {
+								   	font-size: 5em;
+								    margin-bottom: 0px;
+								    margin-top: 30px;
+
+								    }
+
+						    	p {	
+						    		font-size: 1.2em;
+						    		margin-top: 0px;
+
+						    	}	
+					    
+						}
+					.education {
+							border-top : 5px solid $gris2;
+							background-color: $gris2;
+
+
+								h2 {
+
+								   	font-size: 3.8em;
+								    margin-bottom: -5px;
+								    margin-top: 5px;
+								   
+
+								    }
+
+								h3 {
+
+								   	font-size: 4.8em;
+								   	margin-top: -17px;
+
+								    }
+								    
+						    	p {
+						    		font-size: 1.2em;
+						    		padding-bottom: 15px;
+								    margin-top: -15px;
+								    width: 80%;
+								    margin-left: auto;
+								    margin-right: auto;
+								    line-height: 1.2em;
+						    		
+						    	}	
+					    
+
+
+						}
+					.sante {
+							border-top : 5px solid $bleu2;
+							background-color: $bleu2;
+
+
+								h2 {
+
+								   	font-size: 3.7em;
+								    margin-bottom: 0px;
+
+								    }
+								h3 {
+
+								   	font-size: 5em;
+								    margin-bottom: 0px;
+								    margin-top: -17px;
+
+								    }
+								    
+						    	p {
+						    		font-size: 1.2em;
+						    		margin-top: -5px;
+						    		padding-bottom: 15px;
+						    	}	
+					    
+							}
+
 
 		}
 
 		.citation {
 
 			background-color: #f6f3ed;
+			background-image: url("../img/femme.png" );
+			background-repeat: no-repeat;
 			height: 490px;
 		}
 
