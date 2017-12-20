@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'misoregular';
+  src: url("../fonts/miso-webfont.woff2") format("woff2"), url("../fonts/miso-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 37, ../sass/index.scss */
+.container {
+  width: 1000px !important;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 44, ../sass/index.scss */
+.container section {
+  padding: 0px;
+}
+/* line 47, ../sass/index.scss */
+.container section .intro {
+  font-family: 'montserratregular';
+  color: #564026;
+  font-size: 1.5em;
+  line-height: 2em;
+  width: 80%;
+  float: left;
+}
+/* line 60, ../sass/index.scss */
+.container h1 {
+  font-family: 'misoregular';
+  color: #00338d;
+  font-size: 3em;
+}
+
+/* line 69, ../sass/index.scss */
+.contenu {
+  margin: auto;
+}
+/* line 71, ../sass/index.scss */
+.contenu .row {
+  margin: 0px;
+}
+/* line 77, ../sass/index.scss */
+.contenu header {
+  height: 120px;
+  width: 100%;
+  background-color: #00338d;
+  border-bottom: 5px solid #bbb;
+}
+/* line 85, ../sass/index.scss */
+.contenu header .logo {
+  float: left;
+  padding: 14px 0px 15px 35px;
+}
+/* line 92, ../sass/index.scss */
+.contenu header .navbar-header {
+  float: none;
+}
+/* line 96, ../sass/index.scss */
+.contenu header .navbar-right {
+  float: right !important;
+  margin-right: 0px;
+}
+/* line 101, ../sass/index.scss */
+.contenu header nav ul {
+  font-family: 'misoregular';
+  color: #00338d;
+  margin-top: 40px;
+  background-color: white;
+}
+/* line 107, ../sass/index.scss */
+.contenu header nav ul .menu {
+  width: 181px;
+}
+/* line 110, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(1) {
+  border-bottom: 5px solid #bbb;
+}
+/* line 113, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(2) {
+  border-bottom: 5px solid #AADBDB;
+}
+/* line 116, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(3) {
+  border-bottom: 5px solid #db4d69;
+}
+/* line 123, ../sass/index.scss */
+.contenu header nav ul .menu a {
+  font-size: 18pt;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 142, ../sass/index.scss */
+.header {
+  height: 120px;
+  width: 100%;
+  display: inline-block;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
+  background: #007c92;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #AADBDB 0%, #C4D2FC 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(180deg, #AADBDB 0%, #C4D2FC 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(180deg, #AADBDB 0%, #C4D2FC 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  border-bottom: 5px solid #bbb;
+}
+
+/* line 160, ../sass/index.scss */
+section .axes {
+  background-color: #AADBDB;
+  height: 633px;
+}
+/* line 167, ../sass/index.scss */
+section .citation {
+  background-color: #f6f3ed;
+  height: 490px;
+}
