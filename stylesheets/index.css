@@ -43,8 +43,9 @@
 /* line 57, ../sass/index.scss */
 .container section {
   padding: 0px;
+  padding-top: 40px;
 }
-/* line 60, ../sass/index.scss */
+/* line 61, ../sass/index.scss */
 .container section .intro {
   font-family: 'montserratregular';
   color: #564026;
@@ -54,18 +55,18 @@
   float: left;
   margin-bottom: 40px;
 }
-/* line 74, ../sass/index.scss */
+/* line 76, ../sass/index.scss */
 .container h1 {
   font-family: 'misoregular';
   color: #00338d;
   font-size: 3em;
 }
 
-/* line 83, ../sass/index.scss */
+/* line 85, ../sass/index.scss */
 .contenu {
   margin: auto;
 }
-/* line 88, ../sass/index.scss */
+/* line 90, ../sass/index.scss */
 .contenu header {
   height: 120px;
   width: 100%;
@@ -74,44 +75,44 @@
   z-index: 100;
   display: block;
 }
-/* line 97, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 .contenu header .logo {
   float: left;
   padding: 14px 0px 15px 35px;
 }
-/* line 105, ../sass/index.scss */
+/* line 107, ../sass/index.scss */
 .contenu header .navbar-header {
   float: none;
 }
-/* line 109, ../sass/index.scss */
+/* line 111, ../sass/index.scss */
 .contenu header .navbar-right {
   float: right !important;
   margin-right: 0px;
 }
-/* line 114, ../sass/index.scss */
+/* line 116, ../sass/index.scss */
 .contenu header nav ul {
   font-family: 'misoregular';
   color: #00338d;
   margin-top: 40px;
   background-color: white;
 }
-/* line 120, ../sass/index.scss */
+/* line 122, ../sass/index.scss */
 .contenu header nav ul .menu {
   width: 181px;
 }
-/* line 123, ../sass/index.scss */
+/* line 125, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(1) {
   border-bottom: 5px solid #bbb;
 }
-/* line 126, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(2) {
   border-bottom: 5px solid #AADBDB;
 }
-/* line 129, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(3) {
   border-bottom: 5px solid #db4d69;
 }
-/* line 136, ../sass/index.scss */
+/* line 138, ../sass/index.scss */
 .contenu header nav ul .menu a {
   font-size: 18pt;
   letter-spacing: -1px;
@@ -119,14 +120,14 @@
   text-align: center;
   width: 100%;
 }
-/* line 144, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu {
   background-color: #f6f3ed;
   width: 280px;
   font-family: 'montserratregular';
   padding: 15px;
 }
-/* line 151, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu a {
   color: #564026;
   text-transform: initial;
@@ -140,18 +141,18 @@
   margin-right: auto;
   cursor: default;
 }
-/* line 166, ../sass/index.scss */
+/* line 168, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu a:hover {
   color: #db4d69;
   border-bottom: 5px solid #db4d69;
 }
-/* line 180, ../sass/index.scss */
+/* line 182, ../sass/index.scss */
 .contenu header nav ul .menu .nav .open > a, .contenu header nav ul .menu .nav .open > a:focus, .contenu header nav ul .menu .nav .open > a:hover {
   background-color: #f6f3ed;
   border-color: #f6f3ed;
 }
 
-/* line 195, ../sass/index.scss */
+/* line 197, ../sass/index.scss */
 .header {
   height: 120px;
   width: 100%;
@@ -171,7 +172,7 @@
   z-index: -1;
 }
 
-/* line 215, ../sass/index.scss */
+/* line 217, ../sass/index.scss */
 section .axes {
   background-color: #AADBDB;
   height: 650px;
@@ -179,7 +180,7 @@ section .axes {
   flex-wrap: nowrap;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
-/* line 223, ../sass/index.scss */
+/* line 225, ../sass/index.scss */
 section .axes .axe {
   width: 33.3333%;
   height: 650px;
@@ -189,63 +190,63 @@ section .axes .axe {
   display: block;
   cursor: pointer;
 }
-/* line 233, ../sass/index.scss */
+/* line 235, ../sass/index.scss */
 section .axes .axe div img {
   height: 460px;
   width: 100%;
   overflow: hidden;
 }
-/* line 242, ../sass/index.scss */
+/* line 244, ../sass/index.scss */
 section .axes h2 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 249, ../sass/index.scss */
+/* line 251, ../sass/index.scss */
 section .axes h3 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 257, ../sass/index.scss */
+/* line 259, ../sass/index.scss */
 section .axes p {
   font-family: 'montserratregular';
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 264, ../sass/index.scss */
+/* line 266, ../sass/index.scss */
 section .axes .logement {
   border-top: 5px solid #db4d69;
   background-color: #db4d69;
 }
-/* line 269, ../sass/index.scss */
+/* line 271, ../sass/index.scss */
 section .axes .logement h2 {
   font-size: 5em;
   margin-bottom: 0px;
   margin-top: 30px;
 }
-/* line 276, ../sass/index.scss */
+/* line 278, ../sass/index.scss */
 section .axes .logement p {
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 283, ../sass/index.scss */
+/* line 285, ../sass/index.scss */
 section .axes .education {
   border-top: 5px solid #8791a4;
   background-color: #8791a4;
 }
-/* line 288, ../sass/index.scss */
+/* line 290, ../sass/index.scss */
 section .axes .education h2 {
   font-size: 3.8em;
   margin-bottom: -5px;
   margin-top: 5px;
 }
-/* line 297, ../sass/index.scss */
+/* line 299, ../sass/index.scss */
 section .axes .education h3 {
   font-size: 4.8em;
   margin-top: -17px;
 }
-/* line 304, ../sass/index.scss */
+/* line 306, ../sass/index.scss */
 section .axes .education p {
   font-size: 1.2em;
   padding-bottom: 15px;
@@ -255,35 +256,35 @@ section .axes .education p {
   margin-right: auto;
   line-height: 1.2em;
 }
-/* line 318, ../sass/index.scss */
+/* line 320, ../sass/index.scss */
 section .axes .sante {
   border-top: 5px solid #C4D2FC;
   background-color: #C4D2FC;
 }
-/* line 323, ../sass/index.scss */
+/* line 325, ../sass/index.scss */
 section .axes .sante h2 {
   font-size: 3.7em;
   margin-bottom: 0px;
 }
-/* line 329, ../sass/index.scss */
+/* line 331, ../sass/index.scss */
 section .axes .sante h3 {
   font-size: 5em;
   margin-bottom: 0px;
   margin-top: -17px;
 }
-/* line 337, ../sass/index.scss */
+/* line 339, ../sass/index.scss */
 section .axes .sante p {
   font-size: 1.2em;
   margin-top: -5px;
   padding-bottom: 15px;
 }
 
-/* line 353, ../sass/index.scss */
+/* line 355, ../sass/index.scss */
 section.citation {
   background-color: #f6f3ed;
   width: 100%;
 }
-/* line 358, ../sass/index.scss */
+/* line 360, ../sass/index.scss */
 section.citation .citation_image {
   display: block;
   background-image: url("../img/femme.png");
@@ -291,7 +292,7 @@ section.citation .citation_image {
   width: 100%;
   height: 490px;
 }
-/* line 366, ../sass/index.scss */
+/* line 368, ../sass/index.scss */
 section.citation .citation_texte {
   font-family: 'misoregular';
   color: #00338d;
@@ -300,22 +301,24 @@ section.citation .citation_texte {
   position: absolute;
   margin-top: -400px;
   margin-left: 430px;
+  line-height: 44px;
 }
-/* line 377, ../sass/index.scss */
+/* line 380, ../sass/index.scss */
 section.citation .auteur {
   font-family: montserratregular;
   color: #564026;
   font-size: 1.5em;
   margin-left: 445px;
   margin-top: -50px;
+  letter-spacing: -0.05em;
 }
 
-/* line 391, ../sass/index.scss */
+/* line 395, ../sass/index.scss */
 section.slider_projets {
   background-color: #f6f3ed;
 }
 
-/* line 398, ../sass/index.scss */
+/* line 402, ../sass/index.scss */
 footer {
   height: 435px;
   width: 100%;
