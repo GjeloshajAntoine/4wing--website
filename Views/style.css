@@ -2,6 +2,64 @@
   margin: 0 auto;
   padding: 0 auto;
 }
+/*Mission*/
+
+.mission {
+  border: 2px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+.mission h1 {
+  text-transform: uppercase;
+  font-family: 'misoregular', sans-serif;
+  color: #00338d;
+  font-size: 3em;
+}
+.mission p {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-family: 'montserratregular', sans-serif;
+  color: #564026;
+  font-size: 1.5em;
+}
+
+.mission h2 {
+  padding-right: 10%;
+
+}
+
+.mission h3 {
+  padding-right: 1%;
+}
+.mission h2, .mission h3 {
+  text-align: right;
+  font-family: 'montserratregular', sans-serif;
+  color: #564026;
+  font-size: 1.5em;
+
+}
+
+.innovation {
+  background-color: #AADBDB;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.innovation h2 {
+  font-family: 'misoregular', sans-serif;
+  color: #00338d;
+}
+.innovation p {
+  font-family: 'montserratregular', sans-serif;
+  color: white;
+  font-weight: ;
+}
+
+
+
+
+
 /*selection projet*/
 
 
@@ -10,7 +68,7 @@ article {
   background-color: yellow;
 }
 
-h1 {
+article h1 {
   background-color: aqua;
   width: 90%;
   font-size: 3.5em;
@@ -22,7 +80,7 @@ h1 {
   text-align: left;
   margin-top: 5%;
 }
-p{
+.paragraphe p{
   color: red;
   font-size: 1.5em;
 
