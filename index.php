@@ -6,19 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Fondation 4WINGS</title>
 	<link rel="stylesheet" href="stylesheets/index.css">
-	<link rel="stylesheet" href="stylesheets/carousel.css">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<meta charset="utf-8">
  	
  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-
- 
+	
+	<link rel="stylesheet" type="text/css" href="js/carousel/css/style_carousel.css" />
+	<link rel="stylesheet" type="text/css" href="js/carousel/css/jquery.jscrollpane.css" media="all" />
+ 	 
 </head>
-<body>		
-
+<body>
 <div class="container-fluid header"><span class="carreBleu"></span>
 	<div class="container contenu">
 			 <header>
@@ -112,7 +111,7 @@
 		</div>
 	</section>
 	<section class="slider_projets">
-				
+				<?php include("js/carousel/carousel.php") ?>
 	</section>
 	<footer>
 		
@@ -121,10 +120,16 @@
 	
 </div>
 	<script src="js/script.js"></script>
-	<script src="js/film_roll/js/jquery.film_roll.min.js"></script>
-	<script src="js/film_roll/js/jquery.touchSwipe.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  	<script type="text/javascript" src="js/carousel/js/jquery.easing.1.3.js"></script>
+		<!-- the jScrollPane script -->
+	<script type="text/javascript" src="js/carousel/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/carousel/js/jquery.contentcarousel.js"></script>
+	<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+	</script>
 	
 </body>
 </html>

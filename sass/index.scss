@@ -9,7 +9,7 @@ $gris2  : #8791a4;
 $rose1  : #db4d69;
 $marron : #564026;
 $blanc	: white;
-
+$blanc2 : #f6f3ed;
 
 @font-face {
     font-family: 'misoregular';
@@ -50,7 +50,7 @@ $blanc	: white;
 	width: 1000px!important;
 			.row {
 					margin: 0px;
-				padding: 0px;
+					padding: 0px;
 
 				}
 
@@ -133,14 +133,54 @@ $blanc	: white;
 
 						width: 181px;
 
-							a{
+						a{
 							font-size: 18pt;
 							letter-spacing: -1px;
 							text-transform: uppercase;
 							text-align: center;
 							width: 100%;
-					}
+						}
 
+						.dropdown-menu {
+							background-color: $blanc2;
+							width: 280px;
+							font-family: 'montserratregular';
+							padding: 15px;
+
+							
+								a{
+								color: $marron;
+								text-transform: initial;
+								font-weight: normal;
+								text-align: left;
+								border-bottom: 1px solid $blanc;
+								//width: 90%;
+	
+								font-size: 20px;
+								
+								margin-top: 4px;
+								margin-bottom: 0px;
+								margin-left: 0px;
+								margin-right: auto;
+								cursor: default;
+									&:hover {
+										//font-weight: 100;
+										color : $rose1;
+										border-bottom: 5px solid $rose1;
+
+									}
+									&:last-child {
+										//	border-bottom: none;
+
+									}
+								}
+
+
+						}	
+						.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+						    background-color: $blanc2;
+						    border-color: $blanc2;
+						}
 
 
 					}
@@ -302,16 +342,71 @@ section {
 					    
 							}
 
-
 		}
 
-		.citation {
 
-			background-color: #f6f3ed;
-			background-image: url("../img/femme.png" );
-			background-repeat: no-repeat;
-			height: 490px;
+
+
+
+
+}
+section.citation {
+
+			background-color: $blanc2;
+			width: 100%;
+  				
+	  					.citation_image{
+	  					display: block;
+	  					background-image: url("../img/femme.png" );
+	  					background-repeat: no-repeat;
+	  					width: 100%;
+	  					height: 490px;
+	  					
+		  				}
+		  				.citation_texte{
+		  						font-family: 'misoregular';
+		  						color: $bleu3;
+		  						font-size: 3.8em;
+		  						letter-spacing: -0.05em;
+		  						position:absolute;
+								margin-top: -400px;
+								margin-left: 430px;
+								//right: 0px;
+
+		  				}
+		  				.auteur {
+		  					font-family: montserratregular;
+		  					color: $marron;
+		  					font-size: 1.5em;
+		  					margin-left: 445px;
+							margin-top: -50px;;
+
+		  				}
+  				
+			
+				
 		}
+
+
+section.slider_projets {
+				background-color: $blanc2;
+
+			}
+
+
+
+footer {
+	height: 435px;
+	width: 100%;
+  	display: inline-block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
+	background: #007c92; /* Old browsers */
+	background: -moz-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+
 
 
 
