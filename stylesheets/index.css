@@ -26,19 +26,25 @@
 }
 
 /* line 44, ../sass/index.scss */
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* line 48, ../sass/index.scss */
 .container {
   width: 1000px !important;
 }
-/* line 47, ../sass/index.scss */
+/* line 51, ../sass/index.scss */
 .container .row {
   margin: 0px;
   padding: 0px;
 }
-/* line 53, ../sass/index.scss */
+/* line 57, ../sass/index.scss */
 .container section {
   padding: 0px;
 }
-/* line 56, ../sass/index.scss */
+/* line 60, ../sass/index.scss */
 .container section .intro {
   font-family: 'montserratregular';
   color: #564026;
@@ -48,18 +54,18 @@
   float: left;
   margin-bottom: 40px;
 }
-/* line 70, ../sass/index.scss */
+/* line 74, ../sass/index.scss */
 .container h1 {
   font-family: 'misoregular';
   color: #00338d;
   font-size: 3em;
 }
 
-/* line 79, ../sass/index.scss */
+/* line 83, ../sass/index.scss */
 .contenu {
   margin: auto;
 }
-/* line 84, ../sass/index.scss */
+/* line 88, ../sass/index.scss */
 .contenu header {
   height: 120px;
   width: 100%;
@@ -68,44 +74,44 @@
   z-index: 100;
   display: block;
 }
-/* line 93, ../sass/index.scss */
+/* line 97, ../sass/index.scss */
 .contenu header .logo {
   float: left;
   padding: 14px 0px 15px 35px;
 }
-/* line 101, ../sass/index.scss */
+/* line 105, ../sass/index.scss */
 .contenu header .navbar-header {
   float: none;
 }
-/* line 105, ../sass/index.scss */
+/* line 109, ../sass/index.scss */
 .contenu header .navbar-right {
   float: right !important;
   margin-right: 0px;
 }
-/* line 110, ../sass/index.scss */
+/* line 114, ../sass/index.scss */
 .contenu header nav ul {
   font-family: 'misoregular';
   color: #00338d;
   margin-top: 40px;
   background-color: white;
 }
-/* line 116, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 .contenu header nav ul .menu {
   width: 181px;
 }
-/* line 119, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(1) {
   border-bottom: 5px solid #bbb;
 }
-/* line 122, ../sass/index.scss */
+/* line 126, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(2) {
   border-bottom: 5px solid #AADBDB;
 }
-/* line 125, ../sass/index.scss */
+/* line 129, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(3) {
   border-bottom: 5px solid #db4d69;
 }
-/* line 132, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 .contenu header nav ul .menu a {
   font-size: 18pt;
   letter-spacing: -1px;
@@ -114,7 +120,7 @@
   width: 100%;
 }
 
-/* line 151, ../sass/index.scss */
+/* line 155, ../sass/index.scss */
 .header {
   height: 120px;
   width: 100%;
@@ -134,15 +140,15 @@
   z-index: -1;
 }
 
-/* line 171, ../sass/index.scss */
+/* line 175, ../sass/index.scss */
 section .axes {
   background-color: #AADBDB;
-  height: 633px;
+  height: 650px;
   display: flex;
   flex-wrap: nowrap;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
-/* line 179, ../sass/index.scss */
+/* line 183, ../sass/index.scss */
 section .axes .axe {
   width: 33.3333%;
   height: 650px;
@@ -150,64 +156,65 @@ section .axes .axe {
   color: white;
   text-align: center;
   display: block;
+  cursor: pointer;
 }
-/* line 188, ../sass/index.scss */
-section .axes .axe img {
-  height: 480px;
+/* line 193, ../sass/index.scss */
+section .axes .axe div img {
+  height: 460px;
   width: 100%;
   overflow: hidden;
 }
-/* line 197, ../sass/index.scss */
+/* line 202, ../sass/index.scss */
 section .axes h2 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 204, ../sass/index.scss */
+/* line 209, ../sass/index.scss */
 section .axes h3 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 212, ../sass/index.scss */
+/* line 217, ../sass/index.scss */
 section .axes p {
   font-family: 'montserratregular';
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 219, ../sass/index.scss */
+/* line 224, ../sass/index.scss */
 section .axes .logement {
   border-top: 5px solid #db4d69;
   background-color: #db4d69;
 }
-/* line 224, ../sass/index.scss */
+/* line 229, ../sass/index.scss */
 section .axes .logement h2 {
   font-size: 5em;
   margin-bottom: 0px;
   margin-top: 30px;
 }
-/* line 231, ../sass/index.scss */
+/* line 236, ../sass/index.scss */
 section .axes .logement p {
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 238, ../sass/index.scss */
+/* line 243, ../sass/index.scss */
 section .axes .education {
   border-top: 5px solid #8791a4;
   background-color: #8791a4;
 }
-/* line 243, ../sass/index.scss */
+/* line 248, ../sass/index.scss */
 section .axes .education h2 {
   font-size: 3.8em;
   margin-bottom: -5px;
   margin-top: 5px;
 }
-/* line 252, ../sass/index.scss */
+/* line 257, ../sass/index.scss */
 section .axes .education h3 {
   font-size: 4.8em;
   margin-top: -17px;
 }
-/* line 259, ../sass/index.scss */
+/* line 264, ../sass/index.scss */
 section .axes .education p {
   font-size: 1.2em;
   padding-bottom: 15px;
@@ -217,29 +224,29 @@ section .axes .education p {
   margin-right: auto;
   line-height: 1.2em;
 }
-/* line 273, ../sass/index.scss */
+/* line 278, ../sass/index.scss */
 section .axes .sante {
   border-top: 5px solid #C4D2FC;
   background-color: #C4D2FC;
 }
-/* line 278, ../sass/index.scss */
+/* line 283, ../sass/index.scss */
 section .axes .sante h2 {
   font-size: 3.7em;
   margin-bottom: 0px;
 }
-/* line 284, ../sass/index.scss */
+/* line 289, ../sass/index.scss */
 section .axes .sante h3 {
   font-size: 5em;
   margin-bottom: 0px;
   margin-top: -17px;
 }
-/* line 292, ../sass/index.scss */
+/* line 297, ../sass/index.scss */
 section .axes .sante p {
   font-size: 1.2em;
   margin-top: -5px;
   padding-bottom: 15px;
 }
-/* line 303, ../sass/index.scss */
+/* line 308, ../sass/index.scss */
 section .citation {
   background-color: #f6f3ed;
   background-image: url("../img/femme.png");
