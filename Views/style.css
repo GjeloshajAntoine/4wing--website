@@ -152,9 +152,7 @@ footer .pieds {
   font-family: 'Roboto Condensed';
   font-style: 3em;
 }
-.TechFirstPartie {
 
-}
 
 .TechEducation {
   margin-left: 20%;
@@ -169,6 +167,9 @@ footer .pieds {
   font-weight: 300;
 }
 
+.TechFirstPartie {
+  height: 610px;
+}
 .TechFirst {
   margin-top: 2%;
   margin-left: 10%;
@@ -227,7 +228,7 @@ footer .pieds {
   width: 20%;
   float: right;
   margin-right: 15%;
-  height: 350px;
+  height: 334px;
   display: block;
   text-align: center;
   padding-top: 5%;
@@ -253,9 +254,57 @@ footer .pieds {
   margin-top: 10%;
 }
 
+.TechRight img {
+   transform: scaleX(-1);
+
+}
+
 .TechThird {
-  background-color:  #00338d;
+  background-color: #00338d;
   color: white;
   font-family: 'Roboto Condensed';
-  border: 2px solid black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.TechThird h3 {
+  margin-left: 13%;
+}
+
+.TechLast {
+  margin-left: 3%;
+  height: 600px;
+}
+
+.TechLast .Libellule {
+  display: block;
+  float: left;
+  margin-top: 10%
+}
+
+.TechForth {
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+.TechForth img {
+  float: left;
+}
+
+
+.TechForth .Rubrique h4 {
+  padding-top: 4%;
+  margin-left: 4%;
+  display: inline-block;
+
+}
+
+
+.TechForth .Rubrique p {
+  width: 65%;
+  padding-left: 4%;
+  display: inline-block;
 }
