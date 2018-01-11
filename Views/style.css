@@ -71,6 +71,10 @@ header {
 
 /*selection projet*/
 
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
 
 article .selection {
   background-color: #AADBDB;
@@ -149,39 +153,45 @@ footer .pieds {
 #TechEd {
   background-color: #00338d;
   color: white;
-  font-family: 'Roboto Condensed';
+  font-family: 'misoregular';
   font-style: 3em;
-}
-
-
-.TechEducation {
+  height: 150px;
   padding-top: 2%;
-  display: inline;
 }
 
-.TechEducation img {
+#TechEd .logo {
+  display: inline-block;
   float: left;
+  margin-left: 20%;
 }
+
 .TechEducation h1 {
   text-transform: uppercase;
   font-size: 3.5em;
   font-weight: 300;
+  width: 40%;
 
 }
 .TechEducation p {
-
+  width: 40%;
+  padding-top: 0.5%;
+  font-size: 1em;
+  font-family: 'misoregular';
 }
 
 .TechFirstPartie {
   height: 800px;
+  width: 1170px;
 }
 .TechFirst {
   margin-top: 2%;
-  margin-left: 10%;
-  width: 50%;
-  font-family: 'Open Sans';
+  margin-left: 3%;
+  width: 65%;
+  font-family: 'misoregular';
   float: left;
-  height: 50%
+  height: 50%;
+  color:rgb(86, 64, 38);
+  font-size: 1.2em;
 }
 
 .TechFirst h2 {
@@ -195,18 +205,21 @@ footer .pieds {
 
 .TechSecond {
   background: linear-gradient(to right, #f6f3ed, white);
-  width: 50%;
-  font-family: 'Roboto Condensed';
-  color: #00338d;
-  margin-left: 0%;
+  width: 90%;
+  font-family: 'misoregular';
+  color: rgb(0, 51, 141);
   text-align: left;
   float: left;
-  height: 45%;
+  height: 47%;
+  font-size: 1.2em;
+  margin-left: -30%;
+  display: inline-block;
 }
 .TechSecond p {
-  padding-left: 30%;
   line-height: 1.5em;
   margin-top: 5%;
+  margin-right: 10%;
+  width: 50%;
 }
 .TechSecond p::before {
   content: "<";
@@ -225,16 +238,19 @@ footer .pieds {
 .TechSecond h5 {
   text-align: right;
   margin-top: 5%;
+  margin-right: 12%;
 
 }
 
+.TechSecond img {
+
+}
 
 .TechRight {
   background-color: #AADBDB;
-  width: 20%;
+  width: 30%;
   float: right;
-  margin-right: 15%;
-  height: 65.5%;
+  height: 78.15%;
   display: block;
   text-align: center;
   padding-top: 5%;
@@ -244,7 +260,7 @@ footer .pieds {
 .TechRight h5 {
   color: white;
   font-size: 1.5em;
-  font-family: 'Open Sans';
+  font-family: 'misoregular';
 }
 
 .TechRight button {
@@ -253,7 +269,7 @@ footer .pieds {
   padding-bottom: 3%;
   background-color: white;
   color: #AADBDB;
-  font-family: 'Open Sans';
+  font-family: 'misoregular';
   font-size: 1.3em;
   text-transform: uppercase;
   border-radius: 5%;
@@ -269,7 +285,7 @@ footer .pieds {
 .TechThird {
   background-color: #00338d;
   color: white;
-  font-family: 'Roboto Condensed';
+  font-family: 'misoregular';
   padding-top: 1%;
   padding-bottom: 1%;
 }
