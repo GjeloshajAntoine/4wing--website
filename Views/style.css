@@ -155,20 +155,25 @@ footer .pieds {
 
 
 .TechEducation {
-  margin-left: 20%;
-  height: 115px;
   padding-top: 2%;
+  display: inline;
 }
 
-
+.TechEducation img {
+  float: left;
+}
 .TechEducation h1 {
   text-transform: uppercase;
   font-size: 3.5em;
   font-weight: 300;
+
+}
+.TechEducation p {
+
 }
 
 .TechFirstPartie {
-  height: 610px;
+  height: 800px;
 }
 .TechFirst {
   margin-top: 2%;
@@ -176,6 +181,7 @@ footer .pieds {
   width: 50%;
   font-family: 'Open Sans';
   float: left;
+  height: 50%
 }
 
 .TechFirst h2 {
@@ -195,7 +201,7 @@ footer .pieds {
   margin-left: 0%;
   text-align: left;
   float: left;
-  margin-top: 5%;
+  height: 45%;
 }
 .TechSecond p {
   padding-left: 30%;
@@ -228,7 +234,7 @@ footer .pieds {
   width: 20%;
   float: right;
   margin-right: 15%;
-  height: 334px;
+  height: 65.5%;
   display: block;
   text-align: center;
   padding-top: 5%;
@@ -256,7 +262,8 @@ footer .pieds {
 
 .TechRight img {
    transform: scaleX(-1);
-
+   padding-top: 15%;
+   opacity: 0.1;
 }
 
 .TechThird {
