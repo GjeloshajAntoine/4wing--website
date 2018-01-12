@@ -163,6 +163,7 @@ footer .pieds {
   display: inline-block;
   float: left;
   margin-left: 20%;
+
 }
 
 .TechEducation h1 {
@@ -305,8 +306,9 @@ footer .pieds {
   background-color: #00338d;
   color: white;
   font-family: 'misoregular';
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 20%;
 }
 
 .TechThirdLeft img{
@@ -315,7 +317,7 @@ footer .pieds {
 }
 
 .TechThirdRight h3 {
-
+  margin-left: 6%;
 }
 
 .TechLast {
@@ -340,6 +342,7 @@ footer .pieds {
 
 .TechForth img {
   float: left;
+  border-left: 6px solid #007c92;
 }
 
 
