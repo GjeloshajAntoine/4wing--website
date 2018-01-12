@@ -289,10 +289,12 @@ footer .pieds {
   background-color: white;
   color: #AADBDB;
   font-family: 'misoregular';
-  font-size: 1.3em;
   text-transform: uppercase;
   border-radius: 5%;
   margin-top: 10%;
+  font-size: 20px;
+  border-radius: 14px;
+  border: 0px;
 }
 
 .TechRight img {
@@ -309,6 +311,7 @@ footer .pieds {
 
 .TechThirdLeft img{
     float:left;
+    margin-top: -1%;
 }
 
 .TechThirdRight h3 {
