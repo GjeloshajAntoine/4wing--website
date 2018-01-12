@@ -210,14 +210,16 @@ footer .pieds {
   color: rgb(0, 51, 141);
   text-align: left;
   float: left;
-  height: 47%;
+  height: 46.25%;
   font-size: 1.2em;
   margin-left: -30%;
   display: inline-block;
+  margin-bottom: 2%;
 }
+
 .TechSecond p {
   line-height: 1.5em;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-right: 10%;
   width: 50%;
 }
@@ -245,6 +247,23 @@ footer .pieds {
 .TechSecond img {
 
 }
+
+.TechSecondLeft{
+  width: 80%;
+
+}
+
+.TechSecondRight {
+  width: 20%;
+  float: right;
+
+}
+.TechSecondRight img {
+  margin-top: -153%;
+  float: left;
+  margin-left: 40%
+}
+
 
 .TechRight {
   background-color: #AADBDB;
@@ -276,11 +295,9 @@ footer .pieds {
   margin-top: 10%;
 }
 
-/*.TechRight img {
-   transform: scaleX(-1);
-   padding-top: 15%;
-   opacity: 0.1;
-}*/
+.TechRight img {
+   padding-top: 30%;
+}
 
 .TechThird {
   background-color: #00338d;
@@ -290,7 +307,7 @@ footer .pieds {
   padding-bottom: 1%;
 }
 .TechThird h3 {
-  margin-left: 13%;
+  margin-left: 20%;
 }
 
 .TechLast {
