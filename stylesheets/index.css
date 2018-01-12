@@ -16,7 +16,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 36, ../sass/index.scss */
+/* line 38, ../sass/index.scss */
 .carreBleu {
   height: 115px;
   width: 25%;
@@ -25,48 +25,57 @@
   z-index: 0;
 }
 
-/* line 44, ../sass/index.scss */
+/* line 46, ../sass/index.scss */
 .container-fluid {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
 
-/* line 48, ../sass/index.scss */
-.container {
-  width: 1000px !important;
-}
 /* line 51, ../sass/index.scss */
+.marron {
+  color: #564026;
+}
+
+/* line 58, ../sass/index.scss */
 .container .row {
   margin: 0px;
   padding: 0px;
 }
-/* line 57, ../sass/index.scss */
+/* line 64, ../sass/index.scss */
 .container section {
   padding: 0px;
   padding-top: 40px;
 }
-/* line 61, ../sass/index.scss */
+/* line 68, ../sass/index.scss */
 .container section .intro {
   font-family: 'montserratregular';
   color: #564026;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 2em;
-  width: 80%;
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
-/* line 76, ../sass/index.scss */
+/* line 79, ../sass/index.scss */
+.container section .libellule {
+  width: 100px;
+  height: 79px;
+  background-image: url("../img/libellule_bleue.png");
+  margin-top: 100px;
+  margin-left: 20px;
+  transform: rotate(-17deg);
+}
+/* line 93, ../sass/index.scss */
 .container h1 {
   font-family: 'misoregular';
   color: #00338d;
   font-size: 3em;
 }
 
-/* line 85, ../sass/index.scss */
+/* line 102, ../sass/index.scss */
 .contenu {
   margin: auto;
 }
-/* line 90, ../sass/index.scss */
+/* line 106, ../sass/index.scss */
 .contenu header {
   height: 120px;
   width: 100%;
@@ -75,59 +84,60 @@
   z-index: 100;
   display: block;
 }
-/* line 99, ../sass/index.scss */
+/* line 115, ../sass/index.scss */
 .contenu header .logo {
   float: left;
   padding: 14px 0px 15px 35px;
 }
-/* line 107, ../sass/index.scss */
+/* line 122, ../sass/index.scss */
 .contenu header .navbar-header {
   float: none;
 }
-/* line 111, ../sass/index.scss */
+/* line 126, ../sass/index.scss */
 .contenu header .navbar-right {
   float: right !important;
   margin-right: 0px;
 }
-/* line 116, ../sass/index.scss */
+/* line 131, ../sass/index.scss */
 .contenu header nav ul {
   font-family: 'misoregular';
   color: #00338d;
   margin-top: 40px;
   background-color: white;
 }
-/* line 122, ../sass/index.scss */
+/* line 137, ../sass/index.scss */
 .contenu header nav ul .menu {
   width: 181px;
 }
-/* line 125, ../sass/index.scss */
+/* line 140, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(1) {
-  border-bottom: 5px solid #bbb;
+  border-bottom: 5px solid #8791a4;
 }
-/* line 128, ../sass/index.scss */
+/* line 143, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(2) {
   border-bottom: 5px solid #AADBDB;
 }
-/* line 131, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 .contenu header nav ul .menu:nth-child(3) {
   border-bottom: 5px solid #db4d69;
 }
-/* line 138, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 .contenu header nav ul .menu a {
   font-size: 18pt;
   letter-spacing: -1px;
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+  color: #00338d;
 }
-/* line 146, ../sass/index.scss */
+/* line 162, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu {
   background-color: #f6f3ed;
   width: 280px;
   font-family: 'montserratregular';
   padding: 15px;
 }
-/* line 153, ../sass/index.scss */
+/* line 169, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu a {
   color: #564026;
   text-transform: initial;
@@ -135,24 +145,23 @@
   text-align: left;
   border-bottom: 1px solid white;
   font-size: 20px;
-  margin-top: 4px;
-  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-right: auto;
-  cursor: default;
 }
-/* line 168, ../sass/index.scss */
+/* line 183, ../sass/index.scss */
 .contenu header nav ul .menu .dropdown-menu a:hover {
   color: #db4d69;
   border-bottom: 5px solid #db4d69;
 }
-/* line 182, ../sass/index.scss */
+/* line 197, ../sass/index.scss */
 .contenu header nav ul .menu .nav .open > a, .contenu header nav ul .menu .nav .open > a:focus, .contenu header nav ul .menu .nav .open > a:hover {
   background-color: #f6f3ed;
   border-color: #f6f3ed;
 }
 
-/* line 197, ../sass/index.scss */
+/* line 212, ../sass/index.scss */
 .header {
   height: 120px;
   width: 100%;
@@ -172,7 +181,7 @@
   z-index: -1;
 }
 
-/* line 217, ../sass/index.scss */
+/* line 232, ../sass/index.scss */
 section .axes {
   background-color: #AADBDB;
   height: 650px;
@@ -180,9 +189,9 @@ section .axes {
   flex-wrap: nowrap;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
-/* line 225, ../sass/index.scss */
+/* line 240, ../sass/index.scss */
 section .axes .axe {
-  width: 33.3333%;
+  width: 370px;
   height: 650px;
   float: left;
   color: white;
@@ -190,120 +199,128 @@ section .axes .axe {
   display: block;
   cursor: pointer;
 }
-/* line 235, ../sass/index.scss */
+/* line 250, ../sass/index.scss */
 section .axes .axe div img {
   height: 460px;
   width: 100%;
   overflow: hidden;
 }
-/* line 244, ../sass/index.scss */
+/* line 254, ../sass/index.scss */
+section .axes .axe div img:hover {
+  opacity: 0.8;
+}
+/* line 259, ../sass/index.scss */
+section .axes .axe:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 1px 2px 3px white;
+  -moz-box-shadow: 0px 1px 2px 3px white;
+  box-shadow: 0px 1px 2px 3px white;
+}
+/* line 270, ../sass/index.scss */
 section .axes h2 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 251, ../sass/index.scss */
+/* line 277, ../sass/index.scss */
 section .axes h3 {
   font-family: 'misoregular';
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 259, ../sass/index.scss */
+/* line 285, ../sass/index.scss */
 section .axes p {
   font-family: 'montserratregular';
   font-size: 1.2em;
   margin-top: 0px;
 }
-/* line 266, ../sass/index.scss */
+/* line 292, ../sass/index.scss */
 section .axes .logement {
   border-top: 5px solid #db4d69;
   background-color: #db4d69;
 }
-/* line 271, ../sass/index.scss */
+/* line 297, ../sass/index.scss */
 section .axes .logement h2 {
-  font-size: 5em;
+  font-size: 5.2em;
   margin-bottom: 0px;
   margin-top: 30px;
 }
-/* line 278, ../sass/index.scss */
+/* line 304, ../sass/index.scss */
 section .axes .logement p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-top: 0px;
 }
-/* line 285, ../sass/index.scss */
+/* line 311, ../sass/index.scss */
 section .axes .education {
-  border-top: 5px solid #8791a4;
-  background-color: #8791a4;
+  border-top: 5px solid #00338d;
+  background-color: #00338d;
 }
-/* line 290, ../sass/index.scss */
+/* line 316, ../sass/index.scss */
 section .axes .education h2 {
   font-size: 3.8em;
-  margin-bottom: -5px;
-  margin-top: 5px;
+  margin-bottom: 35px;
+  margin-top: 35px;
 }
-/* line 299, ../sass/index.scss */
-section .axes .education h3 {
-  font-size: 4.8em;
-  margin-top: -17px;
-}
-/* line 306, ../sass/index.scss */
+/* line 326, ../sass/index.scss */
 section .axes .education p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   padding-bottom: 15px;
   margin-top: -15px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.2em;
+  width: 70%;
 }
-/* line 320, ../sass/index.scss */
+/* line 341, ../sass/index.scss */
 section .axes .sante {
   border-top: 5px solid #C4D2FC;
   background-color: #C4D2FC;
 }
-/* line 325, ../sass/index.scss */
+/* line 346, ../sass/index.scss */
 section .axes .sante h2 {
   font-size: 3.7em;
-  margin-bottom: 0px;
+  margin-top: 5px;
 }
-/* line 331, ../sass/index.scss */
+/* line 352, ../sass/index.scss */
 section .axes .sante h3 {
   font-size: 5em;
   margin-bottom: 0px;
-  margin-top: -17px;
+  margin-top: -20px;
 }
-/* line 339, ../sass/index.scss */
+/* line 360, ../sass/index.scss */
 section .axes .sante p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-top: -5px;
   padding-bottom: 15px;
+  text-shadow: 1px 1px 1px black;
 }
 
-/* line 355, ../sass/index.scss */
+/* line 378, ../sass/index.scss */
 section.citation {
   background-color: #f6f3ed;
   width: 100%;
 }
-/* line 360, ../sass/index.scss */
+/* line 383, ../sass/index.scss */
 section.citation .citation_image {
   display: block;
   background-image: url("../img/femme.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 490px;
+  height: 525px;
 }
-/* line 368, ../sass/index.scss */
+/* line 392, ../sass/index.scss */
 section.citation .citation_texte {
   font-family: 'misoregular';
   color: #00338d;
-  font-size: 3.8em;
+  font-size: 4em;
   letter-spacing: -0.05em;
   position: absolute;
-  margin-top: -400px;
-  margin-left: 430px;
-  line-height: 44px;
+  margin-top: -350px;
+  margin-left: 530px;
+  line-height: 55px;
 }
-/* line 380, ../sass/index.scss */
+/* line 405, ../sass/index.scss */
 section.citation .auteur {
   font-family: montserratregular;
   color: #564026;
@@ -312,13 +329,23 @@ section.citation .auteur {
   margin-top: -50px;
   letter-spacing: -0.05em;
 }
+/* line 414, ../sass/index.scss */
+section.citation .libellule_blanche {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/libellule_blanche.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -150px;
+  right: 400px;
+}
 
-/* line 395, ../sass/index.scss */
+/* line 429, ../sass/index.scss */
 section.slider_projets {
   background-color: #f6f3ed;
 }
 
-/* line 402, ../sass/index.scss */
+/* line 436, ../sass/index.scss */
 footer {
   height: 435px;
   width: 100%;

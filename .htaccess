@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.4wings.org$ [NC]
+RewriteRule ^(.*)$ http://4wings.org/$1 [R=301,L]

@@ -197,12 +197,12 @@ $.fn.impulse.default = {
 
 	range: 135,
 	leap: 1.35,
-	tempo: 500,
+	tempo: 1000,
 	sloth: 1.1,
 	constrain: 5,
 	reset: 85,
 	effect: 'easeOutSine',
-	fluid: false,
+	fluid: true,
 	propagate: true
 };
 }(jQuery));
