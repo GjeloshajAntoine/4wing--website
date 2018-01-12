@@ -276,11 +276,11 @@ footer .pieds {
   margin-top: 10%;
 }
 
-.TechRight img {
+/*.TechRight img {
    transform: scaleX(-1);
    padding-top: 15%;
    opacity: 0.1;
-}
+}*/
 
 .TechThird {
   background-color: #00338d;
