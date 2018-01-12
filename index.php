@@ -1,46 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Fondation 4WINGS</title>
-	
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<meta charset="utf-8">
- 	
- 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.jscrollpane.css" media="all" />
-
-	<link rel="stylesheet" type="text/css" href="stylesheets/style_carousel.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.jscrollpane.css" media="all" />
-
-	<link rel="stylesheet" href="stylesheets/index.css">
-	<link rel="stylesheet" href="stylesheets/footer.css">
-	<link rel="stylesheet" href="stylesheets/icomoon.css">
-</head>
-<body>
-<div class="container-fluid header"><span class="carreBleu"></span>
-	<div class="container contenu">
-
-
-			 <header>
-			 		<?php include("partials/header.php") ?>
-			 </header>
-
+ <header>
+	<?php include("partials/header.php") ?>
+</header>
 		
-		<section> <div class="row">
+	<section> 
+		<div class="container contenu">
+			<div class="row">
 					  <div class="intro col-sm-9">
 					  	<h1>Lutter contre la précarité en <span class="marron">Belgique</span></h1>
 							<p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam laudantium, accusantium in aliquam nihil ullam perferendis tempora doloribus atque sequi debitis quasi, aperiam minima quaerat accusamus recusandae deserunt! Nam.</p>
 					  </div>
 				  	  <div class="col-sm-3 libellule"></div>
 				</div> 
-		</section>
-	</div>
+		</div>
+	</section>
+
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Features</a>
+		      <a class="nav-item nav-link" href="#">Pricing</a>
+		      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+		    </div>
+		  </div>
+		</nav>
+
 	<section>
 		<div class="axes">
 			<div class="container">
@@ -85,37 +73,3 @@
  <footer> 
  	<?php include("partials/footer.php") ?>
  </footer>
-
-</div>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<script type="text/javascript" src="js/carousel/js/jquery.contentcarousel.js"></script>
-	<script type="text/javascript">
-			$('#ca-container').contentcarousel();
-	</script>
-	
-	<script type="text/javascript"  src="js/lucid.js"></script>
-	<script src="js/script.js"></script>
-
-	<script>
-		$(window).on('load', function() {
-
-		  $(this).impulse();
-		});
-	</script>
-
-	 <script type="text/javascript"> $(document).ready(function(){ $('.top').click(function(){ $('html,body').animate({scrollTop: 0},'slow'); }); }); </script>
-
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<!-- the jScrollPane script -->
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
-	<script type="text/javascript">
-			$('#ca-container').contentcarousel();
-	</script>
-	 	 
-	
-</body>
-</html>

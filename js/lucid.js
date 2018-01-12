@@ -202,8 +202,8 @@ $.fn.impulse.default = {
 	constrain: 5,
 	reset: 85,
 	effect: 'easeOutSine',
-	fluid: true,
-	propagate: true
+	fluid: false,
+	propagate: false
 };
 }(jQuery));
 

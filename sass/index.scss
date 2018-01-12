@@ -34,15 +34,11 @@ $blanc2 : #f6f3ed;
   font-style: normal;
 }
 
-
-.carreBleu {
-	height: 115px;
-	width : 25%;
-	position: absolute;
-	background-color: $bleu3;
-	z-index: 0;
-
+body {
+	font-family: 'montserratregular';
+	color: $marron;
 }
+
 .container-fluid	 {
 	padding-right: 0px!important;
 	padding-left: 0px!important;
@@ -59,13 +55,7 @@ $blanc2 : #f6f3ed;
 					margin: 0px;
 					padding: 0px;
 
-				}
-
-		section {
-			padding: 0px;
-			padding-top: 40px;
-
-			.intro {
+				.intro {
 				font-family: 'montserratregular';
 				color: $marron;
 				font-size: 1.2em;
@@ -76,11 +66,19 @@ $blanc2 : #f6f3ed;
 
 			}
 
+				}
+
+		section {
+			padding: 0px;
+			padding-top: 40px;
+
+			
+
 			.libellule {
 
 				width: 100px;
 				height: 79px;
-				background-image: url("../img/libellule_bleue.png" );
+				background-image: url("../../img/libellule_bleue.png" );
 				margin-top: 100px;
 				margin-left: 20px;
 				transform: rotate(-17deg);
@@ -215,12 +213,7 @@ $blanc2 : #f6f3ed;
 	height: 120px;
 	width: 100%;
   	display: inline-block;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
-	background: #007c92; /* Old browsers */
-	background: -moz-linear-gradient(180deg, $bleu1 0%, $bleu2 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(180deg, $bleu1 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(180deg, $bleu1 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    	background-color: $bleu3;
 	
 	border-bottom : 5px solid $gris1;
 
@@ -427,7 +420,8 @@ section.citation {
 
 
 section.slider_projets {
-				background-color: $blanc2;
+			background-color: $blanc2;
+			padding-bottom: 50px;
 
 			}
 
