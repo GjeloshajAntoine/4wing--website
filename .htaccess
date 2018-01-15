@@ -1,3 +1,5 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.4wings.org$ [NC]
-RewriteRule ^(.*)$ http://4wings.org/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php [L,QSA]
