@@ -10,7 +10,7 @@ header {
 }
 
 .container {
-      
+
       padding-right: 0px;
       padding-left: 0px;
 
@@ -30,15 +30,15 @@ header {
   color: white;
   font-size: 4.5em;
   margin-top: 6px;
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 #TechEd .icon-monitor {
-      font-size: 106px;               
+      font-size: 106px;
 
 }
 
-.TechEducation span { 
+.TechEducation span {
   font-family: 'montserratregular', sans-serif;
   font-size: 1.5em;
 }
@@ -83,7 +83,7 @@ header {
 .innovation p {
   font-family: 'montserratregular', sans-serif;
   color: white;
-  font-weight: ;
+  font-weight: 300;
 }
 
 
@@ -228,7 +228,7 @@ footer .pieds {
 .row .TechSecond {
   background: linear-gradient(to right, #f6f3ed, white);
   font-family: 'misoregular';
-  
+
 
 
 }
@@ -278,7 +278,7 @@ footer .pieds {
 }
 
 .TechSecondRight {
- 
+
   min-height: 896px;
   background-color: #AADBDB;
   text-align: center;
@@ -287,9 +287,9 @@ footer .pieds {
 
 }
 .TechSecondRight img {
-  
+
   float: left;
-  
+
 }
 
 
@@ -328,7 +328,7 @@ footer .pieds {
 
   background-color: #db4d69;
   color: #FFF;
-  
+
 }
 
 
@@ -355,8 +355,8 @@ footer .pieds {
 
 #TechForth {
               padding-top: 40px;
-   
-   
+
+
 }
 
 .TechForth h4{
@@ -380,9 +380,9 @@ footer .pieds {
 }
 
 .TechForth img:hover {
- 
+
   border-left: 6px solid #db4d69;
- 
+
 }
 
 .TechForth p {

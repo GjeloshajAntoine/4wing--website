@@ -149,8 +149,8 @@ footer .pieds {
 
 /*TechEducation*/
 
-
-#TechEd {
+/*
+#Logement {
   background-color: #00338d;
   color: white;
   font-family: 'misoregular';
@@ -159,7 +159,7 @@ footer .pieds {
   padding-top: 2%;
 }
 
-#TechEd .logo {
+#Logement .logo {
   display: inline-block;
   float: left;
   margin-left: 20%;
@@ -362,11 +362,11 @@ footer .pieds {
   width: 65%;
   padding-left: 4%;
   display: inline-block;
-}
+}*/
 
 /*page sante */
 
-#Logement {
+/*#Logement {
   background-color: rgb(219, 77, 105);
   color: white;
   font-family: 'misoregular';
@@ -518,4 +518,4 @@ footer .pieds {
   width: 65%;
   padding-left: 4%;
   display: inline-block;
-}
+}*/
