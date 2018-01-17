@@ -45,9 +45,22 @@ $f3->route('GET /@lg/vraipage',function ($f3,$params) {
     echo "<br/>";
     $f3->set($result[$i]['string_origin'],$result[$i]['string_trad']);
   }
-
-
   $template=new Template;
   echo $template->render('vraipage.html');
+});
+$f3->route('GET /@lg/mission',function ($f3,$params) {
+  echo $params['lg'];
+});
+$f3->route('GET /@lg/health',function ($f3,$params) {
+  echo $params['lg'];
+});
+$f3->route('GET /@lg/selectionProjet',function ($f3,$params) {
+  echo $params['lg'];
+});
+$f3->route('GET /@lg/techEducation',function ($f3,$params) {
+  echo $params['lg'];
+});
+$f3->route('GET /@lg/valeurs',function ($f3,$params) {
+  echo $params['lg'];
 });
 $f3->run();
