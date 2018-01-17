@@ -63,4 +63,8 @@ $f3->route('GET /@lg/techEducation',function ($f3,$params) {
 $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
 });
+$f3->route('GET /admin',function ($f3,$params) {
+  //echo $params['lg'];
+  //TODO connection admin !!
+});
 $f3->run();
