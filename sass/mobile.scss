@@ -1,0 +1,94 @@
+@media only screen and (max-width: 500px) {
+ 	
+    section {
+
+    	.container .row {
+		    margin: -15px;
+		    padding: -15px;
+		    margin-top: 6px;
+		}
+
+    	.axes {
+    	padding-top: 10px;
+    	height: auto;
+			
+				.axe {
+
+		    	width: 100%;
+		    	height: 200px;
+			
+		    		img{
+		    		display: none;
+		    	    }
+		    	
+		    	}
+			
+		     }
+		}
+
+	section.citation {
+
+		height: 159px;
+
+				.citation_image {
+		    display: none;
+			}
+			 .auteur {
+		    font-size: 1em;
+		    margin-left: 15px;
+		    margin-top: 50px;
+			}
+		   	
+		 .citation_texte {
+		    font-family: 'misoregular';
+		    color: #00338d;
+		    font-size: 3em;
+		    height: 300px;
+		    margin-left: 15px;
+			}
+
+		}
+	section.citation .citation_texte {
+    font-family: 'misoregular';
+    color: #00338d;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: -0.05em;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+    line-height: 40px;
+	}
+
+
+	.header {
+	    height: 70px;
+
+		    .logo img {
+		    	width: 180px;
+		    	padding-top: 15px;	
+		    }
+
+
+		}
+
+	footer .row .adresse {
+    color: white;
+    text-align: center;
+    width: 115%;
+    height: 153px;
+    border-right: none;
+    padding-right: -2px;
+    margin-top: 30px;
+    float: left;
+	}
+
+	footer .row .logofooter {
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+	}
+
+    
+}

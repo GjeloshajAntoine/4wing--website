@@ -1,0 +1,44 @@
+/* line 1, ../sass/footer.scss */
+footer {
+  color: white;
+  text-align: center;
+  font-family: 'montserratregular';
+  font-size: 18px;
+  line-height: 180%;
+  height: 480px;
+}
+/* line 11, ../sass/footer.scss */
+footer .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+/* line 15, ../sass/footer.scss */
+footer .row .adresse {
+  color: white;
+  text-align: right;
+  width: 50%;
+  height: 300px;
+  border-right: 1px solid white;
+  padding-right: 50px;
+  margin-top: 30px;
+  float: left;
+}
+/* line 26, ../sass/footer.scss */
+footer .row .adresse h4 {
+  font-size: 22px;
+}
+/* line 32, ../sass/footer.scss */
+footer .row .logofooter {
+  margin-top: 64px;
+  margin-left: 45px;
+  float: left;
+}
+/* line 48, ../sass/footer.scss */
+footer a {
+  color: white;
+  margin-top: 50px;
+}
+/* line 52, ../sass/footer.scss */
+footer a:hover {
+  color: #db4d69;
+}

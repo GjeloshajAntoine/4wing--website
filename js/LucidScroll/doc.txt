@@ -1,0 +1,87 @@
+LucidScroll is a lightweight plugin and is very easy to use...
+
+First step is to upload the lucid.js file to the server.
+Then this would need to be pasted in between the <head></head> tags of the document :
+
+	<script src="file-directory/jquery.js"></script>
+	<script src="file-directory/lucid.js"></script>
+
+	<script>
+	$(window).on('load', function() {
+	$(this).impulse();
+	});
+	</script>
+
+Making sure to also use the jQuery library (the first line) if it's not already linked to and to change the file paths to the appropriate directory.
+If the document is not HTML5, type="text/javascript" would have to be added to the script tags.
+
+That's it! The page should now be good for smooth scrolling.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Advanced documentation can be found on the download page :
+
+http://ataredo.com/morphology/lucidscroll
+
+Most settings can be tested beforehand on the special console available here :
+
+http://ataredo.com/morphology/lucidtest
+
+Note for using the plugin with the appended special easing - if the 'swing' animation type is required, this should be altered to 'curve'.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Version 1.2.5 :
+
+- Updated function for smoother page resizing
+- Minor code tweaks
+
+Version 2.0 :
+
+- Now a proper plugin and chainable method!
+- Based on requestAnimationFrame for low impact on device resources
+- Using the jQuery animate method as a legacy browser fallback
+
+Version 2.1 (May 2015) :
+
+- Several variable name tweaks
+- Delay option added
+
+Version 2.1.1 :
+
+- Lines added for unbinding attached events
+
+Version 2.2 (June 2015) :
+
+- General code rearrangement and minor adjustments
+- Automated height detection implemented
+
+Version 2.3 :
+
+- Major recoding and much improved element overflow calculation
+- Unbinding and creating new instances from version 2.1.1 corrected
+
+Version 2.4 :
+
+- Now fully supporting multiple element selection
+
+Version 2.5 :
+
+- Addition from version 2.4 tweaked
+- More accurate delay option
+- Default settings made accessible
+- Streamlined analysis function
+- Propagate option appended
+
+Version 2.5.2 (July 2015) :
+
+- Minor code changes
+- Fluid option added
+
+Version 2.5.3 (August 2015) :
+
+- Checking support for requestAnimationFrame corrected
+
+Version 2.5.4 (NOvember 2015) :
+
+- Delay option tweaked
