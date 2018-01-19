@@ -2,7 +2,33 @@
 #log #TechEd .header {
   background-color: #db4d69;
 }
-/* line 7, ../sass/logement.scss */
+/* line 6, ../sass/logement.scss */
 #log #TechEd h1 {
   font-size: 5.2em;
+}
+/* line 9, ../sass/logement.scss */
+#log #TechEd .icon-home-outline {
+  font-size: 106px;
+}
+/* line 12, ../sass/logement.scss */
+#log #TechEd .TechSecond {
+  margin-top: 10%;
+  padding-top: 3%;
+}
+/* line 15, ../sass/logement.scss */
+#log #TechEd .TechSecond img {
+  margin-top: -325px;
+}
+/* line 22, ../sass/logement.scss */
+#log #TechThird .TechThird {
+  background-color: #db4d69;
+}
+/* line 25, ../sass/logement.scss */
+#log #TechThird .icon-home-outline {
+  padding-top: 10%;
+}
+/* line 30, ../sass/logement.scss */
+#log #TechForth img {
+  border-left: 6px solid #db4d69;
+  background-image: url("logement.png");
 }

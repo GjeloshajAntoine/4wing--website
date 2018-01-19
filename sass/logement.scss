@@ -1,16 +1,37 @@
 #log {
-  #TechEd{
+  #TechEd {
     .header {
       background-color: #db4d69;
-
     }
     h1 {
       font-size: 5.2em;
     }
+  .icon-home-outline {
+      font-size: 106px;
+  }
+  .TechSecond {
+    margin-top: 10%;
+    padding-top: 3%;
+    img {
+      margin-top: -325px;
+    }
   }
 
-
-
+}
+#TechThird {
+  .TechThird {
+    background-color: #db4d69;
+  }
+  .icon-home-outline {
+    padding-top: 10%;
+  }
+}
+#TechForth {
+  img {
+    border-left: 6px solid #db4d69;
+    background-image:url("logement.png");
+  }
+}
 
 
 
