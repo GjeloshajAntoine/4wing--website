@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="../stylesheets/nav.css">
   <link rel="stylesheet" href="../stylesheets/mobile.css">
   <link rel="stylesheet" href="../stylesheets/logement.css">
+  <link rel="stylesheet" href="../stylesheets/sante.css">
 
 
 <!-- Optional theme -->
@@ -34,7 +35,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="container-fluid header" id="log">
+<div class="container-fluid header" id="sante">
   <div class="container contenu ">
     <header>
       <nav>
@@ -76,8 +77,8 @@
     <div class="row header" >
       <div class="col-sm-2"> <span class="icon-home-outline"></span></div>
       <div class="TechEducation col-sm-10">
-        <h1>Logement</h1>
-        <span>Une priorité pour l'intégration</span>
+        <h1>Santé et Nutrition</h1>
+        <span>L'alimentation, une clé pour la santé de tous.</span>
       </div>
     </div>
 
@@ -85,8 +86,8 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>L'accés à un logement décent constitue <br/> le point de départ de l'inclusion.</h2>
-          <p>Sous l'effet combiné de l'étendue de la pauvreté structurelle, de la crise migratoire et de l'augmentation des loyers, l'accés au logement à prix abordable est insuffisant en Belgique. Actuellement, plus de <strong>180.000 ménages</strong> sont en attente. Des initiatives de terrain, multiples, innovantes, ouvrent de nouvelles voies et cherchent des partenaires pour changer d'échelle.</p>
+		      <p>Pauvreté, santé et alimentation sont fortement correlés. En Belgique, prés d'un tiers de la population est en surcharge pondérale et une personne sur cinq est menacée de malnutrition.</p>
+          <h2>Une alimentation de qualité et une activité physique régulière sont des vecteurs importants de la santé.</h2>
 		    </div>
         <div class="TechSecond">
           <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
@@ -111,7 +112,7 @@
            <div class="row" >
             <div class="col-sm-1"> <span class="icon-home-outline"> </span></div>
             <div class="TechEducation col-sm-11">
-              <h3>Les projets Logement</h3>
+              <h3>Les projets Santé par la nutrition</h3>
             </div>
           </div>
     </div>
@@ -125,7 +126,7 @@
         <div class="TechForth">
           <a href=""><img src="../img/logement.png" alt="logo becode"></a>
           <div class="rubrique">
-            <h4> <a href="">Habitat et Humanisme</a> </h4>
+            <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
@@ -136,7 +137,7 @@
         <div class="TechForth">
           <a href=""><img src="../img/logement.png" alt="logo becode"></a>
           <div class="rubrique">
-            <h4> <a href="">Habitat et Humanisme</a> </h4>
+            <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
@@ -147,7 +148,7 @@
         <div class="TechForth">
           <a href=""><img src="../img/logement.png" alt="logo becode"></a>
           <div class="rubrique">
-            <h4> <a href="">Habitat et Humanisme</a> </h4>
+            <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
@@ -156,7 +157,7 @@
        <div class="TechForth">
          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
          <div class="rubrique">
-           <h4> <a href="">Habitat et Humanisme</a> </h4>
+           <h4> <a href="">Santé</a> </h4>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
          </div>
        </div>
@@ -165,7 +166,7 @@
       <div class="TechForth">
         <a href=""><img src="../img/logement.png" alt="logo becode"></a>
         <div class="rubrique">
-          <h4> <a href="">Habitat et Humanisme</a> </h4>
+          <h4> <a href="">Santé</a> </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
       </div>
@@ -174,7 +175,7 @@
      <div class="TechForth">
        <a href=""><img src="../img/logement.png" alt="logo becode"></a>
        <div class="rubrique">
-         <h4> <a href="">Habitat et Humanisme</a> </h4>
+         <h4> <a href="">Santé</a> </h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
        </div>
      </div>
