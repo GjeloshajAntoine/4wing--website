@@ -369,14 +369,15 @@ footer .pieds {
     color: #db4d69;
 }
 
-.TechForth img {
+.TechForth .image {
   width: 150px;
   float: left;
   border-left: 6px solid #00338d;
-  background-image: url("http://www.becode.org/partners/images/SmallLogo.png");
-  background-size: 150px ;
+  background-image: url("../img/SmallLogo.png");
+  background-size: cover ;
+  background-repeat: no-repeat;
   margin-right: 20px;
-  padding: 20px;
+  height: 150px;
 }
 
 .TechForth img:hover {

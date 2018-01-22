@@ -2,19 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Fondation 4WINGS</title>
-  
+
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  
+
   <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.jscrollpane.css" media="all" />
 
   <link rel="stylesheet" type="text/css" href="../stylesheets/style_carousel.css" />
@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="../stylesheets/icomoon.css">
   <link rel="stylesheet" href="../stylesheets/nav.css">
   <link rel="stylesheet" href="../stylesheets/mobile.css">
-  
+
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -66,7 +66,7 @@
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>
-              
+
             </ul>
           </div>
         </div>
@@ -96,16 +96,16 @@
               <img src="../img/femme2.png" alt="femme">
             </div>
          </div>
-      
-		  </div>  
+
+		  </div>
 	    <div class="col-ms-3 TechSecondRight">
 	      <h5>Un projet ?</h5>
 	      <div class="btn btn_info">Nous Contacter</div>
 	      <img src="../img/libelulle_transparente.png" alt="libellule">
 	    </div>
-	
-      
-    </div>  
+
+
+    </div>
   <!-- fin row-->
 </div>
 
@@ -120,14 +120,14 @@
           </div>
         </div>
   </div>
-</div>  
+</div>
 <div class="container" id="TechForth">
   <div class="row">
     <!-- projet-->
      <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
+        <div class="TechForth row">
+          <div class="image col-3">lol</div>
+          <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
@@ -136,9 +136,9 @@
     <!-- fin projet-->
     <!-- projet-->
      <div class="col-sm-5 col-md-offset-1">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
+        <div class="TechForth row">
+          <div class="image col-3">lol</div>
+          <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
@@ -147,9 +147,9 @@
     <!-- fin projet-->
     <!-- projet-->
      <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
+        <div class="TechForth row">
+          <div class="image col-3">lol</div>
+          <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
@@ -159,7 +159,7 @@
 
   </div>
 </div>
- 
+
 
 
 <footer>
@@ -179,7 +179,7 @@
         <div class="col-sm logofooter">
 
           <img src="../img/logo_footer.png" alt="">
-          
+
         </div>
       </div>
       <a href="http://www.4wings.org" target="blank">www.4wings.org</a> &copy; <?php echo date("Y"); ?>
@@ -189,7 +189,7 @@
 </div>
 </div>
 </footer>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -197,7 +197,7 @@
   <script type="text/javascript">
       $('#ca-container').contentcarousel();
   </script>
-  
+
   <script type="text/javascript"  src="../js/lucid.js"></script>
   <script src="../js/script.js"></script>
 
@@ -217,7 +217,7 @@
   <script type="text/javascript">
       $('#ca-container').contentcarousel();
   </script>
-     
-  
+
+
 </body>
 </html>

@@ -5,29 +5,30 @@
 /* line 6, ../sass/sante.scss */
 #sante #TechEd h1 {
   font-size: 5.2em;
+  width: 100%;
 }
-/* line 9, ../sass/sante.scss */
+/* line 10, ../sass/sante.scss */
 #sante #TechEd .icon-home-outline {
   font-size: 106px;
 }
-/* line 12, ../sass/sante.scss */
+/* line 13, ../sass/sante.scss */
 #sante #TechEd .TechSecond {
   margin-top: 10%;
   padding-top: 3%;
 }
-/* line 15, ../sass/sante.scss */
+/* line 16, ../sass/sante.scss */
 #sante #TechEd .TechSecond img {
   margin-top: -325px;
 }
-/* line 22, ../sass/sante.scss */
+/* line 23, ../sass/sante.scss */
 #sante #TechThird .TechThird {
   background-color: #AADBDB;
 }
-/* line 25, ../sass/sante.scss */
+/* line 26, ../sass/sante.scss */
 #sante #TechThird .icon-home-outline {
   padding-top: 10%;
 }
-/* line 30, ../sass/sante.scss */
+/* line 31, ../sass/sante.scss */
 #sante #TechForth img {
   border-left: 6px solid #AADBDB;
   background-image: url("logement.png");

@@ -123,7 +123,7 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+          <a href="../img/logemnt.png"></a>
           <div class="rubrique">
             <h4> <a href="">Habitat et Humanisme</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -134,7 +134,7 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+          <a href=""><img src="../img/logement.png" alt="logo logement"></a>
           <div class="rubrique">
             <h4> <a href="">Habitat et Humanisme</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -145,7 +145,7 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+          <a href=""><img src="../img/logement.png" alt="logo logement"></a>
           <div class="rubrique">
             <h4> <a href="">Habitat et Humanisme</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -154,7 +154,7 @@
     </div>
     <div class="col-sm-5">
        <div class="TechForth">
-         <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+         <a href=""><img src="../img/logement.png" alt="logo logement"></a>
          <div class="rubrique">
            <h4> <a href="">Habitat et Humanisme</a> </h4>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -163,7 +163,7 @@
    </div>
    <div class="col-sm-5">
       <div class="TechForth">
-        <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+        <a href=""><img src="../img/logement.png" alt="logo logement"></a>
         <div class="rubrique">
           <h4> <a href="">Habitat et Humanisme</a> </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -172,7 +172,7 @@
   </div>
   <div class="col-sm-5">
      <div class="TechForth">
-       <a href=""><img src="../img/logement.png" alt="logo becode"></a>
+       <a href=""><img src="../img/logement.png" alt="logo logement"></a>
        <div class="rubrique">
          <h4> <a href="">Habitat et Humanisme</a> </h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>

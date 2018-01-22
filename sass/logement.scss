@@ -21,12 +21,21 @@
 #TechThird {
   .TechThird {
     background-color: #db4d69;
+    border-top: 3px solid #bbb;
+    border-bottom: 3px solid #bbb;
+  }
+  .col-sm-1 {
+    margin-top: 1%;
+    margin-bottom: 1%
   }
   .icon-home-outline {
     padding-top: 10%;
   }
 }
 #TechForth {
+  .col-sm-5 {
+    width: 50%;
+  }
   img {
     border-left: 6px solid #db4d69;
     background-image:url("logement.png");
