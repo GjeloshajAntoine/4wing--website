@@ -8,8 +8,8 @@
 </head>
 <body>
     
-<a href="">   {{ @kiki}}
-    {{ @milop}}  </a>
+<a href="">   <?= $kiki.PHP_EOL ?>
+    <?= $milop ?>  </a>
     
 
 

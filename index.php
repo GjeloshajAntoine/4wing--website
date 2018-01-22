@@ -59,9 +59,22 @@ $f3->route('GET /admin',function ($f3,$params) {
   //echo $params['lg'];
   //TODO connection admin !!
 });
-$f3->route('GET /admin/list_page_trad',function ($f3,$params) {
 
+
+
+$f3->route('GET /admin/list_page_trad',function ($f3,$params) {
+ 
+  $f3->set('kiki','milop');
+  echo Template::instance()->render('Views/list_page_trad.html');
+
+  
 });
+
+
+
+
+
+
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
 
 });
