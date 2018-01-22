@@ -3,6 +3,7 @@
   padding: 0 auto;
 }
 
+
 /*header test*/
 header {
   background-color: #00338d;
@@ -56,7 +57,7 @@ header {
 }
 
 .col-sm-9 {
-            padding: 0px;
+    padding: 0px;
             }
 
 .mission h3 {
@@ -195,7 +196,7 @@ footer .pieds {
   text-transform: uppercase;
   font-size: 3.5em;
   font-weight: 300;
-  width: 40%;
+ 
 
 }
 .TechEducation p {
@@ -228,9 +229,8 @@ footer .pieds {
 .row .TechSecond {
   background: linear-gradient(to right, #f6f3ed, white);
   font-family: 'misoregular';
+  padding-top: 25px;
   
-
-
 }
 
 .row .TechSecond p {
@@ -238,15 +238,27 @@ footer .pieds {
   color: #00338d;
   font-size: 1.8em;
   padding-left: 30px;
-  width: 70%;
+  width: 78%;
 
 }
-.TechSecond p::before {
-  content: '"';
+
+.lettrine1 {
+
   color: #00338d;
   font-size: 10em;
-  font-weight: bold;
-  margin-left: -4%;
+  display: block;
+  float: left;
+  font-family: 'Frank Ruhl Libre', serif;
+  margin-top: 100px;
+  margin-right: 38px;
+}
+.lettrine2 {
+
+  color: #00338d;
+  font-size: 3em;
+  font-family: 'Frank Ruhl Libre', serif;
+ 
+  
 }
 
 .TechSecond h5 {
@@ -256,14 +268,7 @@ footer .pieds {
       padding-bottom: 25px;
 
 }
-.TechSecond p::after {
-  content:'"';
-  color: #00338d;
-  font-size: 1em;
-  font-weight: 200;
-
-}
-
+  
 
 .TechSecond img {
           float: right;
@@ -279,11 +284,12 @@ footer .pieds {
 
 .TechSecondRight {
  
-  min-height: 896px;
+  min-height: 892px;
   background-color: #AADBDB;
   text-align: center;
   float: left;
   width: 25%;
+  margin-top:-5px;
 
 }
 .TechSecondRight img {
@@ -371,12 +377,12 @@ footer .pieds {
 
 .TechForth img {
   width: 150px;
+  height: 150px;
   float: left;
   border-left: 6px solid #00338d;
-  background-image: url("http://www.becode.org/partners/images/SmallLogo.png");
+  background-image: url("http://www.becode.org/partners/images/image.png");
   background-size: 150px ;
   margin-right: 20px;
-  padding: 20px;
 }
 
 .TechForth img:hover {

@@ -1,40 +1,75 @@
-@media only screen and (max-width: 500px) {
-  /* line 5, ../sass/mobile.scss */
+@media only screen and (max-width: 700px) {
+  /* line 3, ../sass/mobile.scss */
+  header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 5000;
+  }
+  /* line 14, ../sass/mobile.scss */
+  header nav .navbar-right {
+    width: 100%;
+    float: none !important;
+    margin-top: 0px;
+    margin-right: -10px;
+    height: auto;
+    background-color: white;
+    z-index: 10000;
+  }
+  /* line 24, ../sass/mobile.scss */
+  header nav .dropdown-menu {
+    width: 100%;
+  }
+
+  /* line 35, ../sass/mobile.scss */
+  section h1 {
+    font-size: 2.6em;
+    margin-top: 89px;
+  }
+  /* line 40, ../sass/mobile.scss */
+  section ul {
+    width: 100%;
+  }
+  /* line 44, ../sass/mobile.scss */
+  section .menu {
+    width: 100%;
+  }
+  /* line 49, ../sass/mobile.scss */
   section .container .row {
     margin: -15px;
     padding: -15px;
     margin-top: 6px;
   }
-  /* line 11, ../sass/mobile.scss */
+  /* line 58, ../sass/mobile.scss */
   section .axes {
     padding-top: 10px;
     height: auto;
   }
-  /* line 15, ../sass/mobile.scss */
+  /* line 62, ../sass/mobile.scss */
   section .axes .axe {
     width: 100%;
     height: 200px;
   }
-  /* line 20, ../sass/mobile.scss */
+  /* line 67, ../sass/mobile.scss */
   section .axes .axe img {
     display: none;
   }
 
-  /* line 29, ../sass/mobile.scss */
+  /* line 76, ../sass/mobile.scss */
   section.citation {
     height: 159px;
   }
-  /* line 33, ../sass/mobile.scss */
+  /* line 80, ../sass/mobile.scss */
   section.citation .citation_image {
     display: none;
   }
-  /* line 36, ../sass/mobile.scss */
+  /* line 83, ../sass/mobile.scss */
   section.citation .auteur {
     font-size: 1em;
     margin-left: 15px;
     margin-top: 50px;
   }
-  /* line 42, ../sass/mobile.scss */
+  /* line 89, ../sass/mobile.scss */
   section.citation .citation_texte {
     font-family: 'misoregular';
     color: #00338d;
@@ -43,7 +78,7 @@
     margin-left: 15px;
   }
 
-  /* line 51, ../sass/mobile.scss */
+  /* line 98, ../sass/mobile.scss */
   section.citation .citation_texte {
     font-family: 'misoregular';
     color: #00338d;
@@ -56,33 +91,203 @@
     line-height: 40px;
   }
 
-  /* line 64, ../sass/mobile.scss */
-  .header {
-    height: 70px;
-  }
-  /* line 67, ../sass/mobile.scss */
-  .header .logo img {
-    width: 180px;
-    padding-top: 15px;
+  /* line 111, ../sass/mobile.scss */
+  .header .logo {
+    float: none;
+    padding: 0px;
   }
 
-  /* line 75, ../sass/mobile.scss */
+  /* line 117, ../sass/mobile.scss */
+  .menu {
+    width: 180px;
+    display: block;
+  }
+  /* line 122, ../sass/mobile.scss */
+  .menu .dropdown-menu {
+    width: 100%;
+  }
+
+  /* line 130, ../sass/mobile.scss */
   footer .row .adresse {
     color: white;
     text-align: center;
     width: 115%;
     height: 153px;
     border-right: none;
+    border-bottom: solid 1px white;
+    margin-bottom: 25px;
     padding-right: -2px;
     margin-top: 30px;
     float: left;
   }
 
-  /* line 86, ../sass/mobile.scss */
+  /* line 143, ../sass/mobile.scss */
   footer .row .logofooter {
-    margin-top: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
+    margin-top: 64px;
+    margin-bottom: 45px;
+    float: none;
   }
+
+  /* line 153, ../sass/mobile.scss */
+  .TechEducation h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 159, ../sass/mobile.scss */
+  .TechEducation span {
+    font-size: 1.4em;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+  }
+
+  /* line 167, ../sass/mobile.scss */
+  #TechEd .icon-monitor {
+    font-size: 30px;
+    margin: auto;
+  }
+
+  /* line 174, ../sass/mobile.scss */
+  .container .row .col-sm-1 .TechThird .icon-monitor {
+    line-height: auto;
+    display: block;
+  }
+
+  /* line 180, ../sass/mobile.scss */
+  #TechEd .header {
+    height: auto;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  /* line 188, ../sass/mobile.scss */
+  #TechEd h1 {
+    text-transform: uppercase;
+    font-family: 'misoregular', sans-serif;
+    color: white;
+    font-size: 3em;
+    margin-top: 6px;
+    margin-bottom: -1	0px;
+  }
+
+  /* line 198, ../sass/mobile.scss */
+  .TechFirst p {
+    padding: 30px;
+  }
+
+  /* line 202, ../sass/mobile.scss */
+  .TechFirst h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+  }
+
+  /* line 209, ../sass/mobile.scss */
+  .TechSecond img {
+    height: 200px;
+    margin-right: 30px;
+    margin-top: -200px;
+  }
+
+  /* line 217, ../sass/mobile.scss */
+  .row .TechSecond p {
+    padding: 0 30px 0;
+    text-align: justify;
+    width: 100%;
+  }
+
+  /* line 224, ../sass/mobile.scss */
+  .TechSecond h5 {
+    text-align: right;
+  }
+
+  /* line 229, ../sass/mobile.scss */
+  .TechSecondRight {
+    min-height: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 235, ../sass/mobile.scss */
+  .TechSecondRight img {
+    display: block;
+    margin: 15px;
+    width: 100px;
+  }
+
+  /* line 241, ../sass/mobile.scss */
+  .TechSecondRight h5 {
+    margin-top: 36px;
+  }
+
+  /* line 245, ../sass/mobile.scss */
+  .TechSecondRight .btn_info {
+    display: block;
+    margin: 27px;
+    margin-bottom: -12px;
+  }
+
+  /* line 253, ../sass/mobile.scss */
+  [class^="icon-"], [class*=" icon-"] {
+    text-align: center;
+    display: block;
+  }
+
+  /* line 259, ../sass/mobile.scss */
+  .TechThird h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  /* line 264, ../sass/mobile.scss */
+  .contenu header nav ul .menu {
+    width: 100%;
+
+  }
+  .contenu header nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px
+  }
+
+  .navbar-nav .open .dropdown-menu > li {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .contenu header nav ul .menu .dropdown-menu {
+    width: 100%;
+  }
+
+
+  .container .row .intro {
+    margin-top: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+    text-align: justify;
+  }
+  
+  .container .row .intro  h1{
+    margin-top: 0px;
+
+  }
+  
+  section.citation .libellule_blanche {
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/libellule_blanche.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -207px;
+    left: 380px;
+    background-size: 100px;
+}
+
+
+
+
+
+
+
 }

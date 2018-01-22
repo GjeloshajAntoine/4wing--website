@@ -6,7 +6,7 @@
 /* line 19, ../sass/nav.scss */
 .navbar-right {
   float: right !important;
-  margin-top: -48px;
+  margin-top: -28px;
   margin-right: 17px;
 }
 
@@ -19,7 +19,7 @@ nav ul {
 }
 /* line 31, ../sass/nav.scss */
 nav ul .menu {
-  width: 181px;
+  width: 180px;
 }
 /* line 34, ../sass/nav.scss */
 nav ul .menu:nth-child(1) {
@@ -62,12 +62,12 @@ nav ul .menu .dropdown-menu a {
   margin-left: 0px;
   margin-right: auto;
 }
-/* line 77, ../sass/nav.scss */
+/* line 76, ../sass/nav.scss */
 nav ul .menu .dropdown-menu a:hover {
   color: #db4d69;
   border-bottom: 5px solid #db4d69;
 }
-/* line 91, ../sass/nav.scss */
+/* line 90, ../sass/nav.scss */
 nav ul .menu .nav .open > a, nav ul .menu .nav .open > a:focus, nav ul .menu .nav .open > a:hover {
   background-color: #f6f3ed;
   border-color: #f6f3ed;

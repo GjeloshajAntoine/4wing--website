@@ -158,6 +158,7 @@ body {
 						}
 
 						.dropdown-menu {
+							
 							background-color: $blanc2;
 							width: 280px;
 							font-family: 'montserratregular';
@@ -217,7 +218,7 @@ body {
 	
 	border-bottom : 5px solid $gris1;
 
-	z-index: -1;
+	z-index: 1000;
 
 }
 section {
@@ -440,3 +441,5 @@ footer {
 	
 
 }
+
+
