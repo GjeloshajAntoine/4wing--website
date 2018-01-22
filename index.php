@@ -61,14 +61,31 @@ $f3->route('GET /admin',function ($f3,$params) {
 });
 
 
+//page admin traduc
 
-$f3->route('GET /admin/list_page_trad',function ($f3,$params) {
+$f3->route('GET /admin/list_page_trad',function ($f3) {
  
-  $f3->set('kiki','milop');
+  $f3->set('name','fr');
+  echo Template::instance()->render('Views/list_page_trad.html');
+  $f3->set('name','nl');
+  echo Template::instance()->render('Views/list_page_trad.html');
+  $f3->set('name','an');
   echo Template::instance()->render('Views/list_page_trad.html');
 
-  
+
 });
+$f3->set('div',
+array(
+    'coffee'=>array('arabica','barako','liberica','kopiluwak'),
+    'tea'=>array('darjeeling','pekoe','samovar')
+)
+
+);
+
+
+
+
+
 
 
 
