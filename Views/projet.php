@@ -22,6 +22,7 @@
 
   <link rel="stylesheet" href="../stylesheets/index.css">
   <link rel="stylesheet" href="../stylesheets/tech.css">
+  <link rel="stylesheet" href="../stylesheets/projet.css">
   <link rel="stylesheet" href="../stylesheets/footer.css">
   <link rel="stylesheet" href="../stylesheets/icomoon.css">
   <link rel="stylesheet" href="../stylesheets/nav.css">
@@ -73,41 +74,36 @@
         </div>
       </nav>
     </header>
-  <div class="container" id="TechEd">
-    <div class="row header" >
+  <div class="container projet">
+    <div class="row" >
       <div class="col-sm-2"> <span class="icon-monitor"></span></div>
-      <div class="TechEducation col-sm-10">
-        <h1>Tech - Education</h1>
-        <span>Programmer le cadre de machin et machin</span>
+      <div class=" col-sm-10">
+        <h1>BeCode</h1>
       </div>
     </div>
 
  <!-- Row -->
-    <div class="row">
-	  	<div class="col-sm-9">
-		    <div class="TechFirst">
+ <div class="TechThird projet">
+    <div class="container ">
+	  	<div class="row">
+		    <div class=" col-sm-4">
+          <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
 		      <h2>Lire, écrire, compter et machin</h2>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    </div>
-        <div class="TechSecond">
+        <div class=" col-sm-8">
             
-          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span> Slider<span class="lettrine2"> " </span>
             </p>
-          <h5>Arnold Dupont <br/> de Becode</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
-            </div>
+         
          </div>
       
 		  </div>  
-	    <div class="col-ms-3 TechSecondRight">
-	      <h5>Un projet ?</h5>
-	      <div class="btn btn_info">Nous Contacter</div>
-	      <img src="../img/libelulle_transparente.png" alt="libellule">
-	    </div>
 	
       
     </div>  
+
+  </div>
   <!-- fin row-->
 </div>
 
@@ -123,45 +119,10 @@
         </div>
   </div>
 </div>  
-<div class="container" id="TechForth">
-  <div class="row">
-    <!-- projet-->
-     <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-        </div>
-    </div>
-    <!-- fin projet-->
-    <!-- projet-->
-     <div class="col-sm-5 col-md-offset-1">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-        </div>
-    </div>
-    <!-- fin projet-->
-    <!-- projet-->
-     <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-        </div>
-    </div>
-    <!-- fin projet-->
 
-  </div>
-</div>
- 
+
+
+
 
 
 <footer>

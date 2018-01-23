@@ -18,7 +18,7 @@
 					
 				</div>
 	    </div>
-	    <a href="http://www.4wings.org" target="blank">www.4wings.org</a> &copy; <?php echo date("Y"); ?>
+	    <a href="http://www.4wings.org" target="blank">www.4wings.org</a> &copy; <?php echo date("Y"); ?> l <a href="">Mentions légales</a>
 	</div>
 
 
