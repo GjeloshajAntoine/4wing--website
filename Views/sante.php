@@ -85,6 +85,9 @@
  <!-- Row -->
     <div class="row">
 	  	<div class="col-sm-9">
+        <div class="ImageHeader">
+          <img src="../img/img_header_sante.png" alt="imgHeader">
+        </div>
 		    <div class="TechFirst">
 		      <p>Pauvreté, santé et alimentation sont fortement correlés. En Belgique, prés d'un tiers de la population est en surcharge pondérale et une personne sur cinq est menacée de malnutrition.</p>
           <h2>Une alimentation de qualité et une activité physique régulière sont des vecteurs importants de la santé.</h2>
@@ -117,7 +120,9 @@
   </div>
 </div>
 <div class="container" id="TechForth">
-  <img src="../img/libellule.png" alt="libelluleLogo">
+  <div class="ImageGauche">
+    <img src="../img/libelulle.png" alt="libelulleLogo" width="200px" height="150px">
+  </div>
   <div class="row">
     <!-- projet-->
      <div class="col-sm-5">

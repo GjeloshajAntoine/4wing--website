@@ -16,9 +16,14 @@
       margin-bottom: 10%;
     }
   }
+  .ImageHeader {
+    position: absolute;
+    right: -34%;
+    top: -19%;
+  }
   .TechSecond {
-    padding-top: 7.5%;
-    height: 400px;
+    padding-top: 16%;
+    height: 493px;
     color: #00338d;
     margin: 0 0;
     p {
@@ -43,11 +48,13 @@
 
     img {
       float: right;
+      padding-top: 1%;
     }
 
   }
   .TechSecondRight {
-    min-height: 791px;
+    height: 100%;
+    margin-top: -1%;
   }
 
 }
@@ -74,5 +81,10 @@
     font-size: 1.2em;
     }
   }
+  img{
+    position: absolute;
+    left: 3%;
+    top: 165%;
+}
 }
 }

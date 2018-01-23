@@ -38,14 +38,15 @@
 }
 /* line 37, ../sass/logement.scss */
 #log #TechForth .col-sm-5 {
-  width: 50%;
+  width: 46%;
+  margin-right: 4%;
 }
-/* line 40, ../sass/logement.scss */
+/* line 41, ../sass/logement.scss */
 #log #TechForth .image {
   border-left: 6px solid #db4d69;
   background-image: url("../img/logement.png");
 }
-/* line 44, ../sass/logement.scss */
+/* line 45, ../sass/logement.scss */
 #log #TechForth p {
   font-size: 1.2em;
 }
