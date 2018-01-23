@@ -9,37 +9,13 @@
 <body>
     
 
-<a href="#">   <?= $name ?>   </a>
 
-
-
-
-    <!-- <?php $ctr=0; foreach (($coffee?:[]) as $coffee): $ctr++; ?>
-        <p class="<?= $ctr%2?'odd':'even' ?>"><?= trim($coffee) ?></p>
-    <?php endforeach; ?> -->
     
-    <?php $ctr=0; foreach (($coffee?:[]) as $coffee): $ctr++; ?>
-        <p class="<?= $ctr%2?'odd':'even' ?>"><?= trim($coffee) ?></p>
+    <?php $ctr=0; foreach (($pageliste?:[]) as $coffee): $ctr++; ?>
+        <a href="/admin/tradpage/<?= trim($coffee['page_name']) ?>/fr" class="<?= $ctr%2?'odd':'even' ?>"><?= trim($coffee['page_name']) ?></a>
     <?php endforeach; ?> 
 
-    <div>
-        <p><span><b>coffee</b></span></p>
-        <p>
-            <span>arabica</span>
-            <span>barako</span>
-            <span>liberica</span>
-            <span>kopiluwak</span>
-        <p>
-    </div>
-    <div>
-        <p><span><b>tea</b></span></p>
-        <p>
-            <span>darjeeling</span>
-            <span>pekoe</span>
-            <span>samovar</span>
-        </p>
-    </div>
-
+  
    
 
 </body>

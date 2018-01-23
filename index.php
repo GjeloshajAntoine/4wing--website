@@ -61,35 +61,20 @@ $f3->route('GET /admin',function ($f3,$params) {
 });
 
 
+
 //page admin traduc
 
 $f3->route('GET /admin/list_page_trad',function ($f3) {
- 
-  $f3->set('name','fr');
+  include "model/page.php";
+
+//var_dump(get_page_trad_list());
+
+  $f3->set('pageliste',get_page_trad_list());
   echo Template::instance()->render('Views/list_page_trad.html');
-  $f3->set('name','nl');
-  echo Template::instance()->render('Views/list_page_trad.html');
-  $f3->set('name','an');
-  echo Template::instance()->render('Views/list_page_trad.html');
+
 
 
 });
-$f3->set('div',
-array(
-    'coffee'=>array('arabica','barako','liberica','kopiluwak'),
-    'tea'=>array('darjeeling','pekoe','samovar')
-)
-
-);
-
-
-
-
-
-
-
-
-
 
 
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
