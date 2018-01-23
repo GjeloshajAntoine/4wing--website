@@ -89,13 +89,13 @@
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    </div>
         <div class="TechSecond">
+          <div class="TechSecondTexte">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          <h5>Arnold Dupont <br/> de Becode</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
-            </div>
-         </div>
+            <h5>Arnold Dupont <br/> de Becode</h5>
+            <img src="../img/femme2.png" alt="femme">
+          </div>
+        </div>
 
 		  </div>
 	    <div class="col-ms-3 TechSecondRight">
@@ -126,7 +126,7 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth row">
-          <div class="image col-3">lol</div>
+          <div class="image col-3"></div>
           <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -137,7 +137,7 @@
     <!-- projet-->
      <div class="col-sm-5 col-md-offset-1">
         <div class="TechForth row">
-          <div class="image col-3">lol</div>
+          <div class="image col-3"></div>
           <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -148,7 +148,7 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth row">
-          <div class="image col-3">lol</div>
+          <div class="image col-3"></div>
           <div class="rubrique  col-9">
             <h4> <a href="">Becode</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>

@@ -90,11 +90,9 @@
           <h2>Une alimentation de qualité et une activité physique régulière sont des vecteurs importants de la santé.</h2>
 		    </div>
         <div class="TechSecond">
+          <img src="../img/femme2.png" alt="femme">
           <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
           <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
-          <div class="TechSecond">
-            <img src="../img/femme2.png" alt="femme">
-          </div>
         </div>
 		  </div>
 	    <div class="col-ms-3 TechSecondRight">
@@ -119,13 +117,13 @@
   </div>
 </div>
 <div class="container" id="TechForth">
-
+  <img src="../img/libellule.png" alt="libelluleLogo">
   <div class="row">
     <!-- projet-->
      <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-          <div class="rubrique">
+       <div class="TechForth row">
+         <div class="image col-3"></div>
+         <div class="rubrique  col-9">
             <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
@@ -134,9 +132,9 @@
     <!-- fin projet-->
     <!-- projet-->
      <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-          <div class="rubrique">
+       <div class="TechForth row">
+         <div class="image col-3"></div>
+         <div class="rubrique  col-9">
             <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
@@ -145,36 +143,36 @@
     <!-- fin projet-->
     <!-- projet-->
      <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-          <div class="rubrique">
+       <div class="TechForth row">
+         <div class="image col-3"></div>
+         <div class="rubrique  col-9">
             <h4> <a href="">Santé</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
     </div>
     <div class="col-sm-5">
-       <div class="TechForth">
-         <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-         <div class="rubrique">
+      <div class="TechForth row">
+        <div class="image col-3"></div>
+        <div class="rubrique  col-9">
            <h4> <a href="">Santé</a> </h4>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
          </div>
        </div>
    </div>
    <div class="col-sm-5">
-      <div class="TechForth">
-        <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-        <div class="rubrique">
+     <div class="TechForth row">
+       <div class="image col-3"></div>
+       <div class="rubrique  col-9">
           <h4> <a href="">Santé</a> </h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
       </div>
   </div>
   <div class="col-sm-5">
-     <div class="TechForth">
-       <a href=""><img src="../img/logement.png" alt="logo becode"></a>
-       <div class="rubrique">
+    <div class="TechForth row">
+      <div class="image col-3"></div>
+      <div class="rubrique  col-9">
          <h4> <a href="">Santé</a> </h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
        </div>

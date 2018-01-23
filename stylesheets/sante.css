@@ -12,24 +12,69 @@
   font-size: 106px;
 }
 /* line 13, ../sass/sante.scss */
+#sante #TechEd .TechFirst {
+  margin-top: 5%;
+}
+/* line 15, ../sass/sante.scss */
+#sante #TechEd .TechFirst h2 {
+  margin-bottom: 10%;
+}
+/* line 19, ../sass/sante.scss */
 #sante #TechEd .TechSecond {
-  margin-top: 10%;
-  padding-top: 3%;
+  padding-top: 7.5%;
+  height: 400px;
+  color: #00338d;
+  margin: 0 0;
 }
-/* line 16, ../sass/sante.scss */
+/* line 24, ../sass/sante.scss */
+#sante #TechEd .TechSecond p {
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+/* line 28, ../sass/sante.scss */
+#sante #TechEd .TechSecond p::before {
+  content: "<<";
+  font-size: 4em;
+}
+/* line 33, ../sass/sante.scss */
+#sante #TechEd .TechSecond p::after {
+  content: ">>";
+  font-size: 2em;
+}
+/* line 38, ../sass/sante.scss */
+#sante #TechEd .TechSecond h5 {
+  text-align: right;
+  margin-right: 215px;
+  padding-top: 15%;
+}
+/* line 44, ../sass/sante.scss */
 #sante #TechEd .TechSecond img {
-  margin-top: -325px;
+  float: right;
 }
-/* line 23, ../sass/sante.scss */
+/* line 49, ../sass/sante.scss */
+#sante #TechEd .TechSecondRight {
+  min-height: 791px;
+}
+/* line 55, ../sass/sante.scss */
 #sante #TechThird .TechThird {
   background-color: #AADBDB;
 }
-/* line 26, ../sass/sante.scss */
+/* line 58, ../sass/sante.scss */
 #sante #TechThird .icon-home-outline {
   padding-top: 10%;
 }
-/* line 31, ../sass/sante.scss */
-#sante #TechForth img {
+/* line 63, ../sass/sante.scss */
+#sante #TechForth .col-sm-5 {
+  width: 46%;
+  margin-bottom: 5%;
+  margin-right: 4%;
+}
+/* line 68, ../sass/sante.scss */
+#sante #TechForth .image {
   border-left: 6px solid #AADBDB;
-  background-image: url("logement.png");
+  background-image: url("../img/sante.png");
+}
+/* line 73, ../sass/sante.scss */
+#sante #TechForth .TechForth p {
+  font-size: 1.2em;
 }

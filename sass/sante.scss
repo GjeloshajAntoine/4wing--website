@@ -10,12 +10,44 @@
   .icon-home-outline {
       font-size: 106px;
   }
-  .TechSecond {
-    margin-top: 10%;
-    padding-top: 3%;
-    img {
-      margin-top: -325px;
+  .TechFirst{
+    margin-top: 5%;
+    h2 {
+      margin-bottom: 10%;
     }
+  }
+  .TechSecond {
+    padding-top: 7.5%;
+    height: 400px;
+    color: #00338d;
+    margin: 0 0;
+    p {
+      font-size: 1.8em;
+      line-height: 1.5em;
+    }
+    p::before {
+      content: "<<";
+      font-size: 4em;
+
+    }
+    p::after {
+      content: ">>";
+      font-size: 2em;
+    }
+
+    h5{
+      text-align: right;
+      margin-right: 215px;
+      padding-top: 15%
+   }
+
+    img {
+      float: right;
+    }
+
+  }
+  .TechSecondRight {
+    min-height: 791px;
   }
 
 }
@@ -28,9 +60,19 @@
   }
 }
 #TechForth {
-  img {
+  .col-sm-5 {
+    width: 46%;
+    margin-bottom: 5%;
+    margin-right: 4%;
+  }
+  .image {
     border-left: 6px solid #AADBDB;
-    background-image:url("logement.png");
+    background-image:url("../img/sante.png");
+  }
+  .TechForth {
+    p{
+    font-size: 1.2em;
+    }
   }
 }
 }

@@ -19,27 +19,33 @@
 #log #TechEd .TechSecond img {
   margin-top: -325px;
 }
-/* line 22, ../sass/logement.scss */
+/* line 18, ../sass/logement.scss */
+#log #TechEd .TechSecond p {
+  font-size: 1.2em;
+}
+/* line 25, ../sass/logement.scss */
 #log #TechThird .TechThird {
   background-color: #db4d69;
-  border-top: 3px solid #bbb;
-  border-bottom: 3px solid #bbb;
 }
-/* line 27, ../sass/logement.scss */
+/* line 28, ../sass/logement.scss */
 #log #TechThird .col-sm-1 {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-/* line 31, ../sass/logement.scss */
+/* line 32, ../sass/logement.scss */
 #log #TechThird .icon-home-outline {
   padding-top: 10%;
 }
-/* line 36, ../sass/logement.scss */
+/* line 37, ../sass/logement.scss */
 #log #TechForth .col-sm-5 {
   width: 50%;
 }
-/* line 39, ../sass/logement.scss */
-#log #TechForth img {
+/* line 40, ../sass/logement.scss */
+#log #TechForth .image {
   border-left: 6px solid #db4d69;
-  background-image: url("logement.png");
+  background-image: url("../img/logement.png");
+}
+/* line 44, ../sass/logement.scss */
+#log #TechForth p {
+  font-size: 1.2em;
 }

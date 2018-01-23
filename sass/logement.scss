@@ -15,14 +15,15 @@
     img {
       margin-top: -325px;
     }
+    p{
+      font-size: 1.2em;
+    }
   }
 
 }
 #TechThird {
   .TechThird {
     background-color: #db4d69;
-    border-top: 3px solid #bbb;
-    border-bottom: 3px solid #bbb;
   }
   .col-sm-1 {
     margin-top: 1%;
@@ -36,9 +37,12 @@
   .col-sm-5 {
     width: 50%;
   }
-  img {
+  .image {
     border-left: 6px solid #db4d69;
-    background-image:url("logement.png");
+    background-image:url("../img/logement.png");
+  }
+  p{
+    font-size: 1.2em;
   }
 }
 
