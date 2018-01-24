@@ -63,7 +63,7 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les projets <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="logement.php">Logement</a></li>
-                        <li><a href="tech_educations.php">Tech Éducation</a></li>
+                        <li><a href="tech_education.php">Tech Éducation</a></li>
                         <li><a href="sante_nutrition.php">Santé et nutrition</a></li>
                       </ul>
                 </li>
@@ -74,6 +74,7 @@
         </div>
       </nav>
     </header>
+<!-- Titre de la page -->
   <div class="container projet">
     <div class="row" >
       <div class="col-sm-2"> <span class="icon-monitor"></span></div>
@@ -81,49 +82,59 @@
         <h1>BeCode</h1>
       </div>
     </div>
+  </div>
+<!-- Fin titre de la page -->
 
- <!-- Row -->
- <div class="TechThird projet">
-    <div class="container ">
-	  	<div class="row">
-		    <div class=" col-sm-4">
+</div>
+
+ <!-- Partie haute bleue -->
+<div class="TechThird">
+  
+  <div class="container">
+
+    <div class="row">
+
+        <div class=" col-sm-4">
           <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
-		      <h2>Lire, écrire, compter et machin</h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		    </div>
-        <div class=" col-sm-8">
+            <p class="intro">
+            BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
-          <p> <span class="lettrine1">"</span> Slider<span class="lettrine2"> " </span>
-            </p>
-         
+          <button class="btn btn_success">Visiter le site</button>
+          </p>
+        </div>
+        <div class=" col-sm-8">
+            <div class="slider">
+              <img src="../img/cypcorp.jpeg" class="image_reponsive" alt="logo becode" >
+              <span class="legende">Becode Legende</span>
+            </div>
          </div>
       
-		  </div>  
-	
-      
-    </div>  
+      </div>  
 
-  </div>
-  <!-- fin row-->
-</div>
+  </div> 
 
 </div>
+<!-- Fin partie haute bleue -->
 
-<div class="TechThird">
-  <div class="container">
-         <div class="row" >
-          <div class="col-sm-1"> <span class="icon-monitor"> </span></div>
-          <div class="TechEducation col-sm-11">
-            <h3>Les projets Tech - Education</h3>
+<!-- Titre de la page -->
+<div class="container projet">
+    <div class="row" >
+      <div class="col-sm-1"> <span class="icon-monitor icon2"></span></div>
+      <div class="col-sm-11"> <h2>Le projet </h2></div>
+    </div>
+    <div class="row">
+          <div class="col-sm-8">
+            BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+
+          <div>
+          <div class="col-sm-3">
+            <h4>colonne 2</h4>
           </div>
-        </div>
+
+      </div>
+    </div>
   </div>
-</div>  
-
-
-
-
-
+</div>
 
 <footer>
   <br>

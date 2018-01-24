@@ -62,7 +62,7 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Les projets <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="logement.php">Logement</a></li>
-                        <li><a href="tech_educations.php">Tech Éducation</a></li>
+                        <li><a href="tech_education.php">Tech Éducation</a></li>
                         <li><a href="sante_nutrition.php">Santé et nutrition</a></li>
                       </ul>
                 </li>
@@ -78,7 +78,7 @@
       <div class="col-sm-2"> <span class="icon-monitor"></span></div>
       <div class="TechEducation col-sm-10">
         <h1>Tech - Education</h1>
-        <span>Programmer le cadre de machin et machin</span>
+        <span>Programmer le cercle vertueux &nbsp; de l'inclusion</span>
       </div>
     </div>
 
@@ -86,8 +86,8 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et machin</h2>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		      <h2>Lire, écrire, compter et coder.</h2>
+		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
 		    </div>
         <div class="TechSecond">
             
@@ -128,36 +128,19 @@
     <!-- projet-->
      <div class="col-sm-5">
         <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
+          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
           <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h4> <a href="projet.php">Becode</a> </h4>
+            <p>BeCode est une start-up à impact social
+                élevé qui, inspirée par le modèle français
+                de Simplon, vise à développer le talent de
+                jeunes infra-qualifiés pour leur permettre
+                de devenir les développeurs de demain.</p>
           </div>
         </div>
     </div>
     <!-- fin projet-->
-    <!-- projet-->
-     <div class="col-sm-5 col-md-offset-1">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-        </div>
-    </div>
-    <!-- fin projet-->
-    <!-- projet-->
-     <div class="col-sm-5">
-        <div class="TechForth">
-          <a href=""><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="">Becode</a> </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-        </div>
-    </div>
-    <!-- fin projet-->
+    
 
   </div>
 </div>
