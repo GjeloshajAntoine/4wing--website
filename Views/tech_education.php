@@ -126,7 +126,21 @@
 <div class="container" id="TechForth">
   <div class="row">
     <!-- projet-->
-     <div class="col-sm-5">
+     <div class="col-sm-12 col-md-6">
+        <div class="TechForth">
+          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
+          <div class="rubrique">
+            <h4> <a href="projet.php">Becode</a> </h4>
+            <p>BeCode est une start-up à impact social
+                élevé qui, inspirée par le modèle français
+                de Simplon, vise à développer le talent de
+                jeunes infra-qualifiés pour leur permettre
+                de devenir les développeurs de demain.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
         <div class="TechForth">
           <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
           <div class="rubrique">

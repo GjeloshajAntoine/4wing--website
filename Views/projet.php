@@ -77,8 +77,8 @@
 <!-- Titre de la page -->
   <div class="container projet">
     <div class="row" >
-      <div class="col-sm-2"> <span class="icon-monitor"></span></div>
-      <div class=" col-sm-10">
+      <div class="col-sm-12"> <span class="icon-monitor"></span>
+
         <h1>BeCode</h1>
       </div>
     </div>
@@ -88,13 +88,13 @@
 </div>
 
  <!-- Partie haute bleue -->
-<div class="TechThird">
+<div class="TechThird pageProjet">
   
   <div class="container">
 
     <div class="row">
 
-        <div class=" col-sm-4">
+        <div class=" col-md-4 col-sm-12">
           <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
             <p class="intro">
             BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
@@ -102,7 +102,7 @@
           <button class="btn btn_success">Visiter le site</button>
           </p>
         </div>
-        <div class=" col-sm-8">
+        <div class=" col-md-8 col-sm-12">
             <div class="slider">
               <img src="../img/cypcorp.jpeg" class="image_reponsive" alt="logo becode" >
               <span class="legende">Becode Legende</span>
@@ -118,23 +118,54 @@
 
 <!-- Titre de la page -->
 <div class="container projet">
-    <div class="row" >
-      <div class="col-sm-1"> <span class="icon-monitor icon2"></span></div>
-      <div class="col-sm-11"> <h2>Le projet </h2></div>
-    </div>
-    <div class="row">
-          <div class="col-sm-8">
-            BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+      <div class="row" >
+          <div class="col-sm-12">
+                <div class="col-sm-12 col-md-9 texte">
+                   
+          <div class="col-sm-12"><span class="icon-monitor icon2"></span><h2>Le projet </h2></div>
+                   <p>BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+                  </p>
+                  
+          <div class="col-sm-12"><span class="icon-monitor icon2"></span><h2>Notre soutien </h2></div>
+                  <p>La Fondation soutient le projet BeCode, pour sa vision et sa volonté de promouvoir l’insertion sociale de publics fragilisés par la réplication d’un modèle étranger ayant produit de très bons résultats.
+                  Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital.
+                  La Fondation 4WINGS est un des par- tenaires co-fondateurs et membre du Conseil d’Administration. à ce titre, la Fondation s’implique étroitement à chaque étape de développement du projet et fournit tant une guidance stratégique qu’un soutien financier.
+                  <br>
+                  </p>
+                </div>
 
-          <div>
-          <div class="col-sm-3">
-            <h4>colonne 2</h4>
+            <div class="col-sm-12 col-md-3">
+            <h4>Parrainage</h4>
+              <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+              <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+               <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+               
+         
           </div>
 
-      </div>
-    </div>
-  </div>
+
+          </div>
+     
+          
 </div>
+</div>
+<!-- Fin de la page -->
+
 
 <footer>
   <br>

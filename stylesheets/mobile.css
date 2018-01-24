@@ -280,11 +280,51 @@
   }
 
   /* line 272, ../sass/mobile.scss */
-  section .container .row {
-    margin: 24px;
-    margin-top: 24px;
-    padding: -15px;
-    margin-top: 6px;
-    text-align: justify;
-  }
+    section .container .row {
+      margin: 24px;
+      margin-top: 24px;
+      padding: -15px;
+      margin-top: 6px;
+      text-align: justify;
+
+    }
+
+  /* page projet */
+   .projet .icon-monitor{
+        font-size: 30px;
+     }
+
+    .projet  h2 {
+    text-align: left;
+    }
+
+    .projet h1 {
+   
+         margin-left: 0px;
+    }
+
+    .container .row .texte {
+      padding-right: 10px;
+    }
+
+    .container .row .col-md-8{
+
+        padding-right: 0px;
+        padding-left: 0px;
+        position: inherit;
+
+    }
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+      position: inherit;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      }
+    .container .row .slider{
+        background-color: none;
+        display: table-row-group;
+    }
+
+
+
 }

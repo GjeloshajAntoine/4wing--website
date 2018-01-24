@@ -3,6 +3,10 @@
   background-color: #00338d;
   color: white;
 }
+
+.pageProjet {
+    margin-top: 15px;
+}
 /* line 7, ../sass/projet.scss */
 .projet .bleufonce p {
   font-size: 20px;
@@ -44,6 +48,7 @@
    line-height: auto;
    padding-bottom: 5px;
    text-align: center;
+   z-index: 500;
     }
 
 .container .row .slider{
@@ -53,11 +58,11 @@
     display: block;
     padding : 15px;
     text-align: center;
+    z-index: -1;
 }
 
 .container .row .slider img {
-    width: 650px;
-    height: 450px;   
+    width: 100%;  
 }
 
 
@@ -88,14 +93,70 @@
     font-size: 1.2em;
 }
 
-.col-sm-8{
-   
-    padding-right: 0px;
+.col-sm-3 {
+    width: 25%;
+    padding-top: 50px;
 }
 h2 {
    
    font-family: 'misoregular';
     color: #00338d;
-    font-size: 3em;
+    font-size: 2.2em;
+
 }
 
+
+.container .row  .texte {
+   font-family: 'montserratregular';
+   font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+   }
+
+
+.projet .row  h4 {
+   font-family: 'misoregular';
+   font-size: 40px;
+   color: #AADBDB;
+   display: block;
+
+   }
+
+.projet .row .name {
+   color: #00338d;
+   font-size: 20px;
+   font-weight: bold;
+   display: block;
+   margin-bottom: 10px;
+
+   }
+.projet .row .function {
+   color: 
+   font-size: 20px;
+   font-weight: bold;
+   display: block;
+   margin-bottom: 10px;
+
+
+  }
+.perso {  
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AADBDB;
+
+  }
+
+ .icon-monitor::before {
+    content: "\e902";
+    width: 47px;
+    float: left;
+  }
+
+.projet h1 {
+   
+         margin-left: 150px;
+    }
