@@ -2,7 +2,7 @@
 				<div class="ca-wrapper">
 					<div class="ca-item ca-item-1">
 						<div class="ca-item-main bleuclair">
-							<h3><span class="icon-leaf ">  </span>Projet santé</h3>
+							<h3><span class="icon-leaf" >  </span>Projet santé</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil veniam labore, ad commodi dolorem fugit pariatur corporis perferendis tempora, quia eligendi, atque blanditiis vitae amet quisquam. Eaque nisi facilis minus.
 							<p><button class="btn">En savoir plus</button></p></p>
 								

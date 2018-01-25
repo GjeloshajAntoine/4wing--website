@@ -325,6 +325,9 @@
         display: table-row-group;
     }
 
-
+    .projet .container .row .col-md-3 {
+    width: 25%;
+    padding-top: 50px;
+    }
 
 }

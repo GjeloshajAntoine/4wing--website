@@ -22,6 +22,7 @@
 
   <link rel="stylesheet" href="../stylesheets/index.css">
   <link rel="stylesheet" href="../stylesheets/tech.css">
+  <link rel="stylesheet" href="../stylesheets/projet_logement.css">
   <link rel="stylesheet" href="../stylesheets/footer.css">
   <link rel="stylesheet" href="../stylesheets/icomoon.css">
   <link rel="stylesheet" href="../stylesheets/nav.css">
@@ -73,92 +74,96 @@
         </div>
       </nav>
     </header>
-  <div class="container" id="TechEd">
-    <div class="row header" >
-      <div class="col-sm-2"> <span class="icon-monitor"></span></div>
-      <div class="TechEducation col-sm-10">
-        <h1>Tech - Education</h1>
-        <span>Programmer le cercle vertueux &nbsp; de l'inclusion</span>
+<!-- Titre de la page -->
+  <div class="container projet">
+    <div class="row" >
+      <div class="col-sm-12"> <span class="icon-home-outline"></span>
+
+        <h1>Titre projet logement</h1>
       </div>
     </div>
+  </div>
+<!-- Fin titre de la page -->
 
- <!-- Row -->
+</div>
+
+ <!-- Partie haute bleue -->
+<div class="projetLogement pageProjet">
+  
+  <div class="container">
+
     <div class="row">
-	  	<div class="col-sm-9">
-		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder.</h2>
-		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
-		    </div>
-        <div class="TechSecond">
+
+        <div class=" col-md-4 col-sm-12">
+          <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
+            <p class="intro">
+            BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
-          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
-            </p>
-          <h5>Arnold Dupont <br/> de Becode</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
+          <a class="btn btn_success" href="http://www.becode.org/" target="blank">Visiter le site</a>
+          </p>
+        </div>
+        <div class=" col-md-8 col-sm-12">
+            <div class="slider">
+              <?php require_once("slider_projet.php") ?>
             </div>
          </div>
       
-		  </div>  
-	    <div class="col-ms-3 TechSecondRight">
-	      <h5>Un projet ?</h5>
-	      <div class="btn btn_info">Nous Contacter</div>
-	      <img src="../img/libelulle_transparente.png" alt="libellule">
-	    </div>
-	
-      
-    </div>  
-  <!-- fin row-->
-</div>
+      </div>  
+
+  </div> 
 
 </div>
+<!-- Fin partie haute bleue -->
 
-<div class="TechThird">
-  <div class="container">
-         <div class="row" >
-          <div class="col-sm-1"> <span class="icon-monitor"> </span></div>
-          <div class="TechEducation col-sm-11">
-            <h3>Les projets Tech - Education</h3>
-          </div>
-        </div>
-  </div>
-</div>  
-<div class="container" id="TechForth">
-  <div class="row">
-    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth">
-          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-    </div>
+<!-- Titre de la page -->
+<div class="container projet">
+      <div class="row" >
+          <div class="col-sm-12">
+                <div class="col-sm-12 col-md-9 texte">
+                   
+          <div class="col-sm-12"><span class="icon-home-outline icon2"></span><h2>Le projet </h2></div>
+                   <p>BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+                  </p>
+                  
+          <div class="col-sm-12"><span class="icon-home-outline icon2"></span><h2>Notre soutien </h2></div>
+                  <p>La Fondation soutient le projet BeCode, pour sa vision et sa volonté de promouvoir l’insertion sociale de publics fragilisés par la réplication d’un modèle étranger ayant produit de très bons résultats.
+                  Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital.
+                  La Fondation 4WINGS est un des par- tenaires co-fondateurs et membre du Conseil d’Administration. à ce titre, la Fondation s’implique étroitement à chaque étape de développement du projet et fournit tant une guidance stratégique qu’un soutien financier.
+                  <br>
+                  </p>
+                </div>
 
-    <div class="col-sm-12 col-md-6">
-        <div class="TechForth">
-          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
-          <div class="rubrique">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
+            <div class="col-sm-12 col-md-3">
+            <h4>Parrainage</h4>
+              <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+              <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+               <div class="perso">
+                  <span class="name">Matthieu NomDeMatthieu</span>
+                  <span class="function">Fonction de Matthieu</span>
+                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
+                  </span>
+              </div>
+               
+         
           </div>
-        </div>
-    </div>
-    <!-- fin projet-->
-    
 
-  </div>
+
+          </div>
+     
+          
 </div>
- 
+</div>
+<!-- Fin de la page -->
 
 
 <footer>

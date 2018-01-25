@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.jscrollpane.css" media="all" />
 
   <link rel="stylesheet" href="../stylesheets/index.css">
-  <link rel="stylesheet" href="../stylesheets/tech.css">
+  <link rel="stylesheet" href="../stylesheets/projet_tech.css">
   <link rel="stylesheet" href="../stylesheets/projet.css">
   <link rel="stylesheet" href="../stylesheets/footer.css">
   <link rel="stylesheet" href="../stylesheets/icomoon.css">
@@ -88,7 +88,7 @@
 </div>
 
  <!-- Partie haute bleue -->
-<div class="TechThird pageProjet">
+<div class="projet_tech pageProjet">
   
   <div class="container">
 
@@ -99,13 +99,12 @@
             <p class="intro">
             BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
-          <button class="btn btn_success">Visiter le site</button>
+          <a class="btn btn_success" href="http://www.becode.org/" target="blank">Visiter le site</a>
           </p>
         </div>
         <div class=" col-md-8 col-sm-12">
             <div class="slider">
-              <img src="../img/cypcorp.jpeg" class="image_reponsive" alt="logo becode" >
-              <span class="legende">Becode Legende</span>
+              <?php require_once("slider_projet.php") ?>
             </div>
          </div>
       
