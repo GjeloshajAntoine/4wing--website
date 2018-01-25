@@ -62,7 +62,47 @@ $f3->route('GET /admin',function ($f3,$params) {
 $f3->route('GET /admin/listpagetrad',function ($f3,$params) {
 
 });
-$f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
+$f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
+  include 'model/page.php';
+  if (!isset($params['lg'])) {
+    $lg="fr";
+  }else{
+    $lg=$params['lg'];
+  }
+  $all_trad=get_trad_page($params['pagename'],$lg);
+  $f3->set('all_trad',$all_trad);
+  $f3->set('lg',$lg);
+  $f3->set('pagename',$params['pagename']);
+
+  echo \Template::instance()->render('Views/traductions_list_page.html');
+  //print_r($all_trad);
+  for ($i=0; $i <count($all_trad) ; $i++) {
+    echo "<br/>";
+    echo "id:".$all_trad[$i]['id']." string_origin: ".$all_trad[$i]['string_origin']." trad :".$all_trad[$i]['string_trad'];
+  }
+});
+$f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) {
+    include 'model/page.php';
+    print_r($_POST);
+    set_trad_page($_POST);
+    $f3->reroute('/admin/tradpage/@pagename/@lg');
+});
+
+
+$f3->route('GET /admin/list_projet',function ($f3,$params) {
 
 });
+$f3->route('GET /admin/projet/@id',function ($f3,$params) {
+
+});
+$f3->route('POST /admin/projet/@id/editdata',function ($f3,$params) {
+
+});
+$f3->route('GET /admin/projet/create',function ($f3,$params) {
+
+});
+$f3->route('POST /admin/projet/create_data',function ($f3,$params) {
+
+});
+
 $f3->run();
