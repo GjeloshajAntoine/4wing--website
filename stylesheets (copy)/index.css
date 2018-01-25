@@ -1,0 +1,353 @@
+@font-face {
+  font-family: 'misoregular';
+  src: url("../fonts/miso-webfont.woff2") format("woff2"), url("../fonts/miso-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 37, ../sass/index.scss */
+body {
+  font-family: 'montserratregular';
+  color: #564026;
+}
+
+/* line 42, ../sass/index.scss */
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 49, ../sass/index.scss */
+.marron {
+  color: #564026;
+}
+
+/* line 56, ../sass/index.scss */
+.container .row {
+  margin: 0px;
+  padding: 0px;
+}
+/* line 60, ../sass/index.scss */
+.container .row .intro {
+  font-family: 'montserratregular';
+  color: #564026;
+  font-size: 1.2em;
+  line-height: 2em;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 73, ../sass/index.scss */
+.container section {
+  padding: 0px;
+}
+/* line 76, ../sass/index.scss */
+.container section .libellule {
+  width: 100px;
+  height: 79px;
+  background-image: url("../img/libellule_bleue.png");
+  margin-top: 100px;
+  margin-left: 20px;
+  transform: rotate(-17deg);
+}
+/* line 90, ../sass/index.scss */
+.container h1 {
+  font-family: 'misoregular';
+  color: #00338d;
+  font-size: 3em;
+}
+
+/* line 99, ../sass/index.scss */
+.contenu {
+  margin: auto;
+}
+/* line 103, ../sass/index.scss */
+.contenu header {
+  height: 120px;
+  width: 100%;
+  background-color: #00338d;
+  border-bottom: 5px solid #bbb;
+  z-index: 100;
+  display: block;
+}
+/* line 112, ../sass/index.scss */
+.contenu header .logo {
+  float: left;
+  padding: 14px 0px 15px 35px;
+}
+/* line 119, ../sass/index.scss */
+.contenu header .navbar-header {
+  float: none;
+}
+/* line 123, ../sass/index.scss */
+.contenu header .navbar-right {
+  float: right !important;
+  margin-right: 0px;
+}
+/* line 128, ../sass/index.scss */
+.contenu header nav ul {
+  font-family: 'misoregular';
+  color: #00338d;
+  margin-top: 40px;
+  background-color: white;
+}
+/* line 134, ../sass/index.scss */
+.contenu header nav ul .menu {
+  width: 181px;
+}
+/* line 137, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(1) {
+  border-bottom: 5px solid #8791a4;
+}
+/* line 140, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(2) {
+  border-bottom: 5px solid #AADBDB;
+}
+/* line 143, ../sass/index.scss */
+.contenu header nav ul .menu:nth-child(3) {
+  border-bottom: 5px solid #db4d69;
+}
+/* line 150, ../sass/index.scss */
+.contenu header nav ul .menu a {
+  font-size: 18pt;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  color: #00338d;
+}
+/* line 159, ../sass/index.scss */
+.contenu header nav ul .menu .dropdown-menu {
+  background-color: #f6f3ed;
+  width: 280px;
+  font-family: 'montserratregular';
+  padding: 15px;
+}
+/* line 167, ../sass/index.scss */
+.contenu header nav ul .menu .dropdown-menu a {
+  color: #564026;
+  text-transform: initial;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+/* line 181, ../sass/index.scss */
+.contenu header nav ul .menu .dropdown-menu a:hover {
+  color: #db4d69;
+  border-bottom: 5px solid #db4d69;
+}
+/* line 195, ../sass/index.scss */
+.contenu header nav ul .menu .nav .open > a, .contenu header nav ul .menu .nav .open > a:focus, .contenu header nav ul .menu .nav .open > a:hover {
+  background-color: #f6f3ed;
+  border-color: #f6f3ed;
+}
+
+/* line 210, ../sass/index.scss */
+.header {
+  height: 120px;
+  width: 100%;
+  display: inline-block;
+  background-color: #00338d;
+  border-bottom: 5px solid #bbb;
+  z-index: 1000;
+}
+
+/* line 225, ../sass/index.scss */
+section .axes {
+  background-color: #AADBDB;
+  height: 650px;
+  flex-wrap: nowrap;
+  text-shadow: 1px 1px 1px #6a6a6a;
+}
+/* line 232, ../sass/index.scss */
+section .axes .axe {
+  width: 33.333%;
+  height: 650px;
+  float: left;
+  color: white;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+/* line 242, ../sass/index.scss */
+section .axes .axe div img {
+  height: 460px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 246, ../sass/index.scss */
+section .axes .axe div img:hover {
+  opacity: 0.8;
+}
+/* line 251, ../sass/index.scss */
+section .axes .axe:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 1px 2px 3px white;
+  -moz-box-shadow: 0px 1px 2px 3px white;
+  box-shadow: 0px 1px 2px 3px white;
+}
+/* line 263, ../sass/index.scss */
+section .axes h2 {
+  font-family: 'misoregular';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 270, ../sass/index.scss */
+section .axes h2 a:hover {
+  color: white;
+}
+/* line 276, ../sass/index.scss */
+section .axes h3 {
+  font-family: 'misoregular';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 284, ../sass/index.scss */
+section .axes p {
+  font-family: 'montserratregular';
+  font-size: 1.2em;
+  margin-top: 0px;
+}
+/* line 291, ../sass/index.scss */
+section .axes .logement {
+  border-top: 5px solid #db4d69;
+  background-color: #db4d69;
+}
+/* line 296, ../sass/index.scss */
+section .axes .logement h2 {
+  font-size: 5.2em;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+/* line 303, ../sass/index.scss */
+section .axes .logement p {
+  font-size: 1.3em;
+  margin-top: 0px;
+}
+/* line 310, ../sass/index.scss */
+section .axes .education {
+  border-top: 5px solid #00338d;
+  background-color: #00338d;
+}
+/* line 315, ../sass/index.scss */
+section .axes .education h2 {
+  font-size: 3.8em;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+/* line 325, ../sass/index.scss */
+section .axes .education p {
+  font-size: 1.3em;
+  padding-bottom: 15px;
+  margin-top: -15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.2em;
+  width: 70%;
+}
+/* line 340, ../sass/index.scss */
+section .axes .sante {
+  border-top: 5px solid #C4D2FC;
+  background-color: #C4D2FC;
+}
+/* line 345, ../sass/index.scss */
+section .axes .sante h2 {
+  font-size: 3.7em;
+  margin-top: 5px;
+}
+/* line 351, ../sass/index.scss */
+section .axes .sante h3 {
+  font-size: 5em;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
+/* line 359, ../sass/index.scss */
+section .axes .sante p {
+  font-size: 1.3em;
+  margin-top: -5px;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* line 377, ../sass/index.scss */
+section.citation {
+  background-color: #f6f3ed;
+  width: 100%;
+}
+/* line 382, ../sass/index.scss */
+section.citation .citation_image {
+  display: block;
+  background-image: url("../img/femme.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 525px;
+}
+/* line 391, ../sass/index.scss */
+section.citation .citation_texte {
+  font-family: 'misoregular';
+  color: #00338d;
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 530px;
+  line-height: 55px;
+}
+/* line 404, ../sass/index.scss */
+section.citation .auteur {
+  font-family: montserratregular;
+  color: #564026;
+  font-size: 1.5em;
+  margin-left: 445px;
+  margin-top: -50px;
+  letter-spacing: -0.05em;
+}
+/* line 413, ../sass/index.scss */
+section.citation .libellule_blanche {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/libellule_blanche.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -150px;
+  right: 400px;
+}
+
+/* line 428, ../sass/index.scss */
+section.slider_projets {
+  background-color: #f6f3ed;
+  margin-bottom: 50px;
+}
+
+/* line 437, ../sass/index.scss */
+footer {
+  height: 435px;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
+  background: #007c92;
+  /* Old browsers */
+  background: -moz-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
