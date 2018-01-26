@@ -74,7 +74,7 @@ $f3->route('GET /admin/login',function ($f3,$params) {
   echo Template::instance()->render('Views/admin.html');
 });
 
-//page admin traduc
+//page admin traduction
 
 $f3->route('GET /admin/list_page_trad',function ($f3) {
   include "model/page.php";
