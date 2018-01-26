@@ -99,7 +99,7 @@ $f3->route('POST /admin/user/create',function ($f3,$params) {
   });
 });
 
-$f3->route('GET /admin/citation/list',function ($f3,$params) {
+$f3->route('GET /admin/citation/list',funtion ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
@@ -113,9 +113,12 @@ $f3->route('GET /admin/citation/new/form',function ($f3,$params) {
     echo Template::instance()->render('Views/');
   });
 });
-$f3->route('POST /admin/citation/new/data',function ($f3,$params) {
+$f3->route('POST /admin/citation/new/cdata',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
 });
 $f3->run();
+
+
+//on va bientot voire le bout du tunel !!!
