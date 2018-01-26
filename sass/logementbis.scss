@@ -4,9 +4,13 @@
 }
 
 #logement {
+  font-family: 'montserratregular', sans-serif;
+
   .header{
     background-color: #db4d69;
     color: white;
+    font-family: 'montserratregular', sans-serif;
+
   }
   .icon-home-outline {
     font-size: 10em;
@@ -15,6 +19,12 @@
   .LogementFirst {
     h1{
       font-size: 5.2em;
+      font-family: 'montserratregular', sans-serif;
+
+    }
+    span {
+      font-family: 'montserratregular', sans-serif;
+      font-size: 1.5em;
     }
   }
   .ImageHeader{
@@ -24,13 +34,15 @@
     }
   }
   .main {
+    font-family: 'montserratregular', sans-serif;
+
     .LogementSecond {
       padding-top: 5%;
 
       h2 {
         font-size: 2.5em;
         text-align: center;
-        font-family: 'montserratsemibold';
+        font-family: 'montserratsemibold', sans-serif;
         color: rgb(86, 64, 38);
       }
       p{
@@ -43,6 +55,7 @@
       .LogementThird {
         background: linear-gradient(to left, #f6f3ed, white);
         margin-top: 5%;
+        font-family: 'montserratregular', sans-serif;
         p {
           font-size: 1.5em;
           line-height: 1.5em;
@@ -80,11 +93,13 @@
         position: absolute;
         right: 0;
         height: 100%;
+        font-family: 'montserratregular', sans-serif;
+
         h5 {
           margin-top: 100px;
           color: white;
           font-size: 2em;
-          font-family: 'montserratregular';
+          font-family: 'montserratregular', sans-serif;
           text-align: center;
         }
         .btn_info {
@@ -92,14 +107,14 @@
           padding-bottom: 3%;
           background-color: white;
           color: #8791a4;
-          font-family: 'misoregular';
+          font-family: 'misoregular', sans-serif;
           text-transform: uppercase;
           border-radius: 5%;
           margin-top: 10%;
-          font-size: 25px;
+          font-size: 17px;
           border-radius: 14px;
           border: 0px;
-          margin-left: 3%;
+          margin-left: 17%;
         }
         img {
           margin-top: 50%;
@@ -109,6 +124,8 @@
   }
 }
 #LogementB {
+  font-family: 'montserratregular', sans-serif;
+
       .LogementFifth {
           background-color: #db4d69;
           h3 {
@@ -127,7 +144,7 @@
 #LogementC {
   margin-top: 2%;
   margin-left: 21%;
-
+  font-family: 'montserratregular', sans-serif;
 
   .rubrique {
     margin-left: 5%;
