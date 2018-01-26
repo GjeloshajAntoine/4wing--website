@@ -1,0 +1,116 @@
+#log {
+  #TechEd {
+    .header {
+      background-color: #db4d69;
+    }
+    h1 {
+      font-size: 5.2em;
+      width: 100%;
+    }
+  .icon-home-outline {
+      font-size: 106px;
+  }
+  .TechFirst {
+    margin-top: 5%;
+    h2{
+      margin-bottom: 10%;
+    }
+  }
+  .ImageHeader {
+    position: absolute;
+    right: -34%;
+    top: -19%;
+  }
+  .TechSecond {
+    margin-top: 10%;
+    padding-top: 16%;
+    height: 493px;
+    color: #00338d;
+    img {
+      float:right;
+      padding-top: -1%;
+    }
+    p{
+      font-size: 1.8em;
+      line-height: 1.5em;
+    }
+    p::before {
+      content:"<<";
+      font-size: 4em;
+    }
+    p::after {
+      content:">>";
+      font-size: 2em;
+    }
+    h5{
+      text-align: right;
+      margin-right: 215px;
+      padding-top: 15%;
+    }
+  }
+  .TechSecondRight {
+    height: 100%;
+    margin-top: -1%;
+  }
+
+}
+#TechThird {
+  .TechThird {
+    background-color: #db4d69;
+  }
+  .col-sm-1 {
+    margin-top: 1%;
+    margin-bottom: 1%
+  }
+  .icon-home-outline {
+    padding-top: 10%;
+  }
+}
+#TechForth {
+  .col-sm-5 {
+    width: 46%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+  .image {
+    border-left: 6px solid #db4d69;
+    background-image:url("../img/logement.png");
+  }
+  p{
+    font-size: 1.2em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -12,7 +12,7 @@ $blanc2 : #f6f3ed;
 
 
 
-.navbar-header {	    
+.navbar-header {
 	float: none;
 }
 
@@ -27,9 +27,9 @@ nav ul{
 		color: $bleu3;
 		margin-top: 40px;
 		background-color: $blanc;
-					
+
 			.menu {
-						
+
 
 						&:nth-child(1) {
 						    border-bottom : 5px solid $gris2;
@@ -59,7 +59,7 @@ nav ul{
 							font-family: 'montserratregular';
 							padding: 15px;
 
-							
+
 								a{
 								color: $marron;
 								text-transform: initial;
@@ -67,9 +67,9 @@ nav ul{
 								text-align: left;
 								border-bottom: 1px solid $blanc;
 								//width: 90%;
-	
+
 								font-size: 20px;
-								
+
 								margin-top: 10px;
 								margin-bottom: 10px;
 								margin-left: 0px;
@@ -87,7 +87,7 @@ nav ul{
 								}
 
 
-						}	
+						}
 						.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
 						    background-color: $blanc2;
 						    border-color: $blanc2;
@@ -95,5 +95,5 @@ nav ul{
 
 
 					}
-					
+
 			}
