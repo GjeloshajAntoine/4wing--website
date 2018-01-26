@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
@@ -56,7 +57,7 @@ $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
 });
 $f3->route('GET /admin',function ($f3,$params) {
-  //echo $params['lg'];
+  echo Template::instance()->render('Views/admin.html');
   //TODO connection admin !!
 });
 
