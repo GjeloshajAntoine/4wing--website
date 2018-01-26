@@ -71,22 +71,27 @@
 #sante #TechThird .icon-home-outline {
   padding-top: 10%;
 }
-/* line 70, ../sass/sante.scss */
+/* line 68, ../sass/sante.scss */
+#sante #TechThird .col-sm-1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+/* line 74, ../sass/sante.scss */
 #sante #TechForth .col-sm-5 {
   width: 46%;
   margin-bottom: 5%;
   margin-right: 4%;
 }
-/* line 75, ../sass/sante.scss */
+/* line 79, ../sass/sante.scss */
 #sante #TechForth .image {
   border-left: 6px solid #AADBDB;
   background-image: url("../img/sante.png");
 }
-/* line 80, ../sass/sante.scss */
+/* line 84, ../sass/sante.scss */
 #sante #TechForth .TechForth p {
   font-size: 1.2em;
 }
-/* line 84, ../sass/sante.scss */
+/* line 88, ../sass/sante.scss */
 #sante #TechForth img {
   position: absolute;
   left: 3%;

@@ -76,16 +76,17 @@
  <!-- Row -->
       <div class="row">
   	  	<div class="col-sm-9">
-  		    <div class="TechFirst">
+          <div class="ImageHeader">
+            <img src="../img/img_header_logement.png" alt="ImageLogement">
+          </div>
+          <div class="TechFirst">
   		      <h2>L'accés à un logement décent constitue <br/> le point de départ de l'inclusion.</h2>
             <p>Sous l'effet combiné de l'étendue de la pauvreté structurelle, de la crise migratoire et de l'augmentation des loyers, l'accés au logement à prix abordable est insuffisant en Belgique. Actuellement, plus de <strong>180.000 ménages</strong> sont en attente. Des initiatives de terrain, multiples, innovantes, ouvrent de nouvelles voies et cherchent des partenaires pour changer d'échelle.</p>
   		    </div>
           <div class="TechSecond">
+            <img src="../img/femme2.png" alt="femme">
             <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
             <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
-            </div>
           </div>
   		  </div>
   	    <div class="col-ms-3 TechSecondRight">
@@ -110,6 +111,8 @@
     </div>
   </div>
   <div class="container" id="TechForth">
+    <div class="ImageGauche">
+      <img src="../img/libelulle.png" alt="LibelulleLogo" width="200px" height="150px">
     <div class="row">
     <!-- projet-->
       <div class="col-sm-5">
