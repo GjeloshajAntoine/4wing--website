@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
