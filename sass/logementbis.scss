@@ -1,0 +1,178 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#logement {
+  font-family: 'montserratregular', sans-serif;
+
+  .header{
+    background-color: #db4d69;
+    color: white;
+    font-family: 'montserratregular', sans-serif;
+
+  }
+  .icon-home-outline {
+    font-size: 10em;
+
+  }
+  .LogementFirst {
+    h1{
+      font-size: 5.2em;
+      font-family: 'montserratregular', sans-serif;
+
+    }
+    span {
+      font-family: 'montserratregular', sans-serif;
+      font-size: 1.5em;
+    }
+  }
+  .ImageHeader{
+    img {
+      margin-left: 22%;
+
+    }
+  }
+  .main {
+    font-family: 'montserratregular', sans-serif;
+
+    .LogementSecond {
+      padding-top: 5%;
+
+      h2 {
+        font-size: 2.5em;
+        text-align: center;
+        font-family: 'montserratsemibold', sans-serif;
+        color: rgb(86, 64, 38);
+      }
+      p{
+        padding-top: 5%;
+        line-height: 2em;
+        font-size: 1.6em;
+        color: rgb(86, 64, 38);
+      }
+
+      .LogementThird {
+        background: linear-gradient(to left, #f6f3ed, white);
+        margin-top: 5%;
+        font-family: 'montserratregular', sans-serif;
+        p {
+          font-size: 1.5em;
+          line-height: 1.5em;
+          color: #00338d;
+          width: 85%;
+        }
+
+        p::before {
+          content: "<<";
+          font-size: 3em;
+          color: #00338d;
+        }
+
+        p::after {
+          content:">>";
+          font-size: 2em;
+          color: #00338d;
+        }
+        h5 {
+          color: #00338d;
+          float: right;
+          margin-top: 15%;
+          padding-bottom: 5%;
+
+        }
+        img {
+          float:right;
+          margin-top: -14%;
+        }
+      }
+    }
+
+      .LogementForth {
+        background-color: #AADBDB;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        font-family: 'montserratregular', sans-serif;
+
+        h5 {
+          margin-top: 100px;
+          color: white;
+          font-size: 2em;
+          font-family: 'montserratregular', sans-serif;
+          text-align: center;
+        }
+        .btn_info {
+          padding-top: 3%;
+          padding-bottom: 3%;
+          background-color: white;
+          color: #8791a4;
+          font-family: 'misoregular', sans-serif;
+          text-transform: uppercase;
+          border-radius: 5%;
+          margin-top: 10%;
+          font-size: 17px;
+          border-radius: 14px;
+          border: 0px;
+          margin-left: 17%;
+        }
+        img {
+          margin-top: 50%;
+          margin-left: 15%;
+        }
+      }
+  }
+}
+#LogementB {
+  font-family: 'montserratregular', sans-serif;
+
+      .LogementFifth {
+          background-color: #db4d69;
+          h3 {
+            color: white;
+            font-size: 2.3em;
+          }
+          .icon-home-outline {
+            color: white;
+            margin-top: 2%;
+          }
+          .icone2 {
+            margin-top: 10px;
+          }
+      }
+}
+#LogementC {
+  margin-top: 2%;
+  margin-left: 21%;
+  font-family: 'montserratregular', sans-serif;
+
+  .rubrique {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    display: block;
+  }
+  .image {
+    margin-bottom: 2%;
+    img {
+      float:left;
+      width: 175px;
+      height: 175px;
+      border-left: 6px solid #db4d69;
+    }
+  }
+  h4 {
+    margin-left: 30%;
+  }
+  p {
+    margin-left: 30%;
+    width: 50%;
+  }
+  .ImageLogo {
+    img {
+      position: absolute;
+      left: 3%;
+      margin-top: 13%;
+
+    }
+  }
+}
