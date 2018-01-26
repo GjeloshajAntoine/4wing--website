@@ -27,5 +27,14 @@ function add_citation($citation,$lg,$cat)
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result[0]['citation'];
 }
+function edit_citation($id)
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
+    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $stmt = $bdd->prepare("UPDATE  citations SET citation = :citation, ln = :lg , categorie = :cat WHERE id = :id");
+    $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat,'id'=>$id]);
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $result[0];
+}
 echo hazard_citation('fr','sante');
 ?>

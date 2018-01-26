@@ -26,7 +26,31 @@ function is_admin()
         return false;
     }
 }
-
+function is_connected_test($f3,$callback){
+    if (is_connected()) {
+        $callback($f3);
+    }else{
+      $f3->reroute('/admin/login');
+    }
+}
+function is_connected_with($should_admin,$f3,$callback){
+    if (is_connected()) {
+        if ($should_admin) {
+            if (is_admin()) {
+                $callback($f3);
+            }else{
+                $f3->reroute('/admin/login');
+            }
+        }else{
+            $callback($f3);
+        }
+    }else{
+        $f3->reroute('/admin/login');
+    }
+}
+{
+    
+}
 function create_user($name,$password,$auth)
 {
     if (is_connected() && is_admin()) {
