@@ -1,7 +1,7 @@
 <?php
 
 function get_page_trad_list() {
-  $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+  $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
   $stmt = $bdd->prepare("SELECT page_name FROM `pages_trad` GROUP BY page_name ");
   $stmt->execute();

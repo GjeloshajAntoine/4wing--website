@@ -149,8 +149,8 @@ footer .pieds {
 
 /*TechEducation*/
 
-
-#TechEd {
+/*
+#Logement {
   background-color: #00338d;
   color: white;
   font-family: 'misoregular';
@@ -159,7 +159,7 @@ footer .pieds {
   padding-top: 2%;
 }
 
-#TechEd .logo {
+#Logement .logo {
   display: inline-block;
   float: left;
   margin-left: 20%;
@@ -362,36 +362,37 @@ footer .pieds {
   width: 65%;
   padding-left: 4%;
   display: inline-block;
-}
+}*/
 
 /*page sante */
 
-#sante {
+/*#Logement {
   background-color: rgb(219, 77, 105);
   color: white;
   font-family: 'misoregular';
+
 }
 
-#sante .Titre h1 {
+#Logement .Titre h1 {
   text-transform: uppercase;
   font-size: 3.5em;
   font-weight: 300;
   width: 40%;
 }
 
-#sante .Titre p {
+#Logement .Titre p {
   width: 40%;
   font-size: 1em;
   padding-top: 0.5%;
 
 }
 
-.SanteFi {
+.LogementFi {
   height: 800px;
   width: 1170px;
 }
 
-.SanteFirst {
+.LogementFirst {
   margin-top: 2%;
   margin-left: 3%;
   width: 65%;
@@ -402,21 +403,21 @@ footer .pieds {
   font-size: 1.2em;
 }
 
-.SanteFirst h2 {
+.LogementFirst h2 {
   margin-bottom: 3%;
   margin-top: 10%;
   text-align: center;
 
 }
 
-.SanteFirst p {
+.LogementFirst p {
   line-height: 2em;
   margin-top: 5%;
   text-align: left;
-  width: 80%;
+
 }
 
-.SanteFirstRight {
+.LogementFirstRight {
   background-color: #AADBDB;
   width: 30%;
   float: right;
@@ -427,12 +428,12 @@ footer .pieds {
   padding-bottom: 10%;
 }
 
-.SanteFirstRight h5 {
+.LogementFirstRight h5 {
   color: white;
   font-size: 1.5em;
   font-family: 'misoregular';
 }
-.SanteFirstRight button {
+.LogementFirstRight button {
   width: 65%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -447,7 +448,11 @@ footer .pieds {
   border: 0px;
 }
 
-.SanteSecond {
+.LogementFirstRight img {
+  margin-top: 20%;
+}
+
+.LogementSecond {
   background: linear-gradient(to right, #f6f3ed, white);
   width: 90%;
   font-family: 'misoregular';
@@ -461,35 +466,35 @@ footer .pieds {
   margin-bottom: 2%;
 }
 
-.SanteSecondLeft {
+.LogementSecondLeft {
   width: 80%;
 }
 
-.SanteSecondRight {
+.LogementSecondRight {
   width: 20%;
   float: right;
 }
 
-.SanteThird {
-  background-color: #00338d;
+.LogementThird {
+  background-color: rgb(219, 77, 105);
   color: white;
   font-family: 'misoregular';
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   padding-left: 20%;
 }
-.SanteLast {
+.LogementLast {
   margin-left: 3%;
   height: 600px;
 }
 
-.SanteLast .Libellule {
+.LogementLast .Libellule {
   display: block;
   float: left;
   margin-top: 10%;
 }
 
-.SanteLast .SanteForth {
+.LogementLast .LogementForth {
   margin-left: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -498,19 +503,19 @@ footer .pieds {
   float: left;
 }
 
-.SanteLast .SanteForth img {
+.LogementLast .LogementForth img {
   float: left;
   border-left: 6px solid #007c92;
 }
 
-.SanteLast .SanteForth h4 {
+.LogementLast .LogementForth h4 {
   padding-top: 4%;
   margin-left: 4%;
   display: inline-block;
 }
 
-.SanteLast .SanteForth p {
+.LogementLast .LogementForth p {
   width: 65%;
   padding-left: 4%;
   display: inline-block;
-}
+}*/

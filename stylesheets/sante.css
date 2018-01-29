@@ -1,0 +1,99 @@
+/* line 3, ../sass/sante.scss */
+#sante #TechEd .header {
+  background-color: #AADBDB;
+}
+/* line 6, ../sass/sante.scss */
+#sante #TechEd h1 {
+  font-size: 5.2em;
+  width: 100%;
+}
+/* line 10, ../sass/sante.scss */
+#sante #TechEd .icon-home-outline {
+  font-size: 106px;
+}
+/* line 13, ../sass/sante.scss */
+#sante #TechEd .TechFirst {
+  margin-top: 5%;
+}
+/* line 15, ../sass/sante.scss */
+#sante #TechEd .TechFirst h2 {
+  margin-bottom: 10%;
+}
+/* line 19, ../sass/sante.scss */
+#sante #TechEd .ImageHeader {
+  position: absolute;
+  right: -34%;
+  top: -19%;
+}
+/* line 24, ../sass/sante.scss */
+#sante #TechEd .TechSecond {
+  padding-top: 16%;
+  height: 493px;
+  color: #00338d;
+  margin: 0 0;
+}
+/* line 29, ../sass/sante.scss */
+#sante #TechEd .TechSecond p {
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+/* line 33, ../sass/sante.scss */
+#sante #TechEd .TechSecond p::before {
+  content: "<<";
+  font-size: 4em;
+}
+/* line 38, ../sass/sante.scss */
+#sante #TechEd .TechSecond p::after {
+  content: ">>";
+  font-size: 2em;
+}
+/* line 43, ../sass/sante.scss */
+#sante #TechEd .TechSecond h5 {
+  text-align: right;
+  margin-right: 215px;
+  padding-top: 15%;
+}
+/* line 49, ../sass/sante.scss */
+#sante #TechEd .TechSecond img {
+  float: right;
+  padding-top: 1%;
+}
+/* line 55, ../sass/sante.scss */
+#sante #TechEd .TechSecondRight {
+  height: 100%;
+  margin-top: -1%;
+}
+/* line 62, ../sass/sante.scss */
+#sante #TechThird .TechThird {
+  background-color: #AADBDB;
+}
+/* line 65, ../sass/sante.scss */
+#sante #TechThird .icon-home-outline {
+  padding-top: 10%;
+}
+/* line 68, ../sass/sante.scss */
+#sante #TechThird .col-sm-1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+/* line 74, ../sass/sante.scss */
+#sante #TechForth .col-sm-5 {
+  width: 46%;
+  margin-bottom: 5%;
+  margin-right: 4%;
+}
+/* line 79, ../sass/sante.scss */
+#sante #TechForth .image {
+  border-left: 6px solid #AADBDB;
+  background-image: url("../img/sante.png");
+}
+/* line 84, ../sass/sante.scss */
+#sante #TechForth .TechForth p {
+  font-size: 1.2em;
+}
+/* line 88, ../sass/sante.scss */
+#sante #TechForth img {
+  position: absolute;
+  left: 3%;
+  top: 165%;
+}
