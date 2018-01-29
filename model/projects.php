@@ -14,10 +14,15 @@ class Project
   {
     $this->$field=['titre','le_projet','soutiens'];
   }
-  public function create()
+  public function create($title)
   {
     //create Project
 
+    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $stmt = $bdd->prepare("INSERT INTO projects (title) VALUES (:title) ;");
+    $stmt->execute(["title"=>$title]);
+    $project_id=$bdd->lastInsertId();
     //create trad
     foreach ($this->languages as $lg) {
       foreach ($fied as $value) {
@@ -28,21 +33,28 @@ class Project
       }
     }
   }
-  public function add_parrain_to_id()
+  public function add_parrain_to_id($project_id,$parrain,$link)
   {
+    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $stmt = $bdd->prepare("INSERT INTO `projects_parrains` (id_project,parrain,link) VALUES (:project_id,:parrain,:link) ");
+    $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
 
   }
-  public function add_porteur_to_id()
+  public function add_porteur_to_id($project_id)
+  {
+    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $stmt = $bdd->prepare("INSERT INTO `projects_parrains` (id_project,parrain,link) VALUES (:project_id,:parrain,:link) ");
+    $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
+  }
+  public function add_image_to_id($project_id,$image)
   {
 
-  }
-  public function add_image_to_id()
-  {
-    # code...
   }
   public function check_fields()
   {
-    //nope
+
   }
 }
 

@@ -104,5 +104,9 @@ $f3->route('GET /admin/projet/create',function ($f3,$params) {
 $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
 
 });
+$f3->route('POST /admin/projet/upload_test',function ($f3,$params) {
+    echo "TEST";
+    echo $_FILES['file']['name'];
+});
 
 $f3->run();
