@@ -3,8 +3,7 @@
 function connect($name,$password)
 {
     $hash=sha1($password);
-    $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $bdd=init_DB();
     $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE name= :name AND password = :hash ");
     $stmt->execute(['name'=>$name,'hash'=>$hash]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -49,7 +48,7 @@ function is_connected_with($should_admin,$f3,$callback){
     }
 }
 {
-    
+
 }
 function create_user($name,$password,$auth)
 {
@@ -76,10 +75,10 @@ function list_user()
 }
 function change_user($id,$password,$auth)
 {
-    
+
 }
 function delete_user(Type $var = null)
 {
-    
+
 }
 ?>

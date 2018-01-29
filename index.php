@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+include 'model/db_init.php';
 include 'model/user.php';
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
@@ -177,4 +177,3 @@ $f3->run();
 
 
 ?>
-

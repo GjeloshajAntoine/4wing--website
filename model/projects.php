@@ -18,8 +18,7 @@ class Project
   {
     //create Project
 
-    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $bdd=init_DB();
     $stmt = $bdd->prepare("INSERT INTO projects (title) VALUES (:title) ;");
     $stmt->execute(["title"=>$title]);
     $project_id=$bdd->lastInsertId();
@@ -35,16 +34,14 @@ class Project
   }
   public function add_parrain_to_id($project_id,$parrain,$link)
   {
-    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $bdd=init_DB();
     $stmt = $bdd->prepare("INSERT INTO `projects_parrains` (id_project,parrain,link) VALUES (:project_id,:parrain,:link) ");
     $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
 
   }
   public function add_porteur_to_id($project_id)
   {
-    $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $bdd=init_DB();;
     $stmt = $bdd->prepare("INSERT INTO `projects_parrains` (id_project,parrain,link) VALUES (:project_id,:parrain,:link) ");
     $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
   }
