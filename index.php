@@ -95,6 +95,7 @@ $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
   $f3->set('all_trad',$all_trad);
   $f3->set('lg',$lg);
   $f3->set('pagename',$params['pagename']);
+});
 
 
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
@@ -169,7 +170,9 @@ $f3->route('POST /admin/citation/new/cdata',function ($f3,$params) {
   });
 });
 
+//on va bientot voire le bout du tunel !!!
+
 $f3->run();
 
 
-//on va bientot voire le bout du tunel !!!
+
