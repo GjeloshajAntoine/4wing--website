@@ -95,7 +95,7 @@ $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
   $f3->set('all_trad',$all_trad);
   $f3->set('lg',$lg);
   $f3->set('pagename',$params['pagename']);
-
+});
 
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
 
@@ -148,11 +148,12 @@ $f3->route('POST /admin/user/create',function ($f3,$params) {
   });
 });
 
-$f3->route('GET /admin/citation/list',funtion ($f3,$params) {
+$f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
-});$f3->route('GET /admin/citation/list/@lg/@cat',function ($f3,$params) {
+});
+$f3->route('GET /admin/citation/list/@lg/@cat',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
@@ -171,4 +172,4 @@ $f3->route('POST /admin/citation/new/cdata',function ($f3,$params) {
 $f3->run();
 
 
-//on va bientot voire le bout du tunel !!!
+?>
