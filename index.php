@@ -148,11 +148,12 @@ $f3->route('POST /admin/user/create',function ($f3,$params) {
   });
 });
 
-$f3->route('GET /admin/citation/list',funtion ($f3,$params) {
+$f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
-});$f3->route('GET /admin/citation/list/@lg/@cat',function ($f3,$params) {
+});
+$f3->route('GET /admin/citation/list/@lg/@cat',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('Views/');
   });
