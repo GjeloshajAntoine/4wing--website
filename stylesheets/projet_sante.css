@@ -1,5 +1,5 @@
 /* line 3, ../sass/projet.scss */
-.projetLogement{
+.projetSante{
   background-color: #C4D2FC;
   color: white;
 }
@@ -8,14 +8,14 @@
     margin-top: 15px;
 }
 
-.projet h1 {
+#titreSante h1 {
   color: #8791a4;
   font-size: 3.5em;
   padding-top: 30px;
   text-transform: uppercase;
 }
 /* line 28, ../sass/projet.scss */
-.projet .icon-leaf  {
+#titreSante .icon-home-outline {
   font-size: 106px;
   color: #C4D2FC;
   margin-top: 10px;
@@ -23,11 +23,12 @@
   display: block;
 }
 
-.projet .icon2 {
+#texteSante .icon2 {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
   margin-right: 10px;
+    color: #C4D2FC;
 }
 /* line 39, ../sass/projet.scss */
 .container .row .vignette img {
