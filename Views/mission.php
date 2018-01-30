@@ -37,7 +37,7 @@
           <a>www.4wings.org</a></p>
       </div>
       <div class="row MissionSecond">
-        <div class="col-md-8 MissionSecondLeft">
+        <div class="col-md-6 MissionSecondLeft">
           <h2>ENCOURAGER L’INNOVATION SOCIALE</h2>
           <p>C'est :</p>
           <ul>
@@ -49,25 +49,21 @@
             <li>Combattre durablement la précarité en Belgique.</li>
             <li>Renforcer les liens sociaux et le retour à l’équilibre.</li>
           </ul>
-          <div class="row MissionSecondLeftCitation">
-            <div class="col-md-12 col-sm-12 LogementThird">
-              <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
-              <img src="../img/femme2.png" alt="femme">
-              <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
-            </div>
+        </div>
+        <div class="col-md-6 MissionSecondLeftCitation">
+          <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
+            <img src="../img/femme2.png" alt="femme">
+            <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
           </div>
         </div>
-
-        <div class="col-md-4 MissionSecondRight">
-          <h5>Un projet ?</h5>
-          <div class="btn btn_info">Nous Contacter</div>
-          <img src="../img/libelulle_transparente.png" alt="libellule">
+        <div class="row MissionThird">
+          <div class="col-md-6 MissionThirdImage">
+            <img src="" alt="" width="300px" height="300px">
+          </div>
+          <div class="col-md-6 MissionThirdLegende">
+            <p></p>
+          </div>
         </div>
-
-      </div>
     </div>
-  
-
-
   </body>
 </html>
