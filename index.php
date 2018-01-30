@@ -63,14 +63,19 @@ $f3->route('GET /@lg/techEducation',function ($f3,$params) {
 $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
 });
+
+
 $f3->route('GET /admin',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('Views/admin.html');
+    $f3->set('pageliste',get_page_trad_list());
+
+    echo Template::instance()->render('admin_views/admin.html');
   });
 });
 
 $f3->route('GET /admin/login',function ($f3,$params) {
   //TODO connection admin !!
+  $f3->set('pageliste',get_page_trad_list());
   echo Template::instance()->render('Views/admin.html');
 });
 
@@ -120,7 +125,7 @@ $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) 
 $f3->route('GET /admin/list_projet',function ($f3,$params) {
 
 });
-$f3->route('GET /admin/projet/@id',function ($f3,$params) {
+$f3->route('GET /admin/projet/@id/@lg',function ($f3,$params) {
 
 });
 $f3->route('POST /admin/projet/@id/editdata',function ($f3,$params) {
