@@ -25,7 +25,7 @@ class Project
     //create trad
     foreach ($this->languages as $lg) {
       foreach ($fied as $value) {
-        $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
+        $bdd = init_DB();
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         $stmt = $bdd->prepare("INSERT INTO `project_trad` (project_id,field,ln) VALUES (:project_id,:field,:ln) ");
         $stmt->execute(["project_id"=>$project_id,"field"=>$field,"ln"=>$lg]);
@@ -52,6 +52,13 @@ class Project
   public function check_fields()
   {
 
+  }
+  static public  function get_all_projects( )
+  {
+    $bdd=init_DB();
+    $stmt= $bdd->query("SELECT * FROM projects");
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
 }
 
