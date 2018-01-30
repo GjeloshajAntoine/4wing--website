@@ -40,14 +40,19 @@
 }
 
 @media screen and (max-width: 320px) {
-  /* line 44, ../sass/contact.scss */
+  /* line 46, ../sass/contact.scss */
+  .formulair {
+    display: block;
+  }
+
+  /* line 49, ../sass/contact.scss */
   .formu {
     width: 100%;
-    float: left;
+    display: block;
   }
 }
 @media screen and (max-width: 790px) {
-  /* line 44, ../sass/contact.scss */
+  /* line 55, ../sass/contact.scss */
   .formu {
     width: 100%;
     float: left;

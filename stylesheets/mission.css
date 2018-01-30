@@ -1,0 +1,142 @@
+/* line 1, ../sass/mission.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/mission.scss */
+.container .header {
+  background-color: #00338d;
+  width: 100%;
+  height: 125px;
+  color: white;
+}
+/* line 12, ../sass/mission.scss */
+.container .header h1 {
+  text-align: justify;
+  padding-top: 1%;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 20, ../sass/mission.scss */
+.container .MissionFirst {
+  color: #00338d;
+  width: 100%;
+  height: 100px;
+}
+/* line 24, ../sass/mission.scss */
+.container .MissionFirst h1 {
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 28, ../sass/mission.scss */
+.container .MissionFirst p {
+  font-family: 'Montserrat', sans-serif;
+  color: #564026;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  float: left;
+  margin-bottom: 20px;
+}
+/* line 37, ../sass/mission.scss */
+.container .MissionSecond {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/* line 42, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft {
+  width: 75%;
+  height: 100%;
+}
+/* line 45, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft h2 {
+  color: #564026;
+  font-size: 1.8em;
+  margin-bottom: 5%;
+}
+/* line 50, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft p {
+  font-family: 'Montserrat', sans-serif;
+  color: #564026;
+  font-size: 1.7em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+/* line 57, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft li {
+  color: #564026;
+  font-size: 1.6em;
+  list-style: none;
+}
+/* line 63, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation {
+  background: linear-gradient(to left, #f6f3ed, white);
+  margin-top: 5%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 67, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #00338d;
+  width: 85%;
+}
+/* line 74, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation p::before {
+  content: "<<";
+  font-size: 3em;
+  color: #00338d;
+}
+/* line 80, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation p::after {
+  content: ">>";
+  font-size: 2em;
+  color: #00338d;
+}
+/* line 85, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation h5 {
+  color: #00338d;
+  float: right;
+  margin-top: 15%;
+  padding-bottom: 5%;
+}
+/* line 92, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondLeft .MissionSecondLeftCitation img {
+  float: right;
+  margin-top: -14%;
+}
+/* line 99, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondRight {
+  width: 25%;
+  background-color: #AADBDB;
+}
+/* line 102, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondRight h5 {
+  margin-top: 100px;
+  color: white;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* line 109, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondRight .btn_info {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: white;
+  color: #8791a4;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5%;
+  margin-top: 10%;
+  font-size: 17px;
+  border-radius: 14px;
+  border: 0px;
+  margin-left: 17%;
+}
+/* line 123, ../sass/mission.scss */
+.container .MissionSecond .MissionSecondRight img {
+  margin-top: 25%;
+  margin-left: 15%;
+}
