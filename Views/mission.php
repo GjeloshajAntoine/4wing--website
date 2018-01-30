@@ -25,7 +25,7 @@
   <body>
     <div class="container">
       <div class="row header">
-          <h1>Missions</h1>
+        <h1>Missions</h1>
       </div>
       <div class="row MissionFirst">
         <h1>Lutter contre la précarité en belgique</h1>
@@ -34,7 +34,8 @@
           Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la
           construction d’une société plus solidaire.
           Olivier Debuyst :
-          <a>www.4wings.org</a></p>
+          <a>www.4wings.org</a>
+        </p>
       </div>
       <div class="row MissionSecond">
         <div class="col-md-6 MissionSecondLeft">

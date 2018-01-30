@@ -25,65 +25,48 @@
   </head>
   <body>
     <div class="container">
-      <div class="container">
-        <div class="row header">
-          <h1>Lutter contre la précarité en belgique</h1>
-          <p>Cette expérience est passionnante. La 4WINGS Foundation est très
-            jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant.
-            Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la
-            construction d’une société plus solidaire.
-            Olivier Debuyst :
-            <a>www.4wings.org</a></p>
-
-        </div>
         <div class="row ValeurFirst">
           <h1>valeurs</h1>
         </div>
-        <div class="row ValeurSecond">
-          <div class="col-md-8 ValeurSecondLeft">
-            <h2>Nos outils :</h2>
-            <ul>
-              <li>• IMPACT INVESTMENT • </li>
-              <li>• VENTURE PHILANTHROPY •</li>
-              <li>• MÉCÉNAT •</li>
-            </ul>
-            <div class="row ValeurSecondLeftListe">
-              <p>Concrètement?</p>
-              <ul>Un investissement humain engagé:
-                <li>Accompagnement</li>
-                <li>Coaching</li>
-                <li>Expertise</li>
-                <li>Conseils</li>
-                <li>Réseau</li>
-                <li>etc</li>
-              </ul>
-              <ul>Un investissement en ressources:
-                <li>Dons</li>
-                <li>Prêts</li>
-                <li>Participation au capital</li>
-                <li>Garanties</li>
-                <li>etc</li>
-              </ul>
-            </div>
-            <div class="row ValeurSecondLeftCitation">
-              <div class="col-md-12 col-sm-12 L ValeurThird">
-                <p>Il est important de créer des outils qui permettent de lever les obstables financiers, administratifs ou juridiques auxquels les acteurs du secteur font face.</p>
-                <img src="../img/femme2.png" alt="femme">
-                <h5>Romain Debruyst <br/>Membre de 4WINGS</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ValeurSecondRight">
-            <h5>Un projet ?</h5>
-            <div class="btn btn_info">Nous Contacter</div>
-            <img src="../img/libelulle_transparente.png" alt="libellule">
-          </div>
-
+        <div class="row ValeurImage">
+          <img src="" alt="">
         </div>
-      </div>
-
+        <div class="row ValeurSecond">
+          <h2>Nos outils :</h2>
+          <ul>
+            <li>• IMPACT INVESTMENT • </li>
+            <li>• VENTURE PHILANTHROPY •</li>
+            <li>• MÉCÉNAT •</li>
+          </ul>
+        </div>
+        <div class="row ValeurThird">
+          <p>Un investissement humain engagé:</p>
+          <ul>
+            <li>Accompagnement</li>
+            <li>Coaching</li>
+            <li>Expertise</li>
+            <li>Conseils</li>
+            <li>Réseau</li>
+            <li>...</li>
+          </ul>
+          <p>Un investissement en ressources:</p>
+            <ul>
+              <li>Dons</li>
+              <li>Prêts</li>
+              <li>Participation au capital</li>
+              <li>Garanties</li>
+              <li>...</li>
+            </ul>
+          <p>Un investissement dans la durée (pluriannuel):</p>
+          </div>
+          <div class="row ValeurForth">
+            <div class="col-md-6 ValeurForthImage">
+              <img src="" alt="">
+            </div>
+            <div class="col-md-6 ValeurForthTexte">
+              <p></p>
+            </div>
+          </div>
     </div>
-
   </body>
 </html>
