@@ -2,6 +2,8 @@
 session_start();
 include 'model/db_init.php';
 include 'model/user.php';
+include "model/page.php";
+include 'project.php';
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
 }
@@ -67,22 +69,28 @@ $f3->route('GET /@lg/valeurs',function ($f3,$params) {
 
 $f3->route('GET /admin',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    $f3->set('pageliste',get_page_trad_list());
-
-    echo Template::instance()->render('admin_views/admin.html');
+    $f3->set('is_admin',is_admin());
+    echo Template::instance()->render('admin_views/home.php');
   });
 });
 
 $f3->route('GET /admin/login',function ($f3,$params) {
-  //TODO connection admin !!
-  $f3->set('pageliste',get_page_trad_list());
-  echo Template::instance()->render('Views/admin.html');
+  echo Template::instance()->render('admin_views/login.php');
+});
+$f3->route('POST /admin/login',function ($f3,$params) {
+  $name=params['name'];
+  $password=$params['password'];
+
+  if (connect($name,$password)) {
+    $f3->reroute('/admin');
+  }else {
+    $f3->reroute('/admin/login');
+  }
 });
 
 //page admin traduction
 
 $f3->route('GET /admin/list_page_trad',function ($f3) {
-  include "model/page.php";
   is_connected_with(false,$f3,function($f3){
     $f3->set('pageliste',get_page_trad_list());
     echo Template::instance()->render('Views/list_page_trad.html');
@@ -90,32 +98,21 @@ $f3->route('GET /admin/list_page_trad',function ($f3) {
 });
 
 $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
-  include 'model/page.php';
-  if (!isset($params['lg'])) {
-    $lg="fr";
-  }else{
-    $lg=$params['lg'];
-  }
+  //include 'model/page.php';
+
   $all_trad=get_trad_page($params['pagename'],$lg);
   $f3->set('all_trad',$all_trad);
   $f3->set('lg',$lg);
   $f3->set('pagename',$params['pagename']);
+  echo Template::instance()->render('admin_views/page_trad.php');
+
 });
-
-
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
-
-
-  echo \Template::instance()->render('Views/traductions_list_page.html');
-  //print_r($all_trad);
-  for ($i=0; $i <count($all_trad) ; $i++) {
-    echo "<br/>";
-    echo "id:".$all_trad[$i]['id']." string_origin: ".$all_trad[$i]['string_origin']." trad :".$all_trad[$i]['string_trad'];
-  }
+  $f3->reroute('/admin/tradpage/@pagename/fr');
 });
 
 $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) {
-    include 'model/page.php';
+    //include 'model/page.php';
     print_r($_POST);
     set_trad_page($_POST);
     $f3->reroute('/admin/tradpage/@pagename/@lg');
@@ -123,7 +120,7 @@ $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) 
 
 
 $f3->route('GET /admin/list_projet',function ($f3,$params) {
-
+  $f3->set('all_projects',Project::get_all_projects());
 });
 $f3->route('GET /admin/projet/@id/@lg',function ($f3,$params) {
 
