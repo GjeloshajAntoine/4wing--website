@@ -4,6 +4,7 @@ include 'model/db_init.php';
 include 'model/user.php';
 include "model/page.php";
 include 'project.php';
+
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
 }
@@ -114,13 +115,14 @@ $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
 $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) {
     //include 'model/page.php';
     print_r($_POST);
-    set_trad_page($_POST);
-    $f3->reroute('/admin/tradpage/@pagename/@lg');
+    set_trad_page($_POST);//passe les donner du formulaire sous forme id=>champ
+    $f3->reroute('/admin/tradpage/@pagename/@lg');//reprends les donnée GET directement depuis l'adresse grace à f3 pour la redirection
 });
 
 
 $f3->route('GET /admin/list_projet',function ($f3,$params) {
   $f3->set('all_projects',Project::get_all_projects());
+  echo Template::instance()->render('admin_views/projet_list.php');
 });
 $f3->route('GET /admin/projet/@id/@lg',function ($f3,$params) {
 
