@@ -3,7 +3,8 @@ session_start();
 include 'model/db_init.php';
 include 'model/user.php';
 include "model/page.php";
-include 'project.php';
+include 'model/project.php';
+include 'model/citation.php';
 
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
@@ -100,46 +101,91 @@ $f3->route('GET /admin/list_page_trad',function ($f3) {
 
 $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
   //include 'model/page.php';
-
-  $all_trad=get_trad_page($params['pagename'],$lg);
-  $f3->set('all_trad',$all_trad);
-  $f3->set('lg',$lg);
-  $f3->set('pagename',$params['pagename']);
-  echo Template::instance()->render('admin_views/page_trad.php');
+  is_connected_with(false,$f3,function($f3){
+    $all_trad=get_trad_page($params['pagename'],$lg);
+    $f3->set('all_trad',$all_trad);
+    $f3->set('lg',$lg);
+    $f3->set('pagename',$params['pagename']);
+    echo Template::instance()->render('admin_views/page_trad.php');
+  });
 
 });
 $f3->route('GET /admin/tradpage/@pagename',function ($f3,$params) {
-  $f3->reroute('/admin/tradpage/@pagename/fr');
+  is_connected_with(false,$f3,function($f3){
+    $f3->reroute('/admin/tradpage/@pagename/fr');
+  });
 });
 
 $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) {
     //include 'model/page.php';
-    print_r($_POST);
-    set_trad_page($_POST);//passe les donner du formulaire sous forme id=>champ
-    $f3->reroute('/admin/tradpage/@pagename/@lg');//reprends les donnée GET directement depuis l'adresse grace à f3 pour la redirection
+    is_connected_with(false,$f3,function($f3){
+      print_r($_POST);
+      set_trad_page($_POST);//passe les donner du formulaire sous forme [id=>trad]
+      $f3->reroute('/admin/tradpage/@pagename/@lg');//reprends les donnée GET directement depuis l'adresse grace à f3 pour la redirection
+    });
 });
 
-
+// PROJECT ADMIN ROUTE
 $f3->route('GET /admin/list_projet',function ($f3,$params) {
-  $f3->set('all_projects',Project::get_all_projects());
-  echo Template::instance()->render('admin_views/projet_list.php');
+  is_connected_with(false,$f3,function($f3){
+    $f3->set('all_projects',Project::get_all_projects());
+    echo Template::instance()->render('admin_views/projet_list.php');
+  });
 });
-$f3->route('GET /admin/projet/@id/@lg',function ($f3,$params) {
-
+$f3->route('GET /admin/projet/@id',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    $f3->reroute('/admin/projet/@id/info');
+  });
 });
-$f3->route('POST /admin/projet/@id/editdata',function ($f3,$params) {
-
+$f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principales nom,catégories
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
+});
+$f3->route('GET /admin/projet/@id/trad/@lg',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
+});
+$f3->route('POST /admin/projet/@id/info/editdata',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
+});
+$f3->route('POST /admin/projet/@id/trad/@lg/editdata',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
 });
 $f3->route('GET /admin/projet/create',function ($f3,$params) {
-
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
 });
 $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
-
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
 });
 $f3->route('POST /admin/projet/upload_test',function ($f3,$params) {
     echo "TEST";
     echo $_FILES['file']['name'];
+    is_connected_with(false,$f3,function($f3){
+      echo Template::instance()->render('admin_views/');
+    });
 });
+$f3->route('GET /admin/projet/@id/images/list',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    echo Template::instance()->render('admin_views/');
+  });
+});
+$f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
+  //is_connected_with(false,$f3,function($f3){
+     Project::add_image_to_id($params['id'],$_FILES['file']);
+    echo Template::instance()->render('admin_views/');
+  //});
+});
+
 
 
 $f3->route('GET /admin/list_user',function ($f3,$params) {

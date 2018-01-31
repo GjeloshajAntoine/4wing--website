@@ -12,7 +12,7 @@ class Project
   var $languages=['fr','nl','en'];
   function __construct()
   {
-    $this->$field=['titre','le_projet','soutiens'];
+    $this->field=['titre','le_projet','soutiens'];
   }
   public function create($title)
   {
@@ -41,13 +41,20 @@ class Project
   }
   public function add_porteur_to_id($project_id)
   {
-    $bdd=init_DB();;
+    $bdd=init_DB();
     $stmt = $bdd->prepare("INSERT INTO `projects_parrains` (id_project,parrain,link) VALUES (:project_id,:parrain,:link) ");
     $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
   }
-  public function add_image_to_id($project_id,$image)
+  static public function add_image_to_id($project_id,$image)
   {
+    $bdd=init_DB();
+    $stmt= $bdd->prepare("INSERT INTO projects_images (project_id) VALUES (:project_id)");
+    $stmt->execute(['project_id'=>$project_id]);
+    $image_id=$bdd->lastInsertId();
 
+    $path = $image['name'];
+    $ext = pathinfo($path, PATHINFO_EXTENSION);
+    move_uploaded_file($image['tmp_name'],'projects_images/'.$image_id.'.'.$ext);
   }
   public function check_fields()
   {
@@ -62,7 +69,9 @@ class Project
   }
   static public function get_all_trad($id,$lg)
   {
-    # code...
+    $bdd=init_DB();;
+    $stmt = $bdd->prepare("SELECT * FROM project_trad WHERE project_id= :id AND ln= :lg ");
+    $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
   }
 }
 
