@@ -145,23 +145,24 @@ $f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principal
 });
 $f3->route('GET /admin/projet/@id/trad/@lg',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    $f3->set('all_trad',Project::get_trad($params['id'],$params['lg']));
+    echo Template::instance()->render('admin_views/project_trad');
   });
 });
 $f3->route('POST /admin/projet/@id/info/editdata',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    $f3->reroute('/admin/projet/@id/info');
   });
 });
 $f3->route('POST /admin/projet/@id/trad/@lg/editdata',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    $f3->reroute('/admin/projet/@id/trad/@lg');
   });
 });
 
 $f3->route('GET /admin/projet/create',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    echo Template::instance()->render('admin_views/project_new.php');
   });
 });
 $f3->route('POST /admin/projet/create_data',function ($f3,$params) {

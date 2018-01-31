@@ -31,6 +31,7 @@ class Project
         $stmt->execute(["project_id"=>$project_id,"field"=>$field,"ln"=>$lg]);
       }
     }
+    return project_id;
   }
   public function add_parrain_to_id($project_id,$parrain,$link)
   {
@@ -77,11 +78,24 @@ class Project
   {
     $stmt=init_DB()->prepare('SELECT * FROM project WHERE id = :id');
     $stmt->execute(["id"=>$id]);
-    return $stmt->fetchAll(PDO:FETCH_ASSOC)[0];
+    return $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
   }
   static public function set_info($id,$info)
   {
 
+  }
+  static public function get_trad($id,$lg)
+  {
+    $stmt=init_DB()->prepare('SELECT * FROM project_trad WHERE id = :id AND ln = :lg');
+    $stmt->execute(["id"=>$id,'lg'=>$lg]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+  static public function set_trad($id,$trad_array)
+  {
+    $stmt = init_DB()->prepare("UPDATE project_trad SET trad = :string_trad WHERE id= :id ");
+    foreach ($trad_array as $key => $value) {
+      $stmt->execute(['string_trad'=>$value,'id'=>$key]);
+    }
   }
 }
 
