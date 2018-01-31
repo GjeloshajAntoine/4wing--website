@@ -32,5 +32,4 @@ function edit_citation($id)
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result[0];
 }
-echo hazard_citation('fr','sante');
 ?>
