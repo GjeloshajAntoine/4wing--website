@@ -167,7 +167,10 @@ $f3->route('GET /admin/projet/create',function ($f3,$params) {
 });
 $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    $project=new Project;
+    $id=$project->create($_POST['name']);
+    $f3->set('id',$id);
+    $f3->reroute('/admin/projet/@id/info');
   });
 });
 
