@@ -21,8 +21,7 @@ function add_citation($citation,$lg,$cat)
     $bdd=init_DB();
     $stmt = $bdd->prepare("INSERT INTO citations (citation,ln,categorie) VALUES (:citation,:lg,:cat)");
     $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat]);
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $result[0]['citation'];
+    return $bdd->lastInsertId();
 }
 function edit_citation($id)
 {
