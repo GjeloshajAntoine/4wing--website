@@ -69,9 +69,19 @@ class Project
   }
   static public function get_all_trad($id,$lg)
   {
-    $bdd=init_DB();;
+    $bdd=init_DB();
     $stmt = $bdd->prepare("SELECT * FROM project_trad WHERE project_id= :id AND ln= :lg ");
     $stmt->execute(["project_id"=>$project_id,"parrain"=>$parrain,"link"=>$link]);
+  }
+  static public function get_info($id)
+  {
+    $stmt=init_DB()->prepare('SELECT * FROM project WHERE id = :id');
+    $stmt->execute(["id"=>$id]);
+    return $stmt->fetchAll(PDO:FETCH_ASSOC)[0];
+  }
+  static public function set_info($id,$info)
+  {
+
   }
 }
 
