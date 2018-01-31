@@ -139,6 +139,7 @@ $f3->route('GET /admin/projet/@id',function ($f3,$params) {
 });
 $f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principales nom,catégories
   is_connected_with(false,$f3,function($f3){
+    $f3->set('project',Project::get_info($params['id']));
     echo Template::instance()->render('admin_views/');
   });
 });
@@ -157,6 +158,7 @@ $f3->route('POST /admin/projet/@id/trad/@lg/editdata',function ($f3,$params) {
     echo Template::instance()->render('admin_views/');
   });
 });
+
 $f3->route('GET /admin/projet/create',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('admin_views/');
@@ -167,13 +169,7 @@ $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
     echo Template::instance()->render('admin_views/');
   });
 });
-$f3->route('POST /admin/projet/upload_test',function ($f3,$params) {
-    echo "TEST";
-    echo $_FILES['file']['name'];
-    is_connected_with(false,$f3,function($f3){
-      echo Template::instance()->render('admin_views/');
-    });
-});
+
 $f3->route('GET /admin/projet/@id/images/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     echo Template::instance()->render('admin_views/');
