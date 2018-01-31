@@ -161,6 +161,17 @@
     float: none;
   }
 
+  /*page techn*/
+
+  .header_bleu {
+
+      height: 250px;
+  }
+
+  #TechEd .icon-monitor {
+    display: none;
+  }
+
   /* line 156, ../sass/mobile.scss */
   .TechEducation h1 {
     width: 100%;

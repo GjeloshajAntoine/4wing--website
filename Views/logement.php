@@ -2,41 +2,36 @@
 
 
 
-<div class="container main" id="TechEd">
-    <div class="row header_bleu" >
-      <div class="col-sm-2"> <span class="icon-monitor"></span></div>
-      <div class="TechEducation col-sm-10">
+<div class="container" id="logement">
+    <div class="row header_rose" >
+      <div class="col-md-2 com-md-12"> <span class="icon-monitor"></span></div>
+      <div class="logement col-md-10 com-md-12">
         <h1>Logement</h1>
-        <span>Une priorité pour l'intégration</span>
+        <span>Programmer le cercle vertueux &nbsp; de l'inclusion</span>
       </div>
     </div>
 
  <!-- Row -->
     <div class="row">
 	  	<div class="col-sm-9">
-
-		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder.</h2>
-		      <p>
-            4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.
-          </p>
+		    <div class="logementFirst">
+		      <h2>Lire, écrire, compter et coder</h2>
+		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
 		    </div>
-        <div class="LogementSecond" >
+        <div class="logementSecond">
             
-            <p> 
-              <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
             </p>
-            <h5>Arnold Dupont <br/> de Becode</h5>
-              <div class="TechSecond">
-                <img src="../img/femme2.png" alt="femme">
+          <h5>Arnold Dupont <br/> de Becode</h5>
+            <div class="logementSecond">
+              <img src="../img/femme2.png" alt="femme">
             </div>
          </div>
       
 		  </div>  
-
-	    <div class="col-ms-3 TechSecondRight" style="position:relative">
+	    <div class="col-ms-3 logementSecondRight" >
 	      <h5>Un projet ?</h5>
-	      <div class="btn btn_info">Nous Contacter</div>
+	      <a class="btn btn_success" href="soumission.php" target="blank">Nous contacter</a>
 	      <img src="../img/libelulle_transparente.png" alt="libellule">
 	    </div>
 	
@@ -48,7 +43,7 @@
 </div>
 
 
-<div class="TechThird">
+<div class="logementThird">
   <div class="container">
          <div class="row" >
           <div class="col-sm-1"> <span class="icon-monitor"> </span></div>
@@ -60,7 +55,7 @@
 </div>  
 
 
-<div class="container" id="TechForth">
+<div class="container" id="logementForth">
   <div class="row">
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
@@ -78,7 +73,7 @@
     </div>
 
     <div class="col-sm-12 col-md-6">
-        <div class="TechForth">
+        <div class="logementForth">
           <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
           <div class="rubrique">
             <h4> <a href="projet_tech.php">Becode</a> </h4>
@@ -96,4 +91,6 @@
   </div>
 </div>
  
+
+
 <?php require_once("../partials/footer.php") ?>

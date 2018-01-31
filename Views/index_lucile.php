@@ -4,7 +4,7 @@
   <section> 
     <div class="container">
       <div class="row">
-            <div class="intro col-sm-9">
+            <div class="introhome col-sm-9">
               <h1>Lutter contre la précarité en <span class="marron">Belgique</span></h1>
               <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam laudantium, accusantium in aliquam nihil ullam perferendis tempora doloribus atque sequi debitis quasi, aperiam minima quaerat accusamus recusandae deserunt! Nam.</p>
             </div>
@@ -16,8 +16,8 @@
 
   
   <section >
-    <div class="axes contenu">
-      <div class="container">
+    <div class="" >
+      <div class="contenu  axes">
         <div class="row">
           <div class="axe logement col-sm">
             <a href="logement.php">
@@ -33,7 +33,7 @@
               <h2>Tech-Éducation</h2>
               <p>Programmer le cercle vertueux &nbsp; de l'inclusion</p>
             </div>
-          </a>
+            </a>
           </div>
           <div class="axe sante col-sm">
             <a href="sante_nutrition.php">
@@ -42,13 +42,14 @@
               <h3>nutrition</h3>
               <p>L'alimentation,<br> la clé pour la santé de tous</p>
             </div>
-          </a>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
+ </section>
+   </div>
 
 
   <section class="citation">
@@ -70,8 +71,6 @@
 
 	
 </div>
-
-
 
 
 
