@@ -3,8 +3,7 @@
 function connect($name,$password)
 {
     $hash=sha1($password);
-    $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
-    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+    $bdd=init_DB();
     $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE name= :name AND password = :hash ");
     $stmt->execute(['name'=>$name,'hash'=>$hash]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -26,7 +25,31 @@ function is_admin()
         return false;
     }
 }
+function is_connected_test($f3,$callback){
+    if (is_connected()) {
+        $callback($f3);
+    }else{
+      $f3->reroute('/admin/login');
+    }
+}
+function is_connected_with($should_admin,$f3,$callback){
+    if (is_connected()) {
+        if ($should_admin) {
+            if (is_admin()) {
+                $callback($f3);
+            }else{
+                $f3->reroute('/admin/login');
+            }
+        }else{
+            $callback($f3);
+        }
+    }else{
+        $f3->reroute('/admin/login');
+    }
+}
+{
 
+}
 function create_user($name,$password,$auth)
 {
     if (is_connected() && is_admin()) {
@@ -52,10 +75,10 @@ function list_user()
 }
 function change_user($id,$password,$auth)
 {
-    
+
 }
 function delete_user(Type $var = null)
 {
-    
+
 }
 ?>
