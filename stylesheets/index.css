@@ -39,14 +39,16 @@ body {
   padding: 0px;
 }
 /* line 67, ../sass/index.scss */
-.container .row .intro {
+.introHome {
   font-family: 'montserratregular';
   color: #564026;
   font-size: 1.2em;
+  text-align: left;
   line-height: 2em;
   float: left;
   margin-bottom: 20px;
-}
+  margin-top: 20px;
+  }
 /* line 80, ../sass/index.scss */
 .container section {
   padding: 0px;
@@ -170,13 +172,13 @@ body {
 /* line 232, ../sass/index.scss */
 section .axes {
   background-color: #AADBDB;
-  height: 650px;
+  align-items: center;
   flex-wrap: nowrap;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
 /* line 239, ../sass/index.scss */
 section .axes .axe {
-  width: 377px;
+  width: 380px;
   height: 650px;
   float: left;
   color: white;

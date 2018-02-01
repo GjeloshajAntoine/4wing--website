@@ -161,6 +161,17 @@
     float: none;
   }
 
+  /*page techn*/
+
+  .header_bleu {
+
+      height: 250px;
+  }
+
+  #TechEd .icon-monitor {
+    display: none;
+  }
+
   /* line 156, ../sass/mobile.scss */
   .TechEducation h1 {
     width: 100%;
@@ -201,7 +212,7 @@
     color: white;
     font-size: 3em;
     margin-top: 6px;
-    margin-bottom: -1	0px;
+    margin-bottom: -1 0px;
   }
 
   /* line 201, ../sass/mobile.scss */
