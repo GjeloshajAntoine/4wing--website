@@ -6,7 +6,7 @@
 
 /*header test*/
 .header_bleu2 {
-  background-color: #C4D2FC ;
+  background-color: #AADBDB ;
   color: white;
   padding: 5px;
   display: block;
@@ -98,7 +98,7 @@
 
 
 .santeBleu {
-    background-color: #C4D2FC;
+    background-color: #AADBDB;
     color: white;
     font-family: 'misoregular';
     text-shadow: 1px 1px 1px #6a6a6a;
@@ -141,4 +141,20 @@
   font-size: 3em;
   font-family: 'Frank Ruhl Libre', serif;
   
+}
+
+.homme2 img {
+    float: right;
+    margin-top: -407px;
+    margin-right: -275px;
+}
+
+.Santebas img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-left: 6px solid #AADBDB;
+    background-image: url("http://www.becode.org/partners/images/image.png");
+    background-size: 150px;
+    margin-right: 20px;
 }

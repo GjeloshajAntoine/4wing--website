@@ -20,16 +20,16 @@
     <div class="row">
 
         <div class=" col-md-4 col-sm-12">
-          <div class="vignette"><img src="../img/vignette-logement.jpg" alt="logo"></div>
+          <div class="vignette"><img src="../img/projets/logo_habitat_humanism.jpg" alt="logo"></div>
             <p class="introLogement">
             BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
-          <a class="btn btn_success" href="http://www.becode.org/" target="blank">Visiter le site</a>
+          <a class="btn btn_success" href="https://habitat-humanisme.be/" target="blank">Visiter le site</a>
           </p>
         </div>
         <div class=" col-md-8 col-sm-12">
             <div class="slider">
-              <?php require_once("slider_projet.php") ?>
+              <?php require_once("slider_projet_logement.php") ?>
             </div>
          </div>
       

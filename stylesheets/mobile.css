@@ -72,17 +72,17 @@
     margin-top: 6px;
   }
   /* line 58, ../sass/mobile.scss */
-  section .axes {
+  .axes {
     padding-top: 10px;
     height: auto;
   }
   /* line 62, ../sass/mobile.scss */
-  section .axes .axe {
+  .axes .axe {
     width: 100%;
     height: 200px;
   }
   /* line 67, ../sass/mobile.scss */
-  section .axes .axe img {
+  .axes .axe img {
     display: none;
   }
 

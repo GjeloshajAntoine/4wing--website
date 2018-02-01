@@ -23,8 +23,8 @@
           <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
+            <div class="homme2">
+              <img src="../img/homme2.png" alt="homme">
             </div>
          </div>
       
@@ -47,7 +47,7 @@
   <div class="container">
          <div class="row " >
           <div class="col-sm-1"> <span class="icon-leaf"> </span></div>
-          <div class="TechEducation col-sm-11 ">
+          <div class="TechEducation Santebas col-sm-11 ">
             <h3>Les projets Santé par la nutrition</h3>
           </div>
         </div>
@@ -60,7 +60,7 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth ">
-          <a href="projet_sante.php"><img src="../img/vignette-sante.jpg" alt="logo border_bleu2"></a>
+          <a href="projet_sante.php"><img src="../img/projets/vignette-sante.jpg" alt="logo border_bleu2"></a>
           <div class="rubrique">
             <h4> <a href="projet_sante.php">Titre nutrition</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam tempora pariatur, doloribus fugiat totam earum ad expedita officiis consequuntur distinctio reiciendis ab quas, deleniti nostrum deserunt libero aspernatur ipsum reprehenderit.</p>

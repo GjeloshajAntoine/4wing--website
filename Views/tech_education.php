@@ -57,7 +57,7 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth">
-          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
+          <a href="projet.php"><img src="../img/projets/SmallLogo.png" alt="logo becode"></a>
           <div class="rubrique">
             <h4> <a href="projet_tech.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
@@ -71,7 +71,7 @@
 
     <div class="col-sm-12 col-md-6">
         <div class="TechForth">
-          <a href="projet.php"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></a>
+          <a href="projet.php"><img src="../img/projets/SmallLogo.png" alt="logo becode"></a>
           <div class="rubrique">
             <h4> <a href="projet_tech.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social

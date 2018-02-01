@@ -20,7 +20,7 @@
 		    </div>
        
         <div class="TechSecond LogementSecond">     
-          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span>Grâce à l’accompagnement orchestré par Habitat et Humanisme, des locataires deviennent propriétaires de leur logement. à son tour, 4WINGS accompagne Habitat et Humanisme dans sa démarche pour amplifier les effets positifs. C’est une très belle réaction en chaine.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
             <div class="TechSecond">
@@ -60,76 +60,27 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/projets/logo_habitat_humanism.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->
-        <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
+            <h4> <a href="projet_logement.php">Habitat et Humanisme</a> </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta ducimus voluptates, ullam optio ea excepturi numquam possimus nihil fugiat! Quas consequuntur, numquam repudiandae animi. Nam nulla repudiandae, itaque dolor?</p>
           </div>
         </div>
       </div>
     <!-- fin projet-->
 
+        <!-- projet-->
+     <div class="col-sm-12 col-md-6">
+        <div class="TechForth border_rose">
+          <a href="projet_logement.php"><img src="../img/projets/logo_habitat_humanism.jpg" alt="Vignette Logement"></a>
+          <div class="rubrique rose">
+            <h4> <a href="projet_logement.php">Habitat et Humanisme</a> </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta ducimus voluptates, ullam optio ea excepturi numquam possimus nihil fugiat! Quas consequuntur, numquam repudiandae animi. Nam nulla repudiandae, itaque dolor?</p>
+          </div>
+        </div>
+      </div>
+    <!-- fin projet-->
+       
   </div>
 </div>
  

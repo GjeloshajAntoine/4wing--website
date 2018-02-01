@@ -21,7 +21,7 @@
     <div class="row">
 
         <div class=" col-md-4 col-sm-12">
-          <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
+          <div class="vignette"><img src="../img/projets/SmallLogo.png" alt="logo becode"></div>
             <p class="introProjetTech">
             BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
@@ -30,7 +30,7 @@
         </div>
         <div class=" col-md-8 col-sm-12">
             <div class="slider">
-              <?php require_once("slider_projet.php") ?>
+              <?php require_once("slider_projet_tech.php") ?>
             </div>
          </div>
       
