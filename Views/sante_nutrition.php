@@ -48,7 +48,7 @@
          <div class="row " >
           <div class="col-sm-1"> <span class="icon-leaf"> </span></div>
           <div class="TechEducation col-sm-11 ">
-            <h3>Les projets Nutrition</h3>
+            <h3>Les projets Santé par la nutrition</h3>
           </div>
         </div>
   </div>
@@ -60,9 +60,9 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth ">
-          <a href="projet.php"><img src="../img/vignette-sante.jpg" alt="logo border_bleu2"></a>
+          <a href="projet_sante.php"><img src="../img/vignette-sante.jpg" alt="logo border_bleu2"></a>
           <div class="rubrique">
-            <h4> <a href="projet_tech.php">Titre nutrition</a> </h4>
+            <h4> <a href="projet_sante.php">Titre nutrition</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam tempora pariatur, doloribus fugiat totam earum ad expedita officiis consequuntur distinctio reiciendis ab quas, deleniti nostrum deserunt libero aspernatur ipsum reprehenderit.</p>
           </div>
         </div>

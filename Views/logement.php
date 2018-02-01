@@ -46,7 +46,7 @@
 <div class="TechThird LogementSecondRight">
   <div class="container">
          <div class="row" >
-          <div class="col-sm-1"> <span class="icon-monitor"> </span></div>
+          <div class="col-sm-1"> <span class="icon-home-outline"> </span></div>
           <div class="TechEducation col-sm-11 ">
             <h3>Les projets Logement</h3>
           </div>
@@ -60,9 +60,9 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
+            <h4> <a href="projet_logement.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
                 élevé qui, inspirée par le modèle français
                 de Simplon, vise à développer le talent de
@@ -75,9 +75,9 @@
         <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
+            <h4> <a href="projet_logement.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
                 élevé qui, inspirée par le modèle français
                 de Simplon, vise à développer le talent de
@@ -89,9 +89,9 @@
     <!-- fin projet-->    <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
+            <h4> <a href="projet_logement.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
                 élevé qui, inspirée par le modèle français
                 de Simplon, vise à développer le talent de
@@ -103,9 +103,9 @@
     <!-- fin projet-->    <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
+            <h4> <a href="projet_logement.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
                 élevé qui, inspirée par le modèle français
                 de Simplon, vise à développer le talent de
@@ -117,9 +117,9 @@
     <!-- fin projet-->    <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_tech.php">Becode</a> </h4>
+            <h4> <a href="projet_logement.php">Becode</a> </h4>
             <p>BeCode est une start-up à impact social
                 élevé qui, inspirée par le modèle français
                 de Simplon, vise à développer le talent de

@@ -20,8 +20,8 @@
     <div class="row">
 
         <div class=" col-md-4 col-sm-12">
-          <div class="vignette"><img src="http://www.becode.org/partners/images/SmallLogo.png" alt="logo becode"></div>
-            <p class="intro">
+          <div class="vignette"><img src="../img/vignette-logement.jpg" alt="logo"></div>
+            <p class="introLogement">
             BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
             
           <a class="btn btn_success" href="http://www.becode.org/" target="blank">Visiter le site</a>

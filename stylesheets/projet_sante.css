@@ -41,14 +41,15 @@
   display: block;
   border-left: 5px solid #8791a4;
 }
-.container .row .intro{
-   
+.container .row .introSante{
+   font-size: 1.3em;
    color: #5A606D;
    line-height: auto;
    padding-bottom: 5px;
+   padding-top: 10px;
    text-align: center;
    z-index: 500;
-    }
+ }
 
 .container .row .slider{
     background-color: #C4D2FC;
