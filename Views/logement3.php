@@ -1,10 +1,10 @@
 <?php require_once("../partials/header.php") ?>
 
-<div class="container" id="TechEd">
-    <div class="row header_bleu" >
+<div class="container" id="logement">
+    <div class="row header_rose" >
       <div class="TechEducation col-md-8">
-        <span class="icon-monitor"></span><h1>Tech - Education</h1>
-        <span>Programmer le cercle vertueux &nbsp; de l'inclusion</span>
+        <span class="icon-home-outline"></span><h1>Logement</h1>
+        <span>Phrase logement</span>
       </div>
     </div>
 
@@ -17,7 +17,7 @@
 		    </div>
        
         <div class="TechSecond">     
-          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
+          <p class="citation_rose"> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
             <div class="TechSecond">

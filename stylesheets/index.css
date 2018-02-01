@@ -39,15 +39,16 @@ body {
   padding: 0px;
 }
 /* line 67, ../sass/index.scss */
-.container .row .introhome {
+.introHome {
   font-family: 'montserratregular';
   color: #564026;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: left;
   line-height: 2em;
   float: left;
   margin-bottom: 20px;
-}
+  margin-top: 20px;
+  }
 /* line 80, ../sass/index.scss */
 .container section {
   padding: 0px;

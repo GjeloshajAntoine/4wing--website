@@ -28,23 +28,24 @@
   margin-right: 20%;
 
 }
-#TechEd h1 {
+#TechEd .row h1 {
   text-transform: uppercase;
   font-family: 'misoregular', sans-serif;
   color: white;
   font-size: 4.5em;
   margin-top: 14px;
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 #TechEd .icon-monitor {
-      font-size: 106px;               
+      font-size: 6em; 
+      margin-top: 20px;              
 
 }
 
 .TechEducation span { 
   font-family: 'montserratregular', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .TechFirst p {
@@ -85,10 +86,7 @@
   color: #00338d;
 }
 .innovation p {
-  font-
-
-
-  : 'montserratregular', sans-serif;
+  font-family: 'montserratregular', sans-serif;
   color: white;
   font-weight: ;
 }
@@ -265,7 +263,7 @@ font-size: 25px;
     text-align: justify;
 }
 
-}
+
 
 .lettrine1 {
 
@@ -275,14 +273,14 @@ font-size: 25px;
   float: left;
   font-family: 'Frank Ruhl Libre', serif;
   margin-top: 100px;
-  margin-right: 38px;
+  margin-right: 20px;
 }
+
 .lettrine2 {
 
   color: #00338d;
   font-size: 3em;
   font-family: 'Frank Ruhl Libre', serif;
- 
   
 }
 
@@ -309,7 +307,7 @@ font-size: 25px;
 
 .TechSecondRight {
  
-  min-height: 892px;
+  min-height: 600px;
 
   text-align: center;
   float: left;
@@ -427,155 +425,3 @@ font-size: 25px;
   margin-bottom: 40px;
 }
 
-
-.
-/*page sante */
-
-#sante {
-  background-color: rgb(219, 77, 105);
-  color: white;
-  font-family: 'misoregular';
-}
-
-#sante .Titre h1 {
-  text-transform: uppercase;
-  font-size: 3.5em;
-  font-weight: 300;
-  width: 40%;
-}
-
-#sante .Titre p {
-  width: 40%;
-  font-size: 1em;
-  padding-top: 0.5%;
-
-}
-
-.SanteFi {
-  height: 800px;
-  width: 1170px;
-}
-
-.SanteFirst {
-  margin-top: 2%;
-  margin-left: 3%;
-  width: 65%;
-  font-family: 'misoregular';
-  float: left;
-  height: 50%;
-  color: rgb(86, 64, 38);
-  font-size: 1.2em;
-}
-
-.SanteFirst h2 {
-  margin-bottom: 3%;
-  margin-top: 10%;
-  text-align: center;
-
-}
-
-.SanteFirst p {
-  line-height: 2em;
-  margin-top: 5%;
-  text-align: left;
-  width: 80%;
-}
-
-.SanteFirstRight {
-  background-color: #AADBDB;
-  width: 30%;
-  float: right;
-  height: 78.15%;
-  display: block;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
-}
-
-.SanteFirstRight h5 {
-  color: white;
-  font-size: 1.5em;
-  font-family: 'misoregular';
-}
-.SanteFirstRight button {
-  width: 65%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  background-color: white;
-  color: #AADBDB;
-  font-family: 'misoregular';
-  text-transform: uppercase;
-  border-radius: 5%;
-  margin-top: 10%;
-  font-size: 20px;
-  border-radius: 14px;
-  border: 0px;
-}
-
-.SanteSecond {
-  background: linear-gradient(to right, #f6f3ed, white);
-  width: 90%;
-  font-family: 'misoregular';
-  color: rgb(0, 51, 141);
-  text-align: left;
-  float: left;
-  height: 46.25%;
-  font-size: 1.2em;
-  margin-left: -30%;
-  display: inline-block;
-  margin-bottom: 2%;
-}
-
-.SanteSecondLeft {
-  width: 80%;
-}
-
-.SanteSecondRight {
-  width: 20%;
-  float: right;
-}
-
-.SanteThird {
-  background-color: #00338d;
-  color: white;
-  font-family: 'misoregular';
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
-  padding-left: 20%;
-}
-.SanteLast {
-  margin-left: 3%;
-  height: 600px;
-}
-
-.SanteLast .Libellule {
-  display: block;
-  float: left;
-  margin-top: 10%;
-}
-
-.SanteLast .SanteForth {
-  margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  display: inline-block;
-  width: 40%;
-  float: left;
-}
-
-.SanteLast .SanteForth img {
-  float: left;
-  border-left: 6px solid #007c92;
-}
-
-.SanteLast .SanteForth h4 {
-  padding-top: 4%;
-  margin-left: 4%;
-  display: inline-block;
-}
-
-.SanteLast .SanteForth p {
-  width: 65%;
-  padding-left: 4%;
-  display: inline-block;
-}

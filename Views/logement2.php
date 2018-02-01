@@ -1,5 +1,5 @@
 <?php require_once("../partials/header.php") ?>
-  <body>
+
     <div class="container" id="logement">
       <div class="row header">
         <div class="col-md-2 col-sm-2 col-4 LogementFirstIcon">

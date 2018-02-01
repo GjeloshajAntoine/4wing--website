@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="../stylesheets/nav.css">
   <link rel="stylesheet" href="../stylesheets/tech.css">
   <link rel="stylesheet" href="../stylesheets/logement.css">
+  <link rel="stylesheet" href="../stylesheets/sante.css">
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
   <link rel="stylesheet" href="../stylesheets/projet_tech.css">

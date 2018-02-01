@@ -4,9 +4,9 @@
   <section> 
     <div class="container">
       <div class="row">
-            <div class="introhome col-sm-9">
+            <div class="introHome col-sm-9">
               <h1>Lutter contre la précarité en <span class="marron">Belgique</span></h1>
-              <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam laudantium, accusantium in aliquam nihil ullam perferendis tempora doloribus atque sequi debitis quasi, aperiam minima quaerat accusamus recusandae deserunt! Nam.</p>
+              <p class="introHome">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam laudantium, accusantium in aliquam nihil ullam perferendis tempora doloribus atque sequi debitis quasi, aperiam minima quaerat accusamus recusandae deserunt! Nam.</p>
             </div>
               <div class="col-sm-3 libellule"></div>
         </div> 
