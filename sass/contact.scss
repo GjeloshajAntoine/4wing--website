@@ -1,0 +1,59 @@
+.container {
+  h1 {
+    color: #00338d;
+    font-size: 3em;
+  }
+  .bureaux {
+    h2 {
+      font-family: 'montserratregular', sans-serif;
+    }
+    p {
+      font-family: 'montserratregular', sans-serif;
+      font-size: 1.5em;
+    }
+    .formulair {
+
+      display: inline-flex;
+
+      form {
+        margin-left: 50px;
+        font-family: 'montserratregular', sans-serif;
+
+        label {
+          margin-bottom: 25px;
+          margin-top: 1%;
+          margin-right: 1%;
+          font-family: 'montserratregular', sans-serif;
+
+        }
+        input {
+          margin-bottom: 30px;
+          margin-right: 2%;
+        }
+        textarea {
+          width: 600px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+$break-small: 320px;
+$break-medium: 790px;
+
+
+  @media screen and (max-width: $break-small) {
+    .formulair {
+      display: block;
+    }
+    .formu {
+    width: 100%;
+    display: block;
+  }
+}
+  @media screen and (max-width: $break-medium) {
+    .formu {
+    width: 100%;
+    float: left;
+  }
+}
