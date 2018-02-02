@@ -1,0 +1,96 @@
+Searching 31670 files for "AADBDB"
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/4e4d1cf88d162f67c515cb87219942d8b5862c7e/color.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/4e4d1cf88d162f67c515cb87219942d8b5862c7e/index.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/4e4d1cf88d162f67c515cb87219942d8b5862c7e/nav.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/a65994e40374d910a3e19b36a14ed5de199c2261/Log.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/a65994e40374d910a3e19b36a14ed5de199c2261/index.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/.sass-cache/a65994e40374d910a3e19b36a14ed5de199c2261/nav.scssc:
+    <binary>
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/Views/style.css:
+  136  
+  137  footer {
+  138:   background: linear-gradient(180deg, #8791a4 0%, #AADBDB 100%);
+  139  
+  140  }
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/sass/index.scss:
+    1  $bleu1  : #AADBDB;
+    2: $bleu2  : #AADBDB;
+    3  $bleu3  : #00338d;
+    4  $bleu4  : #0B0036;
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/stylesheets/index.css:
+  286  /* line 366, ../sass/index.scss */
+  287  .axes .sante {
+  288:   border-top: 5px solid #AADBDB;
+  289    background-color: #AADBDB;
+  290  }
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/stylesheets/projet_sante.css:
+    1  /* line 3, ../sass/projet.scss */
+    2  .projetSante{
+    3:   background-color: #AADBDB;
+    4    color: white;
+    5  }
+    .
+   18  #titreSante .icon-home-outline {
+   19    font-size: 106px;
+   20:   color: #AADBDB;
+   21    margin-top: 10px;
+   22    margin-bottom: 10px;
+   ..
+   29    margin-bottom: 10px;
+   30    margin-right: 10px;
+   31:     color: #AADBDB;
+   32  }
+   33  /* line 39, ../sass/projet.scss */
+   ..
+   53  
+   54  .container .row .slider{
+   55:     background-color: #AADBDB;
+   56      width: 100%;
+   57      height: 100%;
+   ..
+   91    
+   92      display: block;    
+   93:     color: #AADBDB;
+   94      font-size: 1.2em;
+   95  }
+   ..
+  123     font-family: 'misoregular';
+  124     font-size: 40px;
+  125:    color: #AADBDB;
+  126     display: block;
+  127  
+  ...
+  148      margin-top: 50px;
+  149      padding-bottom: 10px;
+  150:     border-bottom: 1px solid #AADBDB;
+  151  
+  152    }
+
+/home/user/Desktop/Link to htdocs/Sites Clients/4wing-website/stylesheets/sante.css:
+    7  /*header test*/
+    8  .header_bleu2 {
+    9:   background-color: #AADBDB ;
+   10    color: white;
+   11    padding: 5px;
+   ..
+   99  
+  100  .santeBleu {
+  101:     background-color: #AADBDB;
+  102      color: white;
+  103      font-family: 'misoregular';
+

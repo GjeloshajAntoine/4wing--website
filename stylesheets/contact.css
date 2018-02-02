@@ -1,0 +1,60 @@
+/* line 2, ../sass/contact.scss */
+.container h1 {
+  color: #00338d;
+  font-size: 3em;
+}
+/* line 7, ../sass/contact.scss */
+.container .bureaux h2 {
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 10, ../sass/contact.scss */
+.container .bureaux p {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 1.5em;
+}
+/* line 14, ../sass/contact.scss */
+.container .bureaux .formulair {
+  display: inline-flex;
+}
+/* line 18, ../sass/contact.scss */
+.container .bureaux .formulair form {
+  margin-left: 50px;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 22, ../sass/contact.scss */
+.container .bureaux .formulair form label {
+  margin-bottom: 25px;
+  margin-top: 1%;
+  margin-right: 1%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 29, ../sass/contact.scss */
+.container .bureaux .formulair form input {
+  margin-bottom: 30px;
+  margin-right: 2%;
+}
+/* line 33, ../sass/contact.scss */
+.container .bureaux .formulair form textarea {
+  width: 600px;
+  height: 200px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 46, ../sass/contact.scss */
+  .formulair {
+    display: block;
+  }
+
+  /* line 49, ../sass/contact.scss */
+  .formu {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 790px) {
+  /* line 55, ../sass/contact.scss */
+  .formu {
+    width: 100%;
+    float: left;
+  }
+}
