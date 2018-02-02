@@ -61,13 +61,13 @@
               <li class="dropdown list-inline-item menu">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos <span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Missions</a></li>
-                        <li><a href="#">Valeurs</a></li>
-                        <li><a href="#">Sélection de projets</a></li>
-                        <li><a href="#">Équipe</a></li>
-                        <li><a href="#">Conseil d'administration</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Réseau & partenaires</a></li>
+                        <li><a href="missions.php">Missions</a></li>
+                        <li><a href="valeurs.php">Valeurs</a></li>
+                        <li><a href="selection_projets.php">Sélection de projets</a></li>
+                        <li><a href="equipes.php">Équipe</a></li>
+                        <li><a href="conseil.php">Conseil d'administration</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="reseaux_partenaires.php">Réseau & partenaires</a></li>
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu">
@@ -78,10 +78,17 @@
                         <li><a href="sante_nutrition.php">Santé et nutrition</a></li>
                       </ul>
                 </li>
-                <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>
+                <li class="dropdown list-inline-item menu"><a href="contact.php">Contact</a></li>
+                
               
             </ul>
           </div>
         </div>
+
       </nav>
+      <ul>
+        <li><a href="">FR</a></li>
+        <li><a href="">EN</a></li>
+        <li><a href="">NL</a></li>
+      </ul>
     </header>

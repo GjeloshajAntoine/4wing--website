@@ -57,7 +57,10 @@
 
   font-size: 2em;
   font-weight: bold;
+  line-height: 2em;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
@@ -253,12 +256,12 @@ font-size: 25px;
 }
 
 .row .TechSecond p {
-    line-height: 2em;
+    line-height: 1.5em;
     color: #00338d;
     font-size: 1.8em;
     padding-left: 30px;
     width: 90%;
-    text-align: justify;
+    text-align: auto;
 }
 
 
@@ -270,14 +273,14 @@ font-size: 25px;
   display: block;
   float: left;
   font-family: 'Frank Ruhl Libre', serif;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 20px;
 }
 
 .lettrine2 {
 
   color: #00338d;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Frank Ruhl Libre', serif;
   
 }

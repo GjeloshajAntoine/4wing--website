@@ -4,7 +4,7 @@
     <div class="row header_rose" >
       <div class="TechEducation col-md-8">
         <span class="icon-home-outline"></span><h1>Logement</h1>
-        <span>Phrase logement</span>
+        <span>Une priorité pour l'intégration</span>
       </div>
       <div class="col-md-4 col-sm-6 col-12 ImageHeader">
           <img src="../img/img_header_logement.png" alt="ImageLogement">
@@ -15,7 +15,7 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder</h2>
+		      <h2>En Belgique, 180.000 familles sont en attente d’un logement accessible financièrement</h2>
 		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
 		    </div>
        

@@ -123,14 +123,14 @@
   display: block;
   float: left;
   font-family: 'Frank Ruhl Libre', serif;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 20px;
 }
 
 #logement .LogementSecond .lettrine2 {
 
   color: #db4d69;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Frank Ruhl Libre', serif;
   
 }

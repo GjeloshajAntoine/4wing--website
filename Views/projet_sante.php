@@ -20,9 +20,9 @@
     <div class="row">
 
         <div class=" col-md-4 col-sm-12">
-          <div class="vignette">"><img src="../img/projets/logo_bio.jpg" alt="logo becode"></div>
+          <div class="vignette"><img src="../img/projets/logo_bio.jpg" alt="logo becode"></div>
             <p class="introSante">
-            BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quo similique culpa alias non, dolorem. Officiis necessitatibus eveniet numquam iste ipsam, facere veritatis voluptatem ullam, id, beatae suscipit fugiat optio!
             
           <a class="btn btn_success" href="#" target="blank">Visiter le site</a>
           </p>
@@ -47,13 +47,15 @@
                 <div class="col-sm-12 col-md-9 texte">
                    
           <div class="col-sm-12"><span class="icon-leaf icon2"></span><h2>Le projet </h2></div>
-                   <p>BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+                   <p>
+                    Pauvreté, santé et alimentation sont fortement corrélés. 
+                    En Belgique près d’1/3 de la population est en surcharge pondérale, alors que dans le même temps, 1 personne sur 5 est menacée de malnutrition. 
+                    Alimentation et activité physique sont des vecteurs importants de santé.
+
                   </p>
                   
           <div class="col-sm-12"><span class="icon-leaf icon2"></span><h2>Notre soutien </h2></div>
-                  <p>La Fondation soutient le projet BeCode, pour sa vision et sa volonté de promouvoir l’insertion sociale de publics fragilisés par la réplication d’un modèle étranger ayant produit de très bons résultats.
-                  Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital.
-                  La Fondation 4WINGS est un des par- tenaires co-fondateurs et membre du Conseil d’Administration. à ce titre, la Fondation s’implique étroitement à chaque étape de développement du projet et fournit tant une guidance stratégique qu’un soutien financier.
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis tenetur ad consectetur rem quam est quo quos. Voluptate neque delectus provident. Officia itaque sunt porro illo, enim, mollitia maiores obcaecati?
                   <br>
                   </p>
                 </div>
@@ -66,18 +68,7 @@
                   <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
                   </span>
               </div>
-              <div class="perso">
-                  <span class="name">Matthieu NomDeMatthieu</span>
-                  <span class="function">Fonction de Matthieu</span>
-                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
-                  </span>
-              </div>
-               <div class="perso">
-                  <span class="name">Matthieu NomDeMatthieu</span>
-                  <span class="function">Fonction de Matthieu</span>
-                  <span class="linkedin"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx5DTCSUnM0C59fKmNCgiGH4Su0JqyHps5Knv7CF4fSBD80lMo" alt="" width="40px"></a>
-                  </span>
-              </div>
+            
                
          
           </div>

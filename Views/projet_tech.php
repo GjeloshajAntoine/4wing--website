@@ -1,7 +1,7 @@
 <?php require_once("../partials/header.php") ?>
 
 <!-- Titre de la page -->
-  <div class="container projet">
+  <div class="container projet" id="texte_technologie">
     <div class="row" >
       <div class="col-sm-12"> <span class="icon-monitor"></span>
 

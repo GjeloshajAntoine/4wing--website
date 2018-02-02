@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
             <div class="introHome col-sm-9">
-              <h1>Contactez-<span class="marron">nous</span></h1>
+              <h1>F.A.Q. <span class="marron"></span></h1>
               <p class="introHome">
 
               </p>

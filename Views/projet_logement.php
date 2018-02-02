@@ -4,7 +4,7 @@
     <div class="row" >
       <div class="col-sm-12"> <span class="icon-home-outline"></span>
 
-        <h1>Titre projet Logement</h1>
+        <h1>Habitat & Humanisme</h1>
       </div>
     </div>
   </div>
@@ -22,13 +22,14 @@
         <div class=" col-md-4 col-sm-12">
           <div class="vignette"><img src="../img/projets/logo_habitat_humanism.jpg" alt="logo"></div>
             <p class="introLogement">
-            BeCode est une start-up à impact social élevé qui, inspirée par le modèle françaisde Simplon, vise à développer le talent des jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain.
+            4WINGS soutient le changement d’échelle de HH : Passer de 10 à 50 logements créés par an dans les 5 ans.
+
             
-          <a class="btn btn_success" href="https://habitat-humanisme.be/" target="blank">Visiter le site</a>
+          <a class="btn btn_success" href="http://www.habitat-humanisme.be" target="blank">Visiter le site</a>
           </p>
         </div>
         <div class=" col-md-8 col-sm-12">
-            <div class="slider">
+            <div class="sliderlogement">
               <?php require_once("slider_projet_logement.php") ?>
             </div>
          </div>
@@ -47,14 +48,33 @@
                 <div class="col-sm-12 col-md-9 texte">
                    
           <div class="col-sm-12"><span class="icon-home-outline icon2"></span><h2>Le projet </h2></div>
-                   <p>BeCode est une start-up à impact social élevé qui, inspirée par le modèle français de Simplon, vise à développer le talent de jeunes infra-qualifiés pour leur permettre de devenir les développeurs de demain. Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital. BeCode organise ainsi des formations de 6 mois entièrement gratuites en horaire de jour pour apprendre les technologies numériques. Les élèves sélectionnés pour rejoindre l’école acquièrent les compétences requises pour réussir comme développeur web au sein de start-ups, PME ou grandes organisations.
+                   <p><b>La promotion immobilière sociale :</b>
+
+                    <ul>
+                      <li>52 logements habités</li>
+                      <li>54 logements en cours</li>  
+                    </ul>
+                    <br>
+
+                    <b>L’accompagnement de familles à revenus modestes à l’acquisition de leur logement :</b>
+                       
+                    <ul>
+                      <li>30 familles devenues propriétaires depuis 2012.</li>
+                    </ul> 
+                    <br>
+
+                    <b> La formation à la construction de jeunes en réinsertion professionnelle :</b> 
+                      <ul>
+                      <li>4 maisons construites</li>
+                      <li>4 maisons en cours de chantier</li>
+                    </ul>
+   
                   </p>
                   
           <div class="col-sm-12"><span class="icon-home-outline icon2"></span><h2>Notre soutien </h2></div>
-                  <p>La Fondation soutient le projet BeCode, pour sa vision et sa volonté de promouvoir l’insertion sociale de publics fragilisés par la réplication d’un modèle étranger ayant produit de très bons résultats.
-                  Avec déjà deux établissements en place, l’ambition est de créer un véritable réseau d’écoles de programmation en Belgique pour répondre au problème sociétal de manque de know-how digital.
-                  La Fondation 4WINGS est un des par- tenaires co-fondateurs et membre du Conseil d’Administration. à ce titre, la Fondation s’implique étroitement à chaque étape de développement du projet et fournit tant une guidance stratégique qu’un soutien financier.
-                  <br>
+                  <p>
+                    <b>Un support humain accompagnement</b>, mise en relation, expertise technique et de gestion, siège au CA. <br>
+                    <b>Support financier</b> dons, prêts et prises de participations.
                   </p>
                 </div>
 
