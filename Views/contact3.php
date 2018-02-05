@@ -24,31 +24,31 @@
 
 </section>
 
-    <div class="container formulaire">
+    <div class="container">
          <div class="row">
            <div class="col-md-9">
               
-              <h3>Merci de nous contacter via ce formulaire <br>et nous vous répondrons dans les meilleurs délais.</h3>
-              <form role="form" class="" >
+              <h3>Merci de remplir le formulaire</h3>
+              <form role="form" >
             
                     <div class="form-group">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                   </div>
                   <div class="form-group">
                     <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                   </div>
                   <div class="form-group">
-                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Numéro de GSM" required>
+                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
                   </div>
                   <div class="form-group">
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" required>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                   </div>
                             <div class="form-group">
                             <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
                                 <span class="help-block"><p id="characterLeft" class="help-block ">Vous avez atteind la limite</p></span>                    
                             </div>
                     
-                <button type="button" id="submit" name="submit" class="btn btn_success2">ENVOYER LE FORMULAIRE</button>
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
                </form>
         </div> 
          <div class="col-md-3">
