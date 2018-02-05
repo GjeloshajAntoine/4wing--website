@@ -373,3 +373,35 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007C92', endColorstr='#AADBDB',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
+
+
+/*menu langues du header*/
+.langues{
+       width: 50px!important; 
+       height: 50px;
+
+ }
+
+
+.langues ul {
+    background-color: #f6f3ed;
+    width: 50px;
+    font-family: 'montserratregular';
+    padding: 15px;
+}
+
+.langues .dropdown-menu > li a{
+    width: 50px;
+   
+
+}
+.langues .dropdown-menu{
+    width: 50px;
+    padding-left: 0px;
+}
+
+ .contenu header nav ul .menu .lang{
+    width: 50px!important; 
+    font-family: 'montserratregular';
+
+}

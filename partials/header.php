@@ -79,6 +79,16 @@
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="contact.php">Contact</a></li>
+                <li class="dropdown list-inline-item menu langues">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FR <span class="caret"></span></a>
+                      <ul class="dropdown-menu lang">
+                       
+                            <li ><a href="#" class="lang">EN</a></li>
+                            <li ><a href="#" class="lang">NL</a></li>
+
+                      </ul>
+                </li>
+               
                 
               
             </ul>
@@ -86,9 +96,5 @@
         </div>
 
       </nav>
-      <ul>
-        <li><a href="">FR</a></li>
-        <li><a href="">EN</a></li>
-        <li><a href="">NL</a></li>
-      </ul>
+      
     </header>
