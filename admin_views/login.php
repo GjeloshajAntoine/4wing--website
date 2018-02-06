@@ -5,10 +5,10 @@
     <title></title>
   </head>
   <body>
-    <form class="" action="admin/login" method="post">
+    <form  action="login" method="post">
       <input type="text" name="name" value="">
       <input type="text" name="password" value="">
-      <input type="button" name="" value="login">
+      <input type="submit" name="" value="login">
     </form>
   </body>
 </html>
