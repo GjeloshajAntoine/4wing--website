@@ -6,7 +6,7 @@
   </head>
   <body>
     <repeat group="{{ @all_projects }}" value="{{ @project }}">
-        <a href="/admin/projet/{{ @project.id}}/fr"> {{ @project.name}} </a>
+        <a href="/admin/projet/{{ @project.id}}/fr"> {{ @project.title}} </a>
         <br/>
     </repeat>
   </body>
