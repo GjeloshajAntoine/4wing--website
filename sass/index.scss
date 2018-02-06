@@ -19,7 +19,7 @@ $blanc2 : #f6f3ed;
     font-weight: normal;
     font-style: normal;
 
-}
+	}
 
 @font-face {
   font-family: 'montserratsemibold';
@@ -39,9 +39,18 @@ body {
 	color: $marron;
 }
 
+
+
+
+
+
+
+
 .container-fluid	 {
-	padding-right: 0px!important;
-	padding-left: 0px!important;
+
+	padding-left: 0px;
+	padding-right : 0px;
+
 	}
 
 .marron {
@@ -70,15 +79,12 @@ body {
 
 		section {
 			padding: 0px;
-			padding-top: 40px;
-
-
 
 			.libellule {
 
 				width: 100px;
 				height: 79px;
-				background-image: url("../../img/libellule_bleue.png" );
+				background-image: url("../img/libellule_bleue.png" );
 				margin-top: 100px;
 				margin-left: 20px;
 				transform: rotate(-17deg);
@@ -114,7 +120,7 @@ body {
 				float: left;
 				//padding: 15px;
     			padding: 14px 0px 15px 35px;
-
+    			
 			}
 
 			.navbar-header {
@@ -131,9 +137,9 @@ body {
 				color: $bleu3;
 				margin-top: 40px;
 				background-color: $blanc;
-
+					
 					.menu {
-
+						
 
 						&:nth-child(1) {
 						    border-bottom : 5px solid $gris2;
@@ -158,12 +164,13 @@ body {
 						}
 
 						.dropdown-menu {
+							
 							background-color: $blanc2;
 							width: 280px;
 							font-family: 'montserratregular';
 							padding: 15px;
 
-
+							
 								a{
 								color: $marron;
 								text-transform: initial;
@@ -171,9 +178,9 @@ body {
 								text-align: left;
 								border-bottom: 1px solid $blanc;
 								//width: 90%;
-
+	
 								font-size: 20px;
-
+								
 								margin-top: 10px;
 								margin-bottom: 10px;
 								margin-left: 0px;
@@ -191,7 +198,7 @@ body {
 								}
 
 
-						}
+						}	
 						.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
 						    background-color: $blanc2;
 						    border-color: $blanc2;
@@ -199,40 +206,39 @@ body {
 
 
 					}
-
+					
 			}
 
 	}
 
-}
+}	
 
 
 .header {
-
+	
 
 	height: 120px;
 	width: 100%;
   	display: inline-block;
-    	background-color: $bleu3;
-
+    background-color: $bleu3;
+	
 	border-bottom : 5px solid $gris1;
 
-	z-index: -1;
+	z-index: 1000;
 
 }
 section {
 
 		.axes{
-
+	
 				background-color: $bleu1;
 				height:650px;
-				display: flex;
   				flex-wrap: nowrap;
   				text-shadow: 1px 1px 1px rgba(106, 106, 106, 1.0);
 
 					.axe {
 
-						width: 370px;
+						width: 377px;
 						height: 650px;
 						float: left;
 						color: $blanc;
@@ -240,23 +246,43 @@ section {
 						display: block;
 						cursor: pointer;
 
+							a {
+								color: white;
+							}
+
+						h2 {
+								color: white;
+
+								&:hover{
+									color: white;
+									text-decoration:none; 
+								}
+								
+							}
+
 								div img {
 									height: 460px;
 									width: 100%;
 									overflow: hidden;
 									&:hover {
-										opacity:0.8;
-									}
+										opacity:0.8;										
+									} 
 								}
-
+						
 						&:hover {
 							opacity:0.8;
 							-webkit-box-shadow: 0px 1px 2px 3px rgba(255,255,255,1);
 							-moz-box-shadow: 0px 1px 2px 3px rgba(255,255,255,1);
 							box-shadow: 0px 1px 2px 3px rgba(255,255,255,1);
-						}
+								
+								a {
+									text-decoration:none; 
+								}
+
+						} 
 
 
+	
 					}
 
 
@@ -267,6 +293,12 @@ section {
 							font-weight: bold;
 
 							}
+					h2 a:hover {
+
+							color: white;
+
+						}
+
 					h3 {
 
 							font-family: 'misoregular';
@@ -274,12 +306,12 @@ section {
 							font-weight: bold;
 
 							}
-
+	
 					p {
 							font-family: 'montserratregular';
 							font-size: 1.2em;
 							margin-top: 0px;
-					}
+					}	
 
 
 					.logement{
@@ -294,12 +326,12 @@ section {
 
 								    }
 
-						    	p {
+						    	p {	
 						    		font-size: 1.3em;
 						    		margin-top: 0px;
 
-						    	}
-
+						    	}	
+					    
 						}
 					.education {
 							border-top : 5px solid $bleu3;
@@ -311,11 +343,11 @@ section {
 								   	font-size: 3.8em;
 								    margin-bottom: 35px;
 								    margin-top: 35px;
-
+								   
 
 								    }
 
-
+							
 						    	p {
 						    		font-size: 1.3em;
 						    		padding-bottom: 15px;
@@ -325,9 +357,9 @@ section {
 								    margin-right: auto;
 								    line-height: 1.2em;
 								    width: 70%;
-
-						    	}
-
+						    		
+						    	}	
+					    
 
 
 						}
@@ -338,7 +370,7 @@ section {
 
 								h2 {
 
-								   	font-size: 3.7em;
+								   	font-size: 3.7em;	    
 								    margin-top: 5px;
 
 								    }
@@ -349,15 +381,15 @@ section {
 								    margin-top: -20px;
 
 								    }
-
+								    
 						    	p {
 						    		font-size: 1.3em;
 						    		margin-top: -5px;
 						    		padding-bottom: 15px;
 						    		text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);;
 
-						    	}
-
+						    	}	
+					    
 							}
 
 		}
@@ -372,7 +404,7 @@ section.citation {
 
 			background-color: $blanc2;
 			width: 100%;
-
+  				
 	  					.citation_image{
 	  					display: block;
 	  					background-image: url("../img/femme.png");
@@ -380,7 +412,7 @@ section.citation {
 
 	  					width: 100%;
 	  					height: 525px;
-
+	  					
 		  				}
 		  				.citation_texte{
 		  						font-family: 'misoregular';
@@ -392,7 +424,7 @@ section.citation {
 								margin-left: 530px;
 								//right: 0px;
 								line-height: 55px;
-
+							
 
 		  				}
 		  				.auteur {
@@ -413,15 +445,16 @@ section.citation {
 	  						margin-top:  -150px;
 	  						right: 400px;
 		  				}
-
-
-
+  				
+			
+				
 		}
 
 
 section.slider_projets {
 			background-color: $blanc2;
 			padding-bottom: 50px;
+
 
 			}
 
@@ -430,13 +463,15 @@ section.slider_projets {
 footer {
 	height: 435px;
 	width: 100%;
-  	display: inline-block;
+  	//display: inline-block;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007c92+0,aadbdb+100 */
 	background: #007c92; /* Old browsers */
 	background: -moz-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(180deg, $gris2 0%, $bleu2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+	
 
 }
+
+

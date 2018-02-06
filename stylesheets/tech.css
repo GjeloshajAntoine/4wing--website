@@ -3,14 +3,18 @@
   padding: 0 auto;
 }
 
+
 /*header test*/
-header {
-  background-color: #00338d;
+.header_bleu {
+  background-color: #00338d ;
   color: white;
+  padding: 5px;
+  display: block;
+  height: 127px;
 }
 
 .container {
-
+      
       padding-right: 0px;
       padding-left: 0px;
 
@@ -24,23 +28,25 @@ header {
   margin-right: 20%;
 
 }
-#TechEd h1 {
+#TechEd .row h1 {
   text-transform: uppercase;
   font-family: 'misoregular', sans-serif;
   color: white;
   font-size: 4.5em;
-  margin-top: 6px;
+  margin-top: 14px;
   margin-bottom: -10px;
 }
 
 #TechEd .icon-monitor {
-      font-size: 106px;
+      font-size: 6em; 
+      margin-top: 20px;  
+      width: 100px;            
 
 }
 
-.TechEducation span {
+.TechEducation span { 
   font-family: 'montserratregular', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .TechFirst p {
@@ -51,12 +57,15 @@ header {
 
   font-size: 2em;
   font-weight: bold;
+  line-height: 2em;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
 .col-sm-9 {
-            padding: 0px;
+    padding: 0px;
             }
 
 .mission h3 {
@@ -83,7 +92,7 @@ header {
 .innovation p {
   font-family: 'montserratregular', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: ;
 }
 
 
@@ -146,7 +155,7 @@ article h1 {
   font-family: 'misoregular', serif;
   color: #564026;
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 0%;
   background-color: #db4d69;
   color: white;
   padding-left: 10%;
@@ -155,10 +164,13 @@ article h1 {
 
 }
 
-footer {
-  background: linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
 
+.col-sm-5 {
+    width: 50%;
 }
+
+
+
 footer .IconPieds {
   color: ;
 
@@ -191,11 +203,22 @@ footer .pieds {
 }
 
 
+
+#TechEd .row .btn_success {
+             
+margin-left: auto;
+margin-right: auto;
+margin-top: 21px;
+padding-top: 9px;
+font-size: 25px;
+
+}
+
 .TechEducation h1 {
   text-transform: uppercase;
   font-size: 3.5em;
   font-weight: 300;
-  width: 40%;
+ 
 
 }
 .TechEducation p {
@@ -228,66 +251,82 @@ footer .pieds {
 .row .TechSecond {
   background: linear-gradient(to right, #f6f3ed, white);
   font-family: 'misoregular';
-  margin-bottom: 20%;
+  padding-top: 25px;
   
-
-
-
 }
 
-.row .TechSecondTexte p {
-  line-height: 2em;
-  color: #00338d;
-  font-size: 1.8em;
-  padding-left: 30px;
-  width: 70%;
-
+.row .TechSecond p {
+    line-height: 1.5em;
+    color: #00338d;
+    font-size: 1.8em;
+    padding-left: 30px;
+    width: 90%;
+    text-align: auto;
 }
-.TechSecondTexte p::before {
-  content: '"';
+
+
+
+.lettrine1 {
+
   color: #00338d;
   font-size: 10em;
-  font-weight: bold;
-  margin-left: -4%;
+  display: block;
+  float: left;
+  font-family: 'Frank Ruhl Libre', serif;
+  margin-top: 80px;
+  margin-right: 20px;
 }
 
-.TechSecondTexte h5 {
+.lettrine2 {
+
+  color: #00338d;
+  font-size: 2em;
+  font-family: 'Frank Ruhl Libre', serif;
+  
+}
+
+.TechSecond h5 {
      text-align: right;
       color: #00338d;
       margin-right: 150px;
       padding-bottom: 25px;
 
 }
-.TechSecondTexte p::after {
-  content:'"';
-  color: #00338d;
-  font-size: 1em;
-  font-weight: 200;
+  
+
+.TechSecond img {
+          float: right;
+          margin-top: -290px;
+          margin-right: -100px;
 
 }
 
+.TechSecondLeft{
 
-.TechSecondTexte img {
-  float: right;
-  margin-top: -346px;
-  margin-right: -50px;
 
 }
 
 .TechSecondRight {
+ 
+  min-height: 600px;
 
-  min-height: 896px;
-  background-color: #AADBDB;
   text-align: center;
   float: left;
   width: 25%;
+  height: 100%;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 0px;
+  
+  background: -moz-linear-gradient(top, #aadbdb 0%, #aadbdb 50%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #aadbdb 0%,#aadbdb 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #aadbdb 0%,#aadbdb 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ 
+
 
 }
-.TechSecondRight img {
 
-  float: left;
 
-}
 
 .TechSecondRight h5 {
   margin-top: 100px;
@@ -322,7 +361,7 @@ footer .pieds {
 
   background-color: #db4d69;
   color: #FFF;
-
+  
 }
 
 
@@ -341,11 +380,6 @@ footer .pieds {
   font-size: 2.5em;
 }
 
-.TechThird .col-sm-1 {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
 .TechLast {
   margin-left: 3%;
   height: 600px;
@@ -353,46 +387,42 @@ footer .pieds {
 
 
 #TechForth {
-  padding-top: 40px;
-
-
+              padding-top: 40px;
+   
+   
 }
 
 .TechForth h4{
     color: #00338d;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .TechForth h4 a:hover{
     color: #db4d69;
 }
 
-.TechForth .image {
-  width: 175px;
+.TechForth img {
+  width: 150px;
+  height: 150px;
   float: left;
   border-left: 6px solid #00338d;
-  background-image: url("../img/SmallLogo.png");
-  background-size: cover ;
-  background-repeat: no-repeat;
+  background-image: url("http://www.becode.org/partners/images/image.png");
+  background-size: 150px ;
   margin-right: 20px;
-  height: 175px;
 }
 
 .TechForth img:hover {
-
+ 
   border-left: 6px solid #db4d69;
-
+  opacity: 0.9;
+ 
 }
 
 .TechForth p {
   text-align: justify;
   color: #564026;
-  font-size: 1.05em;
+  font-size: 1.2em;
   margin-bottom: 40px;
 }
 
-.container .row {
-  width: 110%;
-
-}

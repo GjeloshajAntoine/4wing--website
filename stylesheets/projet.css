@@ -1,0 +1,28 @@
+/* line 3, ../sass/projet.scss */
+.projet .bleufonce {
+  background-color: #00338d;
+  color: white;
+}
+/* line 7, ../sass/projet.scss */
+.projet .bleufonce p {
+  font-size: 20px;
+}
+/* line 18, ../sass/projet.scss */
+.projet h1 {
+  color: #00338d;
+  font-size: 5em;
+}
+/* line 28, ../sass/projet.scss */
+.projet .icon-monitor {
+  font-size: 106px;
+  color: #00338d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: -10px;
+  display: block;
+}
+/* line 39, ../sass/projet.scss */
+.projet .vignette img {
+  width: 150px;
+  height: 150px;
+}
