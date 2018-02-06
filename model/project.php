@@ -1,8 +1,4 @@
 <?php
-function create_project($name)
-{
-
-}
 /**
  *
  */
@@ -24,14 +20,14 @@ class Project
     $project_id=$bdd->lastInsertId();
     //create trad
     foreach ($this->languages as $lg) {
-      foreach ($fied as $value) {
+      foreach ($this->field as $value) {
         $bdd = init_DB();
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
-        $stmt = $bdd->prepare("INSERT INTO `project_trad` (project_id,field,ln) VALUES (:project_id,:field,:ln) ");
-        $stmt->execute(["project_id"=>$project_id,"field"=>$field,"ln"=>$lg]);
+        $stmt = $bdd->prepare("INSERT INTO `projects_trad` (project_id,field,ln) VALUES (:project_id,:field,:ln) ");
+        $stmt->execute(["project_id"=>$project_id,"field"=>$value,"ln"=>$lg]);
       }
     }
-    return project_id;
+    return $project_id;
   }
   public function add_parrain_to_id($project_id,$parrain,$link)
   {
