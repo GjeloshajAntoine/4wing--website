@@ -5,12 +5,12 @@
     <title>Administration</title>
   </head>
   <body>
-    <a href="#">pages</a>
-    <a href="#">citations</a>
-    <a href="#">projet</a>
+    <a href="admin/list_page_trad">pages</a>
+    <a href="admin/citation/list">citations</a>
+    <a href="admin/list_projet">projet</a>
     <check if="{{ @is_admin }}">
       <true>
-        <a href="#">users</a>          
+        <a href="#">users</a>
       </true>
       <false>
 
