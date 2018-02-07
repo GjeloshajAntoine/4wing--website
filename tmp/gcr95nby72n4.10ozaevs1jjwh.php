@@ -2,28 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Administration</title>
+    <title>Liste des pages</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
   </head>
   <body>
 
     <div class="container">
+      <h2>Pages</h2>
       <div class="list-group">
-        <h4>Administration</h4>
-        <a href="admin/list_page_trad" class="list-group-item">Pages</a>
-        <a href="admin/citation/list" class="list-group-item">citations</a>
-        <a href="admin/projet/list" class="list-group-item">projet</a>
-        <?php if ($is_admin): ?>
-          
-          <a href="#" class="list-group-item">Utilisateurs</a>
-          
-          <?php else: ?>
-          
-        <?php endif; ?>
+        <?php $ctr=0; foreach (($pageliste?:[]) as $coffee): $ctr++; ?>
+          <a href="tradpage/<?= trim($coffee['page_name']) ?>/fr" class="<?= $ctr%2?'odd':'even' ?> list-group-item"><?= trim($coffee['page_name']) ?></a>
+        <?php endforeach; ?>
       </div>
-    </div>
-  
+    </div>  
   </body>
 </html>
