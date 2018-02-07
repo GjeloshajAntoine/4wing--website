@@ -1,0 +1,149 @@
+/* line 2, ../sass/equipe.scss */
+.header_Equipe {
+  color: #00338d;
+  font-family: 'montserratregular', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 7, ../sass/equipe.scss */
+.header_Equipe h1 {
+  font-size: 3.5em;
+}
+/* line 10, ../sass/equipe.scss */
+.header_Equipe h2 {
+  font-size: 2.5em;
+}
+
+/* line 16, ../sass/equipe.scss */
+#Equipe .Membres {
+  width: 100%;
+}
+/* line 20, ../sass/equipe.scss */
+#Equipe .Membres .Memb {
+  color: white;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px silver;
+  width: 30%;
+  height: 130px;
+  margin-left: 3%;
+  border-radius: 2%;
+}
+/* line 33, ../sass/equipe.scss */
+#Equipe .Membres .Memb h3 {
+  font-family: 'misoregular' sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 39, ../sass/equipe.scss */
+#Equipe .Membres .Memb h3 a {
+  color: white;
+}
+
+/* line 48, ../sass/equipe.scss */
+#Equipe2 .Operation {
+  font-family: "montserratregular", sans-serif;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+/* line 53, ../sass/equipe.scss */
+#Equipe2 .Operation h4 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #db4d69;
+  font-weight: bold;
+}
+/* line 60, ../sass/equipe.scss */
+#Equipe2 .Operation p {
+  font-size: 1.2em;
+}
+
+/* line 66, ../sass/equipe.scss */
+.SectionEquipe {
+  display: inline-flex;
+}
+/* line 71, ../sass/equipe.scss */
+.SectionEquipe .EquipeImage a {
+  background-image: url("../img/Membres/Art_A_IMG_3021.jpg");
+}
+/* line 75, ../sass/equipe.scss */
+.SectionEquipe .EquipeImage a:hover {
+  background-image: url("../img/Membres/Art_B_IMG_3022.jpg");
+}
+/* line 81, ../sass/equipe.scss */
+.SectionEquipe .EquipeTexte {
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-family: "montserratregular", sans-serif;
+}
+/* line 88, ../sass/equipe.scss */
+.SectionEquipe .EquipeTexte h2 {
+  font-size: 2em;
+  font-family: "montserratregular", sans-serif;
+}
+
+/* line 97, ../sass/equipe.scss */
+#Equipe3 .Conseil {
+  font-family: "montserratregular", sans-serif;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+/* line 102, ../sass/equipe.scss */
+#Equipe3 h4 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #00338d;
+  font-weight: bold;
+}
+/* line 108, ../sass/equipe.scss */
+#Equipe3 p {
+  font-size: 1.2em;
+}
+
+/* line 114, ../sass/equipe.scss */
+#Equipe4 .XMembres {
+  font-family: "montserratregular", sans-serif;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+/* line 119, ../sass/equipe.scss */
+#Equipe4 h4 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #C4D2FC;
+  font-weight: bold;
+}
+/* line 125, ../sass/equipe.scss */
+#Equipe4 p {
+  font-size: 1.2em;
+}
+/* line 127, ../sass/equipe.scss */
+#Equipe4 p span {
+  color: #db4d69;
+}
+
+/* line 133, ../sass/equipe.scss */
+button {
+  width: 4%;
+  height: 4%;
+  margin: 0 auto;
+  display: block;
+  background-color: #db4d69;
+  border: 1px solid blue;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+}
+/* line 144, ../sass/equipe.scss */
+button span {
+  font-size: 3em;
+}
+
+/* line 148, ../sass/equipe.scss */
+#plus {
+  display: none;
+}

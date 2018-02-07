@@ -4,133 +4,188 @@
   padding: 0 auto;
 }
 
-
-/*header test*/
-.header_rose {
-  background-color: #db4d69 ;
-  color: white;
-  padding: 5px;
-  display: block;
-  height: 127px;
-}
-
 /* line 6, ../sass/logement.scss */
 #logement {
   font-family: 'montserratregular', sans-serif;
 }
 /* line 9, ../sass/logement.scss */
-#logement h1 {
-  text-transform: uppercase;
-  font-family: 'misoregular', sans-serif;
+#logement .header {
+  background-color: #db4d69;
   color: white;
-  font-size: 4.5em;
-  margin-top: 13px;
-  margin-bottom: -10px;
+  font-family: 'montserratregular', sans-serif;
 }
 /* line 15, ../sass/logement.scss */
 #logement .icon-home-outline {
-  font-size: 7em;
+  font-size: 10em;
 }
 /* line 20, ../sass/logement.scss */
-
-.logementFirst h1 {
+#logement .LogementFirst h1 {
   font-size: 5.2em;
   font-family: 'montserratregular', sans-serif;
 }
 /* line 25, ../sass/logement.scss */
-#logement span {
+#logement .LogementFirst span {
   font-family: 'montserratregular', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 /* line 31, ../sass/logement.scss */
-.ImageHeader img {
-  margin-left: 78px;
+#logement .ImageHeader img {
+  margin-left: 22%;
 }
 /* line 36, ../sass/logement.scss */
-
+#logement .main {
+  font-family: 'montserratregular', sans-serif;
+}
 /* line 39, ../sass/logement.scss */
-.LogementSecond {
+#logement .main .LogementSecond {
   padding-top: 5%;
 }
 /* line 42, ../sass/logement.scss */
-.LogementSecond h2 {
+#logement .main .LogementSecond h2 {
   font-size: 2.5em;
   text-align: center;
   font-family: 'montserratsemibold', sans-serif;
   color: #564026;
 }
-
-
-.row .LogementSecond .citation_rose {
-      color: #db4d69;
-                
+/* line 48, ../sass/logement.scss */
+#logement .main .LogementSecond p {
+  padding-top: 5%;
+  line-height: 2em;
+  font-size: 1.6em;
+  color: #564026;
 }
-
-#logement .TechFirst p {
-    line-height: 2em;
-    font-size: 1.8em;
-    padding-right: 50px;
-    padding-bottom: 41px;
-    font-family: 'misoregular', sans-serif;
+/* line 55, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird {
+  background: linear-gradient(to left, #f6f3ed, white);
+  margin-top: 5%;
+  font-family: 'montserratregular', sans-serif;
 }
-
-.LogementSecondRight {
-                      
-  background-color: #db4d69;
+/* line 59, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #00338d;
+  width: 85%;
 }
-
-.border_rose img {
-    width: 150px;
-    height: 150px;
-    float: left;
-    border-left: 6px solid #db4d69;
-    background-image: url("http://www.becode.org/partners/images/image.png");
-    background-size: 150px;
-    margin-right: 20px;
-}
-
-.border_rose img:hover {
-
-    border-left: 6px solid #00338d;
-
-}
-
-
-
-.row .citation_rose p{               
-  color: #db4d69;
-  background: linear-gradient(to right, #f6f3ed, white);
-  font-family: 'misoregular';
-  padding-top: 25px;
- }
-
-.rose h4 a{
-  color: #db4d69;
-}
-.rose h4 a:hover{
+/* line 66, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird p::before {
+  content: "<<";
+  font-size: 3em;
   color: #00338d;
 }
-
-#logement .LogementSecond p{
-   color: #db4d69;
+/* line 72, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird p::after {
+  content: ">>";
+  font-size: 2em;
+  color: #00338d;
 }
-
-
-#logement .LogementSecond .lettrine1 {
-
-  color: #db4d69;
-  font-size: 10em;
-  display: block;
-  float: left;
-  font-family: 'Frank Ruhl Libre', serif;
+/* line 77, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird h5 {
+  color: #00338d;
+  float: right;
+  margin-top: 15%;
+  padding-bottom: 5%;
+}
+/* line 84, ../sass/logement.scss */
+#logement .main .LogementSecond .LogementThird img {
+  float: right;
+  margin-top: -14%;
+}
+/* line 91, ../sass/logement.scss */
+#logement .main .LogementForth {
+  background-color: #AADBDB;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 98, ../sass/logement.scss */
+#logement .main .LogementForth h5 {
   margin-top: 100px;
-  margin-right: 20px;
+  color: white;
+  font-size: 2em;
+  font-family: 'montserratregular', sans-serif;
+  text-align: center;
+}
+/* line 105, ../sass/logement.scss */
+#logement .main .LogementForth .btn_info {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: white;
+  color: #8791a4;
+  font-family: 'misoregular', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5%;
+  margin-top: 10%;
+  font-size: 17px;
+  border-radius: 14px;
+  border: 0px;
+  margin-left: 17%;
+}
+/* line 119, ../sass/logement.scss */
+#logement .main .LogementForth img {
+  margin-top: 50%;
+  margin-left: 15%;
 }
 
-#logement .LogementSecond .lettrine2 {
+/* line 126, ../sass/logement.scss */
+#LogementB {
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 129, ../sass/logement.scss */
+#LogementB .LogementFifth {
+  background-color: #db4d69;
+}
+/* line 131, ../sass/logement.scss */
+#LogementB .LogementFifth h3 {
+  color: white;
+  font-size: 2.3em;
+}
+/* line 135, ../sass/logement.scss */
+#LogementB .LogementFifth .icon-home-outline {
+  color: white;
+  margin-top: 2%;
+}
+/* line 139, ../sass/logement.scss */
+#LogementB .LogementFifth .icone2 {
+  margin-top: 10px;
+}
 
-  color: #db4d69;
-  font-size: 3em;
-  font-family: 'Frank Ruhl Libre', serif;
-  
+/* line 144, ../sass/logement.scss */
+#LogementC {
+  margin-top: 2%;
+  margin-left: 21%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 149, ../sass/logement.scss */
+#LogementC .rubrique {
+  margin-left: 5%;
+  margin-bottom: 10%;
+  display: block;
+}
+/* line 154, ../sass/logement.scss */
+#LogementC .image {
+  margin-bottom: 2%;
+}
+/* line 156, ../sass/logement.scss */
+#LogementC .image img {
+  float: left;
+  width: 175px;
+  height: 175px;
+  border-left: 6px solid #db4d69;
+}
+/* line 163, ../sass/logement.scss */
+#LogementC h4 {
+  margin-left: 30%;
+}
+/* line 166, ../sass/logement.scss */
+#LogementC p {
+  margin-left: 30%;
+  width: 50%;
+}
+/* line 171, ../sass/logement.scss */
+#LogementC .ImageLogo img {
+  position: absolute;
+  left: 3%;
+  margin-top: 13%;
 }

@@ -2,19 +2,19 @@
 <html>
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Fondation 4WINGS</title>
-  
+
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheets/jquery.jscrollpane.css" media="all" />
 
   <link rel="stylesheet" type="text/css" href="../stylesheets/style_carousel.css" />
@@ -30,14 +30,15 @@
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
   <link rel="stylesheet" href="../stylesheets/projet_tech.css">
-  
+
   <link rel="stylesheet" href="../stylesheets/projet_sante.css">
 
 <!-- CSS MOBILE -->
   <link rel="stylesheet" href="../stylesheets/mobile.css">
 
-  
-  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet"> 
+
+
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -79,7 +80,7 @@
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="#">Contact</a></li>
-              
+
             </ul>
           </div>
         </div>
