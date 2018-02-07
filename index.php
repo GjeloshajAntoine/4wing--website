@@ -96,7 +96,7 @@ $f3->route('POST /admin/login',function ($f3,$params) {
 $f3->route('GET /admin/list_page_trad',function ($f3) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('pageliste',get_page_trad_list());
-    echo Template::instance()->render('Views/list_page_trad.html');
+    echo Template::instance()->render('admin_views/page_list.php');
   });
 });
 
@@ -105,7 +105,7 @@ $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $all_trad=get_trad_page($f3->PARAMS['pagename'],$f3->PARAMS['lg']);
     $f3->set('all_trad',$all_trad);
-    $f3->set('lg',$lg);
+    $f3->set('lg',$f3->PARAMS['lg']);
     $f3->set('pagename',$f3->PARAMS['pagename']);
     echo Template::instance()->render('admin_views/page_trad.php');
   });
@@ -153,13 +153,15 @@ $f3->route('POST /admin/projet/@id/info/editdata',function ($f3,$params) {
 $f3->route('GET /admin/projet/@id/trad/@lg',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('all_trad',Project::get_trad($f3->PARAMS['id'],$f3->PARAMS['lg']));
-    echo Template::instance()->render('admin_views/project_trad');
+    $f3->set('id',$f3->PARAMS['id']);
+    $f3->set('lg',$f3->PARAMS['lg']);
+    echo Template::instance()->render('admin_views/projet_trad.php');
   });
 });
 
 $f3->route('POST /admin/projet/@id/trad/@lg/editdata',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-     Project::set_trad(params['id'],$_POST);
+     Project::set_trad($f3->PARAMS['id'],$_POST);
     $f3->reroute('/admin/projet/@id/trad/@lg');
   });
 });
@@ -180,7 +182,7 @@ $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
 
 $f3->route('GET /admin/projet/@id/images/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    echo Template::instance()->render('admin_views/');
+    echo Template::instance()->render('admin_views/projet_image_updload.php');
   });
 });
 $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
