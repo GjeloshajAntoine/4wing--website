@@ -5,8 +5,8 @@
     <title></title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-      <input type="text" name="title" value="">
+    <form class="" action="/4wing-website/admin/projet/{{@id}}/editdata" method="post">
+      <input type="text" name="title" value="{{@project.title}}">
       <input type="text" name="cat" value="">
     </form>
   </body>
