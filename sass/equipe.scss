@@ -23,7 +23,7 @@
           padding-bottom: 1%;
           padding-top: 1%;
           border: 1px solid white;
-          box-shadow: 5px 5px 10px silver;
+          box-shadow: 2px 2px 2px silver;
           width: 30%;
           height: 130px;
           margin-left: 3%;
@@ -44,11 +44,21 @@
   }
 }
 #Equipe2 {
+  background-color: #db4d69;
+
+  .Equipe2A{
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1%;
+    background-color: white;
+    margin-bottom: 1%;
+  }
 
   .Operation {
     font-family: "montserratregular", sans-serif;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 1%;
 
     h4 {
       font-size: 2.5em;
@@ -66,6 +76,7 @@
 .SectionEquipe {
 
   display: inline-flex;
+  margin-bottom: 1.5%;
 
   .EquipeImage{
     a {
@@ -94,10 +105,20 @@
   }
 }
 #Equipe3 {
+  background-color: #00338d;
+
+  .Equipe3A{
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1%;
+    background-color: white;
+    margin-bottom: 1%;
+  }
   .Conseil {
     font-family: "montserratregular", sans-serif;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 1%;
   }
   h4 {
     font-size: 2.5em;
@@ -111,10 +132,20 @@
 }
 
 #Equipe4 {
+  background-color: #C4D2FC;
+
+  .Equipe4A{
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 1%;
+    background-color: white;
+    margin-bottom: 1%;
+  }
   .XMembres {
     font-family: "montserratregular", sans-serif;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 1%;
   }
   h4 {
     font-size: 2.5em;
@@ -131,11 +162,11 @@
 }
 
 button {
-    width: 4%;
+    width: 6%;
     height: 4%;
     margin: 0 auto;
     display: block;
-    background-color: #db4d69;
+    background-color: #C4D2FC;
     border: 1px solid blue;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -147,4 +178,9 @@ button {
     }
     #plus {
       display: none;
+      p {
+        margin-right: 3%;
+        font-size: 1.2em;
+        font-family: "montserratregular", sans-serif;
+      }
     }
