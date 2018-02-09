@@ -39,16 +39,14 @@ body {
   padding: 0px;
 }
 /* line 67, ../sass/index.scss */
-.introHome {
+.container .row .intro {
   font-family: 'montserratregular';
   color: #564026;
   font-size: 1.2em;
-  text-align: left;
   line-height: 2em;
   float: left;
   margin-bottom: 20px;
-  margin-top: 20px;
-  }
+}
 /* line 80, ../sass/index.scss */
 .container section {
   padding: 0px;
@@ -364,13 +362,13 @@ footer {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007C92+0,aadbdb+100 */
   background: #007c92;
   /* Old browsers */
-  background: -moz-linear-gradient(180deg, #007C92 0%, #AADBDB 100%);
+  background: -moz-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(180deg, #007C92 0%, #AADBDB 100%);
+  background: -webkit-linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(180deg, #007C92 0%, #AADBDB 100%);
+  background: linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007C92', endColorstr='#AADBDB',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007c92', endColorstr='#aadbdb',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
 }
 

@@ -88,32 +88,30 @@
     display: none;
   }
 
-  /* line 76, ../sass/mobile.scss */
+  /* line 29, ../sass/mobile.scss */
   section.citation {
     height: 159px;
   }
-  /* line 80, ../sass/mobile.scss */
+  /* line 33, ../sass/mobile.scss */
   section.citation .citation_image {
     display: none;
   }
-  /* line 84, ../sass/mobile.scss */
+  /* line 36, ../sass/mobile.scss */
   section.citation .auteur {
     font-size: 1em;
     margin-left: 15px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 50px;
   }
-  /* line 91, ../sass/mobile.scss */
+  /* line 42, ../sass/mobile.scss */
   section.citation .citation_texte {
     font-family: 'misoregular';
     color: #00338d;
-    font-size: 2.5em;
-    height: 250px;
+    font-size: 3em;
+    height: 300px;
     margin-left: 15px;
-    margin-bottom: 10px;
   }
 
-  /* line 101, ../sass/mobile.scss */
+  /* line 51, ../sass/mobile.scss */
   section.citation .citation_texte {
     font-family: 'misoregular';
     color: #00338d;
@@ -126,41 +124,34 @@
     line-height: 30px;
   }
 
-  /* line 114, ../sass/mobile.scss */
-  .header .logo {
-    float: none;
-    padding: 0px;
+  /* line 64, ../sass/mobile.scss */
+  .header {
+    height: 70px;
   }
-
-  /* line 120, ../sass/mobile.scss */
-  .menu {
+  /* line 67, ../sass/mobile.scss */
+  .header .logo img {
     width: 180px;
-    display: block;
-  }
-  /* line 125, ../sass/mobile.scss */
-  .menu .dropdown-menu {
-    width: 100%;
+    padding-top: 15px;
   }
 
-  /* line 133, ../sass/mobile.scss */
+  /* line 75, ../sass/mobile.scss */
   footer .row .adresse {
     color: white;
     text-align: center;
     width: 115%;
     height: 153px;
     border-right: none;
-    border-bottom: solid 1px white;
-    margin-bottom: 25px;
     padding-right: -2px;
     margin-top: 30px;
     float: left;
   }
 
-  /* line 146, ../sass/mobile.scss */
+  /* line 86, ../sass/mobile.scss */
   footer .row .logofooter {
-    margin-top: 64px;
-    margin-bottom: 45px;
-    float: none;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
   }
 
   /*page techn*/
