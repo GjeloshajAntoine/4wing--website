@@ -42,6 +42,8 @@
   section h1 {
     font-size: 2em;
     margin-top: 0px;
+    margin-bottom: 18px;
+    padding-left: 15px;
   }
   .container h1 {
 
@@ -121,7 +123,7 @@
     position: absolute;
     margin-top: 12px;
     margin-left: 10px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   /* line 114, ../sass/mobile.scss */
@@ -165,7 +167,7 @@
 
   .header_bleu {
 
-      height: 250px;
+      height: 240px;
   }
 
   #TechEd .icon-monitor {
@@ -217,7 +219,7 @@
 
   /* line 201, ../sass/mobile.scss */
   .TechFirst p {
-    padding: 30px;
+    padding: 5px;
   }
 
   /* line 205, ../sass/mobile.scss */
@@ -292,7 +294,7 @@
 
   /* line 272, ../sass/mobile.scss */
     section .container .row {
-      margin: 24px;
+      margin: 0px;
       margin-top: 24px;
       padding: -15px;
       margin-top: 6px;
@@ -331,6 +333,7 @@
       padding-right: 15px;
       padding-left: 15px;
       }
+
     .container .row .slider{
         background-color: none;
         display: table-row-group;
@@ -340,5 +343,173 @@
     width: 25%;
     padding-top: 50px;
     }
+
+
+    
+    .ca-container {
+        position: relative;
+        margin: 0 auto 20px auto;
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 370px;
+    }
+    .ca-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+
+     }
+
+    .ca-wrapper h3 {
+         height: 47px;
+         font-size: 30px;
+      }
+
+    .ca-wrapper [class^="icon-"]{
+
+        font-size: 36px;
+    }
+
+    .ca-item p {
+    padding: 10px;
+    font-size: 16px;
+    }
+
+
+    .contenu header .logo {
+    float: none;
+    padding: 0px;
+    }
+
+    .introHome {
+   
+    line-height: 1.5em;
+    }
+
+    h1{
+    margin-bottom: -10px;
+    }
+
+
+     .ImageHeader img {
+    display: none;
+    }
+
+
+    /* logement */
+    #logement {
+      margin-top: 148px;
+    }
+    .header_rose {
+      height: auto;
+    }
+    #logement .icon-home-outline {
+    display: none;
+    }
+    #logement h1 {
+    text-align: left;
+    font-size: 3em;
+    margin-left: 15px;
+    }
+    .TechEducation span {
+    font-size: 1.4em;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+    margin-bottom: 7px;
+    }
+    .TechFirst h2 {
+    font-size: 1.5em;
+    padding-right: 0px;
+    }
+    #logement .TechFirst p {
+    line-height: 1.5;
+    font-size: 1.8em;
+    padding-right: 14px;
+    text-align: justify;
+    }
+
+    .row .TechSecond p {
+    padding: 0 15px 65px;
+    text-align: inherit;
+    width: 100%;
+    }
+
+    .TechSecond h5 {
+    margin-right: 177px;
+    }
+
+
+    /* FIN logement */
+
+
+
+    /*  page projet*/
+
+    #projetLogement h1 {
+    color: #db4d69;
+    font-size: 2.8em;
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+
+    #projetLogement .icon-home-outline {
+    display: none;
+    }
+    
+    .carousel-inner > .item img {
+    height: 100%;
+    }  
+
+    
+    /*technologie*/
+  
+
+    #TechEd .row h1 {
+       font-size: 3em;
+       text-align: left;
+       padding-left: 15px;
+       margin-top: 10px;
+    }
+    
+    .TechEducation span {
+      font-size: 1.3em;
+      padding-left: 15px;
+      margin-top: 10px;
+    }
+
+    /*fin technologie*/
+  
+    /*Santé*/
+     #sante h1 {
+      font-size: 2.8em;
+      padding-top: 30px;
+      text-transform: uppercase;
+      margin-left: 15px;
+      text-align: left;
+    }
+
+    #sante .icon-leaf {
+      display: none;
+    }
+
+    .header_bleu2 {
+      display: block;
+      height: 234px;
+
+    }
+    
+    .ImageHeaderNutrition img {
+      display: none;
+    }
+
+    .formulaire h2 {
+   
+       margin-top: 15px;
+    }
+
 
 }

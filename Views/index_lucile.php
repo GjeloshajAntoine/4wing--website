@@ -67,7 +67,7 @@
   
 
   <section class="slider_projets">
-      <?php include("../js/carousel/carousel_4wings.php") ?>
+      <?php include("carousel.php") ?>
   </section>
 
 	

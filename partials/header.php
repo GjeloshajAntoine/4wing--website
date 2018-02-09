@@ -14,11 +14,10 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  
-  <link rel="stylesheet" type="text/css" href="stylesheets/jquery.jscrollpane.css" media="all" />
-
-  <link rel="stylesheet" type="text/css" href="../stylesheets/style_carousel.css" />
+<!-- CSS carousel -->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/carousel.css" />
   <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.jscrollpane.css" media="all" />
+<!-- CSS carousel -->
 
   <link rel="stylesheet" href="../stylesheets/index.css">
   <link rel="stylesheet" href="../stylesheets/footer.css">
@@ -28,21 +27,24 @@
   <link rel="stylesheet" href="../stylesheets/logement.css">
   <link rel="stylesheet" href="../stylesheets/sante.css">
   <link rel="stylesheet" href="../stylesheets/contact.css">
+    <link rel="stylesheet" href="../stylesheets/faq.css">
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
-  <link rel="stylesheet" href="../stylesheets/projet_tech.css">
-  
+  <link rel="stylesheet" href="../stylesheets/projet_tech.css"> 
   <link rel="stylesheet" href="../stylesheets/projet_sante.css">
 
-<!-- CSS MOBILE -->
-  <link rel="stylesheet" href="../stylesheets/mobile.css">
+
 
   
   <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet"> 
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- CSS MOBILE -->
+  <link rel="stylesheet" href="../stylesheets/mobile.css">
+
 </head>
 
 
