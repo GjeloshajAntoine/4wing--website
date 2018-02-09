@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserratregular" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../stylesheets/jquery.jscrollpane.css" media="all" />
@@ -34,14 +37,14 @@
 <!-- contenu titre -->
   <div class="container-fluid " id="Equipe" style="background-color: #f6f3ed">
     <div class="container contenu">
-      <div class="row smooth-scroll list-unstyled Membres">
-        <div class="col-lg-4 Memb" style="background-color: #db4d69">
+      <div class="row d-flex justify-content-around flex-sm-column flex-md-row  flex-lg-column Membres">
+        <div class="col-lg-4 col-md-12 col-sm-4 col-4 Memb" style="background-color: #db4d69">
           <h3><a id="test1" href="#test1">Equipe Opérationnelle</a></h3>
         </div>
-        <div class="col-lg-4 Memb" style ="background-color: #00338d">
+        <div class="col-lg-4 col-md-12 col-sm-4 col-4 Memb" style ="background-color: #00338d">
           <h3><a id="test2" href="#test2">Conseil administration</a></h3>
         </div>
-        <div class="col-lg-4 Memb" style ="background-color: #C4D2FC; padding-top: 2%">
+        <div class="col-lg-4 col-md-12 col-sm-4 col-4 Memb" style ="background-color: #C4D2FC; padding-top: 2%">
           <h3><a id="test3" href="#test3">Membres</a></h3>
         </div>
       </div>
@@ -270,6 +273,62 @@
                   </p>
             </div>
           </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6523charlotteQ.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6532pp.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6543gus.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6554virginie.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 EquipeLeft">
           <div class="row SectionEquipe">
@@ -303,6 +362,62 @@
           <div class="row SectionEquipe">
             <div class="EquipeImage">
               <img src='../img/Membres/IMG_6509celine.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6570emma.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/Marine_A_IMG_3026.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/IMG_6565coralie.jpg' alt="" width="200px" height="300px">
+
+            </div>
+            <div class="EquipeTexte">
+              <h2>Marc Dupont</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+            </div>
+          </div>
+          <div class="row SectionEquipe">
+            <div class="EquipeImage">
+              <img src='../img/Membres/matt_A_IMG_3014.jpg' alt="" width="200px" height="300px">
 
             </div>
             <div class="EquipeTexte">
