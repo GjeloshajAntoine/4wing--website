@@ -9,19 +9,22 @@
   font-family: 'montserratregular', sans-serif;
 }
 /* line 9, ../sass/logement.scss */
-#logement .header {
+#logement .header_rose {
   background-color: #db4d69;
   color: white;
   font-family: 'montserratregular', sans-serif;
 }
 /* line 15, ../sass/logement.scss */
 #logement .icon-home-outline {
-  font-size: 10em;
+  font-size: 7em;
+  color: white;
 }
 /* line 20, ../sass/logement.scss */
-#logement .LogementFirst h1 {
-  font-size: 5.2em;
-  font-family: 'montserratregular', sans-serif;
+#logement .header_rose h1 {
+  font-size: 4.5em;
+  color: white;
+  margin-bottom: -5px;
+  margin-top: 16px;
 }
 /* line 25, ../sass/logement.scss */
 #logement .LogementFirst span {

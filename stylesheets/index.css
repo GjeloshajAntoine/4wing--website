@@ -65,6 +65,7 @@ body {
   font-family: 'misoregular';
   color: #00338d;
   font-size: 3em;
+  margin-top: 31px;
 }
 
 /* line 106, ../sass/index.scss */
@@ -176,6 +177,13 @@ body {
   width: 100vw;
   left: 0px;
   
+}
+
+.introHome {
+  font-size: 18px;
+  padding-bottom: 30px;            
+
+
 }
 /* line 239, ../sass/index.scss */
 .axes .axe {

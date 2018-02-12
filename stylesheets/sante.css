@@ -4,6 +4,16 @@
 }
 
 
+#sante .TechEducation h1 {
+                   
+    color: white;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 15px;
+   }
+
 /*header test*/
 .header_bleu2 {
   background-color: #AADBDB ;
@@ -81,6 +91,13 @@
     font-family: 'misoregular';
     text-shadow: 1px 1px 1px #6a6a6a;
 }
+
+#sante .TechEducation .santeBleu h1{
+    background-color: #AADBDB;
+    color: white!important;
+    font-family: 'misoregular';
+    text-shadow: 1px 1px 1px #6a6a6a;
+}
 /* line 68, ../sass/sante.scss */
 #sante #TechThird .col-sm-1 {
   margin-top: 1%;
@@ -93,9 +110,10 @@
   margin-right: 4%;
 }
 /* line 79, ../sass/sante.scss */
-#sante #TechForth .image {
-  border-left: 6px solid #AADBDB;
-  background-image: url("../img/sante.png");
+#sante  .imageHeaderNutrition {
+  vertical-align: middle;
+  margin-top: -34px;
+  margin-bottom: -27px;
 }
 
 
@@ -120,8 +138,9 @@
 
 .homme2 img {
     float: right;
-    margin-top: -407px;
-    margin-right: -275px;
+    margin-top: -373px;
+    margin-right: -207px;
+    width: 32%;
 }
 
 .Santebas img {
@@ -133,3 +152,9 @@
     background-size: 150px;
     margin-right: 20px;
 }
+
+#sante .icon-leaf{
+        
+    font-size: 100px;
+
+        }
