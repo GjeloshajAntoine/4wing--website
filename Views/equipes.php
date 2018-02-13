@@ -15,7 +15,7 @@
 
 
  <section >
-  <div class="container" id="Equipe">
+  <div class="container" id="equipe">
       <div class="row">
         <div class="col-md-4"><a class="btn btn_success" href="#operationnel" target="blank">Équipe opérationnelle</a></div>
         <div class="col-md-4"><a class="btn btn_success col-md-4" href="#conseil" target="blank">Conseil administration</a></div>

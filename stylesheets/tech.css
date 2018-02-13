@@ -34,7 +34,7 @@
   color: white;
   font-size: 4.5em;
   margin-top: 14px;
-  margin-bottom: -3px;
+  margin-bottom: -10px;
 }
 
 #TechEd .icon-monitor {
@@ -50,7 +50,7 @@
 }
 
 .TechFirst p {
-   font-size: 1.3em;
+   font-size: 1.5em;
 }
 
 .TechFirst h2 {
@@ -186,8 +186,6 @@ footer .pieds {
 #TechEd {
 
   color: white;
-
-  font-style: 3em;
 
 }
 
