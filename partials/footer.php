@@ -68,6 +68,29 @@
     </script>
 
 
+
+
+      <script >
+        // page Equipe et Partenaires et Réseaux
+
+        var z = document.getElementById('test1');
+        z.scrollTop = z.scrollHeight;
+        var z = document.getElementById('test2');
+        z.scrollTop = z.scrollHeight;
+        var z = document.getElementById('test3');
+        z.scrollTop = z.scrollHeight;
+
+        function More() {
+          var x = document.getElementById('plus');
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+
+
   
 </body>
 </html>
