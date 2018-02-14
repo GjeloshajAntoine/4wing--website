@@ -16,7 +16,7 @@
               <div class="col-sm logofooter">
 
                 <img src="../img/logo_footer.png" alt="">
-                
+
               </div>
             </div>
             www.4wings.org &copy; <?php echo date("Y"); ?> l  <a href="mentions_legales.php">Mentions légales</a>
@@ -30,7 +30,7 @@
 
 </div>
  </div>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -38,7 +38,7 @@
   <script type="text/javascript">
       $('#ca-container').contentcarousel();
   </script>
-  
+
   <script type="text/javascript"  src="../js/lucid.js"></script>
   <script src="../js/script.js"></script>
 
@@ -58,7 +58,7 @@
   <script type="text/javascript">
       $('#ca-container').contentcarousel();
   </script>
-     
-  
+
+
 </body>
 </html>
