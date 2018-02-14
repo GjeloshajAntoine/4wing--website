@@ -42,6 +42,7 @@
   <script src="../js/slick.js"  type="text/javascript" charset="utf-8"></script>
   <script src="../js/lucid.js"  type="text/javascript"  ></script>
   <script src="../js/script.js" type="text/javascript" ></script>
+   <script src="../js/smooth.js" type="text/javascript" ></script>
 
   <script>
     $(window).on('load', function() {
@@ -69,28 +70,34 @@
 
 
 
+      <script> 
+      $(document).ready(function(){
+          $("#flip1").click(function(){
+              $("#panel1").slideToggle("slow");
+  
 
-      <script >
-        // page Equipe et Partenaires et Réseaux
+          });
+      });
+      </script>
 
-        var z = document.getElementById('test1');
-        z.scrollTop = z.scrollHeight;
-        var z = document.getElementById('test2');
-        z.scrollTop = z.scrollHeight;
-        var z = document.getElementById('test3');
-        z.scrollTop = z.scrollHeight;
+        <script> 
+         $(document).ready(function(){
+          $("#flip").click(function(){
+              $("#panel").slideToggle("slow");
+            
+          });
 
-        function More() {
-          var x = document.getElementById('plus');
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
+
+    
+      });
+
+
+
+
       </script>
 
 
-  
+      
+        
 </body>
 </html>
