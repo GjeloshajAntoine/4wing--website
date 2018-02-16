@@ -38,6 +38,12 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/AA-2.jpg" />
+                <img class="top" src="../img/Membres/AA-1.jpg" />
+              </div>
+
           </div>
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
@@ -48,8 +54,31 @@
 
          <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-            <a href="#"><img src="" alt=""></a>
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/AB-2.jpg" />
+                <img class="top" src="../img/Membres/AB-1.jpg" />
+              </div>
           </div>
+
+
+          <div class="EquipeTexte">
+            <h3>Marc Dupont</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/AC-2.jpg" />
+                <img class="top" src="../img/Membres/AC-1.jpg" />
+              </div>
+          </div>
+
+
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -77,7 +106,13 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/C-2.jpg" />
+                <img class="top" src="../img/Membres/C-1.jpg" />
+              </div>
           </div>
+
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -87,8 +122,13 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-            <a href="#"><img src="" alt=""></a>
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/D-2.jpg" />
+                <img class="top" src="../img/Membres/D-1.jpg" />
+              </div>
           </div>
+
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -98,7 +138,13 @@
 
        <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/E-2.jpg" />
+                <img class="top" src="../img/Membres/E-1.jpg" />
+              </div>
           </div>
+
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -108,8 +154,13 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-            <a href="#"><img src="" alt=""></a>
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/F-2.jpg" />
+                <img class="top" src="../img/Membres/F-1.jpg" />
+              </div>
           </div>
+
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -127,8 +178,13 @@
             
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/G-2.jpg" />
+                            <img class="top" src="../img/Membres/G-1.jpg" />
+                          </div>
+                      </div>
+
                         <div class="EquipeTexte">
                           <h3>Marc Dupont</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -138,8 +194,12 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/H-2.jpg" />
+                            <img class="top" src="../img/Membres/H-1.jpg" />
+                          </div>
+                      </div>
                         <div class="EquipeTexte">
                           <h3>Marc Dupont</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -147,18 +207,40 @@
                         </div>
                 </div>
                 
-                <div class="col-lg-6 col-md-6 col-sm-12 ">
-                        <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
-                        <div class="EquipeTexte">
-                          <h3>Marc Dupont</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          </p>
-                        </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/A-2.jpg" />
+                <img class="top" src="../img/Membres/A-1.jpg" />
+              </div>
 
-                        <br>
-                </div>
+          </div>
+          <div class="EquipeTexte">
+            <h3>Marc Dupont</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+         <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="photoequipe">
+       
+              <div id="cf">
+                <img class="bottom" src="../img/Membres/B-2.jpg" />
+                <img class="top" src="../img/Membres/B-1.jpg" />
+              </div>
+          </div>
+
+
+          <div class="EquipeTexte">
+            <h3>Marc Dupont</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+
             </div>
              
        </div>
@@ -175,7 +257,12 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-          </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/J-2.jpg" />
+                            <img class="top" src="../img/Membres/J-1.jpg" />
+                          </div>
+                      </div>
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -185,8 +272,12 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-            <a href="#"><img src="" alt=""></a>
-          </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/K-2.jpg" />
+                            <img class="top" src="../img/Membres/K-1.jpg" />
+                          </div>
+                      </div>
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -197,7 +288,12 @@
 
        <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-          </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/L-2.jpg" />
+                            <img class="top" src="../img/Membres/L-1.jpg" />
+                          </div>
+                      </div>
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -207,8 +303,12 @@
 
       <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
-            <a href="#"><img src="" alt=""></a>
-          </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/M-2.jpg" />
+                            <img class="top" src="../img/Membres/M-1.jpg" />
+                          </div>
+                      </div>
           <div class="EquipeTexte">
             <h3>Marc Dupont</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -224,8 +324,12 @@
             
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/N-2.jpg" />
+                            <img class="top" src="../img/Membres/N-1.jpg" />
+                          </div>
+                      </div>
                         <div class="EquipeTexte">
                           <h3>Marc Dupont</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -235,8 +339,12 @@
 
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/P-2.jpg" />
+                            <img class="top" src="../img/Membres/P-1.jpg" />
+                          </div>
+                      </div>
                         <div class="EquipeTexte">
                           <h3>Marc Dupont</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -246,8 +354,12 @@
                 
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
-                          <a href="#"><img src="" alt=""></a>
-                        </div>
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/Q-2.jpg" />
+                            <img class="top" src="../img/Membres/Q-1.jpg" />
+                          </div>
+                      </div>
                         <div class="EquipeTexte">
                           <h3>Marc Dupont</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -256,9 +368,103 @@
 
                         <br>
                 </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/R-2.jpg" />
+                            <img class="top" src="../img/Membres/R-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
 
-             
-       </div>
+                        <br>
+                </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/S-2.jpg" />
+                            <img class="top" src="../img/Membres/S-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
+
+                        <br>
+                </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/T-2.jpg" />
+                            <img class="top" src="../img/Membres/T-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
+
+                        <br>
+                </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/U-2.jpg" />
+                            <img class="top" src="../img/Membres/U-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
+
+                        <br>
+                </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/V-2.jpg" />
+                            <img class="top" src="../img/Membres/V-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
+
+                        <br>
+                </div>
+                 <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="photoequipe">
+       
+                          <div id="cf">
+                            <img class="bottom" src="../img/Membres/W-2.jpg" />
+                            <img class="top" src="../img/Membres/W-1.jpg" />
+                          </div>
+                      </div>
+                        <div class="EquipeTexte">
+                          <h3>Marc Dupont</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                        </div>
+
+                        <br>
+                </div>
+                
   </div>
 
 </section>

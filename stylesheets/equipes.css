@@ -45,9 +45,7 @@
 }
 /* line 39, ../sass/equipes.scss */
 .operation .photoequipe {
-  background: url(../img/Membres/dorian_A_IMG_3023.jpg);
-  background-repeat: no-repeat;
-  background-size: 150px auto;
+
   width: : 150px;
   height: 150px;
   background-position: -5px;
@@ -55,7 +53,28 @@
   float: left;
   top: -53px;
   margin-top: 25px;
+  left:0;
 }
+
+#cf {
+  position:relative;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
 
 /* line 58, ../sass/equipes.scss */
 .conseil .row {
