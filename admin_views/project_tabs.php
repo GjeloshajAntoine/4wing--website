@@ -3,12 +3,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="../../../projet/{{@id}}/info">Info</a></li>
 
-  <li role="presentation"><a href="#">FR</a></li>
-  <li role="presentation"><a href="#">EN</a></li>
-  <li role="presentation"><a href="#">NL</a></li>
+  <li role="presentation"><a href="../../../projet/{{@id}}/trad/fr">FR</a></li>
+  <li role="presentation"><a href="../../../projet/{{@id}}/trad/en">EN</a></li>
+  <li role="presentation"><a href="../../../projet/{{@id}}/trad/nl">NL</a></li>
 
-  <li role="presentation"><a href="#">Messages</a></li>
+  <li role="presentation"><a href="../../../projet/@id/images/list">Messages</a></li>
 </ul>

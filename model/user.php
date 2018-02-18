@@ -54,7 +54,7 @@ function create_user($name,$password,$auth)
 {
     if (is_connected() && is_admin()) {
         $hash=sha1($password);
-        $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
+        $bdd = init_DB();
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         $stmt = $bdd->prepare("INSERT INTO wings_user (name,password,auth) VALUES (:name,:hash,:auth) ");
         $stmt->execute(['name'=>$name,'hash'=>$hash,'auth'=>$auth]);
@@ -66,7 +66,7 @@ function create_user($name,$password,$auth)
 }
 function list_user()
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '');
+    $bdd = init_DB();
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
     $stmt = $bdd->prepare("SELECT * FROM wings_user ");
     $stmt->execute();
