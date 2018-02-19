@@ -1,0 +1,28 @@
+.container .row .missions{     
+  
+  	font-size: 20px;
+	padding: 20px;
+	background-color:  #f6f3ed;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(194,194,194,1);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(194,194,194,1);
+	box-shadow: 1px 1px 5px 0px rgba(194,194,194,1);
+	text-align: center;
+	min-height: 250px;
+
+
+}
+
+.container .row .missions ul {     
+  
+  	margin-left: 20px;
+  	list-style-type:none;
+
+}
+
+.container .row .missions li {     
+  
+  	background-color: #fff;
+  	margin:10px;
+
+}

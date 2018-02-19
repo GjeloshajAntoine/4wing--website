@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="../stylesheets/sante.css">
   <link rel="stylesheet" href="../stylesheets/contact.css">
   <link rel="stylesheet" href="../stylesheets/faq.css">
+  <link rel="stylesheet" href="../stylesheets/missions.css">
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
   <link rel="stylesheet" href="../stylesheets/projet_tech.css"> 
@@ -69,7 +70,7 @@
                         <li><a href="valeurs.php">Valeurs</a></li>
                         <li><a href="selection_projets.php">Sélection de projets</a></li>
                         <li><a href="equipes.php">Équipe</a></li>
-                        <li><a href="conseil.php">Conseil d'administration</a></li>
+                        <li><a href="equipes.php#conseil">Conseil d'administration</a></li>
                         <li><a href="faq.php">FAQ</a></li>
                         <li><a href="reseaux_partenaires.php">Réseau & partenaires</a></li>
                       </ul>
