@@ -196,6 +196,7 @@ $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
 
 $f3->route('GET /admin/user/list',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
+    $f3->set("all_users",list_user());
     echo Template::instance()->render('admin_views/user_list.php');
   });
 });
@@ -204,7 +205,11 @@ $f3->route('POST /admin/user/create',function ($f3,$params) {
     echo Template::instance()->render('admin_views/citation_new.php');
   });
 });
+$f3->route('POST /admin/user/change',function ($f3,$params) {
+  is_connected_with(true,$f3,function($f3){
 
+  });
+});
 
 $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
