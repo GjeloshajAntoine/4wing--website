@@ -6,7 +6,7 @@
       <div class="row">
             <div class="introHome col-sm-9">
               <h1>Lutter contre la précarité en <span class="marron">Belgique</span></h1>
-              <p class="introHome">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ipsam laudantium, accusantium in aliquam nihil ullam perferendis tempora doloribus atque sequi debitis quasi, aperiam minima quaerat accusamus recusandae deserunt! Nam.</p>
+              <p class="introHome">La Fondation 4WINGS racontée par Olivier Debuyst, Président du Conseil d’Administration et Virginie Samyn, Directrice de la Fondation.</p>
             </div>
               <div class="col-sm-3 libellule"></div>
         </div> 

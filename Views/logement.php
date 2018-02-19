@@ -16,11 +16,11 @@
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
 		      <h2>En Belgique, 180.000 familles sont en attente d’un logement accessible financièrement</h2>
-		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
+		      <p>L’accès à un logement décent constitue le point de départ de l’inclusion. Sous l’effet combiné de l’étendue de la pauvreté structurelle, de la crise migratoire et de l’augmentation des loyers, l’accès au logement à prix abordable est insuffisant en Belgique. Actuellement, plus de 180.000 ménages sont en attente. Des initiatives de terrain, multiples, innovantes, ouvrent de nouvelles voies et cherchent des partenaires pour changer d’échelle.</p>
 		    </div>
        
         <div class="TechSecond LogementSecond">     
-          <p> <span class="lettrine1">"</span>Grâce à l’accompagnement orchestré par Habitat et Humanisme, des locataires deviennent propriétaires de leur logement. à son tour, 4WINGS accompagne Habitat et Humanisme dans sa démarche pour amplifier les effets positifs. C’est une très belle réaction en chaine.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span>La fondation se sont engagés 4WINGS en devenant ambassadeurs de la cause du mal logement. Ensemble, nous pouvons loger plus de personnes en situation de précarité, tout en étant atten- tifs aux besoins de chacun. C’est ce type le monde d’initiatives !<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
             <div class="TechSecond">

@@ -22,7 +22,7 @@
         <div class=" col-md-4 col-sm-12">
           <div class="vignette"><img src="../img/projets/logo_habitat_humanism.jpg" alt="logo"></div>
             <p class="introLogement">
-            4WINGS soutient le changement d’échelle de HH : Passer de 10 à 50 logements créés par an dans les 5 ans.
+           Projet Pour Habitat et Humanisme, « Bâtisseurs de liens », toute personne précarisée peut reprendre pied dans la société sous réserve d’accéder à un logement décent à loyer modéré et de prendre place au cœur d’un réseau de liens humains valorisants.
 
             
           <a class="btn btn_success" href="http://www.habitat-humanisme.be" target="blank">Visiter le site</a>

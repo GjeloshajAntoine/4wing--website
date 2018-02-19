@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="../stylesheets/contact.css">
   <link rel="stylesheet" href="../stylesheets/faq.css">
   <link rel="stylesheet" href="../stylesheets/missions.css">
+  <link rel="stylesheet" href="../stylesheets/partenaires.css">
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
   <link rel="stylesheet" href="../stylesheets/projet_tech.css"> 

@@ -4,11 +4,33 @@
 <section> 
     <div class="container">
       <div class="row">
-            <div class="introHome col-sm-9">
-              <h1>Nos  <span class="marron">valeurs</span></h1>
-              <p class="introHome">Cette expérience est passionnante. La <b>4WINGS Foundation</b> est très jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant. Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la construction d’une société plus solidaire.
-
-
+            <div class="introHome col-sm-9"><h2>Nos outils :</h2>
+          <ul>
+            <li>• IMPACT INVESTMENT • </li>
+            <li>• VENTURE PHILANTHROPY •</li>
+            <li>• MÉCÉNAT •</li>
+          </ul>
+        </div>
+        <div class="row ValeurThird">
+          <p>Un investissement humain engagé:</p>
+          <ul>
+            <li>Accompagnement</li>
+            <li>Coaching</li>
+            <li>Expertise</li>
+            <li>Conseils</li>
+            <li>Réseau</li>
+            <li>...</li>
+          </ul>
+          <p>Un investissement en ressources:</p>
+            <ul>
+              <li>Dons</li>
+              <li>Prêts</li>
+              <li>Participation au capital</li>
+              <li>Garanties</li>
+              <li>...</li>
+            </ul>
+          <p>Un investissement dans la durée (pluriannuel):</p>
+          </div>
           </p>
             </div>
               <div class="col-sm-3 libellule"></div>
