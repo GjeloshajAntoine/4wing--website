@@ -205,12 +205,18 @@ $f3->route('POST /admin/user/create',function ($f3,$params) {
     echo Template::instance()->render('admin_views/citation_new.php');
   });
 });
-$f3->route('POST /admin/user/change',function ($f3,$params) {
+$f3->route('POST /admin/user/change_auth',function ($f3,$params) {
+  is_connected_with(true,$f3,function($f3){
+
+  });
+});
+$f3->route('POST /admin/user/recreate_password',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
 
   });
 });
 
+//Citation
 $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('all_citations',list_citation());
