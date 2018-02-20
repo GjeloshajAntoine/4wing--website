@@ -44,11 +44,11 @@
   margin-left: -2%;
   display: block;
   margin-right: -2%;
-  float: right;
+
 }
 /* line 44, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireLeft form .form-group label {
-  float: left;
+
   margin-bottom: 1%;
   font-size: 20px;
   color: #337ab7;
@@ -93,7 +93,6 @@
   width: 25%;
   text-align: center;
   padding-top: 5%;
-  margin-top: -0.5%;
   font-family: 'montserratregular', sans-serif;
 }
 /* line 94, ../../sass/sass/formulaireSelection.scss */
@@ -112,4 +111,16 @@
 /* line 104, ../../sass/sass/formulaireSelection.scss */
 .formulaireSelection .formulaireMain .formulaireRight img {
   margin-top: 15%;
+}
+.formulaireSelection .formulaireMain .formulaireRight .fichier {
+  margin-top: 20%;
+}
+.form-group textarea {
+  margin-top: 20%;
+}
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group2 label {
+
+  margin-bottom: 1%;
+  font-size: 20px;
+  color: #337ab7;
 }

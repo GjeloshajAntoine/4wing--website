@@ -39,15 +39,10 @@
       $('#ca-container').contentcarousel();
   </script>
 
-<<<<<<< HEAD
-  <script type="text/javascript"  src="../js/lucid.js"></script>
-  <script src="../js/script.js"></script>
-=======
   <script src="../js/slick.js"  type="text/javascript" charset="utf-8"></script>
   <script src="../js/lucid.js"  type="text/javascript"  ></script>
   <script src="../js/script.js" type="text/javascript" ></script>
    <script src="../js/smooth.js" type="text/javascript" ></script>
->>>>>>> 6559afdf6fa48d4bfac79aa890e5ca44818e8317
 
   <script>
     $(window).on('load', function() {
@@ -71,9 +66,6 @@
     <script type="text/javascript" src="carousel/js/jquery.contentcarousel.js"></script>
     <script type="text/javascript">
       $('#ca-container').contentcarousel();
-<<<<<<< HEAD
-  </script>
-=======
     </script>
 
 
@@ -105,7 +97,6 @@
       </script>
 
 
->>>>>>> 6559afdf6fa48d4bfac79aa890e5ca44818e8317
 
 
 </body>

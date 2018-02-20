@@ -47,21 +47,21 @@
                   </label>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group2">
                   <label>Description de votre projet :
                     <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
                     </textarea>
                   </label>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group2">
                   <label>En quoi le projet participe à créer un cercle vertueux d’inclusion sociale?
                     <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
                     </textarea>
                   </label>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group2">
                   <label>Comment la fondation pourrait-elle vous aider?
                     <textarea class="form-control" type="textarea" id="message" maxlength="500" rows="7" cols="110">
                     </textarea>
