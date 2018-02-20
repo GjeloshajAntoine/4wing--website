@@ -17,13 +17,14 @@
         <a href="admin/projet/list" class="list-group-item">projet</a>
         <check if="{{ @is_admin }}">
           <true>
-          <a href="#" class="list-group-item">Utilisateurs</a>
+          <a href="admin/equipe/list" class="list-group-item">equipes</a>
+          <a href="admin/user/list" class="list-group-item">Utilisateurs</a>
           </true>
           <false>
           </false>
         </check>
       </div>
     </div>
-  
+
   </body>
 </html>

@@ -1,18 +1,8 @@
-/* line 3, ../sass/sante.scss */
-#sante #TechEd .header {
-  background-color: #AADBDB;
+*{
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
-
-#sante .TechEducation h1 {
-                   
-    color: white;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 300;
-    margin-bottom: 0px;
-    margin-top: 15px;
-   }
 
 /*header test*/
 .header_bleu2 {
@@ -23,65 +13,86 @@
   height: 127px;
   text-shadow: 1px 1px 1px #6a6a6a;
 }
-/* line 10, ../sass/sante.scss */
-#sante #TechEd .icon-home-outline {
-  font-size: 106px;
+/* line 6, ../sass/logement.scss */
+#sante {
+  font-family: 'montserratregular', sans-serif;
 }
-/* line 13, ../sass/sante.scss */
-#sante #TechEd .TechFirst {
-  margin-top: 5%;
+/* line 9, ../sass/logement.scss */
+#sante h1 {
+  text-transform: uppercase;
+  font-family: 'misoregular', sans-serif;
+  color: white;
+  font-size: 4.5em;
+  margin-top: 13px;
+  margin-bottom: -10px;
 }
-/* line 15, ../sass/sante.scss */
-#sante #TechEd .TechFirst h2 {
-  margin-bottom: 10%;
+/* line 15, ../sass/logement.scss */
+#sante .icon-leaf {
+  font-size: 7em;
 }
-/* line 19, ../sass/sante.scss */
-#sante #TechEd .ImageHeader {
-  position: absolute;
-  right: -34%;
-  top: -19%;
+/* line 20, ../sass/logement.scss */
+
+.logementFirst h1 {
+  font-size: 5.2em;
+  font-family: 'montserratregular', sans-serif;
 }
-/* line 24, ../sass/sante.scss */
-#sante #TechEd .TechSecond {
-  padding-top: 16%;
-  height: 493px;
-  color: #00338d;
-  margin: 0 0;
+/* line 25, ../sass/logement.scss */
+#sante span {
+  font-family: 'montserratregular', sans-serif;
+  font-size: 1.3em;
 }
-/* line 29, ../sass/sante.scss */
-#sante #TechEd .TechSecond p {
-  font-size: 1.8em;
-  line-height: 1.5em;
+/* line 31, ../sass/logement.scss */
+.ImageHeaderNutrition img {
+  margin-left: 58px;
+  margin-top: -25px;
+  margin-bottom: -38px;
+  }
+/* line 36, ../sass/logement.scss */
+
+/* line 39, ../sass/logement.scss */
+.LogementSecond {
+  padding-top: 5%;
 }
-/* line 33, ../sass/sante.scss */
-#sante #TechEd .TechSecond p::before {
-  content: "<<";
-  font-size: 4em;
+/* line 42, ../sass/logement.scss */
+.LogementSecond h2 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'montserratsemibold', sans-serif;
+  color: #564026;
 }
-/* line 38, ../sass/sante.scss */
-#sante #TechEd .TechSecond p::after {
-  content: ">>";
-  font-size: 2em;
+
+
+.row .LogementSecond .citation_rose {
+      color: #db4d69;
+                
 }
-/* line 43, ../sass/sante.scss */
-#sante #TechEd .TechSecond h5 {
-  text-align: right;
-  margin-right: 215px;
-  padding-top: 15%;
+
+#sante .TechFirst p {
+    line-height: 2em;
+    font-size: 1.4em;
+    padding-right: 50px;
+    padding-bottom: 41px;
 }
-/* line 49, ../sass/sante.scss */
-#sante #TechEd .TechSecond img {
-  float: right;
-  padding-top: 1%;
+
+.LogementSecondRight {
+                      
+  background-color: #db4d69;
 }
-/* line 55, ../sass/sante.scss */
-#sante #TechEd .TechSecondRight {
-  height: 100%;
-  margin-top: -1%;
+
+#TechForth .border_bleu2 img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-left: 6px solid #8791a4;
+    background-image: url("../img/vignette-sante.jpg");
+    background-size: 150px;
+    margin-right: 20px;
 }
-/* line 62, ../sass/sante.scss */
-#sante #TechThird .TechThird {
-  background-color: #AADBDB;
+
+#TechForth .border_bleu2 img:hover {
+
+    border-left: 6px solid #db4d69;
+
 }
 
 
@@ -92,28 +103,23 @@
     text-shadow: 1px 1px 1px #6a6a6a;
 }
 
-#sante .TechEducation .santeBleu h1{
-    background-color: #AADBDB;
-    color: white!important;
-    font-family: 'misoregular';
-    text-shadow: 1px 1px 1px #6a6a6a;
+
+.row .citation_rose p{               
+  color: #db4d69;
+  background: linear-gradient(to right, #f6f3ed, white);
+  font-family: 'misoregular';
+  padding-top: 25px;
+ }
+
+.rose h4 a{
+  color: #db4d69;
 }
-/* line 68, ../sass/sante.scss */
-#sante #TechThird .col-sm-1 {
-  margin-top: 1%;
-  margin-bottom: 1%;
+.rose h4 a:hover{
+  color: #00338d;
 }
-/* line 74, ../sass/sante.scss */
-#sante #TechForth .col-sm-5 {
-  width: 46%;
-  margin-bottom: 5%;
-  margin-right: 4%;
-}
-/* line 79, ../sass/sante.scss */
-#sante  .imageHeaderNutrition {
-  vertical-align: middle;
-  margin-top: -34px;
-  margin-bottom: -27px;
+
+#sante .LogementSecond p{
+   color: #8791a4;
 }
 
 
@@ -138,9 +144,8 @@
 
 .homme2 img {
     float: right;
-    margin-top: -373px;
-    margin-right: -207px;
-    width: 32%;
+    margin-top: -407px;
+    margin-right: -275px;
 }
 
 .Santebas img {
@@ -152,9 +157,3 @@
     background-size: 150px;
     margin-right: 20px;
 }
-
-#sante .icon-leaf{
-        
-    font-size: 100px;
-
-        }

@@ -1,0 +1,1098 @@
+[33mcommit 9c43c95ab0bc73f674a178389a086fa9a2e410a3[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Feb 12 14:32:19 2018 +0100
+
+    mise à plat merge W et moi
+
+[33mcommit 19f0607cd8b1644570ac2de8d628bfe1c158dbb7[m
+Merge: 92867f0 d74a560
+Author: Unknown <weichuan.tran@gmail.com>
+Date:   Fri Feb 9 16:02:06 2018 +0100
+
+    conflit resolu par antoine , sante logement mobile css
+
+[33mcommit d74a56060b5ce8e5ee8d06759b1ef9ff951180c5[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Feb 9 15:36:21 2018 +0100
+
+    equipe.php 2
+
+[33mcommit 92867f05897b10a538bebd32bb0ef4e2b2ca5d1e[m
+Merge: 114737f f33ec6d
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Feb 9 14:55:44 2018 +0100
+
+    Faq
+    
+    Merge branch 'Lucile'
+
+[33mcommit f33ec6d8f88ff283d2a415a4a4c71626df21c6b9[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Feb 9 14:52:58 2018 +0100
+
+    faq
+
+[33mcommit 11e5248f05f2b0a9206eeeb035545b373369e223[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Feb 7 14:42:52 2018 +0100
+
+    equipe.php bis
+
+[33mcommit 114737f638c217f21e362834021337df972d05fe[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Feb 7 12:27:02 2018 +0100
+
+    Bootstrap interface
+
+[33mcommit cf9bacef709954d63dbe9398169bc15c639ddfd0[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Feb 7 12:26:32 2018 +0100
+
+    utf8
+
+[33mcommit a13b3e9c05701d526f790915175ad8fcd473de36[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Feb 7 12:26:26 2018 +0100
+
+    template
+
+[33mcommit 82e334d678b9db84aa3976f5a9bad902d545b573[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Feb 7 12:26:11 2018 +0100
+
+    cache
+
+[33mcommit c3a036fcbfde75c332f5f4d295aad1e065e6eb49[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Feb 7 12:09:24 2018 +0100
+
+    equipe.php
+
+[33mcommit 8a4bc8d44ed63d0cc0621b2cc3a3b0177ad514a5[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:36:28 2018 +0100
+
+    Admin project
+
+[33mcommit 2e32956ac87da35a118ccc52a1ebacea877c9801[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:36:16 2018 +0100
+
+    correction routes
+
+[33mcommit e80070e0cea8550985d4dda534adcb6ce8f6346c[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:36:02 2018 +0100
+
+    routes page et projects
+
+[33mcommit 3ef2bd30e7233863ac4970d552aa49770f41eb62[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:35:44 2018 +0100
+
+    tmp file
+
+[33mcommit 0098cfb7acb83cc7cf6b31f918d08300811e51cd[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:35:31 2018 +0100
+
+    export tables
+
+[33mcommit 3ab439244ca413dbc89a75d9413684f8f40bce4d[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:35:17 2018 +0100
+
+    corrections model
+
+[33mcommit 80f04a7d32e681ede35ffcdf978b445a63c4c2fb[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:34:56 2018 +0100
+
+    corrections login
+
+[33mcommit 9d3be005d967209dbe74a45678ace0a849835fbc[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:34:29 2018 +0100
+
+    f3 temp template file
+
+[33mcommit 915bbec507631469061d9c1b01373c4b508e1825[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:34:12 2018 +0100
+
+    citation edit form
+
+[33mcommit 823b2cdb56d3c436a73bb3df53c71eb95ab7cdcf[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 16:33:49 2018 +0100
+
+    citation finis admin
+
+[33mcommit 7eab510704681a04aaae6c53ba88e2c0d6313bf7[m
+Merge: 436df62 c9dfc18
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Feb 6 09:54:12 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+
+[33mcommit c9dfc18b039dad17818e852536441f6cbe1bdf50[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Feb 5 16:32:08 2018 +0100
+
+    contact.php
+
+[33mcommit b13fbaa8651c01ed6f98b01fe5b03f540d20e71e[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Feb 5 14:48:56 2018 +0100
+
+    langues
+
+[33mcommit 37090b0beca8129f078fe5d365da38262b8945e2[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Feb 2 16:49:22 2018 +0100
+
+    pages crees
+
+[33mcommit 676ff06e95f61b326768b26c3df0c37b7c1b4f30[m
+Merge: 60255a5 c97aa71
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Feb 2 15:21:34 2018 +0100
+
+    projets images ok
+
+[33mcommit c97aa71c69bffb730de3ad545b18f8c15fb43d61[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Feb 2 14:20:18 2018 +0100
+
+    avancement front-end
+
+[33mcommit 60255a5bdd55747ef1bfa5311fbbfa2d092b411b[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 16:40:41 2018 +0100
+
+    projets avec photos
+
+[33mcommit 8159a63ec3684304af7ed0295b4a4979dc9fc0e6[m
+Merge: 2a04c68 5a44e57
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 14:45:17 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+
+[33mcommit 2a04c6824fc2b6f1d6ec8618ae720ee56b92679c[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 14:45:04 2018 +0100
+
+    styles
+
+[33mcommit 5a44e570fc2cb78e3547146fdc96b79ece77675f[m
+Merge: 9848ed1 115a128
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Feb 1 14:43:06 2018 +0100
+
+    update
+
+[33mcommit a944fb476bed307f48d99280f7e82e881042a66b[m
+Merge: 7bade2c 2b13217
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 14:29:58 2018 +0100
+
+    merge master Lucile
+
+[33mcommit 7bade2c52c9b0769438645f5af262596fe4438aa[m
+Merge: 10a865a 9848ed1
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 14:19:01 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+
+[33mcommit 2b13217d7a4bba7165d26ebe763dfd6003fbb201[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 14:16:18 2018 +0100
+
+    premiere mise en ligne ftp test
+
+[33mcommit 4fad5e91d59e20d5e50ce41ff1b8c89ba129fcc0[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Feb 1 13:38:39 2018 +0100
+
+    pages projets
+
+[33mcommit 436df62dfae4fc8f9504f80790bc6215378d9f3d[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Thu Feb 1 10:42:58 2018 +0100
+
+    fronted user admin test
+
+[33mcommit 9848ed1f36ad14063b76a3fdbebff156cab9bff5[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 15:00:28 2018 +0100
+
+    citation admin backend
+
+[33mcommit 9cfa75b2fd9e3d5253b2cff40b02332573f85a84[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 14:20:16 2018 +0100
+
+    project create redirection
+
+[33mcommit 2e7999b2d708e269c44d4430e7f0c77aad210552[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Wed Jan 31 13:50:17 2018 +0100
+
+    je remets toutes les pages ensemble
+
+[33mcommit c4a77e2e01f1736b62e46a98321b8c981277caa2[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 12:29:48 2018 +0100
+
+    project trad admin backend
+
+[33mcommit edc6c55cc135f2ca089672ca225392f2851f3972[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 12:29:35 2018 +0100
+
+    cleanage
+
+[33mcommit 6003d7655a8be81fd672ee7101747ed203f5ff00[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 12:29:28 2018 +0100
+
+    rename prject
+
+[33mcommit 83671da75cceb4f9d0d0e4c4e11494576e0b9299[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 12:29:09 2018 +0100
+
+    nettoyage
+
+[33mcommit efcc91cafa34533211b1dea6f69857cacacbb074[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 11:55:59 2018 +0100
+
+    test deletion
+
+[33mcommit 14f617ccb8275190e3e5094772a2307b50371834[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 11:55:48 2018 +0100
+
+    info project
+
+[33mcommit 9897353d71a7c3b7f7749f0fd9b7eddcada1c5f7[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 31 11:25:35 2018 +0100
+
+    image projects
+
+[33mcommit 115a1289755e3646f30e51e3e1ba28f1f9a7bdb5[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 30 18:39:46 2018 +0100
+
+    create valeurs.php et mission.php
+
+[33mcommit 599474cb0e4e4e55dc2fe90d9e2b9ec0708eb82c[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 30 17:19:54 2018 +0100
+
+    mission.php 2
+
+[33mcommit 017c094d857759837ed81100b65864f199e1ea83[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 30 15:22:43 2018 +0100
+
+    page mission.php base faitresponsive pas fait et truc a ameliorer
+
+[33mcommit 4f191b2f4c7717b3cff93bbd98fe882e3fd62620[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Jan 30 13:54:52 2018 +0100
+
+    route get project
+
+[33mcommit 0e04c5c4a54d23e95032fedc8dcf3e8df91c1d1e[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Jan 30 13:54:40 2018 +0100
+
+    project getters
+
+[33mcommit baca2e4fcb46bcff0ed9f82cafbf862719a0932f[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Jan 30 11:55:58 2018 +0100
+
+    model list
+
+[33mcommit 7d605de0e15fda892d47683eedaf7ddf4c2c576c[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Jan 30 11:55:49 2018 +0100
+
+    route traduction finies
+
+[33mcommit 94decdd92902995f02904bdf186a4a71d45a1f07[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Jan 30 09:49:32 2018 +0100
+
+    admin views file and folder rename
+
+[33mcommit 97273e3d5c773f039ec241dcc1deae5d304f5904[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 17:00:05 2018 +0100
+
+    12 fichiers
+
+[33mcommit 07903e75c168b9c07263aad258c04162144f1857[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 29 16:26:58 2018 +0100
+
+    delete for akkad.sql
+
+[33mcommit 5ceaf08b6d7dd282d16ee470cc1fb526c3968a82[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 16:18:35 2018 +0100
+
+    tables projets
+
+[33mcommit f022e1c231cf527375c1df9ec6d21cafb49da15e[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 16:15:59 2018 +0100
+
+    conecction db
+
+[33mcommit 4bd73d2dc26ed667f529cc605aafca1c7446a3a7[m
+Merge: 9d7a7ae 27e287b
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 29 16:02:45 2018 +0100
+
+    ok index.php
+
+[33mcommit 9d7a7aeca0aa124ada754fee346d5d15115d06d6[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 29 15:54:03 2018 +0100
+
+    ok index.php
+
+[33mcommit 27e287bcba976dc92720ed5e93dba6e5867cd264[m
+Merge: e0496fb 40a5d5e
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 15:47:09 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+
+[33mcommit e0496fb6814cea64a5f51fe6e3d8bf694a2a7b1c[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 15:46:54 2018 +0100
+
+    point viruguel
+
+[33mcommit 40a5d5e0eee9178a9c6b2a8d21476844089503d5[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 29 15:12:58 2018 +0100
+
+    error retabli c de fonction
+
+[33mcommit 4cf570180d2b3e90b661b6902fa89ca9e84e5f2c[m
+Merge: 95aefc0 fd9ef24
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 15:03:02 2018 +0100
+
+    merge index page
+
+[33mcommit ac0aaff65da0f9fb727b0e0dec5a14d7813fba22[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Jan 29 14:54:07 2018 +0100
+
+    merge header footer
+
+[33mcommit 95aefc0712ef9026bb99d60af212e4455c88bafe[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 29 14:53:22 2018 +0100
+
+    projet + updload iamge
+
+[33mcommit 3cbb3e698a522ec75912c58b344a1e3a83d6a4aa[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 29 13:54:40 2018 +0100
+
+    contact.php
+
+[33mcommit 83cd87e8909564601249d3ec8ab3d5891e49e259[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Sat Jan 27 15:11:18 2018 +0100
+
+    projet model
+
+[33mcommit fd9ef247559bc48a04fc22581dc1db56d44e6281[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 17:34:24 2018 +0100
+
+    akkad.sql les dernier ajout
+
+[33mcommit d0219eb40db1723988e0ac2e6d813ff2475ddd03[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 17:25:38 2018 +0100
+
+    suit ok comme
+
+[33mcommit 4ba972a9a7cf85db9b7e1627a790995ed53f3e58[m
+Merge: 3ab6297 9bacea3
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 17:11:54 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+    oui
+
+[33mcommit 3ab6297ada4ec48748968def40a2a48e4675b5af[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 16:47:04 2018 +0100
+
+    modif ok
+
+[33mcommit 7ea62919933d38fbfcb174f0dd156def43e225ba[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 16:42:45 2018 +0100
+
+    route citation + admin
+
+[33mcommit 10a865a4e4b319f0ad48b24613e01088c9b9fdc3[m
+Merge: 2620332 9bacea3
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Jan 26 14:08:33 2018 +0100
+
+    merge front
+
+[33mcommit 9bacea366bb37ca61b5cc6db12909058fc7833c5[m
+Merge: 555d147 df3c890
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 26 14:01:55 2018 +0100
+
+    Merge branch 'weichuan'
+
+[33mcommit 2620332dd7d3c585aa7f0dd970a139a62295bd52[m
+Merge: 05bcb6a 555d147
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Jan 26 13:53:44 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+    
+    commit front-end
+
+[33mcommit 555d147f07593ff11d15f285c8f49afc9ceddd40[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 12:28:19 2018 +0100
+
+    admin.html
+
+[33mcommit d376b1bd721e40cddbd522c4ffbcb9f24092fc87[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Fri Jan 26 11:59:08 2018 +0100
+
+    po ! a commit ajoute
+
+[33mcommit df3c8901115224fda69f825ff02b3a079f5ea005[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 26 11:56:24 2018 +0100
+
+    changement de police
+
+[33mcommit 902157a492ade56ee8b12f85390c6852279d1e65[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 26 11:41:34 2018 +0100
+
+    sante et logement fait non responsive
+
+[33mcommit 05bcb6ad25124f69ad0e345d61cffce35b44cce1[m
+Merge: 19b0304 80588e3
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Jan 25 16:10:17 2018 +0100
+
+    merge front-end
+
+[33mcommit 80588e373177b783ac9c7880e9c2dfa7b44091aa[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Jan 25 15:58:38 2018 +0100
+
+    pages projet
+
+[33mcommit 6c00d2e9815c52b0027a01adcddddc63b45cc202[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Thu Jan 25 09:56:03 2018 +0100
+
+    traduction page
+
+[33mcommit 0dbcc82e6f0c01a66e1823bbe856cff48853b543[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Wed Jan 24 16:54:55 2018 +0100
+
+    page projet OK responsive
+
+[33mcommit 9a73ad7ca80605aa10062a44d7e789aada03e4d8[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Wed Jan 24 13:41:28 2018 +0100
+
+    debut de la page projet
+
+[33mcommit ee0dad869389cbed370becad40b24ceb4480f400[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 23 16:05:50 2018 +0100
+
+    sante.php fini attention pas responsive git add .!
+
+[33mcommit 9bd79e6b00fd584fa53a796b7e91842baaf812ae[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 23 15:17:47 2018 +0100
+
+    sante.php presque fini, manque logo libellule
+
+[33mcommit 19b0304f8143a9fe23266cefab77af3246e01f66[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Tue Jan 23 15:14:37 2018 +0100
+
+    page trad ok
+
+[33mcommit 87a88f6d9b365365e96022b6af08ac238b5024d0[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Tue Jan 23 14:36:54 2018 +0100
+
+    je ne sais plus ou j'en suis :)
+
+[33mcommit 577139f49c1ea117e08af9d59c22bd5fd4bc5058[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 22 16:57:06 2018 +0100
+
+    epeat...
+
+[33mcommit 06276a80fd99c367142e2d5fe9361c7d2e2c8c58[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 22 15:12:04 2018 +0100
+
+    suiite list_page_trad.html
+
+[33mcommit eb6acd2449d9ca1952693c96a954c482c1cc47ed[m
+Author: saritasakkad <akkadsaritas@gmail.com>
+Date:   Mon Jan 22 14:37:54 2018 +0100
+
+    list_page_trad.html
+
+[33mcommit 26eaeb958ec9be65ea83e9c7e184fcd8cd2492c9[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 22 14:08:39 2018 +0100
+
+    model admin
+
+[33mcommit bc8809db1f39976570317d0e6ef291b2addddca3[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 22 14:07:45 2018 +0100
+
+    modif tech
+
+[33mcommit e6b8d637ccc4372882fdc023971286fc55a9f882[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Jan 22 13:44:20 2018 +0100
+
+    menu responsive
+
+[33mcommit 7e9af371bb42ce3371651932eafeac839d4f4ec1[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 19 17:24:26 2018 +0100
+
+    sant
+
+[33mcommit 0d64012e28835fc56a605daf07a483e42941a6eb[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 19 17:02:54 2018 +0100
+
+    logement
+
+[33mcommit e2bde354dff1facd7c6db9c1c967fad60127f8c6[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Jan 17 17:09:18 2018 +0100
+
+    weich et sass
+
+[33mcommit 3003476853f1902bf8bcdaef2eac3e69a914982e[m
+Merge: c286d18 d3aa4b9
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Jan 17 13:31:39 2018 +0100
+
+    Merge branch 'Lucile' into weichuan
+
+[33mcommit c286d1886b71f6c07cf622a0e64586a95da8695c[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Jan 17 13:30:11 2018 +0100
+
+    update logement
+
+[33mcommit 130f2c77fe5162678351d0d3d5b7e54ecca10cd5[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 17 12:46:56 2018 +0100
+
+    1ere route admin
+
+[33mcommit 1cfe4861d2214a0d98336fb4aab75936a4c7287f[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Wed Jan 17 12:04:45 2018 +0100
+
+    routes
+
+[33mcommit d3aa4b9842238b0d5674a9dc47599b9694b6e1b0[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Tue Jan 16 16:51:54 2018 +0100
+
+    tech
+
+[33mcommit 345f9c54b09f668315aa35c9910961ac1514bd8c[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Jan 15 10:53:03 2018 +0100
+
+    bakcend file
+
+[33mcommit 13ffa654a2eaebb9593a62950529fa821a583f24[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 15 10:52:11 2018 +0100
+
+    delete index.php bis
+
+[33mcommit 4b142975efad42ac170d64c267d80532ff99aaf6[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 15 10:51:02 2018 +0100
+
+    delete index.php
+
+[33mcommit ba1534d3d86a2593da8c48d5c5633b3b1df0ed76[m
+Merge: 87efbbe 7e8aef0
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 15 10:49:46 2018 +0100
+
+    Merge branch 'weichuan'
+    merge weich to master
+
+[33mcommit 7e8aef0c2f99ffa2f0fc42c6e44442f14ab36a9b[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 15 10:45:08 2018 +0100
+
+    update
+
+[33mcommit 87efbbe4cc00bab39f74acaf104941a18acebb2a[m
+Merge: 915eab4 950d1d5
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Jan 15 10:40:44 2018 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+
+[33mcommit 915eab49297d5eaddd807656da7658ca1e8336f2[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Jan 15 10:39:22 2018 +0100
+
+    changement de nom index
+
+[33mcommit e8002e44f65f1a396acf23571f25a280b31e6c1e[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Mon Jan 15 09:30:51 2018 +0100
+
+    update tech
+
+[33mcommit a3d023dcd13b4552feb8981ebabc797022142b81[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Jan 12 16:50:34 2018 +0100
+
+    avancement responsive
+
+[33mcommit ed9c66c8572df372e273a1e629766d217d36bd0a[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 15:52:34 2018 +0100
+
+    tech education presque fini
+
+[33mcommit 75c312ac46f656e20cc2bafe100faa83e90c28fa[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 14:58:59 2018 +0100
+
+    update TE
+
+[33mcommit 950d1d59a817af5c5a16e00f464beef9f9160fc1[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 14:48:18 2018 +0100
+
+    tech education
+
+[33mcommit ab5f2513eede802306804c00f6e27a867fd576bf[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 14:27:23 2018 +0100
+
+    update tech education
+
+[33mcommit 688a72ce406ad7e22523eb59617b5db526beca6a[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 14:15:30 2018 +0100
+
+    update tech education
+
+[33mcommit 5f274e4a1c5ce911a65807f91f6531669552bdb0[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Jan 12 12:02:35 2018 +0100
+
+    update
+
+[33mcommit af3e2a9c7c56fe63fb64a4fc7dd5f10d2745f585[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Jan 12 11:02:07 2018 +0100
+
+    carousel ok
+
+[33mcommit 161d8f522e5b65252b9faf0080ef3dd8e3729760[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Jan 11 16:50:11 2018 +0100
+
+    tech education4
+
+[33mcommit 24f61a484c3e1c788b29b8e3ecad815df72a5f3e[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Jan 11 15:28:06 2018 +0100
+
+    tech education3
+
+[33mcommit 46db583e4973a6a86042465d7ac0dc380e54ebb3[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Jan 11 15:01:41 2018 +0100
+
+    avancement homepage
+
+[33mcommit a388c6c27840b51443f17ba3757c61bf8647adfd[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Jan 11 12:10:45 2018 +0100
+
+    tech education 2
+
+[33mcommit 83e2b0e91f5224681af1c5d54e76721e98a7c283[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Jan 10 16:55:31 2018 +0100
+
+    tech-education
+
+[33mcommit cf5ea0d7cc88521151c8be4a5741e6e4a90ce096[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Tue Jan 9 16:49:49 2018 +0100
+
+    update selection projet
+
+[33mcommit a7e625a1a0ae070c0100c0313d6f5147acb6206d[m
+Author: Lucile Verrecchia <lverrecchia@gmail.com>
+Date:   Tue Jan 9 12:28:35 2018 +0100
+
+    correction maquettes
+
+[33mcommit e509f4f60e89189bc7db2e65cb84ed86ec78099b[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Dec 21 15:59:09 2017 +0100
+
+    replacer document dans le localhost + ajout views
+
+[33mcommit 90e7b4274add30a9f20f635476e6a388008a5e0d[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 21 15:43:22 2017 +0100
+
+     carousel en place mais non fonctionnel
+
+[33mcommit c136d027fd54d49ba91e4ebc9a5c5af9bfef1a77[m
+Merge: 6d206ea e28173d
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 21 14:35:24 2017 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+    
+    index avancement
+
+[33mcommit 6d206eab531d7bbc6aef89fca29cd8ff10dea88d[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 21 14:35:18 2017 +0100
+
+    avancement index
+
+[33mcommit e28173d71149d33790574a90134beaacf376d621[m
+Author: Verrecchia <lverrecchia@gmail.com>
+Date:   Thu Dec 21 09:53:59 2017 +0100
+
+    Update README.md
+
+[33mcommit f7ef7dc416c13d83caae96553fc66e7e789b2214[m
+Merge: 4da8923 3e6a95e
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 21 09:25:07 2017 +0100
+
+    Merge branch 'master' of https://github.com/GjeloshajAntoine/4wing-website
+    
+    index.html
+
+[33mcommit 4da8923a403520bb4ba3074b1d6a0616a0244e18[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 21 09:24:58 2017 +0100
+
+    avancement index.html
+
+[33mcommit 8b38b7cf0ad3ec197f4dfe24772b2a09f4c12b7c[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Wed Dec 20 16:46:15 2017 +0100
+
+    create
+
+[33mcommit 1cc4b97e811a28e2f438c161a82c568084e86b0e[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Wed Dec 20 15:54:22 2017 +0100
+
+    intergration index
+
+[33mcommit e53eee8322f4650c63bec7b131f6f6e5991c1283[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Wed Dec 20 14:32:04 2017 +0100
+
+    HTML CSS start
+
+[33mcommit 3e6a95eec22f05c4aa7ae03e33e70ea40ff1983c[m
+Author: Lucile Verrecchia <lverrecchia@gmail.com>
+Date:   Wed Dec 20 14:31:10 2017 +0100
+
+    images découpees
+
+[33mcommit 47070fc1a77786b2934fc6fc44a689bc1db184a5[m
+Author: Lucile Verrecchia <lverrecchia@gmail.com>
+Date:   Wed Dec 20 14:29:29 2017 +0100
+
+    maquette choix et declinaisons
+
+[33mcommit c9e8180bde1ddfe5b1e46ce7341b2e89acab397f[m
+Merge: d01d64b 43ef8a8
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 15 11:07:34 2017 +0100
+
+    proposition 2
+
+[33mcommit 95433313a4819a915a15d88c5dfa962e33e50952[m
+Author: Lucile Verrecchia <lverrecchia@gmail.com>
+Date:   Fri Dec 15 11:04:32 2017 +0100
+
+    maquette 3
+
+[33mcommit bf54a6c86ebb776996e58b628789a3cc79c62723[m
+Author: Lucile Verrecchia <lverrecchia@gmail.com>
+Date:   Thu Dec 14 22:40:47 2017 +0100
+
+    maquettes
+
+[33mcommit d01d64b3b909c93677d8f98a50d7851783b874e4[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 14 18:49:00 2017 +0100
+
+    images
+
+[33mcommit 43ef8a8222a202b400c084c07344c28df0267d2c[m
+Merge: 16f8f0b 833643b
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Tue Dec 12 16:02:04 2017 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 16f8f0bc7f203b0c596ceecaa97f250bd701b0bd[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Tue Dec 12 16:00:30 2017 +0100
+
+    image crop
+    
+    height 100% on body
+
+[33mcommit 833643b4df33bbe0f4831c7854d0f7dffa2d6202[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Dec 11 15:44:32 2017 +0100
+
+    texte raccourci par le client
+
+[33mcommit d14a37b1ecf7724fad9c78f10934dfd4d4cd8428[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Dec 11 15:14:27 2017 +0100
+
+    soon
+
+[33mcommit 785a0e010418623cc73d129183ee98c0098ac181[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Mon Dec 11 15:00:38 2017 +0100
+
+    Page --
+
+[33mcommit b698f79424011d8b30cda408c599c184428be0a0[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Dec 11 12:06:49 2017 +0100
+
+    architecture du site
+
+[33mcommit 8e08e3d82934dd76517be3e5ba24a09242f5e290[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Dec 11 12:02:10 2017 +0100
+
+    archi du site
+
+[33mcommit a9ceeafa28255934001ab170e1a5d7b3d479236d[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Mon Dec 11 11:59:08 2017 +0100
+
+    Codes FTP Sitemap
+
+[33mcommit d6a3db8d3be90af2438e027996334aa93a15fa40[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 8 14:55:04 2017 +0100
+
+    texte rajouté
+
+[33mcommit bea8c5657015aad4c11b26abc34befd5da44884a[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 8 14:52:28 2017 +0100
+
+    lien contact
+
+[33mcommit 4e95a276d50ab4b81f128db734289f10f0551301[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 8 13:22:07 2017 +0100
+
+    readme
+
+[33mcommit ef41023129a47792e9fd2780f8af037192157a13[m
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Fri Dec 8 12:47:40 2017 +0100
+
+    ça va
+
+[33mcommit 0109b1cde162b5cae8e873945565b42ebf494821[m
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Fri Dec 8 12:38:23 2017 +0100
+
+    image de fond
+
+[33mcommit 1dda317567eff5afe74305383bdbaa78f859d0ee[m
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Fri Dec 8 12:33:28 2017 +0100
+
+    image de fond
+
+[33mcommit e89cce8100ff80f82b2d06a1347bf844429614ea[m
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Fri Dec 8 12:28:41 2017 +0100
+
+    container restore
+
+[33mcommit 1e66d078fed1b93c3614b1aa947c7cd9e9ca0a19[m
+Merge: 273e570 af424ba
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Fri Dec 8 12:23:44 2017 +0100
+
+    Merge pull request #4 from GjeloshajAntoine/weichuan
+    
+    Weichuan
+
+[33mcommit af424ba11ff0d3a08ef8ecd19a7612d082110df5[m
+Merge: 7f71c4b 273e570
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Fri Dec 8 12:23:35 2017 +0100
+
+    Merge branch 'master' into weichuan
+
+[33mcommit 273e570aa5501c24aa209cd42c38af67ab42cee8[m
+Merge: fe7e1fe b0a6513
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Fri Dec 8 12:18:47 2017 +0100
+
+    Merge pull request #3 from GjeloshajAntoine/Lucile
+    
+    Lucile
+
+[33mcommit fe7e1fe4a62880715f9c21ed561a89fa7e22bd5d[m
+Merge: 3250c2c 06d751c
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Fri Dec 8 12:02:49 2017 +0100
+
+    Merge pull request #2 from GjeloshajAntoine/backend-test
+    
+    Backend test
+
+[33mcommit b0a6513bf968e01e206801fe1de362c2c8504ffb[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 8 11:06:33 2017 +0100
+
+    favicon
+
+[33mcommit ad5ff8760350b472c69ba3c94e736f60ae0f5d1b[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Fri Dec 8 11:01:36 2017 +0100
+
+    favicon
+
+[33mcommit 7f71c4bea52004c855cf498efb265e97555fb570[m
+Merge: 5c260d9 3c87b19
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Dec 8 09:22:38 2017 +0100
+
+    Merge branch 'weichuan' of github.com:GjeloshajAntoine/4wing-website into weichuan
+
+[33mcommit 5c260d9d2fefee84ca07a5bc34d52125b924ca06[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Fri Dec 8 09:21:54 2017 +0100
+
+    modif index
+
+[33mcommit 3c87b191a097eb3695929a27cbf3d71b8f4aff13[m
+Author: weichuan888 <weichuan.tran@gmail.com>
+Date:   Thu Dec 7 23:56:34 2017 +0100
+
+    hover
+
+[33mcommit 06d751c725c82a8ee38e3c45451ba87f535d2f61[m
+Author: GjeloshajAntoine <gjeloshaj.antoine@gmail.com>
+Date:   Thu Dec 7 17:11:55 2017 +0100
+
+    gradient no reapaet
+
+[33mcommit 55330e04d90450f322c37867c7e5d868683ec44e[m
+Author: Unknown <gjeloshaj.antoine@gmail.com>
+Date:   Thu Dec 7 17:09:12 2017 +0100
+
+    blur image background test
+
+[33mcommit 3a771a438ddc89a8e00928e5babaa14e0672b830[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Dec 7 16:57:52 2017 +0100
+
+    modif2
+
+[33mcommit a82466ba41e642e8c7a6ff7adbb5d30f2d5b1fd6[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 7 16:54:48 2017 +0100
+
+    Libellule
+
+[33mcommit c7d5153fb798743428f76cbc45a7253d57e1b02f[m
+Author: weichuan.tran <weichuan.tran@gmail.com>
+Date:   Thu Dec 7 16:04:32 2017 +0100
+
+    modif 1 coming soon
+
+[33mcommit 3250c2c3d19effc74e2a8e15e8362064b68d59f6[m
+Author: Verrecchia <lverrecchia@gmail.com>
+Date:   Thu Dec 7 13:26:06 2017 +0100
+
+    Update README.md
+
+[33mcommit 60bdb41ba6c8001272d41fe5ef4734a07fbfaff2[m
+Merge: a6703fe ab982e1
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Thu Dec 7 13:04:14 2017 +0100
+
+    Merge pull request #1 from GjeloshajAntoine/Lucile
+    
+    page de construction de site
+
+[33mcommit ab982e1fb1f6a4d6c5fc31db825be408496a0526[m
+Author: LucileV <lverrecchia@gmail.com>
+Date:   Thu Dec 7 12:20:59 2017 +0100
+
+    page de construction de site
+
+[33mcommit a6703fed190f16f2e53d01d4ff8e87e582444d9f[m
+Author: GjeloshajAntoine <32301511+GjeloshajAntoine@users.noreply.github.com>
+Date:   Thu Dec 7 10:45:21 2017 +0100
+
+    Initial commit

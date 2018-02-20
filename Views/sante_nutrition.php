@@ -6,8 +6,8 @@
         <span class="icon-leaf"></span><h1>Santé par la nutrition</h1>
         <span>L’alimentation, une clé pour la santé de tous</span>
       </div>
-       <div class="col-md-4 col-sm-6 col-12 imageHeaderNutrition">
-          <img src="../img/img_header_sante.png" >
+       <div class="col-md-4 col-sm-6 col-12 ImageHeaderNutrition">
+          <img src="../img/img_header_sante.png" alt="ImageLogement">
       </div>
     </div>
 

@@ -43,11 +43,11 @@
 </div>
 
 
-<div class="TechThird LogementSecondRight">
-  <div class="container">
+<div class="logementProjets TechThird">
+  <div class="container LogementFifth">
          <div class="row" >
           <div class="col-sm-1"> <span class="icon-home-outline"> </span></div>
-          <div class="TechEducation col-sm-11 ">
+          <div class="LogementFifth col-sm-11 ">
             <h3>Les projets Logement</h3>
           </div>
         </div>
