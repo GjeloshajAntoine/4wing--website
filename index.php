@@ -242,6 +242,23 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
   });
 });
 
+
+
+
+//page FAQ quetion reponse 
+
+$f3->route('GET /faq',function ($f3) {
+  $f3->set('message','plus fréquement posées.');
+  $f3->set('title','Les questions les');
+  $f3->set('LANGUAGE','en');
+
+ 
+  $template=new Template;
+  echo $template->render('pagefaq.html');
+});
+
+
+
 //on va bientot voir le bout du tunel !!!
 
 $f3->run();
