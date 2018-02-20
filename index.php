@@ -245,7 +245,7 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 
 
-//page FAQ quetion reponse 
+//page FAQ quetion 
 
 $f3->route('GET /faq',function ($f3) {
   $f3->set('message','plus fréquement posées.');
