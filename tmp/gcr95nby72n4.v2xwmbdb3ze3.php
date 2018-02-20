@@ -12,7 +12,7 @@
 
     
     <?php $ctr=0; foreach (($pageliste?:[]) as $coffee): $ctr++; ?>
-        <a href="/admin/tradpage/<?= trim($coffee['page_name']) ?>/fr" class="<?= $ctr%2?'odd':'even' ?>"><?= trim($coffee['page_name']) ?></a>
+        <a href="tradpage/<?= trim($coffee['page_name']) ?>/fr" class="<?= $ctr%2?'odd':'even' ?>"><?= trim($coffee['page_name']) ?></a>
     <?php endforeach; ?> 
 
   

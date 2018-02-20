@@ -1,8 +1,4 @@
-/* line 2, ../sass/contact.scss */
-.container h1 {
-  color: #00338d;
-  font-size: 3em;
-}
+
 /* line 7, ../sass/contact.scss */
 .container .bureaux h2 {
   font-family: 'montserratregular', sans-serif;
@@ -13,48 +9,106 @@
   font-size: 1.5em;
 }
 /* line 14, ../sass/contact.scss */
-.container .bureaux .formulair {
+.container .bureaux .formulaire {
   display: inline-flex;
 }
 /* line 18, ../sass/contact.scss */
-.container .bureaux .formulair form {
+.container .bureaux .formulaire form {
   margin-left: 50px;
   font-family: 'montserratregular', sans-serif;
 }
 /* line 22, ../sass/contact.scss */
-.container .bureaux .formulair form label {
+.container .bureaux .formulaire form label {
   margin-bottom: 25px;
   margin-top: 1%;
   margin-right: 1%;
   font-family: 'montserratregular', sans-serif;
 }
 /* line 29, ../sass/contact.scss */
-.container .bureaux .formulair form input {
+form input {
   margin-bottom: 30px;
   margin-right: 2%;
+  height: 100px;
 }
 /* line 33, ../sass/contact.scss */
-.container .bureaux .formulair form textarea {
+.container .bureaux .formulaire form textarea {
   width: 600px;
   height: 200px;
 }
 
-@media screen and (max-width: 320px) {
-  /* line 46, ../sass/contact.scss */
-  .formulair {
-    display: block;
+
+.red{
+    color:red;
+    }
+.form-area{
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  border: 1px solid GREY;
   }
 
-  /* line 49, ../sass/contact.scss */
-  .formu {
-    width: 100%;
-    display: block;
+   .formulaire {
+    
+    margin-top: 20px;
   }
+
+  .formulaire h2{
+    
+    font-size: 2.5em;
+    margin-top: 135px;
+  }
+
+  .formulaire h3 {
+    margin-top: 24px;
+    line-height: 40px;
+    margin-bottom: 38px;
+    text-align: center;
 }
-@media screen and (max-width: 790px) {
-  /* line 55, ../sass/contact.scss */
-  .formu {
-    width: 100%;
-    float: left;
+
+  .formulaire p{
+    
+    font-size: 18px;
   }
+
+  .formulaire a{
+    
+    font-size: 18px;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #f6f3ed;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.row .btn_success2 {
+    background-color: #db4d69;
+    color: #FFF;
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-top: 8px;
+}
+
+.row .btn_success2:hover{
+    background-color: #00338d;
+    color: #FFF;
+
 }

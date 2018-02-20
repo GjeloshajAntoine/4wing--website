@@ -1,12 +1,25 @@
 <?php
-
-function list_citation($lg)
+function list_citation() {
+  $bdd=init_DB();
+  $stmt = $bdd->prepare("SELECT * FROM citations ");
+  $stmt->execute();
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  return $result;
+}
+function list_citation_lg($lg)
 {
     $bdd=init_DB();
     $stmt = $bdd->prepare("SELECT * FROM citations WHERE ln= :lg ");
     $stmt->execute(['ln'=>$lg]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result;
+}
+function citation_id($id)
+{
+  $stmt = init_DB()->prepare("SELECT * FROM citations WHERE id= :id");
+  $stmt->execute(['id'=>$id]);
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  return $result[0];
 }
 function hazard_citation($lg,$cat)
 {
@@ -23,12 +36,10 @@ function add_citation($citation,$lg,$cat)
     $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat]);
     return $bdd->lastInsertId();
 }
-function edit_citation($id)
+function edit_citation($id,$citation,$lg,$cat)
 {
     $bdd=init_DB();
     $stmt = $bdd->prepare("UPDATE  citations SET citation = :citation, ln = :lg , categorie = :cat WHERE id = :id");
     $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat,'id'=>$id]);
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $result[0];
 }
 ?>

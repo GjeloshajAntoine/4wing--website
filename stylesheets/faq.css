@@ -1,0 +1,35 @@
+.panels-faq {
+
+		font-size: 18px;
+		margin-right: 20px;
+		margin-left: 20px;
+
+
+}
+
+.panels-faq h3{
+
+	color : #00338d;
+	margin: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration:none; 
+
+}
+
+.panels-faq h3:hover{
+
+	color : #db4d69;
+	text-decoration:none; 
+}
+
+.panel-body {
+
+	background-color: beige;
+}
+
+.panel-group .panel-heading {
+
+ 	border-bottom: 5px solid #db4d69;
+
+ }

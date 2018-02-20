@@ -57,7 +57,10 @@
 
   font-size: 2em;
   font-weight: bold;
+  line-height: 2em;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
@@ -167,10 +170,7 @@ article h1 {
 }
 
 
-footer {
-  background: linear-gradient(180deg, #8791a4 0%, #C4D2FC 100%);
 
-}
 footer .IconPieds {
   color: ;
 
@@ -186,8 +186,6 @@ footer .pieds {
 #TechEd {
 
   color: white;
-  font-family: 'misoregular';
-  font-style: 3em;
 
 }
 
@@ -243,7 +241,7 @@ font-size: 25px;
 
 .TechFirst p {
   line-height: 2em;
-  font-size: 1.8em;
+  font-size: 1.4em;
   padding-right: 50px;
   padding-bottom: 41px;
 }
@@ -256,12 +254,12 @@ font-size: 25px;
 }
 
 .row .TechSecond p {
-    line-height: 2em;
+    line-height: 1.5em;
     color: #00338d;
     font-size: 1.8em;
     padding-left: 30px;
     width: 90%;
-    text-align: justify;
+    text-align: auto;
 }
 
 
@@ -273,14 +271,14 @@ font-size: 25px;
   display: block;
   float: left;
   font-family: 'Frank Ruhl Libre', serif;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 20px;
 }
 
 .lettrine2 {
 
   color: #00338d;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Frank Ruhl Libre', serif;
   
 }

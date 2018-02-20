@@ -1,4 +1,4 @@
-      <footer>
+<footer>
       <div class="container">
         <br>
          <a href="#"><i class="fa fa-3x fa-arrow-circle-o-up top" aria-hidden="true"></i>
@@ -39,8 +39,15 @@
       $('#ca-container').contentcarousel();
   </script>
 
+<<<<<<< HEAD
   <script type="text/javascript"  src="../js/lucid.js"></script>
   <script src="../js/script.js"></script>
+=======
+  <script src="../js/slick.js"  type="text/javascript" charset="utf-8"></script>
+  <script src="../js/lucid.js"  type="text/javascript"  ></script>
+  <script src="../js/script.js" type="text/javascript" ></script>
+   <script src="../js/smooth.js" type="text/javascript" ></script>
+>>>>>>> 6559afdf6fa48d4bfac79aa890e5ca44818e8317
 
   <script>
     $(window).on('load', function() {
@@ -52,12 +59,53 @@
    <script type="text/javascript"> $(document).ready(function(){ $('.top').click(function(){ $('html,body').animate({scrollTop: 0},'slow'); }); }); </script>
 
   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
     <!-- the jScrollPane script -->
-  <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
-  <script type="text/javascript" src="../js/jquery.contentcarousel.js"></script>
-  <script type="text/javascript">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="carousel/js/jquery.easing.1.3.js"></script>
+    <!-- the jScrollPane script -->
+    <script type="text/javascript" src="carousel/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="carousel/js/jquery.contentcarousel.js"></script>
+    <script type="text/javascript">
       $('#ca-container').contentcarousel();
+<<<<<<< HEAD
   </script>
+=======
+    </script>
+
+
+
+      <script>
+      $(document).ready(function(){
+          $("#flip1").click(function(){
+              $("#panel1").slideToggle("slow");
+
+
+          });
+      });
+      </script>
+
+        <script>
+         $(document).ready(function(){
+          $("#flip").click(function(){
+              $("#panel").slideToggle("slow");
+
+          });
+
+
+
+      });
+
+
+
+
+      </script>
+
+
+>>>>>>> 6559afdf6fa48d4bfac79aa890e5ca44818e8317
 
 
 </body>

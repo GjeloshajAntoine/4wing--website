@@ -4,7 +4,7 @@
     <div class="row header_rose" >
       <div class="TechEducation col-md-8">
         <span class="icon-home-outline"></span><h1>Logement</h1>
-        <span>Phrase logement</span>
+        <span>Une priorité pour l'intégration</span>
       </div>
       <div class="col-md-4 col-sm-6 col-12 ImageHeader">
           <img src="../img/img_header_logement.png" alt="ImageLogement">
@@ -15,12 +15,12 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder</h2>
+		      <h2>En Belgique, 180.000 familles sont en attente d’un logement accessible financièrement</h2>
 		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
 		    </div>
        
         <div class="TechSecond LogementSecond">     
-          <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span>Grâce à l’accompagnement orchestré par Habitat et Humanisme, des locataires deviennent propriétaires de leur logement. à son tour, 4WINGS accompagne Habitat et Humanisme dans sa démarche pour amplifier les effets positifs. C’est une très belle réaction en chaine.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
             <div class="TechSecond">
@@ -43,11 +43,11 @@
 </div>
 
 
-<div class="TechThird LogementSecondRight">
-  <div class="container">
+<div class="logementProjets TechThird">
+  <div class="container LogementFifth">
          <div class="row" >
           <div class="col-sm-1"> <span class="icon-home-outline"> </span></div>
-          <div class="TechEducation col-sm-11 ">
+          <div class="LogementFifth col-sm-11 ">
             <h3>Les projets Logement</h3>
           </div>
         </div>
@@ -60,76 +60,27 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
+          <a href="projet_logement.php"><img src="../img/projets/logo_habitat_humanism.jpg" alt="Vignette Logement"></a>
           <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->
-        <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
-          </div>
-        </div>
-      </div>
-    <!-- fin projet-->    <!-- projet-->
-     <div class="col-sm-12 col-md-6">
-        <div class="TechForth border_rose">
-          <a href="projet_logement.php"><img src="../img/vignette-logement.jpg" alt="Vignette Logement"></a>
-          <div class="rubrique rose">
-            <h4> <a href="projet_logement.php">Becode</a> </h4>
-            <p>BeCode est une start-up à impact social
-                élevé qui, inspirée par le modèle français
-                de Simplon, vise à développer le talent de
-                jeunes infra-qualifiés pour leur permettre
-                de devenir les développeurs de demain.</p>
+            <h4> <a href="projet_logement.php">Habitat et Humanisme</a> </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta ducimus voluptates, ullam optio ea excepturi numquam possimus nihil fugiat! Quas consequuntur, numquam repudiandae animi. Nam nulla repudiandae, itaque dolor?</p>
           </div>
         </div>
       </div>
     <!-- fin projet-->
 
+        <!-- projet-->
+     <div class="col-sm-12 col-md-6">
+        <div class="TechForth border_rose">
+          <a href="projet_logement.php"><img src="../img/projets/logo_habitat_humanism.jpg" alt="Vignette Logement"></a>
+          <div class="rubrique rose">
+            <h4> <a href="projet_logement.php">Habitat et Humanisme</a> </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta ducimus voluptates, ullam optio ea excepturi numquam possimus nihil fugiat! Quas consequuntur, numquam repudiandae animi. Nam nulla repudiandae, itaque dolor?</p>
+          </div>
+        </div>
+      </div>
+    <!-- fin projet-->
+       
   </div>
 </div>
  

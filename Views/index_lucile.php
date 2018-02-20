@@ -14,12 +14,15 @@
   </section>
 
 
-  
-  <section >
-    <div class="" >
-      <div class="contenu  axes">
+
+   </div>
+
+
+
+    <section class="axes">
+    <div class="container">
         <div class="row">
-          <div class="axe logement col-sm">
+        <div class="axe logement col-sm">
             <a href="logement.php">
               <div class="imgAxe img-fluid"><img src="../img/logement.png" alt="">
                 <h2>Logement</h2>
@@ -45,11 +48,9 @@
             </a>
           </div>
         </div>
-      </div>
     </div>
+  </section>
 
- </section>
-   </div>
 
 
   <section class="citation">
@@ -66,7 +67,7 @@
   
 
   <section class="slider_projets">
-      <?php include("../js/carousel/carousel_4wings.php") ?>
+      <?php include("carousel.php") ?>
   </section>
 
 	

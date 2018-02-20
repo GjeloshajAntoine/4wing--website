@@ -1,0 +1,115 @@
+/* line 1, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection {
+  font-family: 'Montserrat',sans-serif;
+}
+/* line 4, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain {
+  height: 1500px;
+  width: 100%;
+}
+/* line 7, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .marron {
+  color: #564026;
+}
+/* line 11, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft {
+  width: 75%;
+  height: 100%;
+}
+/* line 15, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft h3 {
+  font-size: 3.5em;
+  text-align: left;
+  margin-left: 18px;
+  color: #00338d;
+}
+/* line 21, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft p {
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 18px;
+  color: #00338d;
+}
+/* line 27, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form {
+  margin-left: 2%;
+  margin-top: 4%;
+}
+/* line 31, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group {
+  height: 50px;
+}
+/* line 35, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group .fichierok label input {
+  margin-left: -2%;
+  display: block;
+  margin-right: -2%;
+  float: right;
+}
+/* line 44, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label {
+  float: left;
+  margin-bottom: 1%;
+  font-size: 20px;
+  color: #337ab7;
+}
+/* line 50, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label textarea {
+  margin-bottom: 2%;
+}
+/* line 54, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label input {
+  margin-top: 1%;
+  float: right;
+}
+/* line 58, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft form .form-group label .fichierDiv {
+  margin-left: -2%;
+  display: block;
+  margin-right: -2%;
+  margin-top: -1%;
+  float: right;
+}
+/* line 68, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft .Send {
+  font-family: 'montserratregular', sans-serif;
+  width: 100%;
+  height: 60px;
+  font-size: 1.5em;
+  margin-top: 25px;
+  padding-top: 8px;
+  color: white;
+  background-color: #db4d69;
+}
+/* line 77, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireLeft .Send:hover {
+  background-color: #00338d;
+  color: white;
+}
+/* line 85, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight {
+  background: linear-gradient(to bottom, #aadbdb 0%, #aadbdb 50%, #ffffff 100%);
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  padding-top: 5%;
+  margin-top: -0.5%;
+  font-family: 'montserratregular', sans-serif;
+}
+/* line 94, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight h2 {
+  padding-bottom: 10%;
+  color: white;
+}
+/* line 98, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight p {
+  font-size: 1.2em;
+}
+/* line 101, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight a {
+  font-size: 1.2em;
+}
+/* line 104, ../../sass/sass/formulaireSelection.scss */
+.formulaireSelection .formulaireMain .formulaireRight img {
+  margin-top: 15%;
+}

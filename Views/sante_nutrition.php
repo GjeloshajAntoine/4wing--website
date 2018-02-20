@@ -4,7 +4,7 @@
     <div class="row header_bleu2" >
       <div class="TechEducation col-md-8">
         <span class="icon-leaf"></span><h1>Santé par la nutrition</h1>
-        <span>Programmer le cercle vertueux &nbsp; de l'inclusion</span>
+        <span>L’alimentation, une clé pour la santé de tous</span>
       </div>
        <div class="col-md-4 col-sm-6 col-12 ImageHeaderNutrition">
           <img src="../img/img_header_sante.png" alt="ImageLogement">
@@ -15,16 +15,16 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder</h2>
-		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
+		      <h2>Sous titre Alimentation</h2>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quo consequuntur, ut explicabo voluptate, tempore id nisi dolorum, sit voluptas in. Pariatur similique omnis, nihil unde facere doloremque numquam eius.</p>
 		    </div>
        
         <div class="TechSecond LogementSecond">     
           <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
-            <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
+            <div class="homme2">
+              <img src="../img/homme2.png" alt="homme">
             </div>
          </div>
       
@@ -47,7 +47,7 @@
   <div class="container">
          <div class="row " >
           <div class="col-sm-1"> <span class="icon-leaf"> </span></div>
-          <div class="TechEducation col-sm-11 ">
+          <div class="TechEducation Santebas col-sm-11 ">
             <h3>Les projets Santé par la nutrition</h3>
           </div>
         </div>
@@ -60,7 +60,7 @@
     <!-- projet-->
      <div class="col-sm-12 col-md-6">
         <div class="TechForth ">
-          <a href="projet_sante.php"><img src="../img/vignette-sante.jpg" alt="logo border_bleu2"></a>
+          <a href="projet_sante.php"><img src="../img/projets/vignette-sante.jpg" alt="logo border_bleu2"></a>
           <div class="rubrique">
             <h4> <a href="projet_sante.php">Titre nutrition</a> </h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam tempora pariatur, doloribus fugiat totam earum ad expedita officiis consequuntur distinctio reiciendis ab quas, deleniti nostrum deserunt libero aspernatur ipsum reprehenderit.</p>
