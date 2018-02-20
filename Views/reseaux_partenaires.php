@@ -27,7 +27,7 @@
                     <div class="descriptionpartenaire">Nom du partenaire</div>
 
                     <div class="descriptionpartenaire">
-                      <a href="#" target="blank">Site partenaire</a>
+                      <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                     </div>
                </div>   
             </div>
@@ -44,7 +44,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -62,7 +62,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -80,7 +80,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -98,7 +98,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -116,7 +116,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -134,7 +134,7 @@
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>
@@ -145,14 +145,14 @@
  <div class="col-md-4"> 
           <div class="partenaire">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-12">
                      <div class="logopartenaire"></div>
                   </div>
                   <div class="col-md-6">
                       <div class="descriptionpartenaire">Nom du partenaire</div>
 
                       <div class="descriptionpartenaire">
-                        <span class="mls"> icon-link</span><a href="#" target="blank">Site partenaire</a>
+                        <span class="icon-link"></span><a href="#" target="blank">Site partenaire</a>
                       </div>
                  </div>   
               </div>

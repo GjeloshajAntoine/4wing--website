@@ -15,54 +15,31 @@
                
         </div>
   
-             
-              <div class class="col-md-10">
-
-                <div class="tab-content panels-faq">
-
+          <div class="tab-content panels-faq">
 
                   <div class="tab-pane active" id="tab1">
-                    <div class="panel-group" id="help-accordion-1">
-                      <div class="panel panel-default panel-help">
-                        <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
-                          <div class="panel-heading">
-                            <h3>Question </h3>
-                          </div>
-                        </a>
-                        <div id="opret-produkt" class="collapse in">
-                          <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam est!</p>
-                            <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            
-
-                 <div class="tab-pane active" id="tab2">
-                    <div class="panel-group" id="help-accordion-2">
-                      <div class="panel panel-default panel-help">
-                        <a href="#opret-produkt-2" data-toggle="collapse" data-parent="#help-accordion-2">
-                          <div class="panel-heading">
-                            <h3>Question </h3>
-                          </div>
-                        </a>
-                        <div id="opret-produkt-2" class="collapse">
-                          <div class="panel-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam est!</p>
-                            <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
-                          </div>
-                        </div>
-                      </div>
+                    <input type="checkbox" id="question1" name="q"  class="questions">
+                    <div class="plus">+</div>
+                    <label for="question1" class="question">
+                      This is the question that will be asked?
+                    </label>
+                    <div class="answers">
+                      What if the answer is really long and wraps the whole page and you never want to finish it but you have to because its the answer!
                     </div>
                   </div>
 
-                  
+                  <div class="tab-pane active" id="tab2">
+                    <input type="checkbox" id="question2" name="q2"  class="questions">
+                    <div class="plus">+</div>
+                    <label for="question2" class="question">
+                      Ceci est une deuxieme question
+                    </label>
+                    <div class="answers">
+                      Et ceci est le texte de la deuxième réponse
+                    </div>
+                  </div>
 
-                </div>    
-
-
+           </div>    
 
 
 

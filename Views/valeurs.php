@@ -4,49 +4,63 @@
 <section> 
     <div class="container">
       <div class="row">
-            <div class="introHome col-sm-9"><h2>Nos outils :</h2>
-          <ul>
-            <li>• IMPACT INVESTMENT • </li>
-            <li>• VENTURE PHILANTHROPY •</li>
-            <li>• MÉCÉNAT •</li>
-          </ul>
-        </div>
-        <div class="row ValeurThird">
-          <p>Un investissement humain engagé:</p>
-          <ul>
-            <li>Accompagnement</li>
-            <li>Coaching</li>
-            <li>Expertise</li>
-            <li>Conseils</li>
-            <li>Réseau</li>
-            <li>...</li>
-          </ul>
-          <p>Un investissement en ressources:</p>
-            <ul>
-              <li>Dons</li>
-              <li>Prêts</li>
-              <li>Participation au capital</li>
-              <li>Garanties</li>
-              <li>...</li>
-            </ul>
-          <p>Un investissement dans la durée (pluriannuel):</p>
-          </div>
-          </p>
+            <div class="introHome col-sm-9">
+              <h1>Nos  <span class="marron">valeurs</span></h1>
+          
             </div>
-              <div class="col-sm-3 libellule"></div>
+
         </div> 
-    </div>
-</section>
 
+       <div class="row">       
 
-<section>
-    <div class="container">
-      <div class="row">
-             “Nous avons décidé d’agir ensemble, en famille, et de soutenir les efforts des entrepreneurs sociaux pour amplifier leur impact dans la lutte contre la précarité en Belgique” 
+       <div class="col-md-6">
+            <ul class="missions">
 
+              <h2>Nos valeurs </h2>
+                 
+                  <li>   Lien social</li>
+                  <li>   Entreprendre</li>
+                  <li>   Créativité</li>
+                
+            </ul>
+        </div> 
+          
+       <div class="col-md-6">
+          <ul class="missions">
+            <h2> Nos outils  </h2>
+            
+              <li>   Impact investment</li>
+              <li>   Venture philanthropy</li>
+              <li>   Mécénat</li>
+            
+          </ul>
+
+        </div> 
+     
       </div>
     </div>
-</section>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+         
+        <div class="col-sm-9 concretement">
+          <h2> Concrètement? </h2>
+           <p>Un investissement humain engagé 
+              accompagnement, coaching, expertise, conseils, réseau, …
+              <br>
+              <span class="icon-leaf"></span>Un investissement en ressources 
+              dons, prêts, participation au capital, garanties, ....
+              <br>
+              <span class="icon-leaf"></span>Un investissement dans la durée (pluriannuel)
+              </p>
+          </div>
+        <div class="col-sm-4 libellule"></div>
+
+    </div>
+
+  </section>
+
 
 
 </div>
