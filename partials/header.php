@@ -30,14 +30,16 @@
   <link rel="stylesheet" href="../stylesheets/faq.css">
 <!-- CSS page projet -->
   <link rel="stylesheet" href="../stylesheets/projet_logement.css">
-  <link rel="stylesheet" href="../stylesheets/projet_tech.css"> 
+  <link rel="stylesheet" href="../stylesheets/projet_tech.css">
   <link rel="stylesheet" href="../stylesheets/projet_sante.css">
 
   <link rel="stylesheet" href="../stylesheets/equipes.css">
+  <link rel="stylesheet" href="../stylesheets/formulaireSelection.css">
 
 
-  
-  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet"> 
+
+
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -86,19 +88,19 @@
                 <li class="dropdown list-inline-item menu langues">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FR <span class="caret"></span></a>
                       <ul class="dropdown-menu lang">
-                       
+
                             <li ><a href="#" class="lang">EN</a></li>
                             <li ><a href="#" class="lang">NL</a></li>
 
                       </ul>
                 </li>
-               
-                
-              
+
+
+
             </ul>
           </div>
         </div>
 
       </nav>
-      
+
     </header>
