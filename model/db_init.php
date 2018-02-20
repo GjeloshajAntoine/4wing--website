@@ -5,4 +5,5 @@ function init_DB()
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
   return $bdd;
 }
+
  ?>

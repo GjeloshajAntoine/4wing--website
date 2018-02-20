@@ -263,11 +263,21 @@ $f3->route('GET /faq',function ($f3) {
   $f3->set('title','Les questions les');
   $f3->set('LANGUAGE','en');
 
+
+
  
   $template=new Template;
   echo $template->render('pagefaq.html');
 });
 
+
+//page admin traduction
+
+//$f3->route('GET /admin/list_page_trad',function ($f3) {
+ // is_connected_with(false,$f3,function($f3){
+  //  $f3->set('pageliste',get_page_trad_list());
+  //  echo Template::instance()->render('admin_views/page_list.php');
+  //});
 
 
 //on va bientot voir le bout du tunel !!!
