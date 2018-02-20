@@ -10,9 +10,19 @@
 
 }
 
+.descriptionpartenaire .icon-link{
+  font-size: 1.2em;             
+}
+
 .partenaire {margin: 5px;}
 .partenaire .col-md-6{
     
     font-size: 15px;
 
     }
+
+.descriptionpartenaire [class^="icon-"], [class*=" icon-"] {
+
+    margin-left: 0px;
+    margin-top: 0px;
+}

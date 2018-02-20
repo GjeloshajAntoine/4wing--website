@@ -49,3 +49,7 @@
 .icon-pc:before {
   content: "\e902";
 }
+
+.icon-link:before {
+  content: "\e9cb";
+}
