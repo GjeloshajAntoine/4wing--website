@@ -5,8 +5,17 @@
     <title></title>
   </head>
   <body>
-    <?= $title.PHP_EOL ?>
-    <?= $message.PHP_EOL ?>
+ 
+           <?php foreach (($qaf?:[]) as $zap): ?>
+
+              <span><?= $zap['quetions'] ?></span><br>
+              <span><?= $zap['reponses'] ?></span>
+              
+           <?php endforeach; ?>
+
+   
+
+    <a href="<?= Base::instance()->alias('beer_list') ?>">view beer list</a>
     
   </body>
 </html>

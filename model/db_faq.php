@@ -1,9 +1,12 @@
 <?php
-function init_DB()
-{
-  $bdd = new PDO('mysql:host=localhost;dbname=akkad', 'root', '',[PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"]);
-  $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
-  return $bdd;
-}
+
+function get_page_faq() {
+    $bdd=init_DB();
+    
+    $stmt = $bdd->prepare("SELECT * FROM `page_faq`");
+    $stmt->execute();
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $result;
+  }
 
  ?>
