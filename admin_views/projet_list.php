@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body class="container">
-  <h2>Projets</h2>
+  <h2>
+    Projets
+    <a type="button" href="new" class="btn btn-success">Nouveau projet</a>
+  </h2>
 
     <div class="list-group">
       <repeat group="{{ @all_projects }}" value="{{ @project }}">
           <a class="list-group-item" href="/4wing-website/admin/projet/{{ @project.id}}/trad/fr"> {{ @project.title}} </a>
       </repeat>
-    </div>  
+    </div>
   </body>
 </html>

@@ -8,12 +8,12 @@
   </head>
   <body>
     <div class="container">
-      <h2>all_citations</h2>
+      <h2>all_citations  <a type="button" href="new" class="btn btn-success">Nouvelle citation</a></h2>
       <div class="list-group">
         <?php foreach (($all_citations?:[]) as $citation): ?>
           <a href="<?= $citation['id'] ?>" class="list-group-item"> <?= $citation['citation'] ?> </a>
        <?php endforeach; ?>
       </div>
-    </div>  
+    </div>
   </body>
 </html>
