@@ -8,12 +8,12 @@
   </head>
   <body>
     <div class="container">
-      <h2>all_citations</h2>
+      <h2>all_citations  <button type="button" class="btn btn-success">Nouvelle citation</button></h2>
       <div class="list-group">
         <repeat group="{{ @all_citations }}" value="{{ @citation }}">
           <a href="{{ @citation.id}}" class="list-group-item"> {{ @citation.citation}} </a>
        </repeat>
       </div>
-    </div>  
+    </div>
   </body>
 </html>
