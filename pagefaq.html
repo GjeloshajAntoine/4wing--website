@@ -5,8 +5,17 @@
     <title></title>
   </head>
   <body>
-    {{ @title}}
-    {{ @message}}
+ 
+           <repeat group="{{ @qaf }}" value="{{ @zap }}">
+
+              <span>{{ @zap.quetions }}</span><br>
+              <span>{{ @zap.reponses }}</span>
+              
+           </repeat>
+
+   
+
+    <a href="{{ 'beer_list' | alias }}">view beer list</a>
     
   </body>
 </html>
