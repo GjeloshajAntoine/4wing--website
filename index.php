@@ -185,18 +185,25 @@ $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
 
 $f3->route('GET /admin/projet/@id/images/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
+    $f3->set("all_images",Project::get_image_from_id($f3->PARAMS['id']));
+      $f3->set('id',$f3->PARAMS['id']);
     echo Template::instance()->render('admin_views/projet_image_updload.php');
   });
 });
 $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
   //is_connected_with(false,$f3,function($f3){
      Project::add_image_to_id($f3->PARAMS['id'],$_FILES['file']);
+    //echo Template::instance()->render('admin_views/');
+  //});
+});
+$f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
+  //is_connected_with(false,$f3,function($f3){
+     Project::add_image_to_id($f3->PARAMS['id'],$_FILES['file']);
     echo Template::instance()->render('admin_views/');
   //});
 });
 
-
-
+//User
 $f3->route('GET /admin/user/list',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
     $f3->set("all_users",list_user());
