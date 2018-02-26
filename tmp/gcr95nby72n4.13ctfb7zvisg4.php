@@ -5,7 +5,7 @@
     <title>Projet</title>
   </head>
   <body>
-  <?php echo $this->render('admin_views/project_tabs.php',NULL,get_defined_vars(),0); ?> 
+  <?php echo $this->render('admin_views/project_tabs.php',NULL,['tabname'=>$lg]+get_defined_vars(),0); ?> 
 
    <div class="container">
     <form class="" action="http://localhost/4wing-website/admin/projet/<?= $id ?>/trad/<?= $lg ?>/editdata" method="post">

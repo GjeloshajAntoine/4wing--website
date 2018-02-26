@@ -136,12 +136,14 @@ $f3->route('GET /admin/projet/list',function ($f3,$params) {
 });
 $f3->route('GET /admin/projet/@id',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
+    $f3->set('id',$f3->PARAMS['id']);
     $f3->reroute('/admin/projet/@id/info');
   });
 });
 $f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principales nom,catégories
   is_connected_with(false,$f3,function($f3){
     $f3->set('project',Project::get_info($f3->PARAMS['id']));
+    $f3->set('id',$f3->PARAMS['id']);
     echo Template::instance()->render('admin_views/projet_info.php');
   });
 });
@@ -201,9 +203,9 @@ $f3->route('GET /admin/user/list',function ($f3,$params) {
     echo Template::instance()->render('admin_views/user_list.php');
   });
 });
-$f3->route('POST /admin/user/create',function ($f3,$params) {
+$f3->route('GET /admin/user/new',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
-    echo Template::instance()->render('admin_views/citation_new.php');
+    echo Template::instance()->render('admin_views/user_new.php');
   });
 });
 $f3->route('POST /admin/user/change_auth',function ($f3,$params) {
@@ -257,7 +259,7 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 
 
-//page FAQ quetion 
+//page FAQ quetion
 
 $f3->route('GET /faq',function ($f3) {
   $f3->set('message','plus fréquement posées.');
@@ -268,13 +270,13 @@ $f3->route('GET /faq',function ($f3) {
 
 $f3->set('qaf',get_page_faq());
 //var_dump(get_page_faq());
- 
+
   $template=new Template;
   echo $template->render('pagefaq.html');
 });
 
 
-  
+
 
 
 //on va bientot voir le bout du tunel !!!
