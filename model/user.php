@@ -50,7 +50,7 @@ function is_connected_with($should_admin,$f3,$callback){
 {
 
 }
-function create_user($name,$password,$auth)
+function create_user($name,$password,$email,$auth)
 {
     if (is_connected() && is_admin()) {
         $hash=sha1($password);
@@ -77,8 +77,28 @@ function change_user($id,$password,$auth)
 {
 
 }
+function resetPassword($id)//les admin peuvent direct reset les mots de passe de tout le monde
+                           // meme sans connaitre le précédent
+{
+  $bdd=init_DB();
+  $new_password=random_password(8);
+  $hashed_password
+  $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
+  $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
+
+
+}
+function change_password($old_password,$new_password)//les utilisateurs peuvent changer leur mot de passe s'ils connaissent le précédent
+{
+
+}
 function delete_user(Type $var = null)
 {
 
+}
+function random_password( $length = 8 ) {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
+    $password = substr( str_shuffle( $chars ), 0, $length );
+    return $password;
 }
 ?>
