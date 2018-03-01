@@ -1,7 +1,7 @@
 <?php require_once("../partials/header.php") ?>
 
 
-<section> 
+<section>
      <div class="container">
       <div class="row header_Equipe">
           <h1>Nos équipes, <span class="marron">professionnelles & engagées</span> </h1>
@@ -21,8 +21,8 @@
         <div class="col-md-4"><a class="btn btn_success" href="#operationnel">Équipe opérationnelle</a></div>
         <div class="col-md-4"><a class="btn btn_success col-md-4" href="#conseil">Conseil administration</a></div>
         <div class="col-md-4"><a class="btn btn_success col-md-4" href="#membres">Les membres</a></div>
-        
-        
+
+
     </div>
  </section>
 
@@ -36,17 +36,18 @@
         <p>Ils partagent une volonté forte d’entreprendre, de créer et de partager
         </p>
 
-      <div class="col-lg-6 col-md-6 col-sm-12 ">
-          <div class="photoequipe">
+      <repeat group="{{@equipes}}" value="{{@equipes}}">
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+            <div class="photoequipe">
+            </div>
+            <div class="EquipeTexte">
+              <h3>Marc Dupont</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
-          <div class="EquipeTexte">
-            <h3>Marc Dupont</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-
-         <div class="col-lg-6 col-md-6 col-sm-12 ">
+      </repeat>
+         <!-- <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
             <a href="#"><img src="" alt=""></a>
           </div>
@@ -55,7 +56,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-        </div>
+        </div> -->
 
 
       </div>
@@ -117,14 +118,14 @@
           </div>
       </div>
 
-        
-      
+
+
       <div id="flip1"><i class="fa fa-3x fa-arrow-circle-o-down" aria-hidden="true"></i>
         <i class="fa fa-3x fa-arrow-circle-o-up hidden" aria-hidden="true"></i></div>
 
 
           <div id="panel1">
-            
+
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
                           <a href="#"><img src="" alt=""></a>
@@ -146,7 +147,7 @@
                           </p>
                         </div>
                 </div>
-                
+
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
                           <a href="#"><img src="" alt=""></a>
@@ -160,7 +161,7 @@
                         <br>
                 </div>
             </div>
-             
+
        </div>
   </div>
 
@@ -215,13 +216,13 @@
             </p>
           </div>
       </div>
-        
-      
+
+
       <div id="flip"><i class="fa fa-3x fa-arrow-circle-o-down" aria-hidden="true"></i></div>
 
 
           <div id="panel">
-            
+
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
                           <a href="#"><img src="" alt=""></a>
@@ -243,7 +244,7 @@
                           </p>
                         </div>
                 </div>
-                
+
                 <div class="col-lg-6 col-md-6 col-sm-12 ">
                         <div class="photoequipe">
                           <a href="#"><img src="" alt=""></a>
@@ -257,7 +258,7 @@
                         <br>
                 </div>
 
-             
+
        </div>
   </div>
 

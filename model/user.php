@@ -92,7 +92,7 @@ function change_password($id,$old_password,$new_password)//les utilisateurs peuv
 {
   $bdd=init_DB();
   $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE id= :id  ");
-  $stmt->execute(['name'=>$name);
+  $stmt->execute(['name'=>$name]);
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
   if (password_verify($old_password,$result[0]["password"])) {
     $hashed_password=password_hash($new_password, PASSWORD_DEFAULT);

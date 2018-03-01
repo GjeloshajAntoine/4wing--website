@@ -6,6 +6,7 @@ include "model/page.php";
 include 'model/project.php';
 include 'model/citation.php';
 include 'model/db_faq.php';
+include 'model/Upload_Image.php';
 
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
@@ -76,6 +77,16 @@ $f3->route('GET /@lg/techEducation',function ($f3,$params) {
 $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
 });
+
+$f3->route('GET /@lg/equipes',function($f3, $params) {
+  echo $params['lg'];
+  $equipes=displayTitles();
+  $f3->set('equipes',$equipes);
+  $template= new Template;
+  echo $template->render('Views/equipes.php');
+
+});
+
 
 
 // ADMIN ROUTE
@@ -302,7 +313,9 @@ $f3->set('qaf',get_page_faq());
 
 //on va bientot voir le bout du tunel !!!
 
-$f3->run();
+  $f3->run();
+
+
 
 
 
