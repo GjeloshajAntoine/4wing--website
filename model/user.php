@@ -82,15 +82,24 @@ function resetPassword($id)//les admin peuvent direct reset les mots de passe de
 {
   $bdd=init_DB();
   $new_password=random_password(8);
-  $hashed_password
+  $hashed_password=password_hash($new_password, PASSWORD_DEFAULT);
   $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
   $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
 
 
 }
-function change_password($old_password,$new_password)//les utilisateurs peuvent changer leur mot de passe s'ils connaissent le précédent
+function change_password($id,$old_password,$new_password)//les utilisateurs peuvent changer leur mot de passe s'ils connaissent le précédent
 {
+  $bdd=init_DB();
+  $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE id= :id  ");
+  $stmt->execute(['name'=>$name);
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  if (password_verify($old_password,$result[0]["password"])) {
+    $hashed_password=password_hash($new_password, PASSWORD_DEFAULT);
+    $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
+    $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
 
+  }
 }
 function delete_user(Type $var = null)
 {
