@@ -6,6 +6,7 @@ include "model/page.php";
 include 'model/project.php';
 include 'model/citation.php';
 include 'model/db_faq.php';
+include 'model/Upload_Image.php';
 
 
 function traduction() {
@@ -50,7 +51,10 @@ $f3->route('GET /@lg/vraipage',function ($f3,$params) {
 });
 $f3->route('GET /@lg/mission',function ($f3,$params) {
   echo $params['lg'];
+  $page_name="mission";
+  traduction_page($page_name,$params['lg'],$f3);
   hazard_citation($params['lg'],false);
+  echo $template->render('vraipage.html');
 });
 $f3->route('GET /@lg/health',function ($f3,$params) {
   echo $params['lg'];
@@ -64,11 +68,26 @@ $f3->route('GET /@lg/selectionProjet',function ($f3,$params) {
 });
 $f3->route('GET /@lg/techEducation',function ($f3,$params) {
   echo $params['lg'];
-  hazard_citation($params['lg'],'techEducation');
+  $page_name="techEducation";
+  $template=new Template;
+
+  //echo hazard_citation($params['lg'],'techEducation');
+  traduction_page($page_name,$params['lg'],$f3);
+  echo $template->render('Views/tech_education.php');
 });
 $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
 });
+
+$f3->route('GET /@lg/equipes',function($f3, $params) {
+  echo $params['lg'];
+  $equipes=displayTitles();
+  $f3->set('equipes',$equipes);
+  $template= new Template;
+  echo $template->render('Views/equipes.php');
+
+});
+
 
 
 // ADMIN ROUTE
@@ -137,12 +156,14 @@ $f3->route('GET /admin/projet/list',function ($f3,$params) {
 });
 $f3->route('GET /admin/projet/@id',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
+    $f3->set('id',$f3->PARAMS['id']);
     $f3->reroute('/admin/projet/@id/info');
   });
 });
 $f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principales nom,catégories
   is_connected_with(false,$f3,function($f3){
     $f3->set('project',Project::get_info($f3->PARAMS['id']));
+    $f3->set('id',$f3->PARAMS['id']);
     echo Template::instance()->render('admin_views/projet_info.php');
   });
 });
@@ -184,27 +205,40 @@ $f3->route('POST /admin/projet/create_data',function ($f3,$params) {
 
 $f3->route('GET /admin/projet/@id/images/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
+    $f3->set("all_images",Project::get_image_from_id($f3->PARAMS['id']));
+      $f3->set('id',$f3->PARAMS['id']);
     echo Template::instance()->render('admin_views/projet_image_updload.php');
   });
 });
 $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
   //is_connected_with(false,$f3,function($f3){
      Project::add_image_to_id($f3->PARAMS['id'],$_FILES['file']);
+    //echo Template::instance()->render('admin_views/');
+  //});
+});
+$f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
+  //is_connected_with(false,$f3,function($f3){
+     Project::add_image_to_id($f3->PARAMS['id'],$_FILES['file']);
     echo Template::instance()->render('admin_views/');
   //});
 });
 
-
-
+//User
+$f3->route('GET /admin/user/profile',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    $f3->set("all_users",list_user());
+    echo Template::instance()->render('admin_views/user_list.php');
+  });
+});
 $f3->route('GET /admin/user/list',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
     $f3->set("all_users",list_user());
     echo Template::instance()->render('admin_views/user_list.php');
   });
 });
-$f3->route('POST /admin/user/create',function ($f3,$params) {
+$f3->route('GET /admin/user/new',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
-    echo Template::instance()->render('admin_views/citation_new.php');
+    echo Template::instance()->render('admin_views/user_new.php');
   });
 });
 $f3->route('POST /admin/user/change_auth',function ($f3,$params) {
@@ -258,7 +292,16 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 
 
+<<<<<<< HEAD
 //page FAQ quetion teste
+=======
+//page FAQ quetion
+
+$f3->route('GET /faq',function ($f3) {
+  $f3->set('message','plus fréquement posées.');
+  $f3->set('title','Les questions les');
+  $f3->set('LANGUAGE','en');
+>>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
 
 //$f3->route('GET /faq',function ($f3) {
   //$f3->set('message','plus fréquement posées.');
@@ -267,6 +310,7 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 //$f3->set('qaf',get_page_faq());
 //var_dump(get_page_faq());
+<<<<<<< HEAD
  
  // $template=new Template;
   //echo $template->render('pagefaq.html');
@@ -301,18 +345,26 @@ $f3->route('GET /Views/faq',function ($f3) {
      $f3->set('title','Les questions les');
   //var_dump(get_faq());
  
+=======
+
+>>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
   $template=new Template;
   echo $template->render('Views/faq.php');
 });
 
 
 
+<<<<<<< HEAD
   
+=======
+>>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
 
 
 //on va bientot voir le bout du tunel !!!
 
-$f3->run();
+  $f3->run();
+
+
 
 
 

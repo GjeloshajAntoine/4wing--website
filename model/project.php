@@ -44,14 +44,36 @@ class Project
   }
   static public function add_image_to_id($project_id,$image)
   {
-    $bdd=init_DB();
-    $stmt= $bdd->prepare("INSERT INTO projects_images (project_id) VALUES (:project_id)");
-    $stmt->execute(['project_id'=>$project_id]);
-    $image_id=$bdd->lastInsertId();
-
-    $path = $image['name'];
+    var_dump($image);
+    $file_name = $image['name'];
     $ext = pathinfo($path, PATHINFO_EXTENSION);
-    move_uploaded_file($image['tmp_name'],'projects_images/'.$image_id.'.'.$ext);
+
+    $incr=1;
+    while (file_exists('projects_images/'.$file_name)) {
+      $file_name=($incr++).'_'.$image['name'];
+    }
+
+    $bdd=init_DB();
+    $bdd->beginTransaction();
+    $stmt= $bdd->prepare("INSERT INTO projects_images (image_file_name,project_id) VALUES (:file,:project_id)");
+    $stmt->execute(['file'=>$file_name,'project_id'=>$project_id]);
+
+    $satus=move_uploaded_file($image['tmp_name'],'projects_images/'.$file_name);
+
+    if ($satus) {
+      $bdd->commit();
+      echo "upload success";
+    }else{
+      echo "upload failed";
+      $bdd->rollBack();
+    }
+  }
+  static public function get_image_from_id($id)
+  {
+    $bdd=init_DB();
+    $stmt= $bdd->query("SELECT * FROM projects_images");
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
   public function check_fields()
   {

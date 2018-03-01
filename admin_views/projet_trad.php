@@ -5,7 +5,7 @@
     <title>Projet</title>
   </head>
   <body>
-  <include href="admin_views/project_tabs.php" /> 
+  <include href="admin_views/project_tabs.php"  with="tabname=@lg" /> 
 
    <div class="container">
     <form class="" action="http://localhost/4wing-website/admin/projet/{{@id}}/trad/{{@lg}}/editdata" method="post">

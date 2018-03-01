@@ -3,11 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-      <input type="text" name="title" value="<?= $project['title'] ?>">
-      <input type="text" name="cat" value="">
-    </form>
+    <div class="container">
+      <?php echo $this->render('admin_views/project_tabs.php',NULL,['tabname'=>'info']+get_defined_vars(),0); ?>
+      <form class="" action="/4wing-website/admin/projet/<?= $id ?>/editdata" method="post">
+        <input type="text" name="title" value="<?= $project['title'] ?>">
+        <div class="form-group">
+
+          <label for="techEducation">techEducation</label>
+          <input type="radio" name="cat" id="techEducation" value="techEducation" <?= $citation['categorie'] == "techEducation" ? 'checked' : '' ?>>
+          <label for="logement">logement</label>
+          <input type="radio" name="cat" id="logement" value="logement" <?= $citation['categorie'] == "logement" ? 'checked' : '' ?>>
+          <label for="sante">sante</label>
+          <input type="radio" name="cat" id="sante" value="sante" <?= $citation['categorie'] == "sante" ? 'checked' : '' ?>>
+          <div class="form-group">
+            <input type="submit" name="" value="changer">
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

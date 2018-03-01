@@ -2,7 +2,7 @@
 
 
 function traduction_page($name,$lg,$f3) {
-  $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '',[PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"]);
+  $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root',[PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"]);
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
   $stmt = $bdd->prepare("SELECT * FROM `pages_trad` WHERE page_name = :page_name AND lg= :lg");
   $stmt->execute(array('page_name' => $name,'lg'=>$lg));

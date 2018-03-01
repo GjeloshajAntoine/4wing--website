@@ -12,8 +12,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Utilisateurs</h1>
     <div class="container">
+      <h1>Utilisateurs
+        <a type="button" href="new" class="btn btn-success">Nouvel utilisateur</a>
+      </h1>
       <div class="alert alert-info" role="alert">
         Les comptes 'admin' ont accès à 2 interfaces d'administrations supplémentaires:<br/>
         Une interface pour gerer les Utilisateurs de l'administrations du site (cette page ).<br/>
@@ -62,7 +64,7 @@
           </div>
           <div class="modal-footer">
             <button type="button"  class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" onclick="reinitPassword()" class="btn btn-primary">Save changes</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -80,7 +82,7 @@
           </div>
           <div class="modal-footer">
             <button type="button"  class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" onclick="changeAuth()" class="btn btn-primary">Save changes</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -99,8 +101,8 @@
           console.log(data);
         });
       }
-      function changeAuthModal(userId) {
-        currentClickedChangeAuthUserId=
+      function changeAuthModal(element) {
+        currentClickedChangeAuthUserId=element.dataset.userid;
         $("#authChange").modal("show");
       }
       function changeAuth() {

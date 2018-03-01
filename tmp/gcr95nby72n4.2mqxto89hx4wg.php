@@ -1,11 +1,11 @@
-<?php require_once("../partials/header.php") ?>
-<include href="./Views/header_final.php" />
+
+<?php echo $this->render('./Views/header_final.php',NULL,get_defined_vars(),0); ?>
 
 <div class="container" id="TechEd">
     <div class="row header_bleu" >
       <div class="TechEducation col-md-8">
-        <span class="icon-monitor"></span><h1>Tech - Education {{@TitreH1}}</h1>
-        <span>Programmer le cercle vertueux &nbsp; de l'inclusion {{@SousTitreH1}}</span>
+        <span class="icon-monitor"></span><h1>Tech - Education <?= $TitreH1 ?></h1>
+        <span>Programmer le cercle vertueux &nbsp; de l'inclusion <?= $SousTitreH1 ?></span>
       </div>
     </div>
 
@@ -91,4 +91,4 @@
 
 
 
-<?php require_once("../partials/footer.php") ?>
+
