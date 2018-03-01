@@ -7,6 +7,7 @@ include 'model/project.php';
 include 'model/citation.php';
 include 'model/db_faq.php';
 
+
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
 }
@@ -257,21 +258,53 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 
 
-//page FAQ quetion 
+//page FAQ quetion teste
 
-$f3->route('GET /faq',function ($f3) {
-  $f3->set('message','plus fréquement posées.');
-  $f3->set('title','Les questions les');
-  $f3->set('LANGUAGE','en');
+//$f3->route('GET /faq',function ($f3) {
+  //$f3->set('message','plus fréquement posées.');
+ //$f3->set('title','Les questions les');
+  
 
-  $f3->set('pageliste',get_page_trad_list());
-
-$f3->set('qaf',get_page_faq());
+//$f3->set('qaf',get_page_faq());
 //var_dump(get_page_faq());
  
+ // $template=new Template;
+  //echo $template->render('pagefaq.html');
+//});
+
+
+
+//page FAQ quetion reel origi
+
+//$f3->route('GET /Views/faq',function ($f3) {
+  // $f3->set('message','plus fréquement posées.');
+  // $f3->set('title','Les questions les');
+ 
+ 
+ 
+   //$f3->set('paf',get_faq());
+   //var_dump(get_faq());
+  
+   //$template=new Template;
+  // echo $template->render('Views/faq.php');
+ //});
+ 
+
+
+
+
+//page FAQ quetion reel
+
+$f3->route('GET /Views/faq',function ($f3) {
+    $f3->set('paf',get_faq());
+     $f3->set('message','plus fréquement posées.');
+     $f3->set('title','Les questions les');
+  //var_dump(get_faq());
+ 
   $template=new Template;
-  echo $template->render('pagefaq.html');
+  echo $template->render('Views/faq.php');
 });
+
 
 
   

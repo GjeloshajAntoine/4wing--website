@@ -11,15 +11,16 @@
 
       <br>
 
-      <br>
+       <br>
 
-      <br>
+         <br>
       
- 
-           <repeat group="{{ @qaf }}" value="{{ @zap }}">
+          
+           <repeat group="{{ @qaf }}" value="{{ @zap }}" counter="{{ @ctr }}"> <br>
 
-              <span>{{ @zap.quetions }}</span><br><br>
-              <span>{{ @zap.reponses }}</span>
+              <span>{{ @ctr}} {{ @zap.quetions }}</span><br>
+
+              <span>{{ @ctr}} {{ @zap.reponses }}</span><br>
               
            </repeat>
 

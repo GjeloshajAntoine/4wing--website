@@ -11,15 +11,16 @@
 
       <br>
 
-      <br>
+       <br>
 
-      <br>
+         <br>
       
- 
-           <?php foreach (($qaf?:[]) as $zap): ?>
+          
+           <?php $ctr=0; foreach (($qaf?:[]) as $zap): $ctr++; ?> <br>
 
-              <span><?= $zap['quetions'] ?></span><br><br>
-              <span><?= $zap['reponses'] ?></span>
+              <span><?= $ctr ?> <?= $zap['quetions'] ?></span><br>
+
+              <span><?= $ctr ?> <?= $zap['reponses'] ?></span><br>
               
            <?php endforeach; ?>
 
