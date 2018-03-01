@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Créer une ciation</title>
   </head>
-  <body>
+  <body class="container">
     <h1>Nouvelle citation</h1>
     <form class="" action="/4wing-website/admin/citation/new/data" method="post">
       <input type="text" name="citation" value="{{@citation.citation}}">
