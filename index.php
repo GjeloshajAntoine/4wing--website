@@ -49,7 +49,10 @@ $f3->route('GET /@lg/vraipage',function ($f3,$params) {
 });
 $f3->route('GET /@lg/mission',function ($f3,$params) {
   echo $params['lg'];
+  $page_name="mission";
+  traduction_page($page_name,$params['lg'],$f3);
   hazard_citation($params['lg'],false);
+  echo $template->render('vraipage.html');
 });
 $f3->route('GET /@lg/health',function ($f3,$params) {
   echo $params['lg'];
@@ -63,7 +66,12 @@ $f3->route('GET /@lg/selectionProjet',function ($f3,$params) {
 });
 $f3->route('GET /@lg/techEducation',function ($f3,$params) {
   echo $params['lg'];
-  hazard_citation($params['lg'],'techEducation');
+  $page_name="techEducation";
+  $template=new Template;
+
+  //echo hazard_citation($params['lg'],'techEducation');
+  traduction_page($page_name,$params['lg'],$f3);
+  echo $template->render('Views/tech_education.php');
 });
 $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   echo $params['lg'];
@@ -204,6 +212,12 @@ $f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
 });
 
 //User
+$f3->route('GET /admin/user/profile',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    $f3->set("all_users",list_user());
+    echo Template::instance()->render('admin_views/user_list.php');
+  });
+});
 $f3->route('GET /admin/user/list',function ($f3,$params) {
   is_connected_with(true,$f3,function($f3){
     $f3->set("all_users",list_user());
