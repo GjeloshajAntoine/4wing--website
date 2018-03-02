@@ -1,4 +1,4 @@
-<?php require_once("../partials/header.php") ?>
+
 
 
 <section> 
@@ -8,7 +8,7 @@
       <div class="row">
 
        <div class="introHome col-md-12">
-                <h1>F.A<span class="marron">.Q.</span></h1><p> {{ @title}} {{ @message}} </p><br>
+                <h1>F.A<span class="marron">.Q.</span></h1><p> <?= $title ?> <?= $message ?> </p><br>
           </div>
          </div>       
         </div>
@@ -18,7 +18,7 @@
                 <div class="tab-content panels-faq">
 
                                       <!-- FAQ BOUCLE -->
-            <repeat group="{{ @paf }}" value="{{ @tap }}" counter="{{ @ctr }}">
+            <?php $ctr=0; foreach (($paf?:[]) as $tap): $ctr++; ?>
 
                   <div class="tab-pane active" id="tab1">
                     <div class="panel-group" id="help-accordion-1">
@@ -30,7 +30,7 @@
 
                                       <!-- InjectMysql Q1 -->
                                  
-                                      <span>{{ @ctr}} : {{ @tap.questions }}</span>
+                                      <span><?= $ctr ?> : <?= $tap['questions'] ?></span>
                                   
                               </h3> <br>
                                   
@@ -42,7 +42,7 @@
 
                                         <!-- InjectMysql R1 -->
                           
-                                        <span>Reponses {{ @ctr}} : {{ @tap.reponses }}</span><br>
+                                        <span>Reponses <?= $ctr ?> : <?= $tap['reponses'] ?></span><br>
 
                               <br>
                               <br>
@@ -54,10 +54,10 @@
                     </div>
                   </div>
             
-                  </repeat>
+                  <?php endforeach; ?>
          
 </section>
 
 </div>
 
-<?php include("../partials/footer.php") ?>
+
