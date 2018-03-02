@@ -1,15 +1,23 @@
 <?php
 
-function connect($name,$password)
+function connect($pseudo_or_mail,$password)
 {
-    $hash=sha1($password);
+    $hash=password_hash($password,PASSWORD_DEFAULT);
     $bdd=init_DB();
-    $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE name= :name AND password = :hash ");
-    $stmt->execute(['name'=>$name,'hash'=>$hash]);
+    if (filter_var($pseudo_or_mail, FILTER_VALIDATE_EMAIL)) {
+      $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE email = :pseudomail ");
+    }else {
+      $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE name= :pseudomail  ");
+    }
+    $stmt->execute(['pseudomail'=>$pseudo_or_mail]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    $_SESSION['id']=$result[0]['id'];
-    $_SESSION ['auth']=$result[0]['auth'];
-    return count($result)? true : false;// condtion ? vrai : faux
+    if (password_verify($password,$result[0]['id'])) {
+      $_SESSION['id']=$result[0]['id'];
+      $_SESSION ['auth']=$result[0]['auth'];
+      return true;
+    }else{
+      return false;
+    }
 }
 
 function is_connected()
@@ -53,13 +61,16 @@ function is_connected_with($should_admin,$f3,$callback){
 function create_user($name,$password,$email,$auth)
 {
     if (is_connected() && is_admin()) {
-        $hash=sha1($password);
+        //$hash=password_hash($password, PASSWORD_DEFAULT);
+        $random_password=random_password();
+        $hash=password_hash($random_password, PASSWORD_DEFAULT);
         $bdd = init_DB();
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         $stmt = $bdd->prepare("INSERT INTO wings_user (name,password,auth) VALUES (:name,:hash,:auth) ");
         $stmt->execute(['name'=>$name,'hash'=>$hash,'auth'=>$auth]);
-        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        return count($result)? true : false;
+        mail($email, "Compte créé", "Votre mot de passe: ".$random_password."\n Vous pouvez changer votre mot de passe dans l'interface d'adminitstration", "From:admin.interface@4wings.org");
+      /*  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return count($result)? true : false;*/
     }else {
         return false;
     }
@@ -82,10 +93,14 @@ function resetPassword($id)//les admin peuvent direct reset les mots de passe de
 {
   $bdd=init_DB();
   $new_password=random_password(8);
+  //set password
   $hashed_password=password_hash($new_password, PASSWORD_DEFAULT);
   $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
   $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
-
+  //get email
+  $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE id= :id  ");
+  $stmt->execute(['name'=>$name]);
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 }
 function change_password($id,$old_password,$new_password)//les utilisateurs peuvent changer leur mot de passe s'ils connaissent le précédent
@@ -109,5 +124,8 @@ function random_password( $length = 8 ) {
     $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
     $password = substr( str_shuffle( $chars ), 0, $length );
     return $password;
+}
+function send_mail() {
+  
 }
 ?>
