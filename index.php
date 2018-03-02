@@ -292,26 +292,22 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
 
 
 
-<<<<<<< HEAD
 //page FAQ quetion teste
-=======
 //page FAQ quetion
 
 $f3->route('GET /faq',function ($f3) {
   $f3->set('message','plus fréquement posées.');
   $f3->set('title','Les questions les');
   $f3->set('LANGUAGE','en');
->>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
-
+});
 //$f3->route('GET /faq',function ($f3) {
   //$f3->set('message','plus fréquement posées.');
  //$f3->set('title','Les questions les');
-  
+
 
 //$f3->set('qaf',get_page_faq());
 //var_dump(get_page_faq());
-<<<<<<< HEAD
- 
+
  // $template=new Template;
   //echo $template->render('pagefaq.html');
 //});
@@ -323,16 +319,16 @@ $f3->route('GET /faq',function ($f3) {
 //$f3->route('GET /Views/faq',function ($f3) {
   // $f3->set('message','plus fréquement posées.');
   // $f3->set('title','Les questions les');
- 
- 
- 
+
+
+
    //$f3->set('paf',get_faq());
    //var_dump(get_faq());
-  
+
    //$template=new Template;
   // echo $template->render('Views/faq.php');
  //});
- 
+
 
 
 
@@ -344,25 +340,18 @@ $f3->route('GET /Views/faq',function ($f3) {
      $f3->set('message','plus fréquement posées.');
      $f3->set('title','Les questions les');
   //var_dump(get_faq());
- 
-=======
 
->>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
+
   $template=new Template;
   echo $template->render('Views/faq.php');
 });
 
 
 
-<<<<<<< HEAD
-  
-=======
->>>>>>> 7f3c11b45e23f3ec89fd274b7a6bdca4c4742702
-
 
 //on va bientot voir le bout du tunel !!!
 
-  $f3->run();
+$f3->run();
 
 
 

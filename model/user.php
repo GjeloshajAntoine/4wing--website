@@ -11,7 +11,7 @@ function connect($pseudo_or_mail,$password)
     }
     $stmt->execute(['pseudomail'=>$pseudo_or_mail]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    if (password_verify($password,$result[0]['id'])) {
+    if (password_verify($password,$result[0]['password'])) {
       $_SESSION['id']=$result[0]['id'];
       $_SESSION ['auth']=$result[0]['auth'];
       return true;
@@ -126,6 +126,6 @@ function random_password( $length = 8 ) {
     return $password;
 }
 function send_mail() {
-  
+
 }
 ?>
