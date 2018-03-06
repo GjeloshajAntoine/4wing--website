@@ -12,6 +12,7 @@
     <form class="" action="edit/data" method="post">
 
       <input class="form-control" type="text" name="citation" value="{{@citation.citation}}">
+      <input class="form-control" type="text" name="auteur" value="{{@citation.auteur}}">
       <div class="form-group">
         <div class="radio">
           <label for="fr">
