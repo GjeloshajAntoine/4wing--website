@@ -5,7 +5,6 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   </head>
   <body class="container">
@@ -13,6 +12,7 @@
     <form class="" action="edit/data" method="post">
 
       <input class="form-control" type="text" name="citation" value="<?= $citation['citation'] ?>">
+      <input class="form-control" type="text" name="auteur" value="<?= $citation['auteur'] ?>">
       <div class="form-group">
         <div class="radio">
           <label for="fr">
@@ -45,7 +45,7 @@
           sante
         </label>
       </div>
-    </div>  
+    </div>
       <input type="hidden" name="id" value="<?= $citation['id'] ?>">
       <input type="submit" name="" value="enregistrer">
     </form>
