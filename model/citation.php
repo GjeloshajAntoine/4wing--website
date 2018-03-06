@@ -1,8 +1,8 @@
 <?php
-function list_citation() {
+function list_citation($lg="fr") {
   $bdd=init_DB();
-  $stmt = $bdd->prepare("SELECT * FROM citations ");
-  $stmt->execute();
+  $stmt = $bdd->prepare("SELECT * FROM citations WHERE ln = :lg");
+  $stmt->execute(['lg'=>$lg]);
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
   return $result;
 }
@@ -29,17 +29,17 @@ function hazard_citation($lg,$cat)
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $result[0]['citation'];
 }
-function add_citation($citation,$lg,$cat)
+function add_citation($citation,$auteur,$lg,$cat)
 {
     $bdd=init_DB();
-    $stmt = $bdd->prepare("INSERT INTO citations (citation,ln,categorie) VALUES (:citation,:lg,:cat)");
-    $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat]);
+    $stmt = $bdd->prepare("INSERT INTO citations (citation,auteur,ln,categorie) VALUES (:citation,:auteur,:lg,:cat)");
+    $stmt->execute(['citation'=>$citation,'auteur'=>$auteur,'lg'=>$lg,'cat'=>$cat]);
     return $bdd->lastInsertId();
 }
-function edit_citation($id,$citation,$lg,$cat)
+function edit_citation($id,$citation,$auteur,$lg,$cat)
 {
     $bdd=init_DB();
-    $stmt = $bdd->prepare("UPDATE  citations SET citation = :citation, ln = :lg , categorie = :cat WHERE id = :id");
-    $stmt->execute(['citation'=>$citation,'lg'=>$lg,'cat'=>$cat,'id'=>$id]);
+    $stmt = $bdd->prepare("UPDATE  citations SET citation = :citation, auteur = :auteur ,ln = :lg , categorie = :cat WHERE id = :id");
+    $stmt->execute(['citation'=>$citation,'auteur'=>$auteur,'lg'=>$lg,'cat'=>$cat,'id'=>$id]);
 }
 ?>
