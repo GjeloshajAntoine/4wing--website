@@ -10,7 +10,9 @@
 
     <div class="container">
       <div class="list-group">
-        <h4>Administration</h4>
+        <h4 style="display:inline-block;">Administration</h4>
+        <a type="button" href="new" class="btn btn-primary">Votre compte</a>
+
         <a href="admin/list_page_trad" class="list-group-item">Pages</a>
         <a href="admin/citation/list" class="list-group-item">citations</a>
         <a href="admin/projet/list" class="list-group-item">projet</a>

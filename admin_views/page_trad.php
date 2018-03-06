@@ -21,10 +21,10 @@
           <!-- <input type="text" value="{{ @trad.string_origin }}" disabled>
           <input type="text" value="{{ @trad.string_trad}}" name="{{ @trad.id }}" > -->
           <label for="{{ @trad.string_origin }}" >{{ @trad.string_origin }}</label>
-          <textarea class="form-control" id=""{{ @trad.string_origin }}  name="{{ @trad.id }}" rows="3">{{ @trad.string_trad}}</textarea>
+          <textarea class="form-control" id="{{ @trad.string_origin }}"  name="{{ @trad.id }}" rows="3">{{ @trad.string_trad |raw}}</textarea>
           <br/>
       </repeat>
-      <input type="submit">
+      <input type="submit" class="btn btn-default">
     </form>
     </div>
 
