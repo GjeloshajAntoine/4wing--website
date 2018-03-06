@@ -15,7 +15,7 @@ function traduction() {
 }
 $f3 = require('fatfree/lib/base.php');
 $f3->set('ESCAPE',FALSE);
-$f3->set("subrootpath","/4wings");
+$f3->set("subrootpath","/4wing-website");
 $f3->route('GET /',
     function() {
         echo 'Hello,!';
@@ -225,7 +225,7 @@ $f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
 });
 
 //User
-$f3->route('GET /admin/user/profile',function ($f3,$params) {
+$f3->route('GET /admin/user/profil',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set("all_users",list_user());
     echo Template::instance()->render('admin_views/user_list.php');
