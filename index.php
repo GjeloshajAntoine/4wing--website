@@ -7,14 +7,15 @@ include 'model/project.php';
 include 'model/citation.php';
 include 'model/db_faq.php';
 include 'model/Upload_Image.php';
+include "traduction_function.php";
 
 
 function traduction() {
   return ["title"=>"The TITLE","message"=>"The mésséidge"];
 }
 $f3 = require('fatfree/lib/base.php');
-include "traduction_function.php";
-
+$f3->set('ESCAPE',FALSE);
+$f3->set("subrootpath","/4wings");
 $f3->route('GET /',
     function() {
         echo 'Hello,!';
@@ -256,6 +257,14 @@ $f3->route('POST /admin/user/recreate_password',function ($f3,$params) {
 $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('all_citations',list_citation());
+    $f3->set('lg',$f3->PARAMS['lg']);
+    echo Template::instance()->render('admin_views/citation_list.php');
+  });
+});
+$f3->route('GET /admin/citation/list/@lg',function ($f3,$params) {
+  is_connected_with(false,$f3,function($f3){
+    $f3->set('all_citations',list_citation($f3->PARAMS["lg"]));
+    $f3->set('lg',$f3->PARAMS["lg"]);
     echo Template::instance()->render('admin_views/citation_list.php');
   });
 });
@@ -273,7 +282,7 @@ $f3->route('GET /admin/citation/@id',function ($f3,$params) {
 });
 $f3->route('POST /admin/citation/edit/data',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    $id=edit_citation($_POST['id'],$_POST['citation'],$_POST['lg'],$_POST['cat']);
+    $id=edit_citation($_POST['id'],$_POST['citation'],$_POST['auteur'],$_POST['lg'],$_POST['cat']);
     $f3->reroute('/admin/citation/'.$_POST['id']);
   });
 });
@@ -284,7 +293,7 @@ $f3->route('GET /admin/citation/new/form',function ($f3,$params) {
 });
 $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    $id=add_citation($_POST['citation'],$_POST['lg'],$_POST['cat']);
+    $id=add_citation($_POST['citation'],$_POST['auteur'],$_POST['lg'],$_POST['cat']);
     $f3->reroute('/admin/citation/'.$id);
   });
 });
