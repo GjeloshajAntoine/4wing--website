@@ -4,7 +4,7 @@ if (isset($_POST["page"])) {
   $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', 'root',[PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"]);
   $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
   foreach ($langues as $lg) {
-    $content_exemple="__".$lg.$_POST["content_fr_ex"];
+    $content_exemple="[".$lg."]".$_POST["content_fr_ex"];
     $stmt = $bdd->prepare("INSERT INTO pages_trad (page_name,string_origin,string_trad,lg) VALUES (:name,:origin,:trad,:lg) ;");
     $stmt->execute(["name"=>$_POST["page"],"origin"=>$_POST["field"],"trad"=>$content_exemple,"lg"=>$lg]);
   }
