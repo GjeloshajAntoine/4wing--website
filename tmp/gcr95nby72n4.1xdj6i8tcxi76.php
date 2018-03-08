@@ -13,6 +13,8 @@
   </head>
   <body class="container">
     <h1>traduction page: <?= $pagename ?></h1>
+    <?php echo $this->render('admin_views/breadcrumb.php',NULL,get_defined_vars(),0); ?>
+
     <!-- onglets -->
 
     <ul class="nav nav-tabs">
@@ -22,28 +24,40 @@
     </ul>
     <div class="container">
     <form class="" action="http://localhost/4wing-website/admin/page_trad_changes/<?= $pagename ?>/<?= $lg ?>" method="post">
-      <?php foreach (($all_trad?:[]) as $trad): ?>
+      <?php $ctr=0; foreach (($all_trad?:[]) as $trad): $ctr++; ?>
           <!-- <input type="text" value="<?= $trad['string_origin'] ?>" disabled>
           <input type="text" value="<?= $trad['string_trad'] ?>" name="<?= $trad['id'] ?>" > -->
-          <label for="<?= $trad['string_origin'] ?>" ><?= $trad['string_origin'] ?></label>
+          <label for="<?= $ctr ?>" ><?= $trad['string_origin'] ?></label>
 
-          <div id="toolbar">
-            <a data-wysihtml5-command="bold">bold</a>
-            <a data-wysihtml5-command="italic">italic</a>
-            <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">H1</a>
-            <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p">P</a>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div id="toolbar-<?= $ctr ?>">
+                <a data-wysihtml5-command="bold">bold</a>
+                <a data-wysihtml5-command="italic">italic</a>
+                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">H1</a>
+                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p">P</a>
+              </div>
+            </div>
+            <div class="panel-body">
+              <textarea class="form-control" id="<?= $ctr ?>"  name="<?= $trad['id'] ?>" rows="3"><?= $this->raw($trad['string_trad']) ?></textarea>
+
+            </div>
           </div>
-          <textarea class="form-control" id="<?= $trad['string_origin'] ?>"  name="<?= $trad['id'] ?>" rows="3"><?= $this->raw($trad['string_trad']) ?></textarea>
           <br/>
       <?php endforeach; ?>
       <input type="submit" class="btn btn-default">
     </form>
+    <div id="nbrOfEditor" data-total="<?= $ctr ?>"></div>
     </div>
     <script>
-      var editor = new wysihtml5.Editor('title', {
-        toolbar: 'toolbar',
-        parserRules:  wysihtml5ParserRules
-      });
+      var editor = new wysihtml5.Editor('1', {toolbar: 'toolbar-1',parserRules:  wysihtml5ParserRules});
+      var editArray=[];
+      var nrbOfEditor=document.getElementById('nbrOfEditor') ;
+      console.log(nbrOfEditor.dataset.total);
+      for (var i = 1; i < nbrOfEditor.dataset.total; i++) {
+        editArray.push( new wysihtml5.Editor(''+i, {toolbar: 'toolbar-'+i,parserRules:  wysihtml5ParserRules}) );
+      }
     </script>
   </body>
 </html>

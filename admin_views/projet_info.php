@@ -23,6 +23,11 @@
           </div>
         </div>
       </form>
+      <form class="" action="{{@subrootpath}}/admin/projet/{{@id}}/logo/change" method="post">
+        <input type="hidden" name="" value="{{@id}}">
+        <input id="file" type="file" name="file" value="choisir fichier" />
+        <input type="submit" name="" value="changer logo">
+      </form>
     </div>
   </body>
 </html>

@@ -129,6 +129,8 @@ $f3->route('GET /admin/tradpage/@pagename/@lg',function ($f3,$params) {
     $f3->set('all_trad',$all_trad);
     $f3->set('lg',$f3->PARAMS['lg']);
     $f3->set('pagename',$f3->PARAMS['pagename']);
+    $f3->set('breadcrumb',['pages'=>'/admin/list_page_trad']);
+    $f3->set('active',$f3->PARAMS['pagename']);
     echo Template::instance()->render('admin_views/page_trad.php');
   });
 
@@ -258,6 +260,7 @@ $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('all_citations',list_citation());
     $f3->set('lg',$f3->PARAMS['lg']);
+
     echo Template::instance()->render('admin_views/citation_list.php');
   });
 });
@@ -277,6 +280,8 @@ $f3->route('GET /admin/citation/list/@lg/@cat',function ($f3,$params) {
 $f3->route('GET /admin/citation/@id',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     $f3->set('citation',citation_id($f3->PARAMS['id']));
+    $f3->set('breadcrumb',['citations'=>'/admin/citation/list/fr']);
+
     echo Template::instance()->render('admin_views/citation_edit.php');
   });
 });

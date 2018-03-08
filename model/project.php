@@ -68,6 +68,32 @@ class Project
       $bdd->rollBack();
     }
   }
+  public function add_logo_to_id($project_id,$image)
+  {
+    var_dump($image);
+    $file_name = $image['name'];
+    $ext = pathinfo($path, PATHINFO_EXTENSION);
+
+    $incr=1;
+    while (file_exists('projects_logo/'.$file_name)) {
+      $file_name=($incr++).'_'.$image['name'];
+    }
+
+    $bdd=init_DB();
+    $bdd->beginTransaction();
+    $stmt= $bdd->prepare("INSERT INTO projects (logo_file_name) VALUES (:file)");
+    $stmt->execute(['file'=>$file_name]);
+
+    $satus=move_uploaded_file($image['tmp_name'],'projects_logo/'.$file_name);
+
+    if ($satus) {
+      $bdd->commit();
+      echo "upload success";
+    }else{
+      echo "upload failed";
+      $bdd->rollBack();
+    }
+  }
   static public function get_image_from_id($id)
   {
     $bdd=init_DB();

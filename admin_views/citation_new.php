@@ -7,6 +7,8 @@
   </head>
   <body class="container">
     <h1>Nouvelle citation</h1>
+    <include href="admin_views/breadcrumb.php"/>
+
     <form class="" action="/4wing-website/admin/citation/new/data" method="post">
       <input type="text" name="citation" value="{{@citation.citation}}">
       <input class="form-control" type="text" name="auteur" value="">

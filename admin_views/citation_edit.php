@@ -10,6 +10,7 @@
   <body class="container">
     <h1>Citations edit</h1>
     <form class="" action="edit/data" method="post">
+      <include href="admin_views/breadcrumb.php"/>
 
       <input class="form-control" type="text" name="citation" value="{{@citation.citation}}">
       <input class="form-control" type="text" name="auteur" value="{{@citation.auteur}}">
