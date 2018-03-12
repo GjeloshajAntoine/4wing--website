@@ -68,7 +68,7 @@ class Project
       $bdd->rollBack();
     }
   }
-  public function add_logo_to_id($project_id,$image)
+  static public function add_logo_to_id($project_id,$image)
   {
     var_dump($image);
     $file_name = $image['name'];
@@ -81,8 +81,8 @@ class Project
 
     $bdd=init_DB();
     $bdd->beginTransaction();
-    $stmt= $bdd->prepare("INSERT INTO projects (logo_file_name) VALUES (:file)");
-    $stmt->execute(['file'=>$file_name]);
+    $stmt= $bdd->prepare("UPDATE projects  SET logo_file_name = :file WHERE id = :id");
+    $stmt->execute(['file'=>$file_name,"id"=>$project_id]);
 
     $satus=move_uploaded_file($image['tmp_name'],'projects_logo/'.$file_name);
 
@@ -91,6 +91,7 @@ class Project
       echo "upload success";
     }else{
       echo "upload failed";
+      var_dump($status);
       $bdd->rollBack();
     }
   }

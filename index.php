@@ -221,8 +221,8 @@ $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
 });
 $f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
   //is_connected_with(false,$f3,function($f3){
-     Project::add_image_to_id($f3->PARAMS['id'],$_FILES['file']);
-    echo Template::instance()->render('admin_views/');
+     Project::add_logo_to_id($f3->PARAMS['id'],$_FILES['file']);
+    echo Template::instance()->render('admin_views/projet_info.php');
   //});
 });
 

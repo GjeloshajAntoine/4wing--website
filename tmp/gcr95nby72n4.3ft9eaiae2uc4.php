@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <?php echo $this->render('admin_views/project_tabs.php',NULL,['tabname'=>'info']+get_defined_vars(),0); ?>
-      <form class="" action="/4wing-website/admin/projet/<?= $id ?>/editdata" method="post">
+      <form class="" action="/4wing-website/admin/projet/<?= $id ?>/editdata" method="post" >
         <input type="text" name="title" value="<?= $project['title'] ?>">
         <div class="form-group">
 
@@ -22,6 +22,11 @@
             <input type="submit" name="" value="changer">
           </div>
         </div>
+      </form>
+      <form class="" action="<?= $subrootpath ?>/admin/projet/<?= $id ?>/logo/change" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="<?= $id ?>">
+        <input id="file" type="file" name="file" value="choisir fichier" />
+        <input type="submit" name="" value="changer logo">
       </form>
     </div>
   </body>
