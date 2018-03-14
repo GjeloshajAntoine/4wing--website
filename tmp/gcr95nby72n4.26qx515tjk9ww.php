@@ -15,26 +15,26 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- CSS carousel -->
-  <link rel="stylesheet" type="text/css" href="{{@subrootpath}}/stylesheets/carousel.css" />
-  <link rel="stylesheet" type="text/css" href="{{@subrootpath}}/stylesheets/jquery.jscrollpane.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?= $subrootpath ?>/stylesheets/carousel.css" />
+  <link rel="stylesheet" type="text/css" href="<?= $subrootpath ?>/stylesheets/jquery.jscrollpane.css" media="all" />
 <!-- CSS carousel -->
 
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/index.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/footer.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/icomoon.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/nav.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/tech.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/logement.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/sante.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/contact.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/faq.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/index.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/footer.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/icomoon.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/nav.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/tech.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/logement.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/sante.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/contact.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/faq.css">
 <!-- CSS page projet -->
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/projet_logement.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/projet_tech.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/projet_sante.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/projet_logement.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/projet_tech.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/projet_sante.css">
 
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/equipes.css">
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/formulaireSelection.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/equipes.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/formulaireSelection.css">
 
 
 
@@ -46,7 +46,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- CSS MOBILE -->
-  <link rel="stylesheet" href="{{@subrootpath}}/stylesheets/mobile.css">
+  <link rel="stylesheet" href="<?= $subrootpath ?>/stylesheets/mobile.css">
 
 </head>
 

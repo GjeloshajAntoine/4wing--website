@@ -1,4 +1,4 @@
-<include href="./partials/header.php" />
+<?php echo $this->render('./partials/header.php',NULL,get_defined_vars(),0); ?>
 
 
 <section>
@@ -36,7 +36,7 @@
         <p>Ils partagent une volonté forte d’entreprendre, de créer et de partager
         </p>
 
-      <repeat group="{{@equipes}}" value="{{@equipes}}">
+      <?php foreach (($equipes?:[]) as $equipes): ?>
         <div class="col-lg-6 col-md-6 col-sm-12 ">
             <div class="photoequipe">
             </div>
@@ -46,7 +46,7 @@
               </p>
             </div>
           </div>
-      </repeat>
+      <?php endforeach; ?>
          <!-- <div class="col-lg-6 col-md-6 col-sm-12 ">
           <div class="photoequipe">
             <a href="#"><img src="" alt=""></a>
@@ -270,4 +270,4 @@
 
 
 
-<include href="./partials/footer.php" />
+<?php echo $this->render('./partials/footer.php',NULL,get_defined_vars(),0); ?>

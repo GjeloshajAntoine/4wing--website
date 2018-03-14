@@ -1,4 +1,3 @@
-<?php require_once("../partials/header.php") ?>
 <include href="./Views/header_final.php" />
 
 <div class="container" id="TechEd">
@@ -91,4 +90,4 @@
 
 
 
-<?php require_once("../partials/footer.php") ?>
+<include href="./partials/footer.php" />

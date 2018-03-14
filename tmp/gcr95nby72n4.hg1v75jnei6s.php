@@ -1,4 +1,4 @@
-<include href="./partials/header.php" />
+<?php echo $this->render('./partials/header.php',NULL,get_defined_vars(),0); ?>
 
 
 <section>
@@ -28,4 +28,4 @@
 
 </div>
 
-<include href="./partials/footer.php" />
+<?php echo $this->render('./partials/footer.php',NULL,get_defined_vars(),0); ?>

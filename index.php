@@ -50,44 +50,72 @@ $f3->route('GET /@lg/vraipage',function ($f3,$params) {
   $template=new Template;
   echo $template->render('vraipage.html');
 });
-$f3->route('GET /@lg/mission',function ($f3,$params) {
-  echo $params['lg'];
+
+
+//Les vraies pages ... justement
+
+$f3->route('GET /@lg/missions',function ($f3,$params) {
+//  echo $params['lg'];
   $page_name="mission";
   traduction_page($page_name,$params['lg'],$f3);
   hazard_citation($params['lg'],false);
-  echo $template->render('vraipage.html');
+  $template=new Template;
+  echo $template->render('Views/missions.php');
 });
-$f3->route('GET /@lg/health',function ($f3,$params) {
-  echo $params['lg'];
-  hazard_citation($params['lg'],'health');
-
-});
-$f3->route('GET /@lg/selectionProjet',function ($f3,$params) {
-  echo $params['lg'];
+$f3->route('GET /@lg/valeurs',function ($f3,$params) {
+  $page_name="valeurs";
+  traduction_page($page_name,$params['lg'],$f3);
   hazard_citation($params['lg'],false);
-
+  echo Template::instance()->render('Views/valeurs.php');
 });
+$f3->route('GET /@lg/sante_nutrition',function ($f3,$params) {
+//  echo $params['lg'];
+  $page_name="sante_nutrition";
+  hazard_citation($params['lg'],'health');
+  echo Template::instance()->render('Views/sante_nutrition.php');
+});
+$f3->route('GET /@lg/selection_projets',function ($f3,$params) {
+  //  echo $params['lg'];
+  $page_name="selection_projets";
+  hazard_citation($params['lg'],false);
+  echo Template::instance()->render('Views/selection_projets.php');
+});
+$f3->route('GET /@lg/equipes',function($f3, $params) {
+  //echo $params['lg']
+  //$equipes=displayTitles();
+  $page_name="equipes";
+  hazard_citation($params['lg'],false);
+  $f3->set('equipes',$equipes);
+  echo Template::instance()->render('Views/equipes.php');
+});
+$f3->route('GET /@lg/conseil',function ($f3,$params) {
+  //  echo $params['lg'];
+  $page_name="conseil";
+  hazard_citation($params['lg'],false);
+  echo Template::instance()->render('Views/conseil.php');
+});
+$f3->route('GET /@lg/faq',function ($f3,$params) {
+  //  echo $params['lg'];
+  $page_name="conseil";
+  hazard_citation($params['lg'],false);
+  echo Template::instance()->render('Views/faq.php');
+});
+
 $f3->route('GET /@lg/techEducation',function ($f3,$params) {
-  echo $params['lg'];
   $page_name="techEducation";
   $template=new Template;
-
   //echo hazard_citation($params['lg'],'techEducation');
   traduction_page($page_name,$params['lg'],$f3);
   echo $template->render('Views/tech_education.php');
 });
-$f3->route('GET /@lg/valeurs',function ($f3,$params) {
-  echo $params['lg'];
+$f3->route('GET /@lg/reseaux_partenaires',function ($f3,$params) {
+  $page_name="reseaux_partenaires";
+  //echo hazard_citation($params['lg'],'techEducation');
+  traduction_page($page_name,$params['lg'],$f3);
+  echo Template::instance()->render('Views/reseaux_partenaires.php');
 });
 
-$f3->route('GET /@lg/equipes',function($f3, $params) {
-  echo $params['lg'];
-  $equipes=displayTitles();
-  $f3->set('equipes',$equipes);
-  $template= new Template;
-  echo $template->render('Views/equipes.php');
 
-});
 
 
 
@@ -220,10 +248,11 @@ $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
   //});
 });
 $f3->route('POST /admin/projet/@id/logo/change',function ($f3,$params) {
-  //is_connected_with(false,$f3,function($f3){
+  is_connected_with(false,$f3,function($f3){
      Project::add_logo_to_id($f3->PARAMS['id'],$_FILES['file']);
-    echo Template::instance()->render('admin_views/projet_info.php');
-  //});
+    //echo Template::instance()->render('admin_views/projet_info.php');
+    $f3->reroute("/admin/projet/".$f3->PARAMS['id']."/info");
+  });
 });
 
 //User
@@ -258,7 +287,7 @@ $f3->route('POST /admin/user/recreate_password',function ($f3,$params) {
 //Citation
 $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-    $f3->set('all_citations',list_citation());
+    $f3->set('all_citations',list_all_citation());
     $f3->set('lg',$f3->PARAMS['lg']);
 
     echo Template::instance()->render('admin_views/citation_list.php');

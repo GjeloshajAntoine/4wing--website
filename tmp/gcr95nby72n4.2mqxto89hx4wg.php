@@ -1,4 +1,3 @@
-
 <?php echo $this->render('./Views/header_final.php',NULL,get_defined_vars(),0); ?>
 
 <div class="container" id="TechEd">
@@ -91,4 +90,4 @@
 
 
 
-
+<?php echo $this->render('./partials/footer.php',NULL,get_defined_vars(),0); ?>

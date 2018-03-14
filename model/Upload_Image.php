@@ -5,7 +5,7 @@ class DB {
   function __construct(){
     try
     {
-      $this->bdd= new PDO ('mysql:host=localhost; dbname=4wings', 'root', 'user');
+      $this->bdd= new PDO ('mysql:host=localhost; dbname=test', 'root', 'root');
       $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       // echo "connected successfully";
 

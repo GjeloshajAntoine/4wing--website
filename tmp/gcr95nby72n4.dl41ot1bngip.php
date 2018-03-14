@@ -1,4 +1,4 @@
-<include href="./partials/header.php" />
+<?php echo $this->render('./partials/header.php',NULL,get_defined_vars(),0); ?>
 
 <div class="container" id="sante">
     <div class="row header_bleu2" >
@@ -76,4 +76,4 @@
 
 
 
-<include href="./partials/footer.php" />
+<?php echo $this->render('./partials/footer.php',NULL,get_defined_vars(),0); ?>

@@ -7,17 +7,17 @@
   </head>
   <body>
     <div class="container">
-      <h2>all_citations  <a type="button" href="new/form" class="btn btn-success">Nouvelle citation</a></h2>
+      <h2>Citations  <a type="button" href="new/form" class="btn btn-success">Nouvelle citation</a></h2>
       <include href="admin_views/breadcrumb.php"/>
 
       <ul class="nav nav-tabs">
-        <li role="presentation" class="{{@lg == 'fr' ? 'active': ''}}"><a href="/4wing-website/admin/citation/list/fr">FR</a></li>
-        <li role="presentation" class="{{@lg == 'nl' ? 'active': ''}}"><a href="/4wing-website/admin/citation/list/nl">NL</a></li>
-        <li role="presentation" class="{{@lg == 'en' ? 'active': ''}}"><a href="/4wing-website/admin/citation/list/en">EN</a></li>
+        <li role="presentation" class="{{@lg == 'fr' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/citation/list/fr">FR</a></li>
+        <li role="presentation" class="{{@lg == 'nl' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/citation/list/nl">NL</a></li>
+        <li role="presentation" class="{{@lg == 'en' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/citation/list/en">EN</a></li>
       </ul>
       <div class="list-group">
         <repeat group="{{ @all_citations }}" value="{{ @citation }}">
-          <a href="{{ @citation.id}}" class="list-group-item"> {{ @citation.citation}} </a>
+          <a href="{{@subrootpath}}/admin/citation/{{ @citation.id}}" class="list-group-item"> {{ @citation.citation}} </a>
        </repeat>
       </div>
     </div>
