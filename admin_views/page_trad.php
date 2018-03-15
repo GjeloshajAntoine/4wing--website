@@ -6,14 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/master.css">
 
-    <script src="/4wing-website/wysihtml.min.js"></script>
-    <!-- <script src="https://cdn.rawgit.com/Voog/wysihtml/master/dist/wysihtml.js" charset="utf-8"></script>
-    <script src="https://cdn.rawgit.com/Voog/wysihtml/master/dist/wysihtml.all-commands.js" charset="utf-8"></script> -->
-    <script src="/4wing-website/wysihtml-toolbar.min.js"></script>
-    <script src="/4wing-website/advanced_and_extended.js"></script>
-    <!-- <script src="https://cdn.rawgit.com/Voog/wysihtml/master/dist/wysihtml.toolbar.js" charset="utf-8"></script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/Voog/wysihtml/master/parser_rules/advanced_unwrap.js">  </script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
   </head>
   <body class="container">
     <h1>traduction page: {{@pagename}}</h1>
@@ -33,35 +31,7 @@
           <!-- <input type="text" value="{{ @trad.string_origin }}" disabled>
           <input type="text" value="{{ @trad.string_trad}}" name="{{ @trad.id }}" > -->
           <label for="{{ @ctr }}" >{{ @trad.string_origin }}</label>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <div id="toolbar-{{@ctr}}">
-                <a data-wysihtml5-command="bold">
-                  <span class="glyphicon glyphicon-bold"></span>
-                  bold
-                </a>
-                <a data-wysihtml5-command="italic">
-                  <span class="glyphicon glyphicon-italic"></span>
-                  italic
-                </a>
-                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">H1</a>
-                <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p">P</a>
-                <a data-wysihtml5-command="createLink">insert link</a>
-                <div data-wysihtml5-dialog="createLink" style="display:none;">
-                  <label>
-                    Link:
-                    <input data-wysihtml5-dialog-field="href" value="http://">
-                  </label>
-                  <a data-wysihtml5-dialog-action="save">OK</a>
-                  <a data-wysihtml5-dialog-action="cancel">Cancel</a>
-                </div>
-              </div>
-            </div>
-            <div class="panel-body">
-              <textarea class="form-control" id="{{@ctr}}"  name="{{ @trad.id }}" rows="3">{{ @trad.string_trad |raw}}</textarea>
-
-            </div>
-          </div>
+          <textarea class="form-control" id="{{@ctr}}"  name="{{ @trad.id }}">{{ @trad.string_trad |raw}}</textarea>
           <br/>
       </repeat>
 
@@ -69,15 +39,36 @@
     </form>
     <div id="nbrOfEditor" data-total="{{ @ctr }}"></div>
     </div>
+
+</script>
     <script>
-      //var editor = new wysihtml5.Editor('1', {toolbar: 'toolbar-1',parserRules:  wysihtml5ParserRules});
       var editArray=[];
       var nrbOfEditor=document.getElementById('nbrOfEditor') ;
       console.log(nbrOfEditor.dataset.total);
-      //wysihtml5ParserRules.tags.a.check_attributes.href="url";
       for (var i = 1; i <= nbrOfEditor.dataset.total; i++) {
-        editArray.push( new wysihtml5.Editor(''+i, {toolbar: 'toolbar-'+i,parserRules:  wysihtml5ParserRules}) );
+        // editArray[i]=$('#'+i).summernote({
+        //   toolbar: [
+        //             // [groupName, [list of button]]
+        //             ['style', ['bold', 'italic', 'underline', 'clear']],
+        //             ['font', ['strikethrough', 'superscript', 'subscript']],
+        //             ['fontsize', ['fontsize']],
+        //             ['color', ['color']],
+        //             ['para', ['ul', 'ol', 'paragraph']],
+        //             ['height', ['height']]
+        //           ]
+        // });
       }
+      $('textarea').summernote({
+        toolbar: [
+                  // [groupName, [list of button]]
+                  ['style', ['bold', 'italic', 'underline', 'clear']],
+                  ['font', ['strikethrough', 'superscript', 'subscript']],
+                  ['fontsize', ['fontsize']],
+                  ['color', ['color']],
+                  ['para', ['ul', 'ol', 'paragraph']],
+                  ['height', ['height']]
+                ]
+      });
     </script>
   </body>
 </html>
