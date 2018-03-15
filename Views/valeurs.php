@@ -5,11 +5,12 @@
     <div class="container">
       <div class="row">
             <div class="introHome col-sm-9">
-              <h1>Nos  <span class="marron">valeurs</span></h1>
-              <p class="introHome">Cette expérience est passionnante. La <b>4WINGS Foundation</b> est très jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant. Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la construction d’une société plus solidaire.
-
-
-          </p>
+              <!-- <h1>Nos  <span class="marron">valeurs</span></h1> -->
+              <h1>{{@titre}}</h1>
+              <p class="introHome">
+                <!-- Cette expérience est passionnante. La <b>4WINGS Foundation</b> est très jeune. Avant tout, nous voulons essayer, agir, participer. Nous apprenons en faisant. Nous sommes convaincus que l’esprit d’entreprise a un rôle à jouer dans la construction d’une société plus solidaire. -->
+                {{@paragraphe_1}}
+              </p>
             </div>
               <div class="col-sm-3 libellule"></div>
         </div>

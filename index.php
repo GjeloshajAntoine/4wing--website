@@ -29,27 +29,27 @@ $f3->route('GET /test',function ($f3) {
   echo $template->render('page.htm');
 
 });
-$f3->route('GET /coucou',function ($f3) {
-  $f3->set('message','ça marche');
-  $f3->set('title','Le titre');
-  $f3->set('LANGUAGE','en');
-
-  //echo \Template::instance()->render('page.htm');
-  $template=new Template;
-  echo $template->render('page 2.html');
-});
-$f3->route('GET /@lg/page3',function ($f3,$params) {
-  echo $params['lg'];
-});
-$f3->route('GET /@lg/vraipage',function ($f3,$params) {
-  $page_name="vraipage";
-
-  traduction_page($page_name,$params['lg'],$f3);
-
-
-  $template=new Template;
-  echo $template->render('vraipage.html');
-});
+// $f3->route('GET /coucou',function ($f3) {
+//   $f3->set('message','ça marche');
+//   $f3->set('title','Le titre');
+//   $f3->set('LANGUAGE','en');
+//
+//   //echo \Template::instance()->render('page.htm');
+//   $template=new Template;
+//   echo $template->render('page 2.html');
+// });
+// $f3->route('GET /@lg/page3',function ($f3,$params) {
+//   echo $params['lg'];
+// });
+// $f3->route('GET /@lg/vraipage',function ($f3,$params) {
+//   $page_name="vraipage";
+//
+//   traduction_page($page_name,$params['lg'],$f3);
+//
+//
+//   $template=new Template;
+//   echo $template->render('vraipage.html');
+// });
 
 
 //Les vraies pages ... justement
@@ -116,7 +116,14 @@ $f3->route('GET /@lg/reseaux_partenaires',function ($f3,$params) {
 });
 
 
-
+// $f3->route('GET /admintest/page/@pagename',function ($f3,$params) {
+//   is_connected_with(false,$f3,function($f3){
+//     $f3->set('is_admin',is_admin());
+//     traduction_page("mission","fr",$f3);
+//
+//     echo Template::instance()->render('Views/missions.php');
+//   });
+// });
 
 
 // ADMIN ROUTE

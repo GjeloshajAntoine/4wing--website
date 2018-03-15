@@ -39,10 +39,10 @@
       $('#ca-container').contentcarousel();
   </script>
 
-  <script src="../js/slick.js"  type="text/javascript" charset="utf-8"></script>
-  <script src="../js/lucid.js"  type="text/javascript"  ></script>
-  <script src="../js/script.js" type="text/javascript" ></script>
-   <script src="../js/smooth.js" type="text/javascript" ></script>
+  <script src="{{@subrootpath}}/js/slick.js"  type="text/javascript" charset="utf-8"></script>
+  <script src="{{@subrootpath}}/js/lucid.js"  type="text/javascript"  ></script>
+  <script src="{{@subrootpath}}/js/script.js" type="text/javascript" ></script>
+   <script src="{{@subrootpath}}/js/smooth.js" type="text/javascript" ></script>
 
   <script>
     $(window).on('load', function() {
