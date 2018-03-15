@@ -42,22 +42,6 @@
 
 </script>
     <script>
-      var editArray=[];
-      var nrbOfEditor=document.getElementById('nbrOfEditor') ;
-      console.log(nbrOfEditor.dataset.total);
-      for (var i = 1; i <= nbrOfEditor.dataset.total; i++) {
-        // editArray[i]=$('#'+i).summernote({
-        //   toolbar: [
-        //             // [groupName, [list of button]]
-        //             ['style', ['bold', 'italic', 'underline', 'clear']],
-        //             ['font', ['strikethrough', 'superscript', 'subscript']],
-        //             ['fontsize', ['fontsize']],
-        //             ['color', ['color']],
-        //             ['para', ['ul', 'ol', 'paragraph']],
-        //             ['height', ['height']]
-        //           ]
-        // });
-      }
       $('textarea').summernote({
         toolbar: [
                   // [groupName, [list of button]]
