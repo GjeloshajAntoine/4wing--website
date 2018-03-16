@@ -34,10 +34,8 @@
           <textarea class="form-control" id="{{@ctr}}"  name="{{ @trad.id }}">{{ @trad.string_trad |raw}}</textarea>
           <br/>
       </repeat>
-
       <input type="submit" class="btn btn-default">
     </form>
-    <div id="nbrOfEditor" data-total="{{ @ctr }}"></div>
     </div>
 
 </script>
