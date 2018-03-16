@@ -7,8 +7,10 @@
 
   </head>
   <body>
-    <include href="admin_views/project_tabs.php" />
     <div class="container">
+      <h1>traduction page: {{@project.title}}</h1>
+      <include href="admin_views/breadcrumb.php"/>
+      <include href="admin_views/project_tabs.php" with="tabname=images" />
 
       <form class="" action="../../../../admin/projet/{{@id}}/image/add" method="post" enctype="multipart/form-data">
         <input id="file" type="file" name="file" value="envoyer image" />
@@ -20,7 +22,8 @@
         <repeat group="{{ @all_images }}" value="{{ @image }}">
           <li class="list-group-item">
             <img width="50" height="50" src="../../../../projects_images/{{@image.image_file_name}}" alt="">
-            <button style="float:right;" type="button" class="btn btn-danger">supprimer</button>
+            <!-- <button style="float:right;" type="button" class="btn btn-danger">supprimer</button> -->
+            <a style="float:right;" class="btn btn-danger" href="{{@subrootpath}}/admin/projet/{{@image.id}}/image/delete">supprimer</a>
           </li>
         </repeat>
       </ul>
