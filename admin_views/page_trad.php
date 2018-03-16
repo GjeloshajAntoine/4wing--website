@@ -14,15 +14,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
   </head>
   <body class="container">
-    <h1>traduction page: {{@pagename}}</h1>
+    <h2>Traduction page: {{@pagename}}</h2>
     <include href="admin_views/breadcrumb.php"/>
 
     <!-- onglets -->
 
     <ul class="nav nav-tabs">
-      <li role="presentation" class="{{@lg == 'fr' ? 'active': ''}}"><a href="/4wing-website/admin/tradpage/{{@pagename}}/fr">FR</a></li>
-      <li role="presentation" class="{{@lg == 'nl' ? 'active': ''}}"><a href="/4wing-website/admin/tradpage/{{@pagename}}/nl">NL</a></li>
-      <li role="presentation" class="{{@lg == 'en' ? 'active': ''}}"><a href="/4wing-website/admin/tradpage/{{@pagename}}/en">EN</a></li>
+      <li role="presentation" class="{{@lg == 'fr' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/tradpage/{{@pagename}}/fr">FR</a></li>
+      <li role="presentation" class="{{@lg == 'nl' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/tradpage/{{@pagename}}/nl">NL</a></li>
+      <li role="presentation" class="{{@lg == 'en' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/tradpage/{{@pagename}}/en">EN</a></li>
     </ul>
     <div class="container">
     <form class="" action="http://localhost/4wing-website/admin/page_trad_changes/{{@pagename}}/{{@lg}}" method="post">
@@ -38,7 +38,6 @@
     </form>
     </div>
 
-</script>
     <script>
       $('textarea').summernote({
         toolbar: [
