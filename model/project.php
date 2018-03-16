@@ -68,6 +68,13 @@ class Project
       $bdd->rollBack();
     }
   }
+  static public function delete_image_to_id($image_id)
+  {
+    $bdd=init_DB();
+    $stmt= $bdd->prepare("DELETE FROM projects_images WHERE id = :id");
+    $stmt->execute(['id'=>$image_id]);
+
+  }
   static public function add_logo_to_id($project_id,$image)
   {
     var_dump($image);
@@ -98,8 +105,8 @@ class Project
   static public function get_image_from_id($id)
   {
     $bdd=init_DB();
-    $stmt= $bdd->query("SELECT * FROM projects_images");
-    $stmt->execute();
+    $stmt= $bdd->prepare("SELECT * FROM projects_images WHERE project_id	 = :id");
+    $stmt->execute(["id"=>$id]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
   public function check_fields()
@@ -125,8 +132,11 @@ class Project
     $stmt->execute(["id"=>$id]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
   }
-  static public function set_info($id,$info)
+  static public function set_info($id,$title,$cat)
   {
+    $bdd=init_DB();
+    $stmt = $bdd->prepare("UPDATE projects SET title = :title , category = :cat WHERE id = :id ");
+    $stmt->execute(["id"=>$id,"title"=>$title,"cat"=>$cat]);
 
   }
   static public function get_trad($id,$lg)

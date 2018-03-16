@@ -26,4 +26,16 @@ function set_trad_page($trad_array) {
   //return $result;
 }
 //print_r(get_trad_page('vraipage'));
+function traduction_page_header_footer($name,$lg,$f3) {
+  $bdd = init_DB();
+  $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+  $stmt = $bdd->prepare("SELECT * FROM `pages_trad` WHERE (page_name = :page_name  OR page_name = 'footer' OR page_name = 'header')  AND lg = :lg");
+  $stmt->execute(array('page_name' => $name,'lg'=>$lg));
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  for ($i=0; $i <count($result) ; $i++) {
+    $f3->set($result[$i]['string_origin'],$result[$i]['string_trad']);
+  }
+
+}
+
  ?>
