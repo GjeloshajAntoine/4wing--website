@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js"></script>
   </head>
   <body class="container">
-    <h1>traduction page: <?= $pagename ?></h1>
+    <h2>Traduction page: <?= $pagename ?></h2>
     <?php echo $this->render('admin_views/breadcrumb.php',NULL,get_defined_vars(),0); ?>
 
     <!-- onglets -->
@@ -38,7 +38,6 @@
     </form>
     </div>
 
-</script>
     <script>
       $('textarea').summernote({
         toolbar: [

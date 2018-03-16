@@ -10,7 +10,7 @@
 
     <div class="container">
       <div class="list-group">
-        <h4 style="display:inline-block;">Administration</h4>
+        <h2 style="display:inline-block;">Administration</h2>
         <a type="button" href="<?= $subrootpath ?>/admin/user/profil" class="btn btn-primary">Votre compte</a>
 
         <a href="admin/list_page_trad" class="list-group-item">Pages</a>
