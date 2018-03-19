@@ -8,7 +8,7 @@ class Project
   var $languages=['fr','nl','en'];
   function __construct()
   {
-    $this->field=['titre','le_projet','soutiens'];
+    $this->field=['titre','resume','le_projet','soutiens'];
   }
   public function create($title)
   {
@@ -132,11 +132,11 @@ class Project
     $stmt->execute(["id"=>$id]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
   }
-  static public function set_info($id,$title,$cat)
+  static public function set_info($id,$title,$link,$cat)
   {
     $bdd=init_DB();
-    $stmt = $bdd->prepare("UPDATE projects SET title = :title , category = :cat WHERE id = :id ");
-    $stmt->execute(["id"=>$id,"title"=>$title,"cat"=>$cat]);
+    $stmt = $bdd->prepare("UPDATE projects SET title = :title ,link = :link ,category = :cat WHERE id = :id ");
+    $stmt->execute(["id"=>$id,"title"=>$title,"link"=>$link,"cat"=>$cat]);
 
   }
   static public function get_trad($id,$lg)
