@@ -14,7 +14,12 @@
 
       <form class="" action="/4wing-website/admin/projet/<?= $id ?>/info/editdata" method="post" >
         <div class="form-group">
-          <input type="text"  name="title" value="<?= $project['title'] ?>">
+          <label for="title">titre</label>
+          <input type="text" id="title"  name="title" value="<?= $project['title'] ?>">
+        </div>
+        <div class="form-group">
+          <label for="link">lien</label>
+          <input type="text" id="link"  name="link" class="form-control" value="<?= $project['link'] ?>">
         </div>
         <div class="form-group">
           <label for="techEducation">techEducation</label>

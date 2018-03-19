@@ -12,7 +12,7 @@
       <?php echo $this->render('admin_views/breadcrumb.php',NULL,get_defined_vars(),0); ?>
       <?php echo $this->render('admin_views/project_tabs.php',NULL,['tabname'=>'images']+get_defined_vars(),0); ?>
 
-      <form class="" action="../../../../admin/projet/<?= $id ?>/image/add" method="post" enctype="multipart/form-data">
+      <form class="" action="<?= $subrootpath ?>/admin/projet/<?= $id ?>/image/add" method="post" enctype="multipart/form-data">
         <input id="file" type="file" name="file" value="envoyer image" />
         <input type="hidden" id="ProjectId" value="<?= project.id ?>">
         <input type="submit" name="" value="ajouter">
@@ -21,9 +21,9 @@
       <ul class="list-group">
         <?php foreach (($all_images?:[]) as $image): ?>
           <li class="list-group-item">
-            <img width="50" height="50" src="../../../../projects_images/<?= $image['image_file_name'] ?>" alt="">
+            <img width="50" height="50" src="<?= $subrootpath ?>/projects_images/<?= $image['image_file_name'] ?>" alt="">
             <!-- <button style="float:right;" type="button" class="btn btn-danger">supprimer</button> -->
-            <a style="float:right;" class="btn btn-danger" href="<?= $subrootpath ?>/admin/projet/<?= $image['id'] ?>/image/delete">supprimer</a>
+            <a style="float:right;" class="btn btn-danger" href="<?= $subrootpath ?>/admin/projet/<?= $project['id'] ?>/image/<?= $image['id'] ?>/delete">supprimer</a>
           </li>
         <?php endforeach; ?>
       </ul>

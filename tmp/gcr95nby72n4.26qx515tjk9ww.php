@@ -8,8 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Fondation 4WINGS - Titre dynamique de la page</title>
 
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= $subrootpath ?>/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="<?= $subrootpath ?>/img/favicon.ico" type="image/x-icon">
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -59,7 +59,7 @@
         <div class="row">
           <div class="logo col-4">
             <a href="index_lucile.php">
-              <img src="../img/logo_blanc.png" alt="">
+              <img src="<?= $subrootpath ?>/img/logo_blanc.png" alt="">
             </a>
           </div>
           <div>
@@ -79,8 +79,8 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= $menu_projets ?> <span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/logement">Logement</a></li>
-                        <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/tech_education">Tech Éducation</a></li>
-                        <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/sante_nutrition">Santé et nutrition</a></li>
+                        <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/techEducation">Tech Éducation</a></li>
+                        <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/santeNutrition">Santé et nutrition</a></li>
                       </ul>
                 </li>
                 <li class="dropdown list-inline-item menu"><a href="contact.php">Contact</a></li>
