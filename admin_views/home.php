@@ -16,6 +16,8 @@
         <a href="admin/list_page_trad" class="list-group-item">Pages</a>
         <a href="admin/citation/list" class="list-group-item">citations</a>
         <a href="admin/projet/list" class="list-group-item">projet</a>
+        <a href="admin/projet/list" class="list-group-item">Faq</a>
+        <a href="admin/projet/list" class="list-group-item">Partenaires</a>
         <check if="{{ @is_admin }}">
           <true>
           <a href="admin/equipe/list" class="list-group-item">equipes</a>
