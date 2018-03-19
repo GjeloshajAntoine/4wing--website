@@ -26,7 +26,7 @@ $f3->route('GET /admin/projet/@id/info',function ($f3,$params) {//info principal
 $f3->route('POST /admin/projet/@id/info/editdata',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
     var_dump($_POST);
-    Project::set_info($_POST['id'],$_POST['title'],$_POST['cat']);
+    Project::set_info($_POST['id'],$_POST['title'],$_POST['link'],$_POST['cat']);
     $f3->set('id',$f3->PARAMS['id']);
     $f3->reroute('/admin/projet/@id/info');
   });
@@ -89,9 +89,9 @@ $f3->route('POST /admin/projet/@id/image/add',function ($f3,$params) {
      $f3->reroute('/admin/projet/@id/images/list');
   });
 });
-$f3->route('GET /admin/projet/@id/image/delete',function ($f3,$params) {
+$f3->route('GET /admin/projet/@id/image/@id_image/delete',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
-     Project::delete_image_to_id($f3->PARAMS['id'],$_FILES['file']);
+     Project::delete_image_to_id($f3->PARAMS['id_image'],$_FILES['file']);
      $f3->set('id',$f3->PARAMS['id']);
      $f3->reroute('/admin/projet/@id/images/list');
   });

@@ -43,15 +43,6 @@ $f3->route('GET /@lg/valeurs',function ($f3,$params) {
   hazard_citation($params['lg'],false);
   echo Template::instance()->render('Views/valeurs.php');
 });
-$f3->route('GET /@lg/sante_nutrition',function ($f3,$params) {
-//  echo $params['lg'];
-  $page_name="sante_nutrition";
-  $f3->set('page_name',$page_name);
-  traduction_page_header_footer($page_name,$params['lg'],$f3);
-
-  hazard_citation($params['lg'],'health');
-  echo Template::instance()->render('Views/sante_nutrition.php');
-});
 $f3->route('GET /@lg/selection_projets',function ($f3,$params) {
   //  echo $params['lg'];
   $page_name="selection_projets";
@@ -87,14 +78,6 @@ $f3->route('GET /@lg/faq',function ($f3,$params) {
   echo Template::instance()->render('Views/faq.php');
 });
 
-$f3->route('GET /@lg/techEducation',function ($f3,$params) {
-  $page_name="techEducation";
-  $template=new Template;
-  //echo hazard_citation($params['lg'],'techEducation');
-  $f3->set('page_name',$page_name);
-  traduction_page_header_footer($page_name,$params['lg'],$f3);
-  echo $template->render('Views/tech_education.php');
-});
 $f3->route('GET /@lg/reseaux_partenaires',function ($f3,$params) {
   $page_name="reseaux_partenaires";
   $f3->set('page_name',$page_name);
@@ -103,6 +86,31 @@ $f3->route('GET /@lg/reseaux_partenaires',function ($f3,$params) {
   echo Template::instance()->render('Views/reseaux_partenaires.php');
 });
 
+$f3->route('GET /@lg/logement',function ($f3,$params) {
+  $page_name="logement";
+  $template=new Template;
+  //echo hazard_citation($params['lg'],'techEducation');
+  $f3->set('page_name',$page_name);
+  traduction_page_header_footer($page_name,$params['lg'],$f3);
+  echo $template->render('Views/logementtris.php');
+});
+$f3->route('GET /@lg/techEducation',function ($f3,$params) {
+  $page_name="techEducation";
+  $template=new Template;
+  //echo hazard_citation($params['lg'],'techEducation');
+  $f3->set('page_name',$page_name);
+  traduction_page_header_footer($page_name,$params['lg'],$f3);
+  echo $template->render('Views/tech_education.php');
+});
+$f3->route('GET /@lg/santeNutrition',function ($f3,$params) {
+//  echo $params['lg'];
+  $page_name="santeNutrition";
+  $f3->set('page_name',$page_name);
+  traduction_page_header_footer($page_name,$params['lg'],$f3);
+
+  hazard_citation($params['lg'],'health');
+  echo Template::instance()->render('Views/sante_nutrition.php');
+});
 
 // $f3->route('GET /admintest/page/@pagename',function ($f3,$params) {
 //   is_connected_with(false,$f3,function($f3){
@@ -116,6 +124,7 @@ $f3->route('GET /@lg/reseaux_partenaires',function ($f3,$params) {
 
 include 'routes/admin_routes.php';
 include 'routes/projet_routes.php';
+include 'routes/user_routes.php';
 //on va bientot voir le bout du tunel !!!
 
 $f3->run();
