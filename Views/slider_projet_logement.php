@@ -9,7 +9,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="../img/projets/sliders/logement/1.jpg" alt="Chania">
+      <img src="{{@subrootpath}}/img/projets/sliders/logement/1.jpg" alt="Chania">
       <div class="carousel-caption">
         <h3>Promo 2018</h3>
         <p>Becode it's so much fun!</p>
@@ -17,7 +17,7 @@
     </div>
 
     <div class="item">
-      <img src="../img//projets/sliders/logement/2.jpg" alt="Chicago">
+      <img src="{{@subrootpath}}/img/projets/sliders/logement/2.jpg" alt="Chicago">
       <div class="carousel-caption">
         <h3>Cyprcor</h3>
         <p>Thank you, Chicago!</p>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="item">
-      <img src="../img//projets/sliders/logement/3.jpg" alt="New York">
+      <img src="{{@subrootpath}}/img/projets/sliders/logement/3.jpg" alt="New York">
       <div class="carousel-caption">
         <h3>New York</h3>
         <p>We love the Big Apple!</p>
