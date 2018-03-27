@@ -1,4 +1,4 @@
-<?php require_once("../partials/header.php") ?>
+<include href="./partials/header.php" />
 
 
 <section>
@@ -270,4 +270,4 @@
 
 
 
-<?php include("../partials/footer.php") ?>
+<include href="./partials/footer.php" />

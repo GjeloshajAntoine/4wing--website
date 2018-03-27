@@ -1,5 +1,4 @@
-<?php require_once("../partials/header.php") ?>
-<include href="./Views/header_final.php" />
+<include href="./partials/header.php" />
 
 <div class="container" id="TechEd">
     <div class="row header_bleu" >
@@ -22,7 +21,7 @@
             </p>
           <h5>Matthieu Speeckaert, <br/> de 4WINGS</h5>
             <div class="TechSecond">
-              <img src="../img/femme2.png" alt="femme">
+              <img src="{{@subrootpath}}/img/femme2.png" alt="femme">
             </div>
          </div>
 
@@ -30,7 +29,7 @@
 	    <div class="col-ms-3 TechSecondRight" >
 	      <h5>Un projet ?</h5>
 	      <a class="btn btn_success" href="soumission.php" target="blank">Nous contacter</a>
-	      <img src="../img/libelulle_transparente.png" alt="libellule">
+	      <img src="{{@subrootpath}}/img/libelulle_transparente.png" alt="libellule">
 	    </div>
 
 
@@ -91,4 +90,4 @@
 
 
 
-<?php require_once("../partials/footer.php") ?>
+<include href="./partials/footer.php" />

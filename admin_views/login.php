@@ -13,7 +13,7 @@
         <input type="text "  class="form-control" placeholder="Email/pseudo" name="name" value="">
       </div>
       <div class="form-group">
-        <input type="text"  class="form-control" placeholder="mot de passe" name="password" value="">
+        <input type="password"  class="form-control" placeholder="mot de passe" name="password" value="">
       </div>
       <input  type="submit"  class="form-control" name="" value="login">
     </form>

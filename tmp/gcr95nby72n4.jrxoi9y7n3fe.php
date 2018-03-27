@@ -10,6 +10,7 @@
     Projets
     <a type="button" href="new" class="btn btn-success">Nouveau projet</a>
   </h2>
+  <?php echo $this->render('admin_views/breadcrumb.php',NULL,get_defined_vars(),0); ?>
 
     <div class="list-group">
       <?php foreach (($all_projects?:[]) as $project): ?>

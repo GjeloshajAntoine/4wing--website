@@ -97,7 +97,7 @@
         $("#passwordChange").modal("show");
       }
       function reinitPassword() {
-        $.post('admin/user/recreate_password',{user_id:currentClickedReinitPasswordUserId},function (data) {
+        $.post('{{@subrootpath}}admin/user/recreate_password',{user_id:currentClickedReinitPasswordUserId},function (data) {
           console.log(data);
         });
       }
@@ -106,7 +106,7 @@
         $("#authChange").modal("show");
       }
       function changeAuth() {
-        $.post('/admin/user/change_auth',{user_id:currentClickedChangeAuthUserId},function (data) {
+        $.post('{{@subrootpath}}/admin/user/change_auth',{user_id:currentClickedChangeAuthUserId},function (data) {
           console.log(data);
         });
       }

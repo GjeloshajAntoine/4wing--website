@@ -8,7 +8,7 @@ class Project
   var $languages=['fr','nl','en'];
   function __construct()
   {
-    $this->field=['titre','le_projet','soutiens'];
+    $this->field=['titre','resume','le_projet','soutiens'];
   }
   public function create($title)
   {
@@ -68,11 +68,45 @@ class Project
       $bdd->rollBack();
     }
   }
+  static public function delete_image_to_id($image_id)
+  {
+    $bdd=init_DB();
+    $stmt= $bdd->prepare("DELETE FROM projects_images WHERE id = :id");
+    $stmt->execute(['id'=>$image_id]);
+
+  }
+  static public function add_logo_to_id($project_id,$image)
+  {
+    var_dump($image);
+    $file_name = $image['name'];
+    $ext = pathinfo($path, PATHINFO_EXTENSION);
+
+    $incr=1;
+    while (file_exists('projects_logo/'.$file_name)) {
+      $file_name=($incr++).'_'.$image['name'];
+    }
+
+    $bdd=init_DB();
+    $bdd->beginTransaction();
+    $stmt= $bdd->prepare("UPDATE projects  SET logo_file_name = :file WHERE id = :id");
+    $stmt->execute(['file'=>$file_name,"id"=>$project_id]);
+
+    $satus=move_uploaded_file($image['tmp_name'],'projects_logo/'.$file_name);
+
+    if ($satus) {
+      $bdd->commit();
+      echo "upload success";
+    }else{
+      echo "upload failed";
+      var_dump($status);
+      $bdd->rollBack();
+    }
+  }
   static public function get_image_from_id($id)
   {
     $bdd=init_DB();
-    $stmt= $bdd->query("SELECT * FROM projects_images");
-    $stmt->execute();
+    $stmt= $bdd->prepare("SELECT * FROM projects_images WHERE project_id	 = :id");
+    $stmt->execute(["id"=>$id]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
   public function check_fields()
@@ -98,8 +132,11 @@ class Project
     $stmt->execute(["id"=>$id]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
   }
-  static public function set_info($id,$info)
+  static public function set_info($id,$title,$link,$cat)
   {
+    $bdd=init_DB();
+    $stmt = $bdd->prepare("UPDATE projects SET title = :title ,link = :link ,category = :cat WHERE id = :id ");
+    $stmt->execute(["id"=>$id,"title"=>$title,"link"=>$link,"cat"=>$cat]);
 
   }
   static public function get_trad($id,$lg)

@@ -1,4 +1,4 @@
-<?php require_once("../partials/header.php") ?>
+<include href="./partials/header.php" />
 
 <div class="container" id="sante">
     <div class="row header_bleu2" >
@@ -18,8 +18,8 @@
 		      <h2>Sous titre Alimentation</h2>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quo consequuntur, ut explicabo voluptate, tempore id nisi dolorum, sit voluptas in. Pariatur similique omnis, nihil unde facere doloremque numquam eius.</p>
 		    </div>
-       
-        <div class="TechSecond LogementSecond">     
+
+        <div class="TechSecond LogementSecond">
           <p> <span class="lettrine1">"</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="lettrine2"> " </span>
             </p>
           <h5>Arnold Dupont <br/> de Becode</h5>
@@ -27,16 +27,16 @@
               <img src="../img/homme2.png" alt="homme">
             </div>
          </div>
-      
-		  </div>  
+
+		  </div>
 	    <div class="col-ms-3 TechSecondRight" >
 	      <h5>Un projet ?</h5>
 	      <a class="btn btn_success" href="soumission.php" target="blank">Nous contacter</a>
 	      <img src="../img/libelulle_transparente.png" alt="libellule">
 	    </div>
-	
-      
-    </div>  
+
+
+    </div>
   <!-- fin row-->
 </div>
 
@@ -52,7 +52,7 @@
           </div>
         </div>
   </div>
-</div>  
+</div>
 
 
 <div class="container" id="TechForth">
@@ -69,11 +69,11 @@
     </div>
 
     <!-- fin projet-->
-    
+
 
   </div>
 </div>
- 
 
 
-<?php require_once("../partials/footer.php") ?>
+
+<include href="./partials/footer.php" />

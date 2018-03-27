@@ -1,7 +1,7 @@
-<?php require_once("../partials/header.php") ?>
+<include href="./partials/header.php" />
 
 
-<section> 
+<section>
     <div class="container">
       <div class="row">
             <div class="introHome col-sm-9">
@@ -14,7 +14,7 @@
           </p>
             </div>
               <div class="col-sm-3 libellule"></div>
-        </div> 
+        </div>
     </div>
 </section>
 
@@ -22,7 +22,7 @@
 <section>
     <div class="container">
       <div class="row">
-             “Nous avons décidé d’agir ensemble, en famille, et de soutenir les efforts des entrepreneurs sociaux pour amplifier leur impact dans la lutte contre la précarité en Belgique” 
+             “Nous avons décidé d’agir ensemble, en famille, et de soutenir les efforts des entrepreneurs sociaux pour amplifier leur impact dans la lutte contre la précarité en Belgique”
 
       </div>
     </div>
@@ -31,4 +31,4 @@
 
 </div>
 
-<?php include("../partials/footer.php") ?>
+<include href="./partials/footer.php" />

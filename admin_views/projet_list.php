@@ -10,6 +10,7 @@
     Projets
     <a type="button" href="new" class="btn btn-success">Nouveau projet</a>
   </h2>
+  <include href="admin_views/breadcrumb.php"/>
 
     <div class="list-group">
       <repeat group="{{ @all_projects }}" value="{{ @project }}">

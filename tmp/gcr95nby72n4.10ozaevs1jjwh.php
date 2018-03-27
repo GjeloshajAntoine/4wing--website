@@ -9,6 +9,7 @@
 
     <div class="container">
       <h2>Pages</h2>
+      <?php echo $this->render('admin_views/breadcrumb.php',NULL,get_defined_vars(),0); ?>
       <div class="list-group">
         <?php $ctr=0; foreach (($pageliste?:[]) as $coffee): $ctr++; ?>
           <a href="tradpage/<?= trim($coffee['page_name']) ?>/fr" class="<?= $ctr%2?'odd':'even' ?> list-group-item"><?= trim($coffee['page_name']) ?></a>

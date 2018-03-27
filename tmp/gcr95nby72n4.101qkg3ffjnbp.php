@@ -1,7 +1,7 @@
+<?php echo $this->render('./partials/header.php',NULL,get_defined_vars(),0); ?>
 
 
-
-<section> 
+<section>
   <br>
     <div class="container">
 
@@ -10,7 +10,7 @@
        <div class="introHome col-md-12">
                 <h1>F.A<span class="marron">.Q.</span></h1><p> <?= $title ?> <?= $message ?> </p><br>
           </div>
-         </div>       
+         </div>
         </div>
 
               <div class class="col-md-10">
@@ -26,14 +26,14 @@
                         <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
                           <div class="panel-heading">
 
-                              <h3>Question 
+                              <h3>Question
 
                                       <!-- InjectMysql Q1 -->
-                                 
+
                                       <span><?= $ctr ?> : <?= $tap['questions'] ?></span>
-                                  
+
                               </h3> <br>
-                                  
+
                           </div>
 
                         </a>
@@ -41,23 +41,23 @@
                           <div class="panel-body">
 
                                         <!-- InjectMysql R1 -->
-                          
+
                                         <span>Reponses <?= $ctr ?> : <?= $tap['reponses'] ?></span><br>
 
                               <br>
                               <br>
                               <br>
-                         
+
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-            
+
                   <?php endforeach; ?>
-         
+
 </section>
 
 </div>
 
-
+<?php echo $this->render('./partials/footer.php',NULL,get_defined_vars(),0); ?>

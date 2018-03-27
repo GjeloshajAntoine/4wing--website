@@ -6,6 +6,13 @@ function list_citation($lg="fr") {
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
   return $result;
 }
+function list_all_citation() {
+  $bdd=init_DB();
+  $stmt = $bdd->prepare("SELECT * FROM citations");
+  $stmt->execute();
+  $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+  return $result;
+}
 function list_citation_lg($lg)
 {
     $bdd=init_DB();

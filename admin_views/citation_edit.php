@@ -10,9 +10,11 @@
   <body class="container">
     <h1>Citations edit</h1>
     <form class="" action="edit/data" method="post">
-
-      <input class="form-control" type="text" name="citation" value="{{@citation.citation}}">
-      <input class="form-control" type="text" name="auteur" value="{{@citation.auteur}}">
+      <include href="admin_views/breadcrumb.php"/>
+      <label for="citation">Citation : </label>
+      <input class="form-control" type="text" name="citation" id="citation" value="{{@citation.citation}}">
+      <label for="auteur">Auteur : </label>
+      <input class="form-control" type="text" name="auteur" id="auteur" value="{{@citation.auteur}}">
       <div class="form-group">
         <div class="radio">
           <label for="fr">
