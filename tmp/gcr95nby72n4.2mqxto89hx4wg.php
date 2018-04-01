@@ -3,8 +3,8 @@
 <div class="container" id="TechEd">
     <div class="row header_bleu" >
       <div class="TechEducation col-md-8">
-        <span class="icon-monitor"></span><h1>Tech - Education <?= $TitreH1 ?></h1>
-        <span>Programmer le cercle vertueux &nbsp; de l'inclusion <?= $SousTitreH1 ?></span>
+        <span class="icon-monitor"></span><h1><?= $titre ?> </h1>
+        <span><?= $sous_titre_petit ?></span>
       </div>
     </div>
 
@@ -12,14 +12,14 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>Lire, écrire, compter et coder</h2>
-		      <p>4wings est consciente que la tech-education permet qu’un maximum de citoyens puissent saisir l’opportunité numérique, quel que soit leur âge, leur parcours ou leur situation. En Belgique, environ 30.000 emplois seront à pourvoir dans ce secteur d’ici 2020. La Fondation a la volonté de participer à l’émergence d’un écosystème digital plus inclusif au sein duquel lire, écrire, compter et coder sont des compétences accessibles à tous.</p>
+		      <h2><?= $sous_titre_grand ?></h2>
+		      <p><?= $paragraphe_1 ?></p>
 		    </div>
 
         <div class="TechSecond">
-          <p> <span class="lettrine1">"</span> Le développement de la tech-education permet à des jeunes de se construire en apprenant le code et donc les technologies de demain.<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span> <?= $citation['citation'] ?><span class="lettrine2"> " </span>
             </p>
-          <h5>Matthieu Speeckaert, <br/> de 4WINGS</h5>
+          <h5><?= $citation['auteur'] ?></h5>
             <div class="TechSecond">
               <img src="<?= $subrootpath ?>/img/femme2.png" alt="femme">
             </div>

@@ -16,11 +16,11 @@
         <a href="admin/list_page_trad" class="list-group-item">Pages</a>
         <a href="admin/citation/list" class="list-group-item">citations</a>
         <a href="admin/projet/list" class="list-group-item">projet</a>
-        <a href="admin/projet/list" class="list-group-item">Faq</a>
+        <a href="admin/faq/list/fr" class="list-group-item">Faq</a>
         <a href="admin/projet/list" class="list-group-item">Partenaires</a>
         <?php if ($is_admin): ?>
           
-          <a href="admin/equipe/list" class="list-group-item">equipes</a>
+         <a href="admin/equipe/list" class="list-group-item">equipes</a>
           <a href="admin/user/list" class="list-group-item">Utilisateurs</a>
           
           <?php else: ?>

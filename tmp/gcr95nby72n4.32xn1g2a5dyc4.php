@@ -3,8 +3,8 @@
 <div class="container" id="logement">
     <div class="row header_rose" >
       <div class="TechEducation col-md-8">
-        <span class="icon-home-outline"></span><h1>Logement</h1>
-        <span>Une priorité pour l'intégration</span>
+        <span class="icon-home-outline"></span><h1><?= $titre ?></h1>
+        <span><?= $sous_titre_petit ?></span>
       </div>
       <div class="col-md-4 col-sm-6 col-12 ImageHeader">
           <img src="../img/img_header_logement.png" alt="ImageLogement">
@@ -15,14 +15,14 @@
     <div class="row">
 	  	<div class="col-sm-9">
 		    <div class="TechFirst">
-		      <h2>En Belgique, 180.000 familles sont en attente d’un logement accessible financièrement</h2>
-		      <p>L’accès à un logement décent constitue le point de départ de l’inclusion. Sous l’effet combiné de l’étendue de la pauvreté structurelle, de la crise migratoire et de l’augmentation des loyers, l’accès au logement à prix abordable est insuffisant en Belgique. Actuellement, plus de 180.000 ménages sont en attente. Des initiatives de terrain, multiples, innovantes, ouvrent de nouvelles voies et cherchent des partenaires pour changer d’échelle.</p>
-		    </div>
+		      <h2><?= $sous_titre_grand ?></h2>
+		      <p><?= $paragraphe_1 ?></p>
+        </div>
 
         <div class="TechSecond LogementSecond">
-          <p> <span class="lettrine1">"</span>La fondation se sont engagés 4WINGS en devenant ambassadeurs de la cause du mal logement. Ensemble, nous pouvons loger plus de personnes en situation de précarité, tout en étant atten- tifs aux besoins de chacun. C’est ce type le monde d’initiatives !<span class="lettrine2"> " </span>
+          <p> <span class="lettrine1">"</span><?= $citation['citation'] ?><span class="lettrine2"> " </span>
             </p>
-          <h5>Arnold Dupont <br/> de Becode</h5>
+          <h5><?= $citation['auteur'] ?></h5>
             <div class="TechSecond">
               <img src="../img/homme.png" alt="femme">
             </div>
@@ -80,6 +80,21 @@
         </div>
       </div>
     <!-- fin projet-->
+    <?php foreach (($projets?:[]) as $projet): ?>
+        <p></p>
+        <p></p>
+        <!-- projet-->
+     <div class="col-sm-12 col-md-6">
+        <div class="TechForth border_rose">
+          <a href="projet_logement.php"><img src="<?= $subrootpath ?>/projects_logo/<?= $projet['logo_file_name'] ?>" alt="Vignette Logement"></a>
+          <div class="rubrique rose">
+            <h4> <a href="projet_logement.php"><?= $projet['title'] ?></a> </h4>
+            <p><?= $projet['le_projet'] ?></p>
+          </div>
+        </div>
+      </div>
+    <!-- fin projet-->
+    <?php endforeach; ?>
 
   </div>
 </div>

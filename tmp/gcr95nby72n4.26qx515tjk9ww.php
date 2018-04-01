@@ -83,7 +83,7 @@
                         <li><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/santeNutrition">Santé et nutrition</a></li>
                       </ul>
                 </li>
-                <li class="dropdown list-inline-item menu"><a href="contact.php">Contact</a></li>
+                <li class="dropdown list-inline-item menu"><a href="<?= $subrootpath ?>/<?= $PARAMS['lg'] ?>/contact">Contact</a></li>
                 <li class="dropdown list-inline-item menu langues">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?= $PARAMS['lg'] ?> <span class="caret"></span></a>
                       <ul class="dropdown-menu lang">
