@@ -58,7 +58,7 @@ function is_connected_with($should_admin,$f3,$callback){
 {
 
 }
-function create_user($name,$password,$email,$auth)
+function create_user($email,$auth)
 {
     if (is_connected() && is_admin()) {
         //$hash=password_hash($password, PASSWORD_DEFAULT);
@@ -98,27 +98,37 @@ function resetPassword($id)//les admin peuvent direct reset les mots de passe de
   $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
   $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
   //get email
-  $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE id= :id  ");
-  $stmt->execute(['name'=>$name]);
+  $stmt = $bdd->prepare("SELECT email FROM wings_user WHERE id= :id  ");
+  $stmt->execute(['id'=>$id]);
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+  if (!empty($result[0]["email"])) {
+    mail($result[0]["email"], "Reset mot de passe", "Votre mot de passe: ".$random_password."\n Vous pouvez changer votre mot de passe dans l'interface d'adminitstration", "From:admin.interface@4wings.org");
+    return ['ok'=>true];
+  }else {
+    return  ['succes'=>false,'newPass'=>$new_password];
+  }
 }
 function change_password($id,$old_password,$new_password)//les utilisateurs peuvent changer leur mot de passe s'ils connaissent le précédent
 {
   $bdd=init_DB();
   $stmt = $bdd->prepare("SELECT * FROM wings_user WHERE id= :id  ");
-  $stmt->execute(['name'=>$name]);
+  $stmt->execute(['id'=>$id]);
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
   if (password_verify($old_password,$result[0]["password"])) {
     $hashed_password=password_hash($new_password, PASSWORD_DEFAULT);
     $stmt = $bdd->prepare("UPDATE 4wings_user SET password = :password WHERE id= :id ");
     $stmt->execute(["password"=>$hashed_password,"id"=>$id]);
-
   }
 }
-function delete_user(Type $var = null)
+function delete_user()
 {
 
+}
+function change_auth($id,$auth) {
+  $bdd=init_DB();
+  $stmt = $bdd->prepare("UPDATE wings_user SET auth = :auth WHERE id= :id  ");
+  $stmt->execute(['id'=>$id,'auth'=>$auth]);
+  return ["success"=>true];
 }
 function random_password( $length = 8 ) {
     $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
