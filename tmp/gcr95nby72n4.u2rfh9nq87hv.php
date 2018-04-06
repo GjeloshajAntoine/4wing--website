@@ -20,7 +20,7 @@
         <a href="admin/projet/list" class="list-group-item">Partenaires</a>
         <?php if ($is_admin): ?>
           
-         <a href="admin/equipe/list" class="list-group-item">equipes</a>
+         <a href="admin/equipes/membres/list" class="list-group-item">equipes</a>
           <a href="admin/user/list" class="list-group-item">Utilisateurs</a>
           
           <?php else: ?>
