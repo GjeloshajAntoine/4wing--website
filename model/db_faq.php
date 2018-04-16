@@ -36,5 +36,12 @@ function set_question($fields) {
   $result = $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
   return $result;
 }
-
+/*   function get_faq() {
+    $bdd=init_DB();
+    $stmt = $bdd->prepare("SELECT * FROM `faq`");
+    $stmt->execute();
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $result;
+  }
+ */
  ?>
