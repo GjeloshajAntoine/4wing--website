@@ -120,6 +120,21 @@ class Project
     $stmt->execute();
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
+  static public function get_project_images($id)
+  {
+
+  }
+  static public function get_project_trad($id)
+  {
+
+  }
+  static public  function get_all_projects_description_lg_cat($lg,$cat)
+  {
+    $bdd=init_DB();
+    $stmt= $bdd->prepare('SELECT projects.*,projects_trad.trad AS le_projet FROM projects LEFT JOIN projects_trad ON projects.id=projects_trad.project_id  WHERE category = :cat AND projects_trad.field="le_projet"  and projects_trad.ln=:lg  ');
+    $stmt->execute(["cat"=>$cat,"lg"=>$lg]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
   static public function get_all_trad($id,$lg)
   {
     $bdd=init_DB();
