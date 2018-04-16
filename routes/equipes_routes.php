@@ -11,7 +11,14 @@ $f3->route('GET /admin/equipes/membres/list',function ($f3,$params) {
 $f3->route('POST /admin/equipes/membres/image/add',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
   //  $f3->set('lg',$f3->PARAMS["lg"]);
-  var_dump($_FILES);
+  header("Content-type:application/json");
+
+  $img_name=set_membre_image($_POST['id'],$_FILES['img']);
+  if ($img_name) {
+    echo json_encode(["imgName"=>$img_name,"success"=>true]);
+  }else {
+    echo json_encode(["success"=>false]);
+  }
     // echo Template::instance()->render('admin_views/equipes_membres_list.php');
   });
 });
