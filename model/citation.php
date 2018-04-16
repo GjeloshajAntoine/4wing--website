@@ -31,10 +31,18 @@ function citation_id($id)
 function hazard_citation($lg,$cat)
 {
     $bdd=init_DB();
-    $stmt = $bdd->prepare("SELECT citation FROM citations WHERE ln= :lg AND categorie = :cat ORDER BY rand() LIMIT 1 ");
+    $stmt = $bdd->prepare("SELECT citation,auteur FROM citations WHERE ln= :lg AND categorie = :cat ORDER BY rand() LIMIT 1 ");
     $stmt->execute(['lg'=>$lg,'cat'=>$cat]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    return $result[0]['citation'];
+    return $result[0];
+}
+function hazard_citation_no_cat($lg)
+{
+    $bdd=init_DB();
+    $stmt = $bdd->prepare("SELECT citation,auteur FROM citations WHERE ln= :lg  ORDER BY rand() LIMIT 1 ");
+    $stmt->execute(['lg'=>$lg,'cat'=>$cat]);
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    return $result[0];
 }
 function add_citation($citation,$auteur,$lg,$cat)
 {
