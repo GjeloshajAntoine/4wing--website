@@ -61,35 +61,6 @@ $f3->route('POST /admin/page_trad_changes/@pagename/@lg',function ($f3,$params) 
 // PROJECT ADMIN ROUTE
 
 
-//User
-$f3->route('GET /admin/user/profil',function ($f3,$params) {
-  is_connected_with(false,$f3,function($f3){
-    $f3->set("all_users",list_user());
-    echo Template::instance()->render('admin_views/user_list.php');
-  });
-});
-$f3->route('GET /admin/user/list',function ($f3,$params) {
-  is_connected_with(true,$f3,function($f3){
-    $f3->set("all_users",list_user());
-    echo Template::instance()->render('admin_views/user_list.php');
-  });
-});
-$f3->route('GET /admin/user/new',function ($f3,$params) {
-  is_connected_with(true,$f3,function($f3){
-    echo Template::instance()->render('admin_views/user_new.php');
-  });
-});
-$f3->route('POST /admin/user/change_auth',function ($f3,$params) {
-  is_connected_with(true,$f3,function($f3){
-
-  });
-});
-$f3->route('POST /admin/user/recreate_password',function ($f3,$params) {
-  is_connected_with(true,$f3,function($f3){
-
-  });
-});
-
 //Citation
 $f3->route('GET /admin/citation/list',function ($f3,$params) {
   is_connected_with(false,$f3,function($f3){
@@ -137,63 +108,5 @@ $f3->route('POST /admin/citation/new/data',function ($f3,$params) {
     $f3->reroute('/admin/citation/'.$id);
   });
 });
-
-
-
-
-//page FAQ quetion teste
-//page FAQ quetion
-
-$f3->route('GET /faq',function ($f3) {
-  $f3->set('message','plus fréquement posées.');
-  $f3->set('title','Les questions les');
-  $f3->set('LANGUAGE','en');
-});
-//$f3->route('GET /faq',function ($f3) {
-  //$f3->set('message','plus fréquement posées.');
- //$f3->set('title','Les questions les');
-
-
-//$f3->set('qaf',get_page_faq());
-//var_dump(get_page_faq());
-
- // $template=new Template;
-  //echo $template->render('pagefaq.html');
-//});
-
-
-
-//page FAQ quetion reel origi
-
-//$f3->route('GET /Views/faq',function ($f3) {
-  // $f3->set('message','plus fréquement posées.');
-  // $f3->set('title','Les questions les');
-
-
-
-   //$f3->set('paf',get_faq());
-   //var_dump(get_faq());
-
-   //$template=new Template;
-  // echo $template->render('Views/faq.php');
- //});
-
-
-
-
-
-//page FAQ quetion reel
-
-$f3->route('GET /Views/faq',function ($f3) {
-    $f3->set('paf',get_faq());
-     $f3->set('message','plus fréquement posées.');
-     $f3->set('title','Les questions les');
-  //var_dump(get_faq());
-
-
-  $template=new Template;
-  echo $template->render('Views/faq.php');
-});
-
 
  ?>
