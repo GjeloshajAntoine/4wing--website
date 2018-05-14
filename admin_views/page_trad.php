@@ -23,7 +23,7 @@
       <li role="presentation" class="{{@lg == 'en' ? 'active': ''}}"><a href="{{@subrootpath}}/admin/tradpage/{{@pagename}}/en">EN</a></li>
     </ul>
     <div class="container">
-    <form class="" action="http://localhost/4wing-website/admin/page_trad_changes/{{@pagename}}/{{@lg}}" method="post">
+    <form class="" action="{{@subrootpath}}/admin/page_trad_changes/{{@pagename}}/{{@lg}}" method="post">
 
       <repeat group="{{ @all_trad }}" value="{{ @trad }}" counter="{{ @ctr }}" >
           <!-- <input type="text" value="{{ @trad.string_origin }}" disabled>
